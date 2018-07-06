@@ -13,9 +13,20 @@
 # --- Lyrics ---
 # https://github.com/fr31/spotifylyrics
 #
-# ---------- Spotify ----------
-#
-# Audio & Video related Ads
+# ---------- Spotify Video & Audio related Ads + Partner Ads ----------
+0.0.0.0 heads-ak.spotify.com.edgesuite.net
+0.0.0.0 heads-akp.spotify.com.edgesuite.net
+0.0.0.0 heads4-ak.spotify.com.edgesuite.net
+0.0.0.0 heads5-ak.spotify.com.edgesuite.net
+0.0.0.0 heads6-ak.spotify.com.edgesuite.net
+0.0.0.0 heads4-akp.spotify.com.edgesuite.net
+0.0.0.0 audio-ak.spotify.com.edgesuite.net
+0.0.0.0 audio-ake.spotify.com.edgesuite.net
+0.0.0.0 audio-akp.spotify.com.edgesuite.net
+0.0.0.0 audio4-ak.spotify.com.edgesuite.net
+0.0.0.0 audio4-akp.spotify.com.edgesuite.net
+0.0.0.0 62.224.186.35.bc.googleusercontent.com
+0.0.0.0 48.224.186.35.bc.googleusercontent.com
 0.0.0.0 00.audio-ak.cdn.spotify.com
 0.0.0.0 00.video-ak.cdn.spotify.com
 0.0.0.0 01.audio-ak.cdn.spotify.com
