@@ -1,12 +1,12 @@
 # Title: CHEF-KOCH's Spotify Ad-Filter List
 # Description: Blocks all annoying Spotify Ads.
-# Checksum (SHA 1): D3975E34654F6D8F682AE71ABBDE81AAB57B0806596CC3E6EC9C00F315657510
+# Checksum (SHA 1): C1570F5C821E3B1EC2B8B408153BA60826597055EF2D2849E8E63A1A9340DDF0
 # License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 14d
-# TimeUpdated: 2018-07-06	09:38:21+01:00
-# Version: 0.0.1.0
+# TimeUpdated: 2018-07-06	14:45:32+01:00
+# Version: 0.0.1.1
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
@@ -17,6 +17,15 @@
 #
 # DO NOT FORGET TO BLOCK THE IP RANGES !!!!!!!!!!!!!!!!!
 #
+0.0.0.0 partner-provisioning.spotify.com
+0.0.0.0 vpn-ash1-1.ash.spotify.com
+0.0.0.0 kismet.ash1.spotify.com
+0.0.0.0 kismet.ash.spotify.com
+0.0.0.0 28.64.199.104.bc.googleusercontent.com
+0.0.0.0 zaira.lon.spotify.com
+0.0.0.0 zaira.lon2.spotify.com
+0.0.0.0 zayit.lon.spotify.com
+0.0.0.0 zayit.lon2.spotify.com
 0.0.0.0 n1nlhg562c1562.shr.prod.ams1.secureserver.net
 0.0.0.0 ec2-54-248-172-197.eu-west-1.compute.amazonaws.com
 0.0.0.0 ec2-54-246-172-197.eu-west-1.compute.amazonaws.com
@@ -60,14 +69,21 @@
 0.0.0.0 heads-fab.spotify.com
 0.0.0.0 heads-fac.spotify.com
 0.0.0.0 links.spotify.com
+0.0.0.0 iria.ash1.spotify.com
 0.0.0.0 log.spotify.com
+0.0.0.0 guc-dealer.spotify.com
+0.0.0.0 guc-spclient.spotify.com
+0.0.0.0 iria.ash.spotify.com
 0.0.0.0 log2.spotify.com
 0.0.0.0 mp3ad.scdn.co
 0.0.0.0 partner-service.spotify.com
+0.0.0.0 partnerportal.spotify.com
+0.0.0.0 premium-code-admin.lon.spotify.com
 0.0.0.0 partner-service-testing.spotify.com
 0.0.0.0 payment-callback.spotify.com
 0.0.0.0 pci.spotify.com
 0.0.0.0 pixel.spotify.com
+0.0.0.0 yearinmusic.spotify.com
 0.0.0.0 upgrade.scdn.co # optional
 0.0.0.0 upgrade.spotify.com # optional
 0.0.0.0 video-fa.scdn.co
@@ -321,6 +337,20 @@
 0.0.0.0 fe.video-ak.cdn.spotify.com
 0.0.0.0 ff.video-ak.cdn.spotify.com
 0.0.0.0 beta.spotify.map.fastly.net
+0.0.0.0 adstudio.spotify.com
+0.0.0.0 buy-link-001.lon.spotify.com
+0.0.0.0 bugzilla-001.lon.spotify.com
+0.0.0.0 adlab.spotify.com
+0.0.0.0 be.video-ak.cdn.spotify.com
+0.0.0.0 bengta.lon.spotify.com
+0.0.0.0 bengta.lon2.spotify.com
+0.0.0.0 berdine.ash.spotify.com
+0.0.0.0 berdine.ash1.spotify.com
+0.0.0.0 ads-fa.cdn.spotify.com
+0.0.0.0 ads-sp-ash.cdn.spotify.com
+0.0.0.0 ads-sp-lon.cdn.spotify.com
+0.0.0.0 ads-sp-sto.cdn.spotify.com
+0.0.0.0 christopher.lon.spotify.com
 0.0.0.0 beta.spotify.map.fastlylb.net
 0.0.0.0 prod.spotify-heads.map.fastlylb.net
 0.0.0.0 prod.spotify.map.fastly.net
