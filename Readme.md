@@ -30,7 +30,7 @@ It's cool that some people add my lists into _their own projects_ and I in gener
 
 ## Project Structure
 
-* `/CK's-Android-FilterList.txt` the main filter lists for your Ad-Blocker. The filter gets updated at least every 3 days.
+* `/CK's-FilterList.txt` the main filter lists for your Ad-Blocker. The filter gets updated at least every 3 days.
 * `/Android` includes the Android related filter list.
 * `/HOSTS` contains HOSTS files for the project. The lists aren't updated frequently. 
 * `/I2P & Onion` includes the I2P and .Onion related filter list `CK's-Onion-FilterList`.
@@ -154,6 +154,7 @@ Star it on GitHub! :star: or consider making a [donation](https://github.com/CHE
 :construction: The following people contributed to CK's Filter List in order to improve the project. :construction:
 * The-Commissioner
 * @AddaxSoft
+* @ZeroDot1
 
 
 ## License
