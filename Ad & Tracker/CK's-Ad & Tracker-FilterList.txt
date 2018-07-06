@@ -1,18 +1,20 @@
 ! Title: CHEF-KOCH's Ad & Tracker Filter List
 ! Description: Filters Ad & Trackers only.
-! Checksum (SHA3-256): 2D6FBD5E589815F7C314B07F687232109882E92985ECC14F3091CC3754208C1A
+! Checksum (SHA3-256): 2B0F0367A550155C6631412BBFF643B916FD5E74B83845B179975AFD9F690EE0
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 14d
-! TimeUpdated: 2018-06-19	15:42:32+01:00
-! Version: 0.0.1.3
+! TimeUpdated: 2018-06-22	19:51:03+01:00
+! Version: 0.0.1.4
 ! Please report any unblocked content or problems by email or via GitHub issue page.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
 !
 ! ---------- Ad & Tracker ----------
 !
+||beacon.statful.com^
+||beacon.statful1.com^
 ||crs.baidu.com^
 ||goutong.baidu.com^
 ||cir-smart.baidu.com^

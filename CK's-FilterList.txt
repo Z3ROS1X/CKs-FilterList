@@ -10015,6 +10015,8 @@ douploads.com##.downarea > center
 !
 ! ---------- Domains (Android, etc) ----------
 !
+||beacon.statful.com^
+||beacon.statful1.com^
 ||crs.baidu.com^
 ||goutong.baidu.com^
 ||cir-smart.baidu.com^
