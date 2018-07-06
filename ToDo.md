@@ -11,3 +11,4 @@
 - [ ] Find the last 20 audio ads server which I couldn't catch the first time
 - [ ] Find the missing Spotify servers (mid-prio) **working on it**
 - [ ] Facebook added new autoplay video ads in his Chat-App Messenger, need to investigate into this (lowest-prio since it's unclear if Facebook keeps this, I only can imagine how many people must now pissed of because of such BS)
+- [ ] Find a better logging method to exclude IP's from HOSTS file and store them in a separate file.
