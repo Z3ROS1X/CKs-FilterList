@@ -160,6 +160,8 @@
 ||xxxnavy.com^$important
 ||z.moatads.com^$script,redirect=noopjs,domain=pga.com
 ||zinturax.com^$document,popunder,script
+uploadocean.com##[href="https://uploadocean.com/premium-features.html"] > h2
+
 !
 ! ---------- 3rd party ----------
 !
@@ -54336,6 +54338,7 @@ mixer.com##.msa-reminder
 !
 ! ---------- mobilism.org ----------
 !
+forum.mobilism.org##.icon-stack
 forum.mobilism.org###footerContent
 forum.mobilism.org##main > .side-segment > h3
 forum.mobilism.org##main > p
