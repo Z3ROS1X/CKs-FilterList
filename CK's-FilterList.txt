@@ -1,12 +1,12 @@
 ! Title: CHEF-KOCH's Filter List
 ! Description: A comprehensive, all-in-one ad-block list for thorough blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
-! Checksum (SHA3-256): 3B3191B429A4D058A3A1E6DDDC4ABBFE418BC4E0E892FC23DFC7D6DF569A097D
+! Checksum (SHA3-256): 6B9B8D9A7680368167F343F8319DD344FA1D973D2ED4448BE0A8D1781D0C4031
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 3d
-! TimeUpdated: 2018-07-06	10:27:07+01:00
-! Version: 0.0.3.17
+! TimeUpdated: 2018-07-06	10:41:31+01:00
+! Version: 0.0.3.18
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -24552,7 +24552,6 @@ douploads.com##.downarea > center
 ||counters4u.com^
 ||counterservis.com^
 ||counterstrike.server.us^
-||countess.twitch.tv^
 ||counting4free.com^
 ||countingstacks.com^
 ||countit.ch^
@@ -26098,7 +26097,6 @@ douploads.com##.downarea > center
 ||falk.speedera.net^
 ||fallon-navarro.us^
 ||famut.com^
-||fan.twitch.tv^
 ||fandango.gcrd.co^
 ||fandangostore.wgiftcard.com^
 ||fansign.streamray.com^
@@ -30420,7 +30418,6 @@ douploads.com##.downarea > center
 ||mozoo.com^
 ||mp-success.com^
 ||mp.pianomedia.eu^
-||mp.twitch.tv^
 ||mpm.payback.de^
 ||mpmcash.com^
 ||mpmotrk.com^
@@ -34295,7 +34292,6 @@ douploads.com##.downarea > center
 ||soundwave.mobile.yahoo.com^
 ||sp.udimg.com^
 ||spacash.com^
-||spade.twitch.tv^
 ||spads.yamx.com^
 ||spamnuker.com^
 ||spanids.reference.com^
@@ -48301,7 +48297,6 @@ douploads.com##.downarea > center
 ||ourstats.de^
 ||ourunlimitedleads.com^
 ||outboundlink.me^
-||outwitch.com^
 ||ov8pc.tv^
 ||oveld.com^
 ||overhaps.com^
@@ -54361,6 +54356,7 @@ forum.mobilism.org##.twitter-color.icon-stack-base.icon-circle
 ||pcwelt.de^$generichide,important
 ||latimes.com^$generichide,important
 ||mma-core.com^$important,generichide
+@@*$generichide,domain=1fichier.com|o2tvseries.com|comptoir-hardware.com|watchtheoffice.online|yesmangasbr.com|tvtropes.org|playview.io|anime-extremo.com|mercurynews.com|seehd.pl|nrl.com|emedicinehealth.com|oxfordmail.co.uk|akvideo.stream|xxvideosporno.net|pg3dhacks.com|litecoin-faucet.com|verdirectotv.com|xarold.com|reddit.com|saikoanimes.net|filmesonline1080p.com|narutoimagem.com|wolverdon-filmes.org|pornotorrentz.com|hiphopisdream.info|nba.com|loadvid.online|solarmoviez.ru|rockfile.co|onitube.com|wabetainfo.com|sportspf.com|solarmovie.watch|solarmoviesc.com|techsolutiontips.com|kissmanga.com|rnbxclusive.review|filespace.com|pressgazette.co.uk|macup.org|deutsche-vogelstimmen.de|yudu.co.nz|300mbfilms.org|adbilty.me|agarserv.com|albanian.tv|android-zone.ws|anibatch.id|animedao5.xyz|archived.moe|attitude.co.uk|bemetal.net|bittorrent.am|bolor-toli.com|bookdl.org|cinemamkv.xyz|classicreload.com|cloudwebcopy.com|computerera.co.in|cyberterminators.co|dingit.tv|dl-wordpress.com|dupedornot.com|dwrean.net|fas.li|fileflares.com|filespace.com|forumcoin.win|freetutorials.us|freetvall.com|fuckingsession.com|futbolchile.net|gktoday.in|gratismas.org|hentaitake.net|hyperdebrid.download|ig2fap.com|intercelestial.com|jilhub.xyz|krassotaa.com|l2network.eu|l2s.io|leech.ae|libgen.io|lolalytics.com|maango.info|makeuseof.com|minatosuki.com|mokeedev.com|mwpaste.com|netflixcookie.com|nulledcode.cc|paladinsdecks.com|pasteca.sh|picfont.com|powerthesaurus.org|qoshe.com|randomarchive.com|revealedtricks4u.com|rnbxclusive.site|sadeempc.com|safebitcoin.info|samwoolfe.com|sankakucomplex.com|sh.st|syriancivilwarmap.com|seriesgato.tv|talkingpointsmemo.com|techygeekshome.info|tecknity.com|thebarchive.com|thememypc.net|thepiratebay.run|thestar.co.uk|thoaimedia.com|tinypaste.cc|uploads.to|wallpapermania.eu|weather.com|westeros.org|widestream.io|wikijob.co.uk|xkorean.net|yiv.com|yourlifeupdated.net
 @@||corporacionwarez.com^$generichide
 @@||streamlive.to^$generichide
 @@||thepiratebay.run^$generichide
@@ -54424,6 +54420,7 @@ www.overclock.net##section:nth-of-type(2)
 !
 ! ---------- Overlay + Element Hiding + Ads ----------
 !
+###the_champ_sharing_more_providers
 ###cubeAd
 ###cube_ad
 ###cube_ads
@@ -55907,6 +55904,12 @@ www.station-drivers.com##.uk-panel > p:nth-of-type(2)
 www.station-drivers.com##.uk-hidden-small.uk-clearfix.tm-headerbar > .uk-container-center.uk-container > .uk-panel > p:nth-of-type(1)
 www.station-drivers.com##.uk-hidden-small.uk-clearfix.tm-headerbar > .uk-container-center.uk-container > .uk-panel
 !
+! ---------- The Guardian ----------
+!
+theguardian.com##.contributions__epic
+theguardian.com##.selection-sharing
+theguardian.com##.submeta__share
+!
 ! ---------- The PirateBay ----------
 !
 thepiratebay.org##h1
@@ -55914,6 +55917,20 @@ thepiratebay.org##div#sky-banner
 thepiratebay.org##div#sky-center
 thepiratebay.org##div#sky-right
 thepiratebay.org##iframe[src^="//thepiratebay.org/static/ads/"]
+!
+! ---------- Twitch.tv ----------
+!
+||spade.twitch.tv^
+||outwitch.com^
+||fan.twitch.tv^
+||mp.twitch.tv^
+||countess.twitch.tv^
+player.twitch.tv##.player-overlay
+twitch.tv##.tw-z-above.blue-bar
+@@||ad.doubleclick.net/ddm/$xmlhttprequest,domain=twitch.tv
+twitch.tv##.tw-z-above.blue-bar
+||twitchcdn.net/v1.js
+
 !
 ! ---------- Twitter ----------
 !
@@ -55977,6 +55994,8 @@ $xmlhttprequest,domain=a-o.ninja|adfreetv.ch|alltube.pl|alltube.tv|auroravid.to|
 !
 ! ---------- Whitelisting rules ----------
 !
+@@||googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=sportspf.com|makeuseof.com|rockfile.co|techsolutiontips.com|yalujailbreak.net|avoiderrors.net|fileflares.com|steamid.eu|xarold.com|new-skys.net|haxcolors.com|haxmaps.com|haxrec.com|onperiscope.com|australianfrequentflyer.com.au|tivocommunity.com|intercelestial.com|wordsense.eu|onecccam.com|newz.dk|playonlinux.com
+@@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=makeuseof.com|yalujailbreak.net|sportspf.com|rockfile.co|fileflares.com|techsolutiontips.com|avoiderrors.net|steamid.eu|xarold.com|new-skys.net|haxcolors.com|haxmaps.com|haxrec.com|onperiscope.com|australianfrequentflyer.com.au|tivocommunity.com|intercelestial.com|wordsense.eu|onecccam.com|newz.dk|playonlinux.com
 @@||mc.yandex.ru/metrika/tag.js$domain=kaspersky.ru
 @@||dniprohotel.ua/templates/*/js/jquery.peelback.js$script,first-party
 @@||my5.tv^$generichide
@@ -55988,8 +56007,10 @@ $xmlhttprequest,domain=a-o.ninja|adfreetv.ch|alltube.pl|alltube.tv|auroravid.to|
 @@.com/ads/growth/aymt/xout_survey/$domain=facebook.com
 @@.com/metrics/$script,domain=apple.com
 @@.demdex.net/$script,domain=foxnews.com|globaltv.com
+@@.de/*/ad_$image
 @@.net/ad/$object-subrequest,domain=foxsports.com
 @@.net/ad/$script,domain=zone.msn.com
+@@/adblock.js$script
 @@/ad1.$image,domain=embed.universaluclick.com
 @@/adguard.
 @@/ads/*$image,domain=frys.com
