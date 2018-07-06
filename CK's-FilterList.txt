@@ -1,12 +1,12 @@
 ! Title: CHEF-KOCH's Filter List
 ! Description: A comprehensive, all-in-one ad-block list for thorough blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
-! Checksum (SHA3-256): 5DC9E6786491FF564242F2970EA70B2BC16512AFEFF595E31103E6B2DDE591C2
+! Checksum (SHA3-256): DCC5683950EC952376502F072D85D73FC6F90BCBABD765BCC932C6F525187DBD
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 3d
-! TimeUpdated: 2018-07-06	15:46:07+01:00
-! Version: 0.0.3.20
+! TimeUpdated: 2018-07-06	16:40:30+01:00
+! Version: 0.0.3.21
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -77,7 +77,6 @@
 ||jobs.smartrecruiters.com/scripts/dot/dot.js
 ||kingofdown.com/img/180upload.png$image,redirect=2x2-transparent.png
 ||lanoc.org/images/stories/LanOC/websiteimages/supportus.png$image
-||latimes.com^$generichide,important
 ||lemde.fr/*/xitistatus.js$script,redirect=fuckadblock.js-3.2.0,domain=lemonde.fr
 ||leporno.org/english.js$script,redirect=fuckadblock.js-3.2.0,first-party
 ||letsadvertisetogether.com^$important,domain=christianpost.com
@@ -161,7 +160,6 @@
 ||z.moatads.com^$script,redirect=noopjs,domain=pga.com
 ||zinturax.com^$document,popunder,script
 uploadocean.com##[href="https://uploadocean.com/premium-features.html"] > h2
-
 !
 ! ---------- 3rd party ----------
 !
@@ -367,7 +365,6 @@ www.formel1.de##.relative.mt10.row.billboard > div > div:nth-of-type(1)
 ||api.inwemo.com^$third-party
 ||azvjudwr.info^$third-party
 ||baiduccdn1.com^$third-party
-||cdn.cloudcoins.co^$third-party
 ||cdn.cloudcoins.co^$third-party
 ||cloudcoins.co^$third-party
 ||coinhive-manager.com^$third-party
@@ -9789,31 +9786,14 @@ workforce.hu##.cookie
 ||1q2w3.fun^$third-party
 ||1q2w3.me^$third-party
 ||1q2w3.top^$third-party
-||77.162.125.199^$third-party
 ||aalbbh84.info^$third-party
 ||abc.pema.cl^$third-party
-||ad-miner.com^$third-party
-||adminer.com^$third-party
 ||adplusplus.fr^$third-party
 ||adzjzewsma.cf^$third-party
-||aeros01.tk^$third-party
-||aeros02.tk^$third-party
-||aeros03.tk^$third-party
-||aeros04.tk^$third-party
-||aeros05.tk^$third-party
-||aeros06.tk^$third-party
-||aeros07.tk^$third-party
-||aeros08.tk^$third-party
-||aeros09.tk^$third-party
-||aeros10.tk^$third-party
-||aeros11.tk^$third-party
-||aeros12.tk^$third-party
 ||andlache.com^$third-party
-||api.inwemo.com^$third-party
 ||authedmine.com^$third-party,domain=~coinhive.com
 ||authedmine.eu^$third-party
 ||axoncoho.tk^$third-party
-||baiduccdn1.com^$third-party
 ||bauersagtnein.myeffect.net^
 ||berserkpl.net.pl^$websocket
 ||bestcoinsignals.com^$third-party
@@ -9824,7 +9804,6 @@ workforce.hu##.cookie
 ||candid.zone^$third-party
 ||cdn-code.host^$third-party
 ||cdn-jquery.host^$third-party
-||cdn.cloudcoins.co^$third-party
 ||cfcdist.gdn^$third-party
 ||cfcdist.loan^$third-party
 ||cfcnet.top^$third-party
@@ -9833,9 +9812,7 @@ workforce.hu##.cookie
 ||cnhv.co^$third-party
 ||coin-hive.com/lib/cryptonight-asmjs.min.js^
 ||coin-hive.com^$third-party
-||coinhive.com^$third-party
 ||coinhiveproxy.com^$third-party
-||coinlab.biz^$third-party
 ||coinpan.com/img/banner/*
 ||cpufan.club^$third-party
 ||crypto-webminer.com^$third-party
@@ -9858,8 +9835,6 @@ workforce.hu##.cookie
 ||freecontent.loan^$third-party
 ||freecontent.win^$third-party
 ||freshrefresher.com^$third-party
-||g-content.bid^$third-party
-||go.megabanners.cf^$third-party
 ||go.megabanners.cf^$websocket
 ||gustaver.ddns.net^$third-party
 ||hatcalter.com^$third-party
@@ -9880,7 +9855,6 @@ workforce.hu##.cookie
 ||losital.ru^$third-party
 ||m.anyfiles.ovh^
 ||hide.ovh^
-||graftpool.ovh^
 ||encoding.ovh^
 ||ermaseuc.ru^
 ||besti.ga^
@@ -9898,10 +9872,8 @@ workforce.hu##.cookie
 ||mhiobjnirs.gq^$third-party
 ||minercry.pt^$third-party
 ||minero-proxy-*.now.sh^$third-party
-||minexmr.com^$third-party
 ||mining.best^$third-party
 ||moneone.ga^$third-party
-||monerominer.rocks^$third-party
 ||monkeyminer.net^$third-party
 ||moonsade.com^$third-party
 ||mutuza.win^$third-party
@@ -9931,7 +9903,6 @@ workforce.hu##.cookie
 ||sparnove.com^$third-party
 ||static-cnt.bid^$third-party
 ||staticsfs.host^$third-party
-||statistic.date^$third-party
 ||streambeam.io^$third-party
 ||tidafors.xyz^$third-party
 ||tokyodrift.ga^$third-party
@@ -10042,13 +10013,11 @@ douploads.com##.downarea > center
 ||virus-removal-allert-help-line-1-844-305-7633.technician.ga^
 ||rand.com.ru^
 ||whathyx.com^
-||ctoid.net^
 ||redshell.io api.redshell.io^
 ||treasuredata.com api.treasuredata.com^
 ||redshell.io^
 ||api.redshell.io^
 ||treasuredata.com^
-||in.treasuredata.com^
 ||counter-go.de^
 ||www.counter-go.de^
 ||yqmjmbmxzfz.com^
@@ -10057,7 +10026,6 @@ douploads.com##.downarea > center
 ||www.ikcwcxhgibmumf.com^
 ||buymeacoffee.com^
 ||www.buymeacoffee.com^
-||pureairhits.com^
 ||www.pureairhits.com^
 ||cookieinfoscript.com^
 ||gred.jp^
@@ -10076,17 +10044,13 @@ douploads.com##.downarea > center
 ||ambitiousagreement.com^
 ||anxiousapples.com^
 ||argyresthia.com^
-||awzbijw.com^
 ||balancebreath.com^
 ||balloontexture.com^
-||baskettexture.com^
 ||bawdybeast.com^
 ||beamincrease.com^
 ||beamkite.com^
-||bedsbreath.com^
 ||bestboundary.com^
 ||bewilderedblade.com^
-||boilingbeetle.com^
 ||boredcrown.com^
 ||brassrule.com^
 ||broadboundary.com^
@@ -10094,93 +10058,32 @@ douploads.com##.downarea > center
 ||btez8.xyz^
 ||bustlinganimal.com^
 ||calculatorcamera.com^
-||calmfoot.com^
 ||capablecows.com^
 ||cherrythread.com^
-||chiefcurrent.com^
-||chinchickens.com^
 ||comfortablecheese.com^
-||commandwalk.com^
 ||completecabbage.com^
-||concernrain.com^
-||consciouscabbage.com^
-||copperchickens.com^
-||copycarpenter.com^
-||copyrightaccesscontrols.com^
 ||crawlclocks.com^
-||critictruck.com^
-||crownclam.com^
 ||cumbersomecloud.com^
-||curtaincows.com^
-||cutecushion.com^
 ||decisivedrawer.com^
-||decisiveducks.com^
 ||decoycreation.com^
-||delightdriving.com^
 ||detailedglue.com^
 ||detectdiscovery.com^
-||differentdesk.com^
 ||discreetfield.com^
 ||dispensablestranger.com^
-||dk4ywix.com^
-||docksalmon.com^
-||doubtfulrainstorm.com^
-||dragzebra.com^
 ||earthquakescarf.com^
 ||economicpizzas.com^
 ||efficaciouscactus.com^
-||elasticchange.com^
-||elephantqueue.com^
 ||endurableshop.com^
 ||enthusiasticdad.com^
 ||errortablet.com^
-||exclusivebrass.com^
-||fanaticalfly.com^
 ||farethief.com^
 ||flakyfeast.com^
-||flavordecision.com^
 ||flimsycircle.com^
-||floodprincipal.com^
-||frailoffer.com^
-||functionalclam.com^
-||futuristicfairies.com^
-||fuzzyflavor.com^
-||fuzzyweather.com^
-||ga87z2o.com^
-||gammamaximum.com^
-||giddycoat.com^
-||glossysense.com^
-||gondolagnome.com^
-||gorgeousground.com^
-||greetzebra.com^
-||greyinstrument.com^
-||guardedgovernor.com^
-||guardedschool.com^
-||guitarbelieve.com^
-||h78xb.pw^
-||handyfield.com^
-||hfc195b.com^
-||hilariouszinc.com^
-||illustriousoatmeal.com^
 ||importedincrease.com^
-||incrediblesugar.com^
 ||inventionpassenger.com^
-||ivykiosk.com^
-||j93557g.com^
 ||jadeitite.com^
 ||jewelcheese.com^
 ||justicejudo.com^
-||karisimbi.net^
-||limpingline.com^
-||lizardslaugh.com^
-||lopsidedspoon.com^
-||loudloss.com^
-||lp3tdqle.com^
-||lumpyleaf.com^
-||markedcrayon.com^
-||matchcows.com^
-||messagenovice.com^
-||mixedreading.com^
 ||mowfruit.com^
 ||neighborlywatch.com^
 ||nervoussummer.com^
@@ -10190,95 +10093,46 @@ douploads.com##.downarea > center
 ||owlsr.us^
 ||parchedangle.com^
 ||parsimoniouspolice.com^
-||peacepowder.com^
-||perceivequarter.com^
-||photographpan.com^
-||pietexture.com^
-||possibleboats.com^
-||practicetoothpaste.com^
-||presetrabbits.com^
 ||previousplayground.com^
-||profitrumour.com^
-||provideplant.com^
 ||puffyloss.com^
 ||quaintcan.com^
-||quicksandear.com^
 ||rapidkittens.com^
-||readgoldfish.com^
 ||readingguilt.com^
 ||rebelsubway.com^
-||receptiveink.com^
 ||reflectivereward.com^
 ||resolutekey.com^
 ||rulerabbit.com^
-||saysidewalk.com^
-||scarcestream.com^
 ||scintillatingspace.com^
 ||scrubsky.com^
-||scrubswim.com^
 ||selectivesummer.com^
-||separatesilver.com^
-||shakesea.com^
 ||shakesuggestion.com^
-||shakytaste.com^
-||shallowschool.com^
 ||shelterstraw.com^
 ||shiveringsail.com^
 ||shockingship.com^
-||shockingswing.com^
 ||sillyscrew.com^
-||simplisticnose.com^
-||sinceresofa.com^
 ||sincerespy.com^
 ||smilingwaves.com^
-||snakesort.com^
 ||sneaklevel.com^
-||sneakystamp.com^
-||spectacularsnail.com^
 ||spidersboats.com^
-||spillvacation.com^
-||spottysense.com^
-||squeamishscarecrow.com^
 ||stickssheep.com^
 ||storesurprise.com^
-||stormyachiever.com^
-||stormyshock.com^
-||stormysponge.com^
-||straightnest.com^
-||strivesidewalk.com^
-||structuresofa.com^
 ||succeedscene.com^
 ||suddensidewalk.com^
 ||sugarcurtain.com^
-||superficialsink.com^
 ||swordgoose.com^
 ||talentedsteel.com^
 ||tangibleteam.com^
 ||terribleturkey.com^
-||teschenite.com^
-||thirdrespect.com^
-||throattrees.com^
 ||ticklesign.com^
-||tidytrail.com^
-||tracedesire.com^
 ||tranquilside.com^
-||trickycelery.com^
-||tritetongue.com^
-||truckstomatoes.com^
 ||typicalteeth.com^
 ||unarmedindustry.com^
 ||unknowntray.com^
-||unusualtitle.com^
-||voicevegetable.com^
+||unknowntray1.com^
 ||waryfog.com^
-||wateryvan.com^
 ||whirlwealth.com^
 ||whiskyqueue.com^
-||wirecomic.com^
 ||wryfinger.com^
-||xovq5nemr.com^
-||zbwp6ghm.com^
-||ls.srvcs.tumblr.com^
 ||deliver.oztam.com.au^
 ||collector.abc-host.net.au^
 ||app-analytics.snapchat.com^
@@ -10289,14 +10143,12 @@ douploads.com##.downarea > center
 ||telemetry.gfe.nvidia.com^
 ||telemetry.malwarebytes.com^
 ||tags.tiqcdn.com^
-||open.oneplus.net^
 ||ctoid.net^
 ||metrics.plex.tv^
 ||analytics.plex.tv^
 ||invisioncloudstats.com^
 ||api.branch.io^
 ||www.usekahuna.com^
-||gate.hockeyapp.net^
 ||msmetrics.ws.sonos.com^
 ||analytics.kidoz.net^
 ||sdk.kidoz.net^
@@ -10307,17 +10159,14 @@ douploads.com##.downarea > center
 ||d35fgcharv2shj.cloudfront.net # Adobe telemetry^
 ||rules.quantcount.com^
 ||api.viafoura.co^
-||wywy.com^
 ||analyze.wywy.com^
 ||ram.amunx.de^
 ||cm.adsafety.net^
 ||tags.adsafety.net^
 ||static-tagr.gd1.mookie1.com^
 ||ams1-ib.adnxs.com^
-||exactag.com^
 ||clgserv.pro^
 ||medocow.com^
-||ylx-3.com^
 ||adashx4ae.ut.taobao.com^
 ||adobeconsumer.sc.omtrdc.net^
 ||ads.penreader.com^
@@ -35215,7 +35064,6 @@ douploads.com##.downarea > center
 ||tags.news.com.au^
 ||tags.pixnet.net^
 ||tags.spider-mails.com^
-||tags.tiqcdn.com^
 ||tags.topshareware.com^
 ||tags.transportdirect.info^
 ||tagular.com^
@@ -39498,7 +39346,6 @@ douploads.com##.downarea > center
 ||2x1zt0cti0ta8gb8p3vmxieshwy.com^
 ||2xbpub.com^
 ||2xclick.ru^
-||2znp09oa.com^
 ||303marketplace.com^
 ||304c40d20085e.com^
 ||31.14.252.148^
@@ -39629,7 +39476,6 @@ douploads.com##.downarea > center
 ||4f941a91590f2c1f0.com^
 ||4fb0a3bf4a3d38.com^
 ||4fe8c203f2f.review^
-||4jnzhl0d0.com^
 ||4oney.com^
 ||4oz2rj6t.site^
 ||4rm.de^
@@ -39737,7 +39583,6 @@ douploads.com##.downarea > center
 ||6ea56485aed0c.com^
 ||6fbcee81318.com^
 ||6g3am6pr.website^
-||6ldu6qa.com^
 ||6likosy.com^
 ||6mg38boa.date^
 ||6pueopc4.space^
@@ -39842,7 +39687,6 @@ douploads.com##.downarea > center
 ||823bc1a6cd3f1657.com^
 ||82d914.se^
 ||82fed4c780ef4200.com^
-||82o9v830.com^
 ||83a758465f6e1f.men^
 ||83f5fd33ae472e7d1a.com^
 ||8426e18d2eb0d5b94.com^
@@ -40023,7 +39867,6 @@ douploads.com##.downarea > center
 ||ab1eo0rx.stream^
 ||ab8ce655c175b0d.com^
 ||ab913aa797e78b3.com^
-||abandonedclover.com^
 ||abashedangle.com^
 ||abasourdir.tech^
 ||abbott.vo.llnwd.net^
@@ -40040,7 +39883,6 @@ douploads.com##.downarea > center
 ||abroad-ad.kingsoft-office-service.com^
 ||abrolog.ru^
 ||abrts.pro^
-||abruptroad.com^
 ||abs-cdn.org^
 ||abs.firstvds.ru^
 ||abscontal.com^
@@ -40111,7 +39953,6 @@ douploads.com##.downarea > center
 ||activeprospects.com^
 ||actnx.com^
 ||actonsoftware.com^
-||actuallysheep.com^
 ||acubens.xyz^
 ||acxiom-online.com^
 ||ad*.nexage.com^
@@ -40931,7 +40772,6 @@ douploads.com##.downarea > center
 ||ajtoxed.info^
 ||ajx130.online^
 ||ajxftwwmlinv.com^
-||ak0gsh40.com^
 ||akabo.ru^
 ||akailoparzapi.com^
 ||akamaihd.site^
@@ -41039,7 +40879,6 @@ douploads.com##.downarea > center
 ||ambaab.com^
 ||ambercrow.com^
 ||ambient-platform.com^
-||ambitiousagreement.com^
 ||ambqphwf.com^
 ||ambra.com^
 ||ambushar.net^
@@ -41157,7 +40996,6 @@ douploads.com##.downarea > center
 ||antvoice.com^
 ||anumiltrk.com^
 ||anwufkjjja.com^
-||anxiousapples.com^
 ||anyclip-media.com^
 ||anyfiles.ru^
 ||anymedia.lv^
@@ -41278,7 +41116,6 @@ douploads.com##.downarea > center
 ||arcor-adserving.de^
 ||arcor-partner.de^
 ||ardiver.ru^
-||argyresthia.com^
 ||ariseboundary.com^
 ||ariyayin.com^
 ||arkayne.com^
@@ -41560,7 +41397,6 @@ douploads.com##.downarea > center
 ||bakteso.ru^
 ||baldiro.de^
 ||baliadv.com^
-||balloontexture.com^
 ||baltchd.net^
 ||bam-bam-slam.com^
 ||bam-x.com^
@@ -41641,7 +41477,6 @@ douploads.com##.downarea > center
 ||batilo.de^
 ||bats.video.yahoo.com^
 ||baungarnr.com^
-||bawdybeast.com^
 ||bayctrk.com^
 ||baynote.net^
 ||bayvlsmaahou.com^
@@ -41676,8 +41511,6 @@ douploads.com##.downarea > center
 ||beacon.qq.com^
 ||beacon.riskified.com^
 ||beaconads.com^
-||beamincrease.com^
-||beamkite.com^
 ||beanscattering.jp^
 ||beanstalkdata.com^
 ||beap-bc.yahoo.com^
@@ -42015,7 +41848,6 @@ douploads.com##.downarea > center
 ||boostervideo.ru^
 ||boostshow.com^
 ||bop-bop-bam.com^
-||boredcrown.com^
 ||bormoni.ru^
 ||bornobid.com^
 ||bororango.com^
@@ -42057,7 +41889,6 @@ douploads.com##.downarea > center
 ||brandigo.net^
 ||brandomatic.ru^
 ||braside.ru^
-||brassrule.com^
 ||brassyobedientcotangent.com^
 ||brat-online.ro^
 ||bravenetmedianetwork.com^
@@ -42085,8 +41916,6 @@ douploads.com##.downarea > center
 ||brilig.com^
 ||britiesee.info^
 ||brndrm.com^
-||broadboundary.com^
-||broadcastbed.com^
 ||broadstreetads.com^
 ||broced.co^
 ||brokeloy.com^
@@ -42488,7 +42317,6 @@ douploads.com##.downarea > center
 ||cheezburger-analytics.com^
 ||chenaladenews.com^
 ||chengyuplaza.com^
-||cherrythread.com^
 ||cherytso.com^
 ||chevlaga.ru^
 ||chicbuy.info^
@@ -42781,7 +42609,6 @@ douploads.com##.downarea > center
 ||comeadvertisewithus.com^
 ||comegarage.com^
 ||comet.sputniknews.com^
-||comfortablecheese.com^
 ||comgnnyx.com^
 ||commander1.com^
 ||commandwalk.com^
@@ -42913,7 +42740,6 @@ douploads.com##.downarea > center
 ||counted.at^
 ||counter*-yadro*-ru.unblocked.lol^
 ||counter-city.de^
-||counter-go.de^
 ||counter-gratis.com^
 ||counter-kostenlos.info^
 ||counter-kostenlos.net^
@@ -43008,7 +42834,6 @@ douploads.com##.downarea > center
 ||crasheye.cn^
 ||crashfootwork.com^
 ||crateac.com^
-||crawlclocks.com^
 ||crazyhell.com^
 ||crazylead.com^
 ||crazyvideosempire.com^
@@ -46761,7 +46586,6 @@ douploads.com##.downarea > center
 ||losstrack.com^
 ||lostelephants.xyz^
 ||lotteryaffiliates.com^
-||loudloss.com^
 ||love-banner.com^
 ||love-money.de^
 ||love-our.ru^
@@ -46955,7 +46779,6 @@ douploads.com##.downarea > center
 ||mastertraffic.cn^
 ||mastervesti.ru^
 ||masudel.com^
-||matchcows.com^
 ||mateast.com^
 ||mathads.com^
 ||matheranalytics.com^
@@ -50137,7 +49960,6 @@ douploads.com##.downarea > center
 ||shinkado.ru^
 ||shippinginsights.com^
 ||shipthankrecognizing.info^
-||shiveringsail.com^
 ||shmential.co^
 ||shmokiads.com^
 ||shmonekisot.com^
@@ -50336,7 +50158,6 @@ douploads.com##.downarea > center
 ||snakesort.com^
 ||snap.com^
 ||sncpizczabhhafkzeifklgonzzkpqgogmnhyeggikzloelmfmd.com^
-||sneaklevel.com^
 ||sneakystamp.com^
 ||sniperlog.ru^
 ||sniphub.com^
@@ -50713,7 +50534,6 @@ douploads.com##.downarea > center
 ||subpixel.4players.de
 ||substerrent.co^
 ||subtraxion.com^
-||succeedscene.com^
 ||successfultogether.co.uk^
 ||suchmaschinen-ranking-hits.de^
 ||sucior.ru^
@@ -51030,7 +50850,6 @@ douploads.com##.downarea > center
 ||terra.fp.oix.net^
 ||terraadstools.com^
 ||terrapush.com^
-||terribleturkey.com^
 ||territoria-remonta.ru^
 ||tersur.link^
 ||tersur.net^
@@ -51793,7 +51612,6 @@ douploads.com##.downarea > center
 ||universalsrc.com^
 ||universaltrackingcontainer.com^
 ||universityofinternetscience.com^
-||unknowntray.com^
 ||unlithere.info^
 ||unlockr.com^
 ||unoblotto.net^
@@ -53264,7 +53082,6 @@ douploads.com##.downarea > center
 ||itunesfire.com^
 ||ivykiosk.com^
 ||j93557g.com^
-||jewelcheese.com^
 ||jsfuel.com^
 ||jur.unn.ac.ru^
 ||jyhfuqoh.info^
@@ -53275,9 +53092,7 @@ douploads.com##.downarea > center
 ||lacerta.space^
 ||laleh.itrc.ac.ir^
 ||lizardslaugh.com^
-||lopsidedspoon.com^
 ||lp3tdqle.com^
-||lumpyleaf.com^
 ||m0-s.san.ru^
 ||mac-alert-information-getting-errors.s3-website-us-west-2.amazonaws.com^
 ||mac-system-alert.com^
@@ -53313,13 +53128,11 @@ douploads.com##.downarea > center
 ||mine.torrent.pw^
 ||miner.nablabee.com^
 ||mipsa.ciae.ac.cn^
-||mixedreading.com^
 ||mn.mn.co.cu^
 ||mobi-games.co.uk^
 ||most.cob.net.ba^
 ||moviata.com^
 ||moviecuz.com^
-||mowfruit.com^
 ||mpkhi-bk.multi.net.pk^
 ||msgstore2.pldtprv.net^
 ||mtccsun.imtech.ernet.in^
@@ -53353,7 +53166,6 @@ douploads.com##.downarea > center
 ||orion.platino.gov.ve^
 ||outweb.nudt.edu.cn^
 ||ov2ochu.bid^
-||ovalpigs.com^
 ||p.estream.to^
 ||pdns.nudt.edu.cn^
 ||petra.nic.gov.jo^
@@ -53377,18 +53189,13 @@ douploads.com##.downarea > center
 ||pussl8.com^
 ||pussl9.com^
 ||pwk.delvu.com^
-||quaintcan.com^
 ||r.logrocket.com^
 ||ratexchange.net^
 ||rayo.pereira.multi.net.co^
 ||readgoldfish.com^
-||rebelsubway.com^
 ||rectangledownloads.com^
-||resolutekey.com^
 ||roughted.com^
-||rulerabbit.com^
 ||ryesurvey.com^
-||scrubsky.com^
 ||sea.net.edu.cn^
 ||sedesol.sedesol.gob.mx^
 ||segob.gob.mx^
@@ -54404,11 +54211,9 @@ www.nsaneforums.com##.ipsGrid_collapsePhone.ipsGrid
 www.nsaneforums.com###elFooterSocialLinks
 ||www.nsaneforums.com/uploads/monthly_2018_06/footer_pattern_blue.png.f99ab14ea320e56ada687af7a34b2e74.png$image
 www.nsaneforums.com###jc_footer
-www.nsaneforums.com###elFooterSocialLinks
 www.nsaneforums.com###extrafooter
 www.nsaneforums.com##p:nth-of-type(4)
 www.nsaneforums.com##p:nth-of-type(3)
-www.nsaneforums.com###jc_footer
 www.nsaneforums.com##.ipsMessage_info.ipsMessage
 www.nsaneforums.com###ipsLayout_mainArea > .ipsClearfix.ipsList_noSpacing.ipsList_inline
 !
@@ -54433,15 +54238,12 @@ www.overclock.net##section:nth-of-type(2)
 ##.theiaStickySidebar.sidebar
 ##.ins_rhscont300
 ##.adcont
-##.adCont
 ##.ad728_cont
 ###ad_300x250
 ##.ad-728-top
-##.ad728_cont
 ##.ad-300
 ##.ad-728
 ##.ad-728_cont
-##.ins_rhscont300
 ###responsive_ad
 ###adhesion-ad
 ###AUI_A9AdsMiddleBoxTop
@@ -54503,19 +54305,17 @@ www.overclock.net##section:nth-of-type(2)
 ###ad_oben
 ###ad_rechts
 ###adb-actived
+###adb-actived2
 ###adb-enabled
 ###adb-enabled3
-###adb-warning
 ###adblock-alert
 ###adblock-box
 ###adblock-modal
 ###adblock-msg
 ###adblock-overlay
-###adblockDetect
 ###adblock_detected
 ###adblock_message
 ###adblock_screen
-###adblocker_announce
 ###adblocker_message
 ###adblocker_modal_overlay
 ###adbox
@@ -54805,9 +54605,7 @@ www.overclock.net##section:nth-of-type(2)
 ##.ad-article-breaker
 ##.ad-banner-leaderboard
 ##.ad-block-enabled
-##.ad-block-message
 ##.ad-blocked
-##.ad-blocker-warning
 ##.ad-blocking-advisor-wrapper
 ##.ad-box
 ##.ad-container
@@ -54819,12 +54617,9 @@ www.overclock.net##section:nth-of-type(2)
 ##.ad-red
 ##.adBlockDetectedSign
 ##.adBlockNotification
-##.adBlockNotificationOverlay
-##.adBlockWarning
 ##.ad_mitte
 ##.ad_top
 ##.adb-enabled
-##.adbd-background
 ##.adbd-message
 ##.adbd-wrapper
 ##.adblock
@@ -54833,9 +54628,7 @@ www.overclock.net##section:nth-of-type(2)
 ##.adblock-notification-wrapper
 ##.adblock-warning-teaser
 ##.adblockOverlay
-##.adblock_detector
 ##.adblock_enabled
-##.adblock_floating_message
 ##.adblock_msg
 ##.adblocker-message
 ##.adblocker-wrap
@@ -54934,66 +54727,18 @@ www.overclock.net##section:nth-of-type(2)
 ##.adver-top
 ##.adver1
 ##.adver2
-###AdBlockDialog
-###abp-killer
-###adBlockAlert
-###adBlockAlertWrap
-###adBlockDetect
-###adBlockerModal
-###adb-actived
-###adb-enabled
-###adb-enabled3
 ###adb-warning
 #@##adblocktest
-###adblock-alert
-###adblock-box
-###adblock-modal
-###adblock-msg
-###adblock-overlay
-###adblockDetect
-###adblock_detected
 ###adblocker_announce
-###adblocker_message
-###adblocker_modal_overlay
-###advertisementjsalert
-###anti_adblock
-###detectadblock
-###fnAdblockingOverlay
-###message_adblock
-##.AdblockMessage
-##.AdblockMessage_msg
-##.ad-block-enabled
 ##.ad-block-message
-##.ad-blocked
 ##.ad-blocker-warning
-##.ad-blocking-advisor-wrapper
-##.adBlockDetectedSign
-##.adBlockNotification
 ##.adBlockNotificationOverlay
 ##.adBlockWarning
-##.adb-enabled
 ##.adbd-background
-##.adbd-message
-##.adbd-wrapper
-##.adblock-modal
-##.adblock-modal-content
-##.adblock-notification-wrapper
-##.adblock-warning-teaser
-##.adblockOverlay
 ##.adblock_detector
-##.adblock_enabled
 ##.adblock_floating_message
-##.adblocker-message
-##.adblocker-wrap
 ##.counterAdblocks
-##.deadblocker-header-bar
-##.deadblocker-header-bar-inner
 ##.dispositifAdblock
-##.dispositifAdblockContent
-##.dispositifAdblockMessageBox
-##.js-checkad-warning
-##.kill-adblock-container
-##.noadblock
 ##.top-bar-adblock
 ##.advert-banner
 ##.advert-banner-wrap
@@ -55103,11 +54848,8 @@ www.overclock.net##section:nth-of-type(2)
 ##.content_header_werbung
 ##.content_right_side_werbewrapper
 ##.contentwerbung4
-##.counterAdblocks
 ##.dartiframe
-##.deadblocker-header-bar
 ##.deadblocker-header-bar-inner
-##.dispositifAdblock
 ##.dispositifAdblockContent
 ##.dispositifAdblockMessageBox
 ##.div_banner
@@ -55203,7 +54945,6 @@ www.overclock.net##section:nth-of-type(2)
 ##.textads3
 ##.top-ads
 ##.top-adv
-##.top-bar-adblock
 ##.top_ads
 ##.topads
 ##.topads1
@@ -55565,7 +55306,6 @@ www.overclock.net##section:nth-of-type(2)
 /fileupload/werbung/*
 /firstloadwerbung.
 /flashcookie/*
-/foresee-
 /gen_204?
 /generate_204
 /getAdverts?
@@ -55898,14 +55638,12 @@ www.speedrun.com##.curse-wide.curse-04.curse.centered.panel
 www.station-drivers.com###tm-top-a
 www.station-drivers.com##.uk-grid.tm-top-a > .uk-width-1-1
 www.station-drivers.com##.uk-width-1-1 > .uk-panel-box.uk-panel
-www.station-drivers.com###tm-top-a
 www.station-drivers.com##center > form
 www.station-drivers.com##.uk-hidden-small.uk-clearfix.tm-headerbar > .uk-container-center.uk-container > .uk-panel
 www.station-drivers.com##.uk-row-first.uk-width-1-1 > .uk-panel-box.uk-panel
 www.station-drivers.com##.uk-grid.tm-top-a > .uk-row-first.uk-width-1-1
 www.station-drivers.com##.uk-panel > p:nth-of-type(2)
 www.station-drivers.com##.uk-hidden-small.uk-clearfix.tm-headerbar > .uk-container-center.uk-container > .uk-panel > p:nth-of-type(1)
-www.station-drivers.com##.uk-hidden-small.uk-clearfix.tm-headerbar > .uk-container-center.uk-container > .uk-panel
 !
 ! ---------- The Guardian ----------
 !
@@ -55931,7 +55669,6 @@ thepiratebay.org##iframe[src^="//thepiratebay.org/static/ads/"]
 player.twitch.tv##.player-overlay
 twitch.tv##.tw-z-above.blue-bar
 @@||ad.doubleclick.net/ddm/$xmlhttprequest,domain=twitch.tv
-twitch.tv##.tw-z-above.blue-bar
 ||twitchcdn.net/v1.js
 
 !
