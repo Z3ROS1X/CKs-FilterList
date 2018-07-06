@@ -1,12 +1,12 @@
 ! Title: CHEF-KOCH's Filter List
 ! Description: A comprehensive, all-in-one ad-block list for thorough blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
-! Checksum (SHA3-256): 6B9B8D9A7680368167F343F8319DD344FA1D973D2ED4448BE0A8D1781D0C4031
+! Checksum (SHA3-256): D85AD37C091CEB59B4A067208D68B8C7ED54B3281B3B1AFE28BC9B04738E6E6E
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 3d
-! TimeUpdated: 2018-07-06	10:41:31+01:00
-! Version: 0.0.3.18
+! TimeUpdated: 2018-07-06	15:40:16+01:00
+! Version: 0.0.3.19
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -24176,10 +24176,8 @@ douploads.com##.downarea > center
 ||collector-184.tvsquared.com^
 ||collector-195.tvsquared.com^
 ||collector-428.tvsquared.com^
-||collector-cdn.github.com^
 ||collector-test.staging.mb-internal.com^
 ||collector.funnyordie.com^
-||collector.githubapp.com^
 ||collector.ksax.com^
 ||collector.kstptv5.com^
 ||collector.leaddyno.com^
@@ -32142,7 +32140,6 @@ douploads.com##.downarea > center
 ||piranho.de^
 ||piratinviaggio.digidip.net^
 ||pirix.net^
-||pivotal.github.com^
 ||pivotnetworks.com^
 ||piwik.cam-content.com^
 ||piwik.datawrapper.de^
@@ -53585,8 +53582,10 @@ forbes.com##fbs-ad
 !
 ! ---------- GitHub ----------
 !
+||collector.githubapp.com^
+||collector-cdn.github.com^
+||pivotal.github.com^
 ##.icon-github
-@@||github.com^$generichide
 @@||githubusercontent.com^$image
 github.com##.flash-full.flash
 github.com##.github-jobs-promotion > p
@@ -55888,6 +55887,11 @@ reddit.com##.infobar-toaster-container
 ||redditstatic.com/moat/$important
 ||redditstatic.com/recommended-link.*$important
 ||tracker.redditmedia.com^
+!
+! ---------- skidrowgamesreloaded ----------
+!
+skidrowgamesreloaded.com##.box-content
+skidrowgamesreloaded.com##.grid-box > .box-content
 !
 ! ---------- Speedrun.com----------
 !
