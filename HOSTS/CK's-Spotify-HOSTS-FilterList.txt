@@ -17,6 +17,9 @@
 #
 # DO NOT FORGET TO BLOCK THE IP RANGES !!!!!!!!!!!!!!!!!
 #
+0.0.0.0 full-cdn-01.cluster002.ovh.net
+0.0.0.0 192.121.140.177
+0.0.0.0 153.64.199.104.bc.googleusercontent.com
 0.0.0.0 62.224.186.35.bc.googleusercontent.com
 0.0.0.0 48.224.186.35.bc.googleusercontent.com
 0.0.0.0 heads-ak.spotify.com.edgesuite.net
