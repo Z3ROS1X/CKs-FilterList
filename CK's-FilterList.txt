@@ -54400,20 +54400,10 @@ forum.mobilism.org##.twitter-color.icon-stack-base.icon-circle
 !
 ! ---------- nsaneforums.com ----------
 !
-www.nsaneforums.com##.ipsMessage_error.ipsMessage.cAnnouncementPageTop
-www.nsaneforums.com##.ipsMessage_none.ipsMessage.cAnnouncementPageTop
-www.nsaneforums.com##.ipsType_center.ipsMessage_error.ipsMessage.cAnnouncementContentTop > [href="https://www.nsaneforums.com/announcement/2-we-need-your-help/"]
-www.nsaneforums.com##.ipsType_center.ipsMessage_none.ipsMessage.cAnnouncementContentTop > [href="https://www.nsaneforums.com/announcement/1-donations/"]
-www.nsaneforums.com##[href="https://www.nsaneforums.com/staff"] > .ipsType_left.ipsGrid_span3
-www.nsaneforums.com##.ipsGrid_collapsePhone.ipsGrid
-www.nsaneforums.com###elFooterSocialLinks
-||www.nsaneforums.com/uploads/monthly_2018_06/footer_pattern_blue.png.f99ab14ea320e56ada687af7a34b2e74.png$image
+www.nsaneforums.com##.cAnnouncements
+www.nsaneforums.com##.cAnnouncementsContent
 www.nsaneforums.com###jc_footer
-www.nsaneforums.com###extrafooter
-www.nsaneforums.com##p:nth-of-type(4)
-www.nsaneforums.com##p:nth-of-type(3)
-www.nsaneforums.com##.ipsMessage_info.ipsMessage
-www.nsaneforums.com###ipsLayout_mainArea > .ipsClearfix.ipsList_noSpacing.ipsList_inline
+www.nsaneforums.com###elFooterSocialLinks
 !
 ! ---------- Overclock.net ----------
 !
