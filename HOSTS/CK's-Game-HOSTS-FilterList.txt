@@ -66,9 +66,7 @@
 #0.0.0.0 www4-static2.gog.com
 0.0.0.0 connect.facebook.net
 0.0.0.0 www.facebook.com
-#0.0.0.0 s.ytimg.com
-#0.0.0.0 i.ytimg.com
-#0.0.0.0 www.youtube.com
+# API + Images + Notifications + Chat
 #0.0.0.0 api.gog.com
 #0.0.0.0 www.google.com
 #0.0.0.0 images.gog.com
@@ -83,12 +81,6 @@
 #0.0.0.0 chat.gog.com
 0.0.0.0 broker.gog.com
 0.0.0.0 chat-broker.gog.com
-# GoG Usertracking
-
-0.0.0.0 static.doubleclick.net
-
-0.0.0.0 www.googletagmanager.com
-
 
 # Electronic Arts Origin client
 #0.0.0.0 heartbeat.dm.origin.com
@@ -166,9 +158,8 @@
 #0.0.0.0 ubisoft-uplay-savegames.s3.amazonaws.com
 
 # Valve / Steam
-
 0.0.0.0 crash.steampowered.com
-::1 crash.steampowered.com
+#::1 crash.steampowered.com
 #0.0.0.0 client-download.steampowered.com
 #0.0.0.0 partner.steamgames.com
 #0.0.0.0 cdn.highwinds.cs.steampowered.com
@@ -321,7 +312,7 @@
 # Old Watch
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-
+0.0.0.0 prod-lb.redshell.io
 
 # Faith of Danschant
 0.0.0.0 patch.swhx.wangyuan.com
@@ -504,7 +495,7 @@
 
 # Agharta Studio
 # Shufflepuck Cantina Deluxe
-# ::1 30322
+# #::1 30322
 # unclear?!
 
 # AGM Playism
@@ -668,7 +659,7 @@
 
 # Ropeway Simulator 2014
 0.0.0.0 gametracker.z-software.net
-::1 gametracker.z-software.net
+#::1 gametracker.z-software.net
 
 # ATLUS USA
 # Rock of Ages II: Bigger & Boulder™
@@ -983,16 +974,15 @@
 
 # Brightrock Games
 # War for the Overworld
-# Youtube CoherentUI_Host.exe, Google, zu Unity siehe eigener Eintrag
 # GoG ist für Crossplay?
 0.0.0.0 wftogame.com
 0.0.0.0 stats.unity3d.com
+0.0.0.0 stats.static.unity3d.com
 #0.0.0.0 users.gog.com
 #0.0.0.0 auth.gog.com
 
 # BTNcafe
 # Mold on Pizza
-# dauerhafte Onlineverbindung zwecks Statistiken bzw. Herkunftsland, Plattform, Grafikkarte/Hersteller, Angaben zu Levelabschnitten, Zeit, Schwierigkeitsgrad, Spracheinstellungen usw.
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 mopdserver.btncafe.com
 
@@ -1492,7 +1482,7 @@
 # Eastsidegamestudio.com
 # High Profits
 0.0.0.0 mentor.eastsidegamestudio.com
-::1 mentor.eastsidegamestudio.com
+#::1 mentor.eastsidegamestudio.com
 
 # Electronic Arts
 # ActivationUI.exe
@@ -1913,9 +1903,9 @@ Secret World Legends
 # Gravity Interactive
 # Ragnarok Clicker
 0.0.0.0 api.gameanalytics.com
-::1 api.gameanalytics.com
+#::1 api.gameanalytics.com
 0.0.0.0 live-collect-1709264271.us-east-1.elb.amazonaws.com
-::1 live-collect-1709264271.us-east-1.elb.amazonaws.com
+#::1 live-collect-1709264271.us-east-1.elb.amazonaws.com
 
 # Green Man Gaming Publishing
 # War Tech Fighters
@@ -2115,9 +2105,9 @@ Cossacks III + Config
 
 # Guild Quest
 0.0.0.0 7D89.playfabapi.com
-::1 7D89.playfabapi.com
+#::1 7D89.playfabapi.com
 0.0.0.0 master-ma-elasticl-1e2d7mzrh19sw-2078529754.us-west-2.elb.amazonaws.com
-::1 master-ma-elasticl-1e2d7mzrh19sw-2078529754.us-west-2.elb.amazonaws.com
+#::1 master-ma-elasticl-1e2d7mzrh19sw-2078529754.us-west-2.elb.amazonaws.com
 
 # H2 Interactive Co., Ltd.
 # Caladrius Blaze
@@ -2803,7 +2793,6 @@ Cossacks III + Config
 
 # Paradox Interactive
 # Battletech
-# Unity für Analytics, Dyndns für Iperfassung
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 static.golemarcana.com.s3.amazonaws.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -3115,7 +3104,6 @@ Cossacks III + Config
 
 # Ripstone
 # Chess Ultra
-# Tokenübergabe, Steamlogin, Spracheinstellungen, Matches, Turnierdaten
 #0.0.0.0 chessapi.azurewebsites.net
 0.0.0.0 datarouter.ol.epicgames.com
 #0.0.0.0 images-eds.xboxlive.com
@@ -3218,12 +3206,10 @@ Cossacks III + Config
 0.0.0.0 gds4.steampowered.com
 
 # Total War: Attila
-# inklusiv Youtube, Google, Twitter, Facebook und anderem Zeugs
 # Launcher+Encyclopedia+MP
 0.0.0.0 launcher.totalwar.com
 0.0.0.0 d1hdmqpnp3kt1h.cloudfront.net
 #0.0.0.0 617474696c61.totalwar.com
-# Enzeklopädie Einträge
 0.0.0.0 atenc.totalwar.com
 0.0.0.0 creative-assembly.cloudant.com
 0.0.0.0 js-agent.newrelic.com
@@ -3261,8 +3247,7 @@ Cossacks III + Config
 0.0.0.0 garry.sgaas.net
 0.0.0.0 api.redshell.io
 0.0.0.0 03c9acbb-4d65-4544-bc3d-082aa04cc5b4.totalwar.com
-# Denuvo DRM
-# Ingame Warhammer Academy Contentserver optional
+# Denuvo DRM + in-game
 #0.0.0.0 cdn.creative-assembly.com
 #0.0.0.0 academy.totalwar.com
 # Sega Support optional
@@ -3528,6 +3513,7 @@ Cossacks III + Config
 
 # The Turing Test
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter1.ol.epicgames.com
 0.0.0.0 datarouter-svc-prod06-public-49221551.us-east-1.elb.amazonaws.com
 
 # Thief IV
@@ -3821,9 +3807,9 @@ Cossacks III + Config
 # Thomas Bowker
 # Lyne
 0.0.0.0 103.44.220.37
-::1 103.44.220.37
+#::1 103.44.220.37
 0.0.0.0 vecflo.thomasbowker.com
-::1 vecflo.thomasbowker.com
+#::1 vecflo.thomasbowker.com
 
 # Thomas Happ Games LLC
 # Axiom Verge
@@ -3918,7 +3904,7 @@ Cossacks III + Config
 # Two Tribes Publishing
 # RIVE
 0.0.0.0 www.rivethegame.com
-::1 www.rivethegame.com
+#::1 www.rivethegame.com
 
 # Ubisoft
 # Anno 1404 | Dawn of Discovery
@@ -3971,62 +3957,61 @@ Cossacks III + Config
 0.0.0.0 stats.unity3d.com
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
 #0.0.0.0 gsp-aeu001-se06.gamesparks.net
 #0.0.0.0 gsp-aeu-rt02.gamesparks.net
 #0.0.0.0 live-295012udj75f.ws.gamesparks.net
 
 # Unity3D
 0.0.0.0 api.uca.cloud.unity3d.com
-::1 api.uca.cloud.unity3d.com
+#::1 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-::1 config.uca.cloud.unity3d.com
+#::1 config.uca.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
-::1 perf-events.cloud.unity3d.com
+#::1 perf-events.cloud.unity3d.com
 0.0.0.0 stats.unity3d.com
-::1 stats.unity3d.com
+#::1 stats.unity3d.com
 0.0.0.0 hwstats.uca.cloud.unity3d.com
-::1 hwstats.uca.cloud.unity3d.com
+#::1 hwstats.uca.cloud.unity3d.com
 0.0.0.0 unity3d.com
-::1 unity3d.com
+#::1 unity3d.com
 0.0.0.0 accounts.unity3d.com
-::1 accounts.unity3d.com
+#::1 accounts.unity3d.com
 0.0.0.0 activation.unity3d.com
-::1 activation.unity3d.com
+#::1 activation.unity3d.com
 0.0.0.0 analytics.cloud.unity3d.com
-::1 analytics.cloud.unity3d.com
+#::1 analytics.cloud.unity3d.com
 0.0.0.0 build-api.cloud.unity3d.com
-::1 build-api.cloud.unity3d.com
+#::1 build-api.cloud.unity3d.com
 0.0.0.0 build-artifact-api.cloud.unity3d.com
-::1 build-artifact-api.cloud.unity3d.com
+#::1 build-artifact-api.cloud.unity3d.com
 0.0.0.0 collab.cloud.unity3d.com
-::1 collab.cloud.unity3d.com
+#::1 collab.cloud.unity3d.com
 0.0.0.0 collab-waiting-list.cloud.unity3d.com
-::1 collab-waiting-list.cloud.unity3d.com
+#::1 collab-waiting-list.cloud.unity3d.com
 0.0.0.0 core.cloud.unity3d.com
-::1 core.cloud.unity3d.com
+#::1 core.cloud.unity3d.com
 0.0.0.0 data.cloud.unity3d.com
-::1 data.cloud.unity3d.com
+#::1 data.cloud.unity3d.com
 0.0.0.0 developer.cloud.unity3d.com
-::1 developer.cloud.unity3d.com
+#::1 developer.cloud.unity3d.com
 0.0.0.0 embedded.cloud.unity3d.com
-::1 embedded.cloud.unity3d.com
+#::1 embedded.cloud.unity3d.com
 0.0.0.0 license.unity3d.com
-::1 license.unity3d.com
+#::1 license.unity3d.com
 0.0.0.0 multiplayer.unity3d.com
-::1 multiplayer.unity3d.com
+#::1 multiplayer.unity3d.com
 0.0.0.0 perf.cloud.unity3d.com
-::1 perf.cloud.unity3d.com
+#::1 perf.cloud.unity3d.com
 0.0.0.0 public-cdn.cloud.unity3d.com
-::1 public-cdn.cloud.unity3d.com
+#::1 public-cdn.cloud.unity3d.com
 0.0.0.0 unityads.unity3d.com
-::1 unityads.unity3d.com
+#::1 unityads.unity3d.com
 0.0.0.0 eloqua-trackings.unity3d.com
-::1 eloqua-trackings.unity3d.com
+#::1 eloqua-trackings.unity3d.com
 0.0.0.0 prd-lender.cdp.internal.unity3d.com
-::1 prd-lender.cdp.internal.unity3d.com
+#::1 prd-lender.cdp.internal.unity3d.com
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
-::1 data-optout-service.uca.cloud.unity3d.com
+#::1 data-optout-service.uca.cloud.unity3d.com
 
 # Unknown Worlds Entertainment
 # Subnautica
@@ -4139,7 +4124,6 @@ Cossacks III + Config
 # Wb Games
 # Middle-earth™: Shadow of War™
 # Denuvo DRM
-# Ingameeula und Formatierung
 0.0.0.0 www.shadowofwar.com
 #0.0.0.0 cdnjs.cloudflare.com
 # ShadowOfWar.exe *64
@@ -4172,15 +4156,15 @@ Cossacks III + Config
 # WGLabs
 # Master of Orion
 0.0.0.0 ru.wargaming.net
-::1 ru.wargaming.net
+#::1 ru.wargaming.net
 0.0.0.0 na.wargaming.net
-::1 na.wargaming.net
+#::1 na.wargaming.net
 0.0.0.0 ip-api.com
-::1 ip-api.com
+#::1 ip-api.com
 0.0.0.0 freegeoip.net
-::1 freegeoip.net
+#::1 freegeoip.net
 0.0.0.0 moo-development.s3.amazonaws.com
-::1 moo-development.s3.amazonaws.com
+#::1 moo-development.s3.amazonaws.com
 
 # Whalegun
 # UTOPIA 9 - A Volatile Vacation
