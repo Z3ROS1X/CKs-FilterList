@@ -9959,7 +9959,6 @@ discord.me##.master > .container > .row:nth-of-type(1) > .col-sm-12
 ##div[class*="Ad"]
 ##div[class*="DARTad"]
 ##div[class*="OUTBRAIN"]
-##div[class*="_ad"]
 ##div[class*="_dart"]
 ##div[class*="adbox"]
 ##div[class*="adcontainer"]
@@ -54426,6 +54425,8 @@ www.overclock.net##section:nth-of-type(2)
 !
 ! ---------- Overlay + Element Hiding + Ads ----------
 !
+##ins.adsbygoogle:not([data-matched-content-ui-type])
+##.afs_ads
 ###the_champ_sharing_more_providers
 ###cubeAd
 ###cube_ad
@@ -54978,6 +54979,8 @@ www.overclock.net##section:nth-of-type(2)
 ##.bdeFotoGalAd
 ##.bdeFotoGalAdText
 ##.big-werb
+##.article-view__footer-ad
+##.block1--ads
 ##.block_rs4_werbung
 ##.bottom-werbung-box
 ##.box-ads
@@ -55544,6 +55547,7 @@ www.overclock.net##section:nth-of-type(2)
 /infinity.js.aspx?guid=
 /javascript/ads.
 /js/ads/*
+/js/ads.
 /js/analytics/*
 /jserver/site
 /karuselli/js/AgAdCarousel
