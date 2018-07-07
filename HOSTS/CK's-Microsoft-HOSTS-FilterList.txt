@@ -1,16 +1,23 @@
 # Title: CHEF-KOCH's Microsoft HOSTS Filter List
 # Description: Block all Microsoft related connections, it also blocks Skype etc.
 # Keep in mind this will break the 'net'. The lists will contain redundant entries compared to the the extension based blocking lists because HOSTS work inefficient. There will be no 127.0.0.1 version because I also want to keep 'dead'' entries alive, which means we not need to check against 127 (slower due possible timeout).
-# Checksum (SHA3-256): 0B6EDC090648672594684B04A6F5F634A4E5355D6F11E78A7345E49B83EFA4BF
+# Checksum (SHA3-256): 861AB06253B288ABDF6A4DAE5D115EAC795193343DC20E02630EA3D8D186AD7E
 # License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 14d
-# TimeUpdated: 2018-05-21	10:51:02+01:00
-# Version: 0.0.0.3
+# TimeUpdated: 2018-07-06	23:58:59+01:00
+# Version: 0.0.0.4
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
+#
+# ---------- backgroundtransferhost.exe / backgroundtaskhost ----------
+#
+0.0.0.0 arc.msn.com
+#0.0.0.0 img-prod-cms-rt-microsoft-com.akamaized.net
+0.0.0.0 www.bing.com
+0.0.0.0 ris.api.iris.microsoft.com
 #
 # ---------- Microsoft ----------
 #
@@ -2088,3 +2095,157 @@
 0.0.0.0 zootycooninsider.com
 0.0.0.0 zootycooninsider.net
 0.0.0.0 zootycooninsider.org
+0.0.0.0 207.46.194.14
+#::1 207.46.194.14
+0.0.0.0 mediaredirect.microsoft.com
+#::1 mediaredirect.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com
+#::1 sqm.telemetry.microsoft.com
+0.0.0.0 dc.services.visualstudio.com
+#::1 dc.services.visualstudio.com
+#::1 vortex.data.microsoft.com
+0.0.0.0 v10.events.data.microsoft.com
+0.0.0.0 v20.events.data.microsoft.com
+0.0.0.0 a-ring.msedge.net
+0.0.0.0 b-ring.msedge.net
+0.0.0.0 l-ring.msedge.net
+0.0.0.0 fp.msedge.net
+0.0.0.0 array606-prod.do.dsp.mp.microsoft.com
+0.0.0.0 array607-prod.do.dsp.mp.microsoft.com
+0.0.0.0 array614-prod.do.dsp.mp.microsoft.com
+0.0.0.0 ars.smartscreen.microsoft.com
+0.0.0.0 candycrushsoda.king.com
+0.0.0.0 mbi.kntk.de
+0.0.0.0 dmd.metaservices.microsoft.com.akadns.net
+0.0.0.0 sls.update.microsoft.com.nsatc.net
+0.0.0.0 db5sch101101543.wns.windows.com
+0.0.0.0 otf.msn.com # cgif Internet Explorer MSN Startseite
+0.0.0.0 storecatalogrevocation.storequality.microsoft.com
+0.0.0.0 onecs-live.azureedge.net
+0.0.0.0 db5.vortex.data.microsoft.com.akadns.net
+0.0.0.0 onpremeur3.ipv6.microsoft.com.akadns.net
+0.0.0.0 modern.watson.data.microsoft.com.akadns.net
+0.0.0.0 v10.vortex-win.data.microsoft.com
+0.0.0.0 mscrl.microsoft.com
+0.0.0.0 oca.telemetry.microsoft.com
+#
+# ---------- Maps ----------
+#
+#0.0.0.0 t0.ssl.ak.dynamic.tiles.virtualearth.net
+#0.0.0.0 t0.ssl.ak.tiles.virtualearth.net
+#0.0.0.0 ecn.dev.virtualearth.net
+#
+# ---------- Office ----------
+#
+0.0.0.0 officeclient.microsoft.com
+0.0.0.0 rr.office.microsoft.com
+0.0.0.0 client-office365-tas.msedge.net
+0.0.0.0 config.edge.skype.com
+0.0.0.0 messaging.office.com
+0.0.0.0 mobile.pipe.aria.microsoft.com
+0.0.0.0 templateservice.office.com
+0.0.0.0 nexusrules.officeapps.live.com
+0.0.0.0 omextemplates.content.office.net
+0.0.0.0 templateservice.office.com
+#
+# ---------- OneDrive, Web- & Skype ----------
+#
+0.0.0.0 browser.pipe.aria.microsoft.com
+0.0.0.0 a.lw.skype.com
+0.0.0.0 b.config.skype.com
+#0.0.0.0 api.push.svc.ms
+#0.0.0.0 6-api.pushp.svc.ms
+0.0.0.0 skyapi.onedrive.live.com
+# OneNote
+0.0.0.0 cdn.onenote.net
+#
+# ---------- SmartScreen ----------
+#
+0.0.0.0 canonicalizer.ucsuri.tcs
+0.0.0.0 checkappexec.microsoft.com
+0.0.0.0 t.checkappexec.microsoft.com
+#
+# ---------- Store ----------
+#
+#0.0.0.0 storeedgefd.dsx.mp.microsoft.com
+#0.0.0.0 store-images.s-microsoft.com
+#0.0.0.0 store-images.microsoft.com
+0.0.0.0 universalstore.streaming.mediaservices.windows.net
+0.0.0.0 displaycatalog.mp.microsoft.com
+0.0.0.0 purchase.mp.microsoft.com
+0.0.0.0 uhf.microsoft.com
+#0.0.0.0 statics-neu.onestore.ms
+0.0.0.0 assets.onestore.ms
+#0.0.0.0 auth.gfx.ms # Eingabemaske Login
+#0.0.0.0 login.live.com # Anmeldeservice
+#0.0.0.0 licensing.mp.microsoft.com
+#
+# ---------- svchost.exe ----------
+#
+0.0.0.0 array104-prod.do.dsp.mp.microsoft.com
+#::1 array104-prod.do.dsp.mp.microsoft.com
+0.0.0.0 cp401-prod.do.dsp.mp.microsoft.com
+#::1 cp401-prod.do.dsp.mp.microsoft.com
+0.0.0.0 disc401-prod.do.dsp.mp.microsoft.com
+#::1 disc401-prod.do.dsp.mp.microsoft.com
+0.0.0.0 geo-prod.do.dsp.mp.microsoft.com
+#::1 geo-prod.do.dsp.mp.microsoft.com
+0.0.0.0 geover-prod.do.dsp.mp.microsoft.com
+#::1 geover-prod.do.dsp.mp.microsoft.com
+0.0.0.0 kv101-prod.do.dsp.mp.microsoft.com
+#::1 kv101-prod.do.dsp.mp.microsoft.com
+0.0.0.0 kv401-prod.do.dsp.mp.microsoft.com
+#::1 kv401-prod.do.dsp.mp.microsoft.com
+0.0.0.0 cdn.content.prod.cms.msn.com
+#::1 cdn.content.prod.cms.msn.com
+#
+# ---------- Tiles ----------
+#
+0.0.0.0 livetileedge.dsx.mp.microsoft.com
+#
+# ---------- Updates ----------
+#
+#0.0.0.0 fe2.update.microsoft.com
+#0.0.0.0 sls.update.microsoft.com
+#0.0.0.0 fe3.delivery.mp.microsoft.com
+#0.0.0.0 au.download.windowsupdate.com
+# Language Packs + Misc.
+#0.0.0.0 tlu.dl.delivery.mp.microsoft.com
+#
+# ---------- Watson ----------
+#
+0.0.0.0 watson.live.com
+#::1 watson.live.com
+0.0.0.0 watson.microsoft.com
+#::1 watson.microsoft.com
+0.0.0.0 watson.ppe.telemetry.microsoft.com
+#::1 watson.ppe.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+#::1 watson.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
+#::1 watson.telemetry.microsoft.com.nsatc.net
+#
+# ---------- WerFault.exe ----------
+#
+0.0.0.0 settings-win.data.microsoft.com
+::1 settings-win.data.microsoft.com
+#
+# ---------- Weather ----------
+#
+0.0.0.0 tile-service.weather.microsoft.com
+0.0.0.0 service.weather.microsoft.com
+#
+# ---------- WiFiTask.exe ----------
+#
+0.0.0.0 cache.datamart.windows.com
+0.0.0.0 storagetos.datamart.windows.com
+#
+# ---------- Windows Malicious Software Removal Tool ----------
+#
+0.0.0.0 wdcpeurope.microsoft.akadns.net
+#
+# ---------- XBox ----------
+#
+0.0.0.0 presence-heartbeat.xboxlive.com
+0.0.0.0 musicart.xboxlive.com
+0.0.0.0 settings-ssl.xboxlive.com
