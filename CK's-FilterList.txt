@@ -10002,6 +10002,11 @@ douploads.com##.downarea > center
 !
 ! ---------- Domains (Android, etc) ----------
 !
+||34.230.224.115^
+||applytics.zwyr157wwiu6eior.com^
+||collector.exceptionless.io^
+||config.exceptionless.io^
+||nordvpn.nanorep.co^
 ||beta.sankakucomplex.com^
 ||chan.sankakucomplex.com^
 ||luscious.net^

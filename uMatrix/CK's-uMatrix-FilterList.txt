@@ -5,8 +5,8 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 14d
-! TimeUpdated: 2018-07-07	09:12:30+01:00
-! Version: 0.0.1.0
+! TimeUpdated: 2018-07-07	09:20:26+01:00
+! Version: 0.0.1.1
 ! Please report any unblocked content or problems by email or via GitHub issue
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -29,6 +29,11 @@
 !
 ! ---------- uMatrix ----------
 !
+0.0.0.0 34.230.224.115
+0.0.0.0 applytics.zwyr157wwiu6eior.com
+0.0.0.0 collector.exceptionless.io
+0.0.0.0 config.exceptionless.io
+0.0.0.0 nordvpn.nanorep.co
 0.0.0.0 beta.sankakucomplex.com
 0.0.0.0 chan.sankakucomplex.com
 0.0.0.0 luscious.net
