@@ -13,6 +13,7 @@
 !
 ! ---------- Ad & Tracker ----------
 !
+||crashlogs.whatsapp.net^
 ||telemetry.nvidia.com^
 ||download.orbmu2k.de^
 ||ota.nvidia.com^
