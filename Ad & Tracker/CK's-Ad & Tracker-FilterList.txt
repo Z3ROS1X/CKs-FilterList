@@ -13,6 +13,7 @@
 !
 ! ---------- Ad & Tracker ----------
 !
+||beacon.statful.com^
 ||client-event-reporter.twitch.tv^
 ||polyfill.twitchsvc.net^
 ||sl13.clicktale.net^

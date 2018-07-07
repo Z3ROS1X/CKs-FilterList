@@ -29,6 +29,12 @@
 !
 ! ---------- uMatrix ----------
 !
+0.0.0.0 8ch.net
+0.0.0.0 420chan.org
+0.0.0.0 7chan.org
+0.0.0.0 lainchan.org
+0.0.0.0 2ch.net
+0.0.0.0 beacon.statful.com
 0.0.0.0 client-event-reporter.twitch.tv
 0.0.0.0 polyfill.twitchsvc.net
 0.0.0.0 sl13.clicktale.net

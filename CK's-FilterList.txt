@@ -10002,6 +10002,12 @@ douploads.com##.downarea > center
 !
 ! ---------- Domains (Android, etc) ----------
 !
+||8ch.net^
+||420chan.org^
+||7chan.org^
+||lainchan.org^
+||2ch.net^
+||beacon.statful.com^
 ||sl13.clicktale.net^
 ||www27.clicktale.net^
 ||slit.clicktale.net^
@@ -53447,6 +53453,7 @@ facebook.com#?#div[data-testid="fbfeed_story"]:-abp-has(a[href*="[is_sponsored]"
 !
 ! ---------- Fake News ----------
 !
+||newsnow.co.ip^
 ||newsnow.co.za^
 ||www.kmspico.info^
 ||100percentfedup.com^
