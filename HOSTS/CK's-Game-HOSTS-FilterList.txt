@@ -3137,7 +3137,8 @@ Cossacks III + Config
 
 # Rockstar Games
 # Grand Theft Auto V
-0.0.0.0 prod.telemetry.ros.rockstargames.com
+# Since March blocking Rockstar telemetry seems to crash GTAOnline.
+#0.0.0.0 prod.telemetry.ros.rockstargames.com
 
 # Rogue Earth LLC
 # Eterium

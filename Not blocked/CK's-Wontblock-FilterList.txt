@@ -1,5 +1,49 @@
 This list will not be avbl. via subscription. 
 !
+! ---------- Windows ----------
+!
+||www.msftncsi.com^
+||outlook.office365.com^
+||products.office.com^
+||c.s-microsoft.com^
+||i.s-microsoft.com^
+||login.live.com^
+||g.live.com^
+||dl.delivery.mp.microsoft.com^
+||geo-prod.do.dsp.mp.microsoft.com^
+||displaycatalog.mp.microsoft.com^
+||clientconfig.passport.net^
+||v10.events.data.microsoft.com^
+xbox.ipv6.microsoft.com
+device.auth.xboxlive.com
+www.msftncsi.com
+title.mgt.xboxlive.com
+xsts.auth.xboxlive.com
+title.auth.xboxlive.com
+ctldl.windowsupdate.com
+attestation.xboxlive.com
+xboxexperiencesprod.experimentation.xboxlive.com
+xflight.xboxlive.com
+cert.mgt.xboxlive.com
+xkms.xbolive.com
+def-vef.xboxlive.com
+notify.xboxlive.com
+help.ui.xboxlive.com
+licensing.xboxlive.com
+eds.xboxlive.com
+www.xboxlive.com
+v10.vortex-win.data.microsoft.com
+settings-win.data.microsoft.com
+s.gateway.messenger.live.com
+ui.skype.com
+pricelist.skype.com
+apps.skype.com
+m.hotmail.com
+s.gateway.messenger.live.com
+sa.symcb.com
+s{1..5}.symcb.com
+officeclient.microsoft.com
+!
 ! ---------- nVidia ----------
 !
 ||api.gfe.nvidia.com^
@@ -13,6 +57,11 @@ This list will not be avbl. via subscription.
 !
 ! ---------- Google ----------
 !
+||android.clients.google.com^
+||video-stats.l.google.com^
+||s.youtube.com^
+||clients4.google.com^
+||clients2.google.com^
 ||easylist-downloads.adblockplus.org^
 ||mirror.cedia.org.ec^
 ||pgl.yoyo.org^
