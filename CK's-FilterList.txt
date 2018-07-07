@@ -55833,15 +55833,7 @@ www.speedrun.com##.curse-wide.curse-04.curse.centered.panel
 !
 ! ---------- Station-Drivers.com----------
 !
-www.station-drivers.com###tm-top-a
-www.station-drivers.com##.uk-grid.tm-top-a > .uk-width-1-1
-www.station-drivers.com##.uk-width-1-1 > .uk-panel-box.uk-panel
-www.station-drivers.com##center > form
-www.station-drivers.com##.uk-hidden-small.uk-clearfix.tm-headerbar > .uk-container-center.uk-container > .uk-panel
-www.station-drivers.com##.uk-row-first.uk-width-1-1 > .uk-panel-box.uk-panel
-www.station-drivers.com##.uk-grid.tm-top-a > .uk-row-first.uk-width-1-1
-www.station-drivers.com##.uk-panel > p:nth-of-type(2)
-www.station-drivers.com##.uk-hidden-small.uk-clearfix.tm-headerbar > .uk-container-center.uk-container > .uk-panel > p:nth-of-type(1)
+www.station-drivers.com##.uk-hidden-small.uk-clearfix.tm-headerbar
 !
 ! ---------- The Guardian ----------
 !
