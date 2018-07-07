@@ -1,12 +1,12 @@
 # Title: CHEF-KOCH's Spotify Ad-Filter List
 # Description: Blocks all annoying Spotify Ads.
-# Checksum (SHA 1): ACD2B3EBC71CF63D8F727A61B767ADF92E980C96A45CF9689A91E3722685318A
+# Checksum (SHA 1): 43B827E4900068B13CB660D62AF2B5610613B0A44BF266661E0F561F7A595E07
 # License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 14d
-# TimeUpdated: 2018-07-07	13:35:15+01:00
-# Version: 0.0.1.2
+# TimeUpdated: 2018-07-07	14:12:45+01:00
+# Version: 0.0.1.3
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
@@ -17,6 +17,48 @@
 #
 # DO NOT FORGET TO BLOCK THE IP RANGES !!!!!!!!!!!!!!!!!
 #
+0.0.0.0 valerie.ap.spotify.com
+0.0.0.0 valerie.lon.spotify.com
+0.0.0.0 valerie.lon2.spotify.com
+0.0.0.0 sto3-tbdscan-a2.sto3.spotify.com
+0.0.0.0 sto3-vmddelivery-b1.sto3.spotify.com
+0.0.0.0 sto1-apresolve-a3.sto.spotify.com
+0.0.0.0 sto1-crashdump-a1.sto.spotify.com
+0.0.0.0 sto1-crashdump-a2.sto.spotify.com
+#0.0.0.0 speech-recognition-test.spotify.com
+#0.0.0.0 speech-recognition.spotify.com
+0.0.0.0 skye.ap.spotify.com
+0.0.0.0 skye.sto.spotify.com
+0.0.0.0 shulamit.ash1.spotify.com
+0.0.0.0 sienna.ap.spotify.com
+0.0.0.0 sienna.sto.spotify.com
+0.0.0.0 sigrid.lon.spotify.com
+0.0.0.0 sirkka.lon.spotify.com
+0.0.0.0 sirkka.lon2.spotify.com
+0.0.0.0 r620test.lon.spotify.com
+0.0.0.0 pub-net-srx-int-testing.spotify.com
+0.0.0.0 promo-001.lon.spotify.com
+0.0.0.0 promo.spotify.com
+0.0.0.0 pay-testing.spotify.com
+0.0.0.0 oktascimpoc.spotify.com
+0.0.0.0 oktascimserver-test.spotify.com
+0.0.0.0 oktascimserver.spotify.com
+0.0.0.0 kismet.ap.spotify.com
+0.0.0.0 heather.ap.spotify.com
+0.0.0.0 guc-dealer-ssl.spotify.com
+0.0.0.0 guc-dealer.spotify.com
+0.0.0.0 guc-spclient.spotify.com
+0.0.0.0 devnews.spotify.com
+0.0.0.0 beta.spotify.com
+0.0.0.0 beta.developer.spotify.com
+0.0.0.0 adsgtm-sandbox.spotify.com
+0.0.0.0 adsgtm.spotify.com
+0.0.0.0 48.65.199.104.bc.googleusercontent.com
+0.0.0.0 www.contest.codequest.spotify.com
+0.0.0.0 www.codequest.spotify.com
+0.0.0.0 exp-canary.wg.spotify.com
+0.0.0.0 exp.spotify.com
+0.0.0.0 exp.wg.spotify.com
 0.0.0.0 klara.lon.spotify.com
 0.0.0.0 investors.spotify.com
 0.0.0.0 indosatooredoo.spotify.com
@@ -42,6 +84,7 @@
 0.0.0.0 pl35t7bb4aabglvz2i3btceznecjh4fka7m6ppyzdthifgcq.obfxt53kpvuicjyib3vacc5db3htskgk62k5tsonipsj2pty.yoyjueb2cieypg5vnrb5jpkuf52xxafpqf4ecynqzuz6s42t.tiox3ktdzfwwbcokrxi6o7huoya6iogdfo7ktcsdhkxakyjw.sg7cexr7oxb2d6ms.er.spo.spotify.com
 0.0.0.0 gs5j7zyhogb53dmqmjfqljsq2ykksm3.spotify.com
 0.0.0.0 bug.spotify.com
+0.0.0.0 labels-canary.spotify.com
 0.0.0.0 bundling-integration.spotify.com
 0.0.0.0 analytics-001.lon.spotify.com
 0.0.0.0 analytics-002.lon.spotify.com
@@ -84,23 +127,31 @@
 0.0.0.0 audio4-ak.spotify.com.edgesuite.net
 0.0.0.0 audio4-akp.spotify.com.edgesuite.net
 0.0.0.0 video-fa.scdn.co
+0.0.0.0 auditdesk-server.spotify.com
 0.0.0.0 video-fa.cdn.spotify.com
 0.0.0.0 video-fa-b.cdn.spotify.com
 0.0.0.0 adeventtracker.spotify.com
 0.0.0.0 ads-akp.spotify.com
 0.0.0.0 audio-ak.spotify.com
 0.0.0.0 audio-akp.spotify.com
+0.0.0.0 audio-ec.spotify.com
 0.0.0.0 analytics.spotify.com
 0.0.0.0 assets.spotify.com
 0.0.0.0 audio-cf.spotify.com
 0.0.0.0 audio-fa.scdn.co
 0.0.0.0 audio-fa.spotify.com
+0.0.0.0 audio-fac.spotify.com
 0.0.0.0 audio-fab.spotify.com
 0.0.0.0 audio-fac-spotify.com
 0.0.0.0 audio-gc.scdn.co
 0.0.0.0 audio-gc.spotify.com
+0.0.0.0 heads-ec.spotify.com
+0.0.0.0 heads-ecp.spotify.com
+0.0.0.0 heads-ecb.spotify.com
 0.0.0.0 crashdump.spotify.com
+0.0.0.0 crashdump-001.lon.spotify.com
 0.0.0.0 crashdump.ciqe-gslb.spotify.com
+0.0.0.0 crashdump.sto.spotify.com
 0.0.0.0 heads-ak.spotify.com
 0.0.0.0 heads-akp.spotify.com
 0.0.0.0 heads-cf.spotify.com
@@ -123,7 +174,6 @@
 0.0.0.0 payment-callback.spotify.com
 0.0.0.0 pci.spotify.com
 0.0.0.0 pixel.spotify.com
-0.0.0.0 yearinmusic.spotify.com
 0.0.0.0 upgrade.scdn.co # optional
 0.0.0.0 upgrade.spotify.com # optional
 0.0.0.0 video-fa.scdn.co
@@ -149,6 +199,9 @@
 0.0.0.0 sync.search.spotxchange.com
 0.0.0.0 spotxchange.com
 0.0.0.0 www.spotx.tv
+0.0.0.0 video-fa.spotify.com
+0.0.0.0 ae.audio-ak.cdn.spotify.com
+0.0.0.0 af.audio-ak.cdn.spotify.com
 0.0.0.0 00.video-ak.cdn.spotify.com
 0.0.0.0 01.video-ak.cdn.spotify.com
 0.0.0.0 02.video-ak.cdn.spotify.com
@@ -378,9 +431,13 @@
 0.0.0.0 ff.video-ak.cdn.spotify.com
 0.0.0.0 beta.spotify.map.fastly.net
 0.0.0.0 adstudio.spotify.com
+0.0.0.0 ffcampaign.spotify.com
 0.0.0.0 buy-link-001.lon.spotify.com
 0.0.0.0 bugzilla-001.lon.spotify.com
 0.0.0.0 adlab.spotify.com
+0.0.0.0 bloodhound.spotify.com
+0.0.0.0 bf.audio-ak.cdn.spotify.com
+0.0.0.0 bf.video-ak.cdn.spotify.com
 0.0.0.0 be.video-ak.cdn.spotify.com
 0.0.0.0 bengta.lon.spotify.com
 0.0.0.0 bengta.lon2.spotify.com
