@@ -1,12 +1,12 @@
 ! Title: CHEF-KOCH's uMatrix Filter List
 ! Description: A comprehensive, all-in-one domain list for thorough blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
-! Checksum (SHA3-256): 981160F143C5CFBA79E942EC18DE7C4E4856A77863A5D1BB46A6FAD62350511B
+! Checksum (SHA3-256): 029D40826A7419E2D7358E42D096428BF2902EEB0EC7C84810C7A4F96BEA4E48
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 14d
-! TimeUpdated: 2018-06-19	12:13:10+01:00
-! Version: 0.0.0.9
+! TimeUpdated: 2018-07-07	09:12:30+01:00
+! Version: 0.0.1.0
 ! Please report any unblocked content or problems by email or via GitHub issue
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -29,6 +29,82 @@
 !
 ! ---------- uMatrix ----------
 !
+0.0.0.0 beta.sankakucomplex.com
+0.0.0.0 chan.sankakucomplex.com
+0.0.0.0 luscious.net
+0.0.0.0 baixarhentai.net
+0.0.0.0 leitura.baixarhentai.net
+0.0.0.0 e-hentai.org
+0.0.0.0 rule34.paheal.net
+0.0.0.0 rule34.xxx
+0.0.0.0 e621.net
+0.0.0.0 xbooru.com
+0.0.0.0 www.hentaiseason.com
+0.0.0.0 www.shadbase.com
+0.0.0.0 seasonhentaigallery.blogspot.com
+0.0.0.0 thehentaicomics.com
+0.0.0.0 www.tufos.com.br
+0.0.0.0 myhentaicomics.com
+0.0.0.0 mymangacomics.com
+0.0.0.0 myhentaimovie.com
+0.0.0.0 myhentaiheaven.net
+0.0.0.0 myrule34.com
+0.0.0.0 hentaihaven.org
+0.0.0.0 www.hentaistube.com
+0.0.0.0 www.hentaisonlinehd.com
+0.0.0.0 www.superhq.net
+0.0.0.0 www.aniporn.net
+0.0.0.0 hentaisgerais.blogspot.com
+0.0.0.0 gelbooru.com
+0.0.0.0 hentai4manga.com
+0.0.0.0 justicehentai.com
+0.0.0.0 www.doujinlife.com
+0.0.0.0 hentai.animestigma.com
+0.0.0.0 hentaigasm.com
+0.0.0.0 hentaischool.com
+0.0.0.0 hentaifreak.org
+0.0.0.0 101hentai.com
+0.0.0.0 www.tubehentai.com
+0.0.0.0 www.hentaicloud.com
+0.0.0.0 myhentai.tv
+0.0.0.0 muchohentai.com
+0.0.0.0 hentai.animeholics.org
+0.0.0.0 www.24hentai.com
+0.0.0.0 hentaigaze.com
+0.0.0.0 hentaipulse.com
+0.0.0.0 www.hentairon.net
+0.0.0.0 www.comicxx.com
+0.0.0.0 brasilhentai.com
+0.0.0.0 javfor.me
+0.0.0.0 idol.sankakucomplex.com
+0.0.0.0 masturbese.com
+0.0.0.0 sobrasileiras.com
+0.0.0.0 www.boafoda.com
+0.0.0.0 javfind.com
+0.0.0.0 javfinder.is
+0.0.0.0 javdub.com
+0.0.0.0 javmovie.com/
+0.0.0.0 www.javqd.com
+0.0.0.0 www.javwhores.com
+0.0.0.0 www.javmimi.com
+0.0.0.0 sextop.net
+0.0.0.0 jav.kim
+0.0.0.0 jav.one
+0.0.0.0 jav.guru
+0.0.0.0 www.r18.com
+0.0.0.0 hentaitokyo.com
+0.0.0.0 javseen.com
+0.0.0.0 javsexmovie.com
+0.0.0.0 www.javdoe.com
+0.0.0.0 javhihi.com
+0.0.0.0 javporn.video
+0.0.0.0 www.hq-jav.com
+0.0.0.0 www.javwide.com
+0.0.0.0 jphub.net
+0.0.0.0 porn68jav.com
+0.0.0.0 jav789.com
+0.0.0.0 jav.sex
+0.0.0.0 avgle.com
 0.0.0.0 verify-this-block-list-is-included.com
 0.0.0.0 sdk.adincube.com
 0.0.0.0 app.adjust.com

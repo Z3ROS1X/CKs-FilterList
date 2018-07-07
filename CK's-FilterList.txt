@@ -1,12 +1,12 @@
 ! Title: CHEF-KOCH's Filter List
 ! Description: A comprehensive, all-in-one ad-block list for thorough blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
-! Checksum (SHA3-256): DCC5683950EC952376502F072D85D73FC6F90BCBABD765BCC932C6F525187DBD
+! Checksum (SHA3-256): F596250A20446DFC1642A7CFB29867F8987182616EB7CF4A51C40717F7A88D1B
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 3d
-! TimeUpdated: 2018-07-06	16:40:30+01:00
-! Version: 0.0.3.21
+! TimeUpdated: 2018-07-07	09:14:10+01:00
+! Version: 0.0.3.22
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -10002,6 +10002,82 @@ douploads.com##.downarea > center
 !
 ! ---------- Domains (Android, etc) ----------
 !
+||beta.sankakucomplex.com^
+||chan.sankakucomplex.com^
+||luscious.net^
+||baixarhentai.net^
+||leitura.baixarhentai.net^
+||e-hentai.org^
+||rule34.paheal.net^
+||rule34.xxx^
+||e621.net^
+||xbooru.com^
+||www.hentaiseason.com^
+||www.shadbase.com^
+||seasonhentaigallery.blogspot.com^
+||thehentaicomics.com^
+||www.tufos.com.br^
+||myhentaicomics.com^
+||mymangacomics.com^
+||myhentaimovie.com^
+||myhentaiheaven.net^
+||myrule34.com^
+||hentaihaven.org^
+||www.hentaistube.com^
+||www.hentaisonlinehd.com^
+||www.superhq.net^
+||www.aniporn.net^
+||hentaisgerais.blogspot.com^
+||gelbooru.com^
+||hentai4manga.com^
+||justicehentai.com^
+||www.doujinlife.com^
+||hentai.animestigma.com^
+||hentaigasm.com^
+||hentaischool.com^
+||hentaifreak.org^
+||101hentai.com^
+||www.tubehentai.com^
+||www.hentaicloud.com^
+||myhentai.tv^
+||muchohentai.com^
+||hentai.animeholics.org^
+||www.24hentai.com^
+||hentaigaze.com^
+||hentaipulse.com^
+||www.hentairon.net^
+||www.comicxx.com^
+||brasilhentai.com^
+||javfor.me^
+||idol.sankakucomplex.com^
+||masturbese.com^
+||sobrasileiras.com^
+||www.boafoda.com^
+||javfind.com^
+||javfinder.is^
+||javdub.com^
+||javmovie.com/^
+||www.javqd.com^
+||www.javwhores.com^
+||www.javmimi.com^
+||sextop.net^
+||jav.kim^
+||jav.one^
+||jav.guru^
+||www.r18.com^
+||hentaitokyo.com^
+||javseen.com^
+||javsexmovie.com^
+||www.javdoe.com^
+||javhihi.com^
+||javporn.video^
+||www.hq-jav.com^
+||www.javwide.com^
+||jphub.net^
+||porn68jav.com^
+||jav789.com^
+||jav.sex^
+||avgle.com^
 ||beacon.statful.com^
 ||beacon.statful1.com^
 ||crs.baidu.com^

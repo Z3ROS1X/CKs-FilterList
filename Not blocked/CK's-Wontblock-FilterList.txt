@@ -1,4 +1,4 @@
-Will not be avbl. via subscription. 
+This list will not be avbl. via subscription. 
 !
 ! ---------- Google ----------
 !
@@ -24,11 +24,10 @@ avanza.se#@#a[title="LeoVegas"]
 !
 ||public-api.wordpress.com^
 ||platform.twitter.com^
-
-
 !
 ! ---------- .... ----------
 !
+||collect.tealiumiq.com^
 ||api.twitch.tv^
 ||mail.protonmail.com^
 ||people-pa.googleapis.com^
