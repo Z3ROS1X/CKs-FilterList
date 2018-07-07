@@ -55841,6 +55841,9 @@ theguardian.com##.submeta__share
 !
 ! ---------- The PirateBay ----------
 !
+thepiratebay.org^*/effects.js|
+@@||thepiratebay.org^*/prototype.js|
+@@||thepiratebay.org^*/scriptaculous.js|
 thepiratebay.org##h1
 thepiratebay.org##div#sky-banner
 thepiratebay.org##div#sky-center
