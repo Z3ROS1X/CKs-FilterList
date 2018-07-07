@@ -1,12 +1,12 @@
 # Title: CHEF-KOCH's Spotify Ad-Filter List
 # Description: Blocks all annoying Spotify Ads.
-# Checksum (SHA 1): C1570F5C821E3B1EC2B8B408153BA60826597055EF2D2849E8E63A1A9340DDF0
+# Checksum (SHA 1): ACD2B3EBC71CF63D8F727A61B767ADF92E980C96A45CF9689A91E3722685318A
 # License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 14d
-# TimeUpdated: 2018-07-06	14:45:32+01:00
-# Version: 0.0.1.1
+# TimeUpdated: 2018-07-07	13:35:15+01:00
+# Version: 0.0.1.2
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
@@ -17,6 +17,32 @@
 #
 # DO NOT FORGET TO BLOCK THE IP RANGES !!!!!!!!!!!!!!!!!
 #
+0.0.0.0 klara.lon.spotify.com
+0.0.0.0 investors.spotify.com
+0.0.0.0 indosatooredoo.spotify.com
+0.0.0.0 imqvs2qippm65n6g2qtyyqimyeggervnt64cyzl2x2fduo6g.tb6aoen5rgxsd3vrsm5x6257pe43ez5jpbpqs7mnhfd2gwpm.6p43cx5jyukului62krjkjbuw27drk43s2wizh2rqbzqnoix.rr4lyf2ny4j5pit663giazaneive3wnxoi67oietaezfarxq.nvkux5go6wfzevmi.er.spo.spotify.com
+0.0.0.0 heads-l3.spotify.com
+0.0.0.0 zayit.ap.spotify.com
+0.0.0.0 zayit.lon.spotify.com
+0.0.0.0 zayit.lon2.spotify.com
+0.0.0.0 xfactor.spotify.com
+0.0.0.0 wwwtools.spotify.com
+0.0.0.0 www.www.spotify.com
+0.0.0.0 vpn-ash1-1.ash.spotify.com
+0.0.0.0 vpn-lon-001.lon.spotify.com
+0.0.0.0 upsell.scdn.co
+0.0.0.0 upgrade.scdn.com
+0.0.0.0 sgwww.spotify.com
+0.0.0.0 shavar.developer-services.mozilla.comspclient.wg.spotify.com
+0.0.0.0 shavar.services.mozilla.comspclient.wg.spotify.com
+0.0.0.0 quicksilver.scdn.co
+0.0.0.0 pixel-static.spotify.com
+0.0.0.0 suk6mvixsl7e7pnqmcxzq2nlrv23orxa4lnmqehevie5lr46.qcfzwrpafytxzuzudly53cdpuinbus5dryc5yyluqfgstdbk.ifcouvs4yrkvq54g3sqlvxg6iwtieqko3d4z6g43c2na2xok.5l6armklu65sqea3msfquneq7rjwynp42nva5f7pl5qx4a7x.erz4onrdnlviivki.er.spo.spotify.com
+0.0.0.0 qm2adg47liahr7nsp3hu3do3v4rhjzv7o5z2e4gffuri4fzk.22aradra3s5midyr2lud47ipbxupxt52kzcmfsblo7zjty7a.sx2gdu6lcitzksm3d2zgxbxg5ppfc7mp7uanbvwjxq7wac2i.4doohcbyhkrp2eb4d7gsqareg6h5h73uespoxkefxgf23dua.dl6tyv4jcseeishe.er.spo.spotify.com
+0.0.0.0 pl35t7bb4aabglvz2i3btceznecjh4fka7m6ppyzdthifgcq.obfxt53kpvuicjyib3vacc5db3htskgk62k5tsonipsj2pty.yoyjueb2cieypg5vnrb5jpkuf52xxafpqf4ecynqzuz6s42t.tiox3ktdzfwwbcokrxi6o7huoya6iogdfo7ktcsdhkxakyjw.sg7cexr7oxb2d6ms.er.spo.spotify.com
+0.0.0.0 gs5j7zyhogb53dmqmjfqljsq2ykksm3.spotify.com
+0.0.0.0 bug.spotify.com
+0.0.0.0 bundling-integration.spotify.com
 0.0.0.0 analytics-001.lon.spotify.com
 0.0.0.0 analytics-002.lon.spotify.com
 0.0.0.0 analytics-classic.spotify.com
@@ -67,7 +93,7 @@
 0.0.0.0 analytics.spotify.com
 0.0.0.0 assets.spotify.com
 0.0.0.0 audio-cf.spotify.com
-0.0.0.0 audio-fa.scdn.co # do not block while using chromecast
+0.0.0.0 audio-fa.scdn.co
 0.0.0.0 audio-fa.spotify.com
 0.0.0.0 audio-fab.spotify.com
 0.0.0.0 audio-fac-spotify.com
