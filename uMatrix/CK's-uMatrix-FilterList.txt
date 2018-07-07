@@ -29,6 +29,7 @@
 !
 ! ---------- uMatrix ----------
 !
+0.0.0.0 moonify.io
 0.0.0.0 xqiqnxxy.com
 0.0.0.0 www.ikxhjlsynfeo.com
 0.0.0.0 moradu.com

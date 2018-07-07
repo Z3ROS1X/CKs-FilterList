@@ -10017,6 +10017,7 @@ douploads.com##.downarea > center
 !
 ! ---------- Domains (Android, etc) ----------
 !
+||moonify.io^
 ||verify-this-block-list-is-included.com^
 ||sdk.adincube.com^
 ||app.adjust.com^
