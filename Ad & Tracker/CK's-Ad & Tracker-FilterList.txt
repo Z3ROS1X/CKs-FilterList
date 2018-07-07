@@ -13,6 +13,8 @@
 !
 ! ---------- Ad & Tracker ----------
 !
+||ertify-js.alexametrics.com^
+||certify.alexametrics.com^
 ||crashlogs.whatsapp.net^
 ||telemetry.nvidia.com^
 ||download.orbmu2k.de^

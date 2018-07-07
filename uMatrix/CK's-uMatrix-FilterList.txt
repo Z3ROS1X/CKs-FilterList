@@ -29,6 +29,8 @@
 !
 ! ---------- uMatrix ----------
 !
+0.0.0.0 ertify-js.alexametrics.com
+0.0.0.0 certify.alexametrics.com
 0.0.0.0 34.230.224.115
 0.0.0.0 applytics.zwyr157wwiu6eior.com
 0.0.0.0 collector.exceptionless.io
