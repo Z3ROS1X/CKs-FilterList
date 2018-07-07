@@ -13,6 +13,8 @@
 !
 ! ---------- Ad & Tracker ----------
 !
+||ota.nvidia.com^
+||ota-downloads.nvidia.com^
 ||8.36.120.11^
 ||8.36.113.137^
 ||8.36.112.54^
