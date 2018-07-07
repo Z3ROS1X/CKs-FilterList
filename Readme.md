@@ -137,7 +137,7 @@ Cooperation: Pinterest | Blocks all Pinterest & services traffic | [CHEF-KOCH's 
 App: Skype | Skype Ad-Free | [CHEF-KOCH's Skype Ad-Free FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/CK's-Skype-HOSTS-FilterList.txt&title=CHEF-KOCH's-Skype-Ad-Free-Filter-List)
 App: Spotify | Spotify Ad-Free | [CHEF-KOCH's Spotify Ad-Free FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/CK's-Spotify-HOSTS-FilterList.txt&title=CHEF-KOCH's-Spotify-Ad-Free-Filter-List)
 uMatrix | uMatrix / HOSTS based lists (domains only from CK's-FilterList) | [CHEF-KOCH's uMatrix FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/uMatrix/CK's-uMatrix-FilterList.txt&title=CHEF-KOCH's-Spotify-Ad-Free-Filter-List)
-Game List | Blocks additional game tracking | [CHEF-KOCH's Game FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/CK's-Ad-Tracker-HOSTS-FilterList.txt&title=CHEF-KOCH's-Ad-&-Trackers-Filter-List)
+Game List | Blocks additional game tracking | [CHEF-KOCH's Game FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/CK's-Game-HOSTS-FilterList.txt&title=CHEF-KOCH's-Game-Filter-List)
 
 
 ## Report issues, unblocked ads or trackers
