@@ -55802,6 +55802,8 @@ thepiratebay.org##iframe[src^="//thepiratebay.org/static/ads/"]
 !
 ! ---------- Twitch.tv ----------
 !
+||client-event-reporter.twitch.tv^
+||polyfill.twitchsvc.net^
 ||spade.twitch.tv^
 ||outwitch.com^
 ||fan.twitch.tv^

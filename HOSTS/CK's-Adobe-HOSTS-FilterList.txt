@@ -13,52 +13,6 @@
 #
 # ---------- Adobe license check ----------
 #
-0.0.0.0 52.0.100.208
-0.0.0.0 52.5.17.30
-0.0.0.0 54.174.42.225
-0.0.0.0 52.22.27.208
-0.0.0.0 52.71.147.84
-0.0.0.0 52.21.0.170
-0.0.0.0 52.71.145.208
-0.0.0.0 52.4.124.163
-0.0.0.0 52.21.35.79
-0.0.0.0 52.3.82.209
-0.0.0.0 52.22.162.166
-0.0.0.0 52.22.158.38
-0.0.0.0 52.5.145.62
-0.0.0.0 52.22.208.226
-0.0.0.0 107.23.227.249
-0.0.0.0 52.22.186.0
-0.0.0.0 52.6.207.62
-0.0.0.0 54.209.24.55
-0.0.0.0 52.22.140.177
-0.0.0.0 50.56.53.165
-0.0.0.0 api.typekit.com
-0.0.0.0 use.typekit.com
-0.0.0.0 blog.typekit.com
-0.0.0.0 help.typekit.com
-0.0.0.0 polka.typekit.com
-0.0.0.0 pages.typekit.com
-0.0.0.0 acumin.typekit.com
-0.0.0.0 em1.typekit.com
-0.0.0.0 redbullmediahouse.origin.typekit.com
-0.0.0.0 practice.typekit.com
-0.0.0.0 jobs.typekit.com
-0.0.0.0 status.typekit.com
-0.0.0.0 origin-lb.typekit.com
-0.0.0.0 www.typekit.com
-0.0.0.0 216.146.46.11
-0.0.0.0 216.146.46.10
-0.0.0.0 p.typekit.net
-0.0.0.0 state.typekit.net
-0.0.0.0 muse-assets.typekit.net
-0.0.0.0 subsets.typekit.net
-0.0.0.0 primer.typekit.net
-0.0.0.0 data.typekit.net
-0.0.0.0 muse.typekit.net
-0.0.0.0 use.typekit.net
-0.0.0.0 macromedia.com
-0.0.0.0 fpdownload.macromedia.com
 0.0.0.0 view.atdmt.com.1000.302br.net
 0.0.0.0 view.atdmt.com.10213.9002.302br.net
 0.0.0.0 view.atdmt.com.10216.9002.302br.net
@@ -3732,3 +3686,56 @@
 0.0.0.0 www.wip2.adobe.com
 0.0.0.0 www.wip3.adobe.com
 0.0.0.0 www.wip4.adobe.com
+#
+# ---------- TypeKit ----------
+#
+0.0.0.0 52.0.100.208
+0.0.0.0 52.5.17.30
+0.0.0.0 54.174.42.225
+0.0.0.0 52.22.27.208
+0.0.0.0 52.71.147.84
+0.0.0.0 52.21.0.170
+0.0.0.0 52.71.145.208
+0.0.0.0 52.4.124.163
+0.0.0.0 52.21.35.79
+0.0.0.0 52.3.82.209
+0.0.0.0 52.22.162.166
+0.0.0.0 52.22.158.38
+0.0.0.0 52.5.145.62
+0.0.0.0 52.22.208.226
+0.0.0.0 107.23.227.249
+0.0.0.0 52.22.186.0
+0.0.0.0 52.6.207.62
+0.0.0.0 54.209.24.55
+0.0.0.0 52.22.140.177
+0.0.0.0 50.56.53.165
+0.0.0.0 api.typekit.com
+0.0.0.0 use.typekit.com
+0.0.0.0 blog.typekit.com
+0.0.0.0 help.typekit.com
+0.0.0.0 polka.typekit.com
+0.0.0.0 pages.typekit.com
+0.0.0.0 acumin.typekit.com
+0.0.0.0 em1.typekit.com
+0.0.0.0 redbullmediahouse.origin.typekit.com
+0.0.0.0 practice.typekit.com
+0.0.0.0 jobs.typekit.com
+0.0.0.0 status.typekit.com
+0.0.0.0 origin-lb.typekit.com
+0.0.0.0 www.typekit.com
+0.0.0.0 216.146.46.11
+0.0.0.0 216.146.46.10
+0.0.0.0 p.typekit.net
+0.0.0.0 state.typekit.net
+0.0.0.0 muse-assets.typekit.net
+0.0.0.0 subsets.typekit.net
+0.0.0.0 primer.typekit.net
+0.0.0.0 data.typekit.net
+0.0.0.0 muse.typekit.net
+0.0.0.0 use.typekit.net
+0.0.0.0 macromedia.com
+0.0.0.0 fpdownload.macromedia.com
+#
+# ---------- Tracking ----------
+#
+0.0.0.0 airdownload2.adobe.com

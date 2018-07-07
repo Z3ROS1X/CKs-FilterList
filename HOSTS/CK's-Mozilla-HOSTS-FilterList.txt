@@ -6,8 +6,8 @@
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 14d
-# TimeUpdated: 2018-05-13	15:01:45+01:00
-# Version: 0.0.0.1
+# TimeUpdated: 2018-07-07	10:02:13+01:00
+# Version: 0.0.0.2
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
@@ -63,3 +63,18 @@
 0.0.0.0 www.firefox.com
 0.0.0.0 www.mibbit.com
 0.0.0.0 www.mozilla.org
+0.0.0.0 tiles-cloudfront.cdn.mozilla.net
+0.0.0.0 tiles.services.mozilla.com
+0.0.0.0 incoming.telemetry.mozilla.org
+0.0.0.0 telemetry.mozilla.org
+0.0.0.0 img-getpocket.cdn.mozilla.net
+0.0.0.0 getpocket.cdn.mozilla.net
+0.0.0.0 location.services.mozilla.com
+0.0.0.0 shavar.services.mozilla.com
+0.0.0.0 detectportal.firefox.com
+0.0.0.0 normandy-cloudfront.cdn.mozilla.net
+0.0.0.0 normandy.cdn.mozilla.net
+0.0.0.0 aus5.mozilla.org
+0.0.0.0 versioncheck-bg.addons.mozilla.org
+0.0.0.0 self-repair.mozilla.org
+0.0.0.0 firefox.settings.services.mozilla.com

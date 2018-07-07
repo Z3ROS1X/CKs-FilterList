@@ -13,6 +13,8 @@
 !
 ! ---------- Ad & Tracker ----------
 !
+||client-event-reporter.twitch.tv^
+||polyfill.twitchsvc.net^
 ||sl13.clicktale.net^
 ||www27.clicktale.net^
 ||slit.clicktale.net^

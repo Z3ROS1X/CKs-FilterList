@@ -29,6 +29,8 @@
 !
 ! ---------- uMatrix ----------
 !
+0.0.0.0 client-event-reporter.twitch.tv
+0.0.0.0 polyfill.twitchsvc.net
 0.0.0.0 sl13.clicktale.net
 0.0.0.0 www27.clicktale.net
 0.0.0.0 slit.clicktale.net
