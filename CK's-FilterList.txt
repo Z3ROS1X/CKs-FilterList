@@ -1,12 +1,12 @@
 ! Title: CHEF-KOCH's Filter List
 ! Description: A comprehensive, all-in-one ad-block list for thorough blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
-! Checksum (SHA3-256): F596250A20446DFC1642A7CFB29867F8987182616EB7CF4A51C40717F7A88D1B
+! Checksum (SHA3-256): 658F5979924D18804CE01CCE092850E05B12BA3114C08AEB990CD1908AAB6C7A
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 3d
-! TimeUpdated: 2018-07-07	09:14:10+01:00
-! Version: 0.0.3.22
+! TimeUpdated: 2018-07-07	12:40:08+01:00
+! Version: 0.0.3.23
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -9921,6 +9921,14 @@ workforce.hu##.cookie
 ||xmr.cool^$third-party
 ||xvideosharing.site^$third-party
 ||zlx.com.br^$third-party
+!
+! ---------- datafilehost.com ----------
+!
+www.datafilehost.com##div.col-md-6:nth-of-type(2)
+www.datafilehost.com##[href="http://answersking.com"]
+www.datafilehost.com##.col-xs-20.col-sm-10.col-md-10
+www.datafilehost.com##div.row:nth-of-type(4) > .col-lg-12
+www.datafilehost.com##div.row:nth-of-type(4)
 !
 ! ---------- DerStandard.at ----------
 !
