@@ -5,8 +5,8 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 3d
-! TimeUpdated: 2018-07-07	12:40:08+01:00
-! Version: 0.0.3.23
+! TimeUpdated: 2018-07-07	12:52:06+01:00
+! Version: 0.0.3.24
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -163,6 +163,8 @@ uploadocean.com##[href="https://uploadocean.com/premium-features.html"] > h2
 !
 ! ---------- 3rd party ----------
 !
+zagranie.com#@#.share-container
+raymond.cc###aa_wpfs_wrap
 mirrorace.com##.uk-grid > div.uk-text-center.uk-margin-bottom.uk-width-1-1:nth-of-type(1)
 -300x250.$third-party
 -analytics.$image,third-party
@@ -1807,6 +1809,11 @@ www.citytv.com##.ad_bigbox
 !
 ! ---------- Cookie Warnings ----------
 !
+###euConsent
+##.pb-cookie-banner__content
+##.codingame.cg-cookies-banner
+##.app_gdpr--2k2uB
+##.cookie-aggrement-block-container
 ###ctl00_Content_EmptyPage_CoockieInformation_CookieContainer
 ##div[data-nconvert-cookie]
 ##._1ppLK
@@ -55927,6 +55934,7 @@ $xmlhttprequest,domain=a-o.ninja|adfreetv.ch|alltube.pl|alltube.tv|auroravid.to|
 !
 ! ---------- Whitelisting rules ----------
 !
+@@||lepotcommun.fr/static/js/libs/angular-cookie.min.js?$script,~third-party
 @@||googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=sportspf.com|makeuseof.com|rockfile.co|techsolutiontips.com|yalujailbreak.net|avoiderrors.net|fileflares.com|steamid.eu|xarold.com|new-skys.net|haxcolors.com|haxmaps.com|haxrec.com|onperiscope.com|australianfrequentflyer.com.au|tivocommunity.com|intercelestial.com|wordsense.eu|onecccam.com|newz.dk|playonlinux.com
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=makeuseof.com|yalujailbreak.net|sportspf.com|rockfile.co|fileflares.com|techsolutiontips.com|avoiderrors.net|steamid.eu|xarold.com|new-skys.net|haxcolors.com|haxmaps.com|haxrec.com|onperiscope.com|australianfrequentflyer.com.au|tivocommunity.com|intercelestial.com|wordsense.eu|onecccam.com|newz.dk|playonlinux.com
 @@||mc.yandex.ru/metrika/tag.js$domain=kaspersky.ru
