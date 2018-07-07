@@ -17,6 +17,20 @@
 #
 # DO NOT FORGET TO BLOCK THE IP RANGES !!!!!!!!!!!!!!!!!
 #
+0.0.0.0 analytics-001.lon.spotify.com
+0.0.0.0 analytics-002.lon.spotify.com
+0.0.0.0 analytics-classic.spotify.com
+0.0.0.0 analytics-preview.spotify.com
+0.0.0.0 adstudio-help.spotify.com
+0.0.0.0 adsgtm-dev.spotify.com
+0.0.0.0 ads-fa.spotify.com
+0.0.0.0 admocker.spotify.com
+0.0.0.0 adlog.spotify.com
+0.0.0.0 adgen.spotify.com
+0.0.0.0 adgen-dev.spotify.com
+0.0.0.0 ad.audio-ak.cdn.spotify.com
+0.0.0.0 a1.audio-ak.cdn.spotify.com
+0.0.0.0 ad-proxy.spotify.com
 0.0.0.0 partner-provisioning.spotify.com
 0.0.0.0 vpn-ash1-1.ash.spotify.com
 0.0.0.0 kismet.ash1.spotify.com
