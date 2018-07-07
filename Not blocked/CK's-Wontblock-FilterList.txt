@@ -1,5 +1,16 @@
 This list will not be avbl. via subscription. 
 !
+! ---------- nVidia ----------
+!
+||api.gfe.nvidia.com^
+||gfwsl.geforce.com^
+||services.gfe.nvidia.com^
+||images.nvidia.com^
+||accounts.nvgs.nvidia.com^
+||assets.nvidiagrid.net^
+||images.nvidiagrid.net^^
+||international.download.nvidia.com^
+!
 ! ---------- Google ----------
 !
 ||easylist-downloads.adblockplus.org^
