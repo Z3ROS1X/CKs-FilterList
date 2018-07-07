@@ -91,7 +91,7 @@ The following filters might not getting into the main filter list (_CK's-FilterL
 
 Filter Name | Description | Sub link
 --- | --- | ---
-Ad & Tracker Filter List | Blocks additional Ads & Trackers | [CHEF-KOCH's Ad & Tracker Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/Ad%20%26%20Tracker/CK's-Ad-Tracker-FilterList.txt&title=CHEF-KOCH's-Ad-&-Trackers-Filter-List)
+Ad & Tracker Filter List | Blocks additional Ads & Trackers | [CHEF-KOCH's Ad & Tracker Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/Ad%20%26%20Tracker/CK's-Ad%20%26%20Tracker-FilterList.txt&title=CHEF-KOCH's-Ad-&-Trackers-Filter-List)
 Android | Blocks ads & trackers and other unneeded Android traffic | [CHEF-KOCH's Android FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/Android/CK's-Android-FilterList.txt&title=CHEF-KOCH's-Android-Filter-List)
 Cooperation: Adobe | Blocks all Adobe traffic | [CHEF-KOCH's Adobe FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/Corporations/Adobe/CK's-Adobe-FilterList.txt&title=CHEF-KOCH's-Adobe-Filter-List)
 Cooperation: Apple | Blocks all Apple traffic | [CHEF-KOCH's Apple FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/Corporations/Apple/CK's-Apple-FilterList.txt&title=CHEF-KOCH's-Apple-Filter-List)
