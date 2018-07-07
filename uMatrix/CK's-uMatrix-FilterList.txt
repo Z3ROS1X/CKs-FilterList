@@ -29,6 +29,9 @@
 !
 ! ---------- uMatrix ----------
 !
+0.0.0.0 ads11.adtelligent.com
+0.0.0.0 aux-log1-sh.adtelligent.com
+0.0.0.0 vid-springserve.com
 0.0.0.0 protnex.pw
 0.0.0.0 biserdio.pw
 0.0.0.0 moonify.io
