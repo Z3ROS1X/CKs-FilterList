@@ -13,6 +13,8 @@
 !
 ! ---------- Ad & Tracker ----------
 !
+||telemetry.nvidia.com^
+||download.orbmu2k.de^
 ||ota.nvidia.com^
 ||ota-downloads.nvidia.com^
 ||8.36.120.11^
