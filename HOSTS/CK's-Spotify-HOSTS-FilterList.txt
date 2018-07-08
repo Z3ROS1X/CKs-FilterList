@@ -1,12 +1,12 @@
 # Title: CHEF-KOCH's Spotify Ad-Filter List
 # Description: Blocks all annoying Spotify Ads.
-# Checksum (SHA 1): 43B827E4900068B13CB660D62AF2B5610613B0A44BF266661E0F561F7A595E07
+# Checksum (SHA 1): 23230732663AF3291FAAE09655DC6DF6EFB4971AEAEDFFB32745F5391E0BF395
 # License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 14d
-# TimeUpdated: 2018-07-07	14:12:45+01:00
-# Version: 0.0.1.3
+# TimeUpdated: 2018-07-08	09:33:11+01:00
+# Version: 0.0.1.4
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
@@ -17,6 +17,8 @@
 #
 # DO NOT FORGET TO BLOCK THE IP RANGES !!!!!!!!!!!!!!!!!
 #
+0.0.0.0 sap.spotify.com
+0.0.0.0 sap-testing.spotify.com
 0.0.0.0 valerie.ap.spotify.com
 0.0.0.0 valerie.lon.spotify.com
 0.0.0.0 valerie.lon2.spotify.com
@@ -47,7 +49,6 @@
 0.0.0.0 heather.ap.spotify.com
 0.0.0.0 guc-dealer-ssl.spotify.com
 0.0.0.0 guc-dealer.spotify.com
-0.0.0.0 guc-spclient.spotify.com
 0.0.0.0 devnews.spotify.com
 0.0.0.0 beta.spotify.com
 0.0.0.0 beta.developer.spotify.com
@@ -75,8 +76,8 @@
 0.0.0.0 upsell.scdn.co
 0.0.0.0 upgrade.scdn.com
 0.0.0.0 sgwww.spotify.com
-0.0.0.0 shavar.developer-services.mozilla.comspclient.wg.spotify.com
-0.0.0.0 shavar.services.mozilla.comspclient.wg.spotify.com
+0.0.0.0 shavar.developer-services.mozilla.com
+0.0.0.0 shavar.services.mozilla.com
 0.0.0.0 quicksilver.scdn.co
 0.0.0.0 pixel-static.spotify.com
 0.0.0.0 suk6mvixsl7e7pnqmcxzq2nlrv23orxa4lnmqehevie5lr46.qcfzwrpafytxzuzudly53cdpuinbus5dryc5yyluqfgstdbk.ifcouvs4yrkvq54g3sqlvxg6iwtieqko3d4z6g43c2na2xok.5l6armklu65sqea3msfquneq7rjwynp42nva5f7pl5qx4a7x.erz4onrdnlviivki.er.spo.spotify.com
@@ -101,35 +102,24 @@
 0.0.0.0 a1.audio-ak.cdn.spotify.com
 0.0.0.0 ad-proxy.spotify.com
 0.0.0.0 partner-provisioning.spotify.com
-0.0.0.0 vpn-ash1-1.ash.spotify.com
 0.0.0.0 kismet.ash1.spotify.com
 0.0.0.0 kismet.ash.spotify.com
 0.0.0.0 28.64.199.104.bc.googleusercontent.com
 0.0.0.0 zaira.lon.spotify.com
 0.0.0.0 zaira.lon2.spotify.com
-0.0.0.0 zayit.lon.spotify.com
-0.0.0.0 zayit.lon2.spotify.com
 0.0.0.0 n1nlhg562c1562.shr.prod.ams1.secureserver.net
+0.0.0.0 n2nlhg562c1562.shr.prod.ams1.secureserver.net
 0.0.0.0 ec2-54-248-172-197.eu-west-1.compute.amazonaws.com
 0.0.0.0 ec2-54-246-172-197.eu-west-1.compute.amazonaws.com
 0.0.0.0 full-cdn-01.cluster002.ovh.net
+0.0.0.0 full-cdn-01.cluster001.ovh.net
 0.0.0.0 192.121.140.177
 0.0.0.0 153.64.199.104.bc.googleusercontent.com
 0.0.0.0 62.224.186.35.bc.googleusercontent.com
 0.0.0.0 48.224.186.35.bc.googleusercontent.com
-0.0.0.0 heads-ak.spotify.com.edgesuite.net
-0.0.0.0 heads-akp.spotify.com.edgesuite.net
-0.0.0.0 heads4-ak.spotify.com.edgesuite.net
-0.0.0.0 heads4-akp.spotify.com.edgesuite.net
-0.0.0.0 audio-ak.spotify.com.edgesuite.net
-0.0.0.0 audio-ake.spotify.com.edgesuite.net
-0.0.0.0 audio-akp.spotify.com.edgesuite.net
-0.0.0.0 audio4-ak.spotify.com.edgesuite.net
-0.0.0.0 audio4-akp.spotify.com.edgesuite.net
 0.0.0.0 video-fa.scdn.co
 0.0.0.0 auditdesk-server.spotify.com
 0.0.0.0 video-fa.cdn.spotify.com
-0.0.0.0 video-fa-b.cdn.spotify.com
 0.0.0.0 adeventtracker.spotify.com
 0.0.0.0 ads-akp.spotify.com
 0.0.0.0 audio-ak.spotify.com
@@ -138,8 +128,8 @@
 0.0.0.0 analytics.spotify.com
 0.0.0.0 assets.spotify.com
 0.0.0.0 audio-cf.spotify.com
-0.0.0.0 audio-fa.scdn.co
-0.0.0.0 audio-fa.spotify.com
+#0.0.0.0 audio-fa.scdn.co
+#0.0.0.0 audio-fa.spotify.com
 0.0.0.0 audio-fac.spotify.com
 0.0.0.0 audio-fab.spotify.com
 0.0.0.0 audio-fac-spotify.com
@@ -162,7 +152,6 @@
 0.0.0.0 links.spotify.com
 0.0.0.0 iria.ash1.spotify.com
 0.0.0.0 log.spotify.com
-0.0.0.0 guc-dealer.spotify.com
 0.0.0.0 guc-spclient.spotify.com
 0.0.0.0 iria.ash.spotify.com
 0.0.0.0 log2.spotify.com
@@ -174,10 +163,10 @@
 0.0.0.0 payment-callback.spotify.com
 0.0.0.0 pci.spotify.com
 0.0.0.0 pixel.spotify.com
+0.0.0.0 pixel1.spotify.com
+0.0.0.0 pixel2.spotify.com
 0.0.0.0 upgrade.scdn.co # optional
 0.0.0.0 upgrade.spotify.com # optional
-0.0.0.0 video-fa.scdn.co
-0.0.0.0 video-fa.cdn.spotify.com
 0.0.0.0 video-fa-b.cdn.spotify.com
 0.0.0.0 audio-ak-spotify-com.akamaized.net
 0.0.0.0 audio-ake.spotify.com.edgesuite.net
@@ -437,8 +426,6 @@
 0.0.0.0 adlab.spotify.com
 0.0.0.0 bloodhound.spotify.com
 0.0.0.0 bf.audio-ak.cdn.spotify.com
-0.0.0.0 bf.video-ak.cdn.spotify.com
-0.0.0.0 be.video-ak.cdn.spotify.com
 0.0.0.0 bengta.lon.spotify.com
 0.0.0.0 bengta.lon2.spotify.com
 0.0.0.0 berdine.ash.spotify.com
@@ -456,7 +443,7 @@
 0.0.0.0 cdn.ravenjs.com
 0.0.0.0 links.iterable.com
 0.0.0.0 adjust.com
-#0.0.0.0 app.adjust.com <- do not block
+#0.0.0.0 app.adjust.com
 0.0.0.0 atom.adjust.com
 0.0.0.0 events.adjust.com
 0.0.0.0 ulink.adjust.com
@@ -650,7 +637,6 @@
 0.0.0.0 partnerad.l.doubleclick.net
 0.0.0.0 pubads.g.doubleclick.net
 0.0.0.0 s0-2mdn-net.l.google.com
-0.0.0.0 s0.2mdn.net
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 video-ad-stats.googlesyndication.com
@@ -689,6 +675,7 @@
 0.0.0.0 ab.tune.com
 0.0.0.0 academy.tune.com
 0.0.0.0 beta.tune.com
+0.0.0.0 beta.static.tune.com
 0.0.0.0 click.api.cp.tune.com
 0.0.0.0 configuration.ma.tune.com
 0.0.0.0 corp.tune.com
