@@ -16,18 +16,20 @@
 # ---------- Spotify Video & Audio related Ads + Partner Ads ----------
 #
 # !!!!!!!!!!!!!!!!! DO NOT FORGET TO BLOCK THE IP RANGES !!!!!!!!!!!!!!!!!
-# !!!!!!!!!!!!!!!!! Also clear cache! !!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!! Also clear Client cache! !!!!!!!!!!!!!!!!!
 #
-#0.0.0.0 speech-recognition-test.spotify.com
-#0.0.0.0 speech-recognition.spotify.com
-#0.0.0.0 audio-fa.scdn.co
-#0.0.0.0 audio-fa.spotify.com
+0.0.0.0 144.64.199.104.bc.googleusercontent.com
+0.0.0.0 speech-recognition-test.spotify.com
+0.0.0.0 speech-recognition.spotify.com
 0.0.0.0 prg03s02-in-f110.1e100.net
 0.0.0.0 prg03s02-in-f99.1e100.net
-0.0.0.0 prg03s02-in-f110.1e100.net
+0.0.0.0 qnajplxtvz-a.akamaihd.net
+0.0.0.0 austin.logs.roku.com
 0.0.0.0 ec2-54-88-142-76.compute-1.amazonaws.com
 0.0.0.0 a2-19-66-11.deploy.static.akamaitechnologies.com
 0.0.0.0 a3-19-66-11.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-54-115-202.deploy.static.akamaitechnologies.com
+0.0.0.0 ec2-54-88-58-219.compute-1.amazonaws.com
 0.0.0.0 ec2-34-195-40-20.compute-1.amazonaws.com
 0.0.0.0 accalia.ap.spotify.com
 0.0.0.0 accalia.ash.spotify.com
