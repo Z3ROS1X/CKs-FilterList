@@ -25,6 +25,7 @@
 0.0.0.0 prg03s02-in-f99.1e100.net
 0.0.0.0 qnajplxtvz-a.akamaihd.net
 0.0.0.0 austin.logs.roku.com
+0.0.0.0 ec2-52-202-9-181.compute-1.amazonaws.com
 0.0.0.0 ec2-54-88-142-76.compute-1.amazonaws.com
 0.0.0.0 a2-19-66-11.deploy.static.akamaitechnologies.com
 0.0.0.0 a3-19-66-11.deploy.static.akamaitechnologies.com

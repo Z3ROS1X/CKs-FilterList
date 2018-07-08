@@ -1,12 +1,12 @@
 ! Title: CHEF-KOCH's Filter List
 ! Description: A comprehensive, all-in-one ad-block list for thorough blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
-! Checksum (SHA3-256): 658F5979924D18804CE01CCE092850E05B12BA3114C08AEB990CD1908AAB6C7A
+! Checksum (SHA3-256): 5940C2B85DA94A68B0EBD95F1D2228B7F79DAAADF7E6E1E792EF254A563F75D4
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 3d
-! TimeUpdated: 2018-07-08	10:03:12+01:00
-! Version: 0.0.3.25
+! TimeUpdated: 2018-07-08	14:39:58+01:00
+! Version: 0.0.3.26
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -10023,6 +10023,7 @@ douploads.com##.downarea > center
 !
 ! ---------- Domains (Android, etc) ----------
 !
+||amazon-adsystem.com^
 ||adsbyisocket.com^
 ||moonify.io^
 ||verify-this-block-list-is-included.com^
@@ -55884,6 +55885,14 @@ thepiratebay.org##iframe[src^="//thepiratebay.org/static/ads/"]
 !
 ! ---------- Twitch.tv ----------
 !
+@@||www.twitch.tv^$generichide
+custos.twitchcdn.net/v1.js$script
+www.twitch.tv##.js-player-ad-overlay.player-ad-overlay
+www.twitch.tv##.player-ad-overlay.player-overlay
+||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.ext-twitch.tv *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitchsvc.net *.twitch.tv *.betterttv.net *.algolianet.com blob: wss:
+twitch.tv##script:inject(twitch-videoad.js)
+||twitch.tv$domain=gamepedia.com
+||api.twitch.tv/v5/channels/*/extensions
 ||client-event-reporter.twitch.tv^
 ||polyfill.twitchsvc.net^
 ||spade.twitch.tv^
