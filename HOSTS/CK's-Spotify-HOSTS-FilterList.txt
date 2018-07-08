@@ -22,8 +22,13 @@
 #0.0.0.0 speech-recognition.spotify.com
 #0.0.0.0 audio-fa.scdn.co
 #0.0.0.0 audio-fa.spotify.com
+0.0.0.0 prg03s02-in-f110.1e100.net
+0.0.0.0 prg03s02-in-f99.1e100.net
+0.0.0.0 prg03s02-in-f110.1e100.net
 0.0.0.0 ec2-54-88-142-76.compute-1.amazonaws.com
 0.0.0.0 a2-19-66-11.deploy.static.akamaitechnologies.com
+0.0.0.0 a3-19-66-11.deploy.static.akamaitechnologies.com
+0.0.0.0 ec2-34-195-40-20.compute-1.amazonaws.com
 0.0.0.0 accalia.ap.spotify.com
 0.0.0.0 accalia.ash.spotify.com
 0.0.0.0 accalia.ash1.spotify.com
