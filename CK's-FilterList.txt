@@ -1,12 +1,12 @@
 ! Title: CHEF-KOCH's Filter List
 ! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
-! Checksum (SHA3-256): 1A9C3C324DB785E7511163C737EF481D0AB6A87AA8A5D2CFC3F91C81F2A1253D
+! Checksum (SHA3-256): FDCA5045977DCACDB0E7A19A8C115EF21928E53AAA6996E1F4328CBFF56B5E90
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 3d
-! TimeUpdated: 2018-07-08	18:23:48+01:00
-! Version: 0.0.3.27
+! TimeUpdated: 2018-07-09	13:46:35+01:00
+! Version: 0.0.3.28
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -163,6 +163,7 @@ uploadocean.com##[href="https://uploadocean.com/premium-features.html"] > h2
 !
 ! ---------- 3rd party ----------
 !
+humblebundle.com#@#.subscribe-box
 @@||minecraft-serverlist.net^$csp=script-src 'self'
 damelibros.com##script:inject(set-constant.js, adBlockDetected, noopFunc)
 kjanime.net##script:inject(setTimeout-defuser.js, CekAab, 0)
@@ -296,7 +297,6 @@ mirrorace.com##.uk-grid > div.uk-text-center.uk-margin-bottom.uk-width-1-1:nth-o
 /tizshow.
 /track.$third-party
 /track/*$third-party
-/tracker.$third-party
 /tracker/*$third-party
 /tracking.$third-party
 /tracking/*$third-party
@@ -9543,6 +9543,7 @@ www.citytv.com##.ad_bigbox
 /webapps/bb-cookie-disclosure
 /widgets/cookies-
 /wkp_cookies.js
+/wonderplugin-popup-engine.js
 /wp-content/mu-plugins/cookie_notifier
 /wp-content/plugins/cookie-compliance
 /wp-content/plugins/cookie-message
@@ -16561,6 +16562,7 @@ douploads.com##.downarea > center
 ||44.6.87.194.dynamic.dol.ru^
 ||45.6.87.194.dynamic.dol.ru^
 ||453searches.com^
+||washingtonpost.com/wp-stat/pwapi/^
 ||45i73jv6.com^
 ||46.6.87.194.dynamic.dol.ru^
 ||46498.www2.p0rt2.com^
@@ -55451,6 +55453,7 @@ www.overclock.net##section:nth-of-type(2)
 /adblock_gate/images/animated.gif?
 /adblock_notify.js
 /adblocker_message_
+/adblocker-feature/*
 /adchoices.
 /adcontrol/*
 /adfeeds.
@@ -55626,6 +55629,7 @@ www.overclock.net##section:nth-of-type(2)
 /ping.gif?u=
 /piwik.
 /playertracking/*
+/popup-builder-$~image,~stylesheet
 /popunderlandingpage.
 /prebid.$script
 /prebid/*
@@ -55980,6 +55984,9 @@ $xmlhttprequest,domain=a-o.ninja|adfreetv.ch|alltube.pl|alltube.tv|auroravid.to|
 !
 ! ---------- Whitelisting rules ----------
 !
+@@||quantcast.mgr.consensu.org/cmp.js$script,domain=sourceforge.net
+@@||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=sourceforge.net
+@@||hw-ads.datpiff.com/*.png$image,domain=datpiff.com
 @@||api.vodgc.net/libs/*/genoa-event-tracking.min.js$script,first-party
 @@||img.webmd.com/*/video-ad.js$script,first-party
 @@||lepotcommun.fr/static/js/libs/angular-cookie.min.js?$script,~third-party

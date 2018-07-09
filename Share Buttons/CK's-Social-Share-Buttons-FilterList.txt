@@ -1,4 +1,4 @@
-! Title: CHEF-KOCH's Social Media Share Buttons Filter List
+! Title: CHEF-KOCH's Social Media Share Buttons Filter List and oter social media related cosmetical stuff.
 ! Description: Filters Share-/ Social-Buttons, like or +1 buttons on various social media platforms.
 ! Checksum (SHA3-256): EF8DCCE1E12108B91F7E3222E40BA649A14A5E2578BB15B1553AE02C22D46C05
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
