@@ -18,6 +18,9 @@
 # !!!!!!!!!!!!!!!!! DO NOT FORGET TO BLOCK THE IP RANGES !!!!!!!!!!!!!!!!!
 # !!!!!!!!!!!!!!!!! Also clear Client cache! !!!!!!!!!!!!!!!!!
 #
+0.0.0.0 163-172-209-161.rev.poneytelecom.eu
+0.0.0.0 mil04s27-in-f131.1e100.net
+0.0.0.0 mil04s27-in-f142.1e100.net
 0.0.0.0 ec2-52-7-112-21.compute-1.amazonaws.com
 0.0.0.0 20.65.199.104.bc.googleusercontent.com
 0.0.0.0 144.64.199.104.bc.googleusercontent.com

@@ -55876,7 +55876,12 @@ skidrowgamesreloaded.com##.grid-box > .box-content
 !
 ! ---------- Speedrun.com----------
 !
+www.speedrun.com##.curse-square.curse-02.curse.centered.panel > .panel-heading
+www.speedrun.com###sidebar > div:nth-of-type(2)
+www.speedrun.com##footer:nth-of-type(1)
 www.speedrun.com##.curse-wide.curse-04.curse.centered.panel
+www.speedrun.com###maincontainer > div:nth-of-type(1)
+
 !
 ! ---------- Station-Drivers.com----------
 !
