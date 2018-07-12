@@ -29,6 +29,8 @@
 !
 ! ---------- uMatrix ----------
 !
+0.0.0.0 eboundservices.com
+0.0.0.0 publisher.eboundservices.com
 0.0.0.0 ads11.adtelligent.com
 0.0.0.0 aux-log1-sh.adtelligent.com
 0.0.0.0 vid-springserve.com
