@@ -5,7 +5,7 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 14d
-! TimeUpdated: 2018-07-13	11:07:08+01:00
+! TimeUpdated: 2018-09-12	05:02:08+01:00
 ! Version: 0.0.0.7
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
@@ -812,6 +812,12 @@
 ||christopher.lon.spotify.com^
 ||beta.static.tune.com^
 ||api.zwizzarmyknife.com^
+||star-z-mini.c10r.facebook.com^
+||secure-gg.imrworldwide.com^
+||imagesrv.adition.com^
+||ad3.adfarm1.adition.com^
+||a301.w62d.akamai.net^
+||a297.c.akamai.net^
 !
 ! ---------- Spotify Homepage specific ----------
 ! 
@@ -819,19 +825,4 @@
 /mp3-ad/*
 *cloudfront.net/mp3-ad/*
 spotify.com/ads/*
-google-analytics.com/*
-||audio-fa.scdn.co/audio/$media,domain=open.spotify.com
-||ads.pubmatic.com^
-||gads.pubmatic.com^
-||pubads.g.doubleclick.net^
-||securepubads.g.doubleclick.net^
-||spclient.wg.spotify.com^
-||heads4-ak.spotify.com.edgesuite.net^
-||heads3-ak.spotify.com.edgesuite.net^
-||heads2-ak.spotify.com.edgesuite.net^
-||heads1-ak.spotify.com.edgesuite.net^
-||gcdn.2mdn.net^
-||audio-fa.scdn.co/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com
-@@||spclient.wg.spotify.com/connect-api/v2/from/*$xmlhttprequest,domain=open.spotify.com
-@@||spclient.wg.spotify.com/connect-api$xmlhttprequest,domain=open.spotify.com
-!||gew-spclient.spotify.com^
+
