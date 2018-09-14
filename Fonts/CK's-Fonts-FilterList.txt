@@ -58,6 +58,7 @@
 ||use.fonticons.com^$third-party
 ||webfonts.creativecloud.com^$third-party
 ||wp.com^*/fonts/$third-party
+||fonts.nymag.com^$third-party
 !
 ! ---------- Block all downloadable fonts ----------
 !
