@@ -16,7 +16,7 @@
 ||license.piriform.com^
 ||ip-info.ff.avast.com^
 ||ccleaner.tools.avcdn.net^
-
+||ipm-provider.ff.avast.com^
 !
 ! ---------- Avast/CCleaner ----------
 !
