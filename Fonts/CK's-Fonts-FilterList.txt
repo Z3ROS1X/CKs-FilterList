@@ -34,13 +34,13 @@
 ||fontawesome.com^$third-party
 ||fontdeck.com^$third-party
 ||fonts.advance.net^$third-party
-||fonts.bauernet.me^
+||fonts.bauernet.me^$font,third-party
 ||fonts.condenast.com^$script,third-party
 ||fonts.gotraffic.net^$script
 ||fonts.gstatic.com^$third-party
 ||fonts.nymag.com^$script,third-party
 ||fonts.staticworld.net^$third-party
-||fonts.timeinc.net^
+||fonts.timeinc.net^$font,third-party
 ||fonts.voxmedia.com^$third-party
 ||fonts.walmart.com^$third-party
 ||googleapis.com/ajax/libs/webfont/$third-party
