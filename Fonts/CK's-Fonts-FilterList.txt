@@ -62,7 +62,7 @@
 !
 ! ---------- Block all downloadable fonts ----------
 !
-||$font
+!||$font
 !
 ! ---------- Whitelist ----------
 !
@@ -71,7 +71,6 @@
 @@octicons-regular-webfont-*.woff$font,domain=fontello.com
 @@octicons-regular-webfont-*.woff$font,domain=github.com
 @@pictos-web.woff$font,domain=sourceforge.net
-!
 !
 ! ---------- Test ----------
 !
