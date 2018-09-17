@@ -5,8 +5,8 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 14d
-! TimeUpdated: 2018-09-12	05:02:08+01:00
-! Version: 0.0.0.7
+! TimeUpdated: 2018-09-18	00:55:43+01:00
+! Version: 0.0.0.9
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
