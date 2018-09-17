@@ -17,8 +17,7 @@
 !
 ! All related Spotify ads & connected services.
 !
-! ---------- Admob ----------
-!
+||adclick.g.doubleclick.net^
 ||a.admob.com^
 ||ac1.vip.sc9.admob.com^
 ||ac208.sc9.admob.com^
@@ -819,10 +818,13 @@
 ||a301.w62d.akamai.net^
 ||a297.c.akamai.net^
 !
-! ---------- Spotify Homepage specific ----------
+! ---------- Spotify Homepage + webplayer ----------
 ! 
 /mp3-ad/*$domain=open.spotify.com|play.spotify.com
 ||audio-fa.scdn.co/audio/$media,domain=open.spotify.com|play.spotify.com
+||audio-akp-spotify-com.akamaized.net/audio/*$media,domain=open.spotify.com
+||akamaized.net/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com
+||audio-fa.scdn.co/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com 
 *cloudfront.net/mp3-ad/*
 spotify.com/ads/*
 
