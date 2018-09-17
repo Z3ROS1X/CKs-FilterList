@@ -35,7 +35,7 @@ Spotify network load balancer
 ash-dealer.spotify.com
 ash.weblb-wg.dual-gslb.spotify.com
 
-Spotify network servers (proxies)
+Spotify network servers (proxy)
 ============================
 ash1-msproxy-a1.ash.spotify.com
 ash1-msproxy-a1.ash1.spotify.com
@@ -372,7 +372,7 @@ wave.spotify.com
 weblb-wg.dual-gslb.spotify.com
 weblb-wg.gslb.spotify.com
 webplayersupport.spotify.com
-wg.spotify.com
+wg.spotify.com  #Block on Desktop Client only
 ws-partner.spotify.com
 ws.spotify.com
 www.m.spotify.com
@@ -406,3 +406,12 @@ audio-sp-sjc6b.spotify.com
 audio-sp-sjcb.spotify.com
 audio-sp-tyo.spotify.com
 audio-sp.spotify.com
+
+
+Charts
+======
+charts-images.scdn.co #beta.spotify.map.fastly.net
+ns1.fastly.net
+ns2.fastly.net
+ns3.fastly.net
+ns4.fastly.net
