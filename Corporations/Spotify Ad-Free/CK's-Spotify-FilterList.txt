@@ -17,7 +17,6 @@
 !
 ! All related Spotify ads & connected services.
 !
-||ads-fa.spotify.com^
 ||ads-pt.spotify.com^
 ||ads-br.spotify.com^
 ||ads-us.spotify.com^
