@@ -646,9 +646,9 @@
 0.0.0.0 ads.flurry.com
 0.0.0.0 media-router-flurry7.prod.media.wg1.b.yahoo.com
 0.0.0.0 api.zwizzarmyknife.com
-0.0.0.0 audio-fa.scdn.co # do not block while using chromecast
-0.0.0.0 upgrade.scdn.co # optional
-0.0.0.0 upgrade.spotify.com # optional
+0.0.0.0 audio-fa.scdn.co
+0.0.0.0 upgrade.scdn.co
+0.0.0.0 upgrade.spotify.com
 0.0.0.0 163-172-209-161.rev.poneytelecom.eu
 0.0.0.0 mil04s27-in-f131.1e100.net
 0.0.0.0 mil04s27-in-f142.1e100.net
@@ -743,6 +743,7 @@
 0.0.0.0 suk6mvixsl7e7pnqmcxzq2nlrv23orxa4lnmqehevie5lr46.qcfzwrpafytxzuzudly53cdpuinbus5dryc5yyluqfgstdbk.ifcouvs4yrkvq54g3sqlvxg6iwtieqko3d4z6g43c2na2xok.5l6armklu65sqea3msfquneq7rjwynp42nva5f7pl5qx4a7x.erz4onrdnlviivki.er.spo.spotify.com
 0.0.0.0 qm2adg47liahr7nsp3hu3do3v4rhjzv7o5z2e4gffuri4fzk.22aradra3s5midyr2lud47ipbxupxt52kzcmfsblo7zjty7a.sx2gdu6lcitzksm3d2zgxbxg5ppfc7mp7uanbvwjxq7wac2i.4doohcbyhkrp2eb4d7gsqareg6h5h73uespoxkefxgf23dua.dl6tyv4jcseeishe.er.spo.spotify.com
 0.0.0.0 pl35t7bb4aabglvz2i3btceznecjh4fka7m6ppyzdthifgcq.obfxt53kpvuicjyib3vacc5db3htskgk62k5tsonipsj2pty.yoyjueb2cieypg5vnrb5jpkuf52xxafpqf4ecynqzuz6s42t.tiox3ktdzfwwbcokrxi6o7huoya6iogdfo7ktcsdhkxakyjw.sg7cexr7oxb2d6ms.er.spo.spotify.com
+0.0.0.0 pl35t7bb4aabglvz2i3btceznecjh4fka7m6ppyzdthifgcq.obfxt53kpvuicjyib3vacc5db3htskgk62k5tsonipsj2pty.yoyjueb2cieypg5vnrb5jpkuf52xxafpqf4ecynqzuz6s42t.tiox3ktdzfwwbcokrxi6o7huoya6iogdfo7ktcsdhkxakyjw.sg7cexr7o7b2d6ms.er.spo.spotify.com
 0.0.0.0 gs5j7zyhogb53dmqmjfqljsq2ykksm3.spotify.com
 0.0.0.0 bug.spotify.com
 0.0.0.0 labels-canary.spotify.com
