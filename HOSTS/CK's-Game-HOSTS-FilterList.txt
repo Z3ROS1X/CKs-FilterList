@@ -1,12 +1,12 @@
 # Title: CHEF-KOCH's Game HOSTS Filter List
 # Description: Blocks Game Telemetry and other game specific 'unneeded' stuff.
-# Checksum (SHA3-256): 708AA1490883E578631F0C5AB3DB60E902DD9F3E87E9AC57CC5F2DBF1D32BE01
+# Checksum (SHA3-256): E050B8F8ED1D02667B4BA6880436506D5B24187BA28141DB823793901E8CF313
 # License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 14d
-# TimeUpdated: 2018-07-07	10:58:25+01:00
-# Version: 0.0.0.1
+# TimeUpdated: 2018-09-23 06:26.20+01:00
+# Version: 0.0.0.2
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
@@ -111,7 +111,7 @@
 #0.0.0.0 lvlt.cdn.ea.com
 #0.0.0.0 gateway.ea.com
 #0.0.0.0 origin-a.akamaihd.net
-# API's
+# EA API's
 #0.0.0.0 api1.origin.com
 #0.0.0.0 api2.origin.com
 #0.0.0.0 api3.origin.com
@@ -371,6 +371,12 @@
 # Fall of Light
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
+
+# Fear
+0.0.0.0 fear.available.gamespy.com
+#0.0.0.0 awsdns-hostmaster.amazon.com
+#0.0.0.0 ns-889.awsdns-47.net
+0.0.0.0 motd.gamespy.com
 
 # Off-Road Drive
 0.0.0.0 go.1c-softclub.ru
