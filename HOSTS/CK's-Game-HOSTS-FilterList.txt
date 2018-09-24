@@ -123,6 +123,11 @@
 #0.0.0.0 data4.origin.com
 
 # Ubisoft Launcher
+0.0.0.0 ns-1014.awsdns-62.net
+0.0.0.0 ns-1293.awsdns-33.org
+0.0.0.0 ns-1614.awsdns-09.co.uk
+0.0.0.0 ns-230.awsdns-28.com
+0.0.0.0 useast1-public.aws-ubiservices.ubi.com
 #0.0.0.0 lb-upc-dmx.ubisoft.com
 #0.0.0.0 public-ubiservices.ubi.com
 #0.0.0.0 ubistatic3-a.akamaihd.net
