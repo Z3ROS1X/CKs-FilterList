@@ -3500,12 +3500,12 @@ Cossacks III + Config
 0.0.0.0 cache.ne.mobiusfinalfantasy.com
 
 # Rise of the Tomb Raider
-#0.0.0.0 tr2.os.eidos.com
+0.0.0.0 tr2.os.eidos.com
+0.0.0.0 lbmtl.os.eidos.com
 0.0.0.0 srv01.codefusion.technology
 0.0.0.0 srv02.codefusion.technology
 0.0.0.0 srv03.codefusion.technology
 0.0.0.0 support.codefusion.technology
-#0.0.0.0 ocsp.usertrust.com
 
 # Square Enix Newsletter
 #0.0.0.0 xmail.square-enix.com
