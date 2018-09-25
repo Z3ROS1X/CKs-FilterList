@@ -18,6 +18,7 @@
 !
 ! ---------- Fonts ----------
 !
+||fonts.twitter.com^$font,third-party
 ||adobe.com^$font,third-party
 ||alluremedia.com.au^$font,third-party
 ||amazonaws.com^$font,third-party
