@@ -14,6 +14,16 @@ sto3-jumphost-a1.sto3.spotify.com
 sto3-outbound-a1.sto3.spotify.com
 sto3-outbound-a3.sto3.spotify.com
 sto3-ssoproxy-a1.sto3.spotify.net
+gew1-accesspoint-b-k2qj.ap.spotify.com
+dns2.p07.nsone.net
+ns3.p23.dynect.net
+ns2.p23.dynect.net
+dns4.p07.nsone.net
+dns3.p07.nsone.net
+dns1.p07.nsone.net
+ns4.p23.dynect.net
+ns1.p23.dynect.net
+
 
 Spotify network (vpn)
 ============================
