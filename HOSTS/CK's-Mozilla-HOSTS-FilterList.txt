@@ -1,19 +1,26 @@
 # Title: CHEF-KOCH's Mozilla HOSTS Filter List
 # Description: Block all Mozilla related connections, it also blocks sync and other apps + services.
 # Keep in mind this will break the 'net'. The lists will contain redundant entries compared to the the extension based blocking lists because HOSTS work inefficient. There will be no 127.0.0.1 version because I also want to keep 'dead'' entries alive, which means we not need to check against 127 (slower due possible timeout).
-# Checksum (SHA3-256): 07674EE68B1C784CDD010EDC2A26B881546952FE47AD08C9F38FB0785CBE523E
+# Checksum (SHA3-256): 59EAC26A46961F57E9E74618524DE64410C2BF6B69204F0EC70E67CDCB1BA9BC
 # License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 14d
-# TimeUpdated: 2018-09-26	10:25:47+01:00
-# Version: 0.0.0.3
+# TimeUpdated: 2018-09-29	01:40:36+01:00
+# Version: 0.0.0.4
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
 #
 # ---------- Mozilla ----------
 #
+0.0.0.0 d2o47bxgqzkcc3.cloudfront.net
+0.0.0.0 bouncer-bouncer-elb.prod.mozaws.net
+#0.0.0.0 download.mozilla.org
+#0.0.0.0 download.cdn.mozilla.net
+0.0.0.0 balrog-aus5.r53-2.services.mozilla.com
+0.0.0.0 autopush.prod.mozaws.net
+0.0.0.0 push.services.mozilla.com
 0.0.0.0 monitor.firefox.com
 0.0.0.0 install.mozilla.org
 0.0.0.0 accounts.firefox.com
