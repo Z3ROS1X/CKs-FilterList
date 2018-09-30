@@ -2899,6 +2899,10 @@ Cossacks III + Config
 #0.0.0.0 api.paradoxplaza.com
 #0.0.0.0 service.paradoxplaza.com
 
+# Phoenix Labs
+# Dauntless
+0.0.0.0 telemetry.steelyard.ca
+
 # Parallax Labs
 # Despoiler
 0.0.0.0 datarouter.ol.epicgames.com
