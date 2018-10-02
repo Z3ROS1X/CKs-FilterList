@@ -1,15 +1,27 @@
 # Title: CHEF-KOCH's Adobe HOSTS Filter List
 # Description: Block all Adobe related connections, this also breaks activation etc.
-# Checksum (SHA3-256): 2FA9FBBF187EED043A1F57EBB0AA3B03F0BD0463B77BD1013CD3628B9A663E56
+# Checksum (SHA3-256): 3B2ED708C31788422EF337E28D4EA85DB506B7ED967FB1BC66D5D4670DD13511
 # License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 14d
-# TimeUpdated: 2018-07-07	09:47:13+01:00
-# Version: 0.0.0.2
+# TimeUpdated: 2018-10-02	16:17:33+01:00
+# Version: 0.0.0.3
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
+#
+# ---------- ASN ----------
+#1313
+#14365
+#44786
+#50032
+#58664
+#
+# ---------- IP-range/subnet ----------
+#
+#192.150.14.0/24
+#192.150.14.0 - 192.150.14.255
 #
 # ---------- Adobe license check ----------
 #
@@ -3510,7 +3522,6 @@
 0.0.0.0 activate-sjc0.adobe.com
 0.0.0.0 activate-sjc0.adobe.de
 0.0.0.0 activate.adobe.com
-0.0.0.0 activate.adobe.com
 0.0.0.0 activate.adobe.de
 0.0.0.0 activate.wip.adobe.com
 0.0.0.0 activate.wip1.adobe.com
@@ -3527,6 +3538,22 @@
 #
 # ---------- Adobe ----------
 #
+0.0.0.0 a7-64.akam.net
+0.0.0.0 a28-67.akam.net
+0.0.0.0 a1-217.akam.net
+0.0.0.0 a10-64.akam.net
+0.0.0.0 adobe-dns-03.adobe.com
+0.0.0.0 adobe-dns-05.adobe.com
+0.0.0.0 adobe-dns-02.adobe.com
+0.0.0.0 www.du1.adobe.com
+0.0.0.0 ccmdl.adobe.com
+0.0.0.0 ccmdls.adobe.com
+0.0.0.0 ims-prod06.adobelogin.com
+0.0.0.0 swupdl.adobe.com
+0.0.0.0 swupmf.adobe.com
+0.0.0.0 adobe-dns-01.adobe.com
+0.0.0.0 a26-66.akam.net
+0.0.0.0 a13-65.akam.net
 0.0.0.0 3dns-1.adobe.com
 0.0.0.0 3dns-2.adobe.com
 0.0.0.0 3dns-3.adobe.com
@@ -3554,13 +3581,9 @@
 0.0.0.0 ereg.wip3.adobe.com
 0.0.0.0 ereg.wip4.adobe.com
 0.0.0.0 genuine.adobe.com
-0.0.0.0 hlrcv.stage.adobe.com
 0.0.0.0 hl2rcv.adobe.com
 0.0.0.0 hl2rcv.adobe.de
 0.0.0.0 ims-na1-prprod.adobelogin.com
-0.0.0.0 lm.licenses.adobe.com
-0.0.0.0 lmlicenses.wip4.adobe.com
-0.0.0.0 na1r.services.adobe.com
 0.0.0.0 na2m-pr.licenses.adobe.com
 0.0.0.0 na2m-stg2.licenses.adobe.com
 0.0.0.0 na4r.services.adobe.com
@@ -3568,7 +3591,6 @@
 0.0.0.0 ood.opsource.net
 0.0.0.0 practivate.adobe
 0.0.0.0 practivate.adobe.*
-0.0.0.0 practivate.adobe.com
 0.0.0.0 practivate.adobe.de
 0.0.0.0 practivate.adobe.ipp
 0.0.0.0 practivate.adobe.newoa
