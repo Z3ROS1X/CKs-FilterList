@@ -1,12 +1,12 @@
 ! Title: CHEF-KOCH's Filter List
 ! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
-! Checksum (SHA3-256): 981505BBCE57F5DF3A102441CBB9D1F00DFA5F23BFF9C1FE629CE6E85C541460
+! Checksum (SHA3-256): 52D1AF5A7D28DC1839143577844DB85376A531F3145B54070F3F316B395A0419
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 3d
-! TimeUpdated: 2018-07-12	15:05:52+01:00
-! Version: 0.0.3.29
+! TimeUpdated: 2018-10-02	16:32:36+01:00
+! Version: 0.0.3.30
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -10043,6 +10043,7 @@ douploads.com##.downarea > center
 !
 ! ---------- Domains (Android, etc) ----------
 !
+||clmbtech.com^
 ||eboundservices.com^
 ||publisher.eboundservices.com^
 ||amazon-adsystem.com^
@@ -53839,6 +53840,7 @@ www.golem.de##div.g6.g:nth-of-type(3) > div:nth-of-type(3)
 ###footerGoogleAd
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=skylinewebcams.com,important
 /(?=.+\/amp\/)www\.google\.[a-z]{2,3}(?:\.[a-z]{2})?\/amp\//$document
+google.*###main > div[data-hveid]
 google.*###sqh
 google.*###center_col > #\5f Emc
 google.*###center_col > #main > .dfrd > .mnr-c > .c._oc._zs
@@ -55922,6 +55924,10 @@ thepiratebay.org##iframe[src^="//thepiratebay.org/static/ads/"]
 !
 ! ---------- Twitch.tv ----------
 !
+! Put this URL in userResourcesLocation in the advanced settings of ublock:
+! https://gist.githubusercontent.com/gorhill/a47fe36d5f3da185f8c4d44d18ee022d/raw/911466e5d255a081c7126392186bf1a08ee85d4c/gistfile1.txt
+!
+||static.twitchcdn.net/config/manifest.json$important
 @@||www.twitch.tv^$generichide
 custos.twitchcdn.net/v1.js$script
 www.twitch.tv##.js-player-ad-overlay.player-ad-overlay
@@ -56019,6 +56025,7 @@ wish.com##body:style(user-select: unset !important;)
 !
 ! ---------- Whitelisting rules ----------
 !
+@@||programiz.com^$xmlhttprequest,first-party
 @@||ad.smartmediarep.com/NetInsight/$domain=news.sbs.co.kr
 @@||vads-api.ad.daum.net/xylophone/adrequest/vmap/
 @@||dominos.com/olo/*.tealium.js
