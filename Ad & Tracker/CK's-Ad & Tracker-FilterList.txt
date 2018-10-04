@@ -13,6 +13,7 @@
 !
 ! ---------- Ad & Tracker ----------
 !
+||telemetry.steelyard.ca^
 ||eboundservices.com^
 ||publisher.eboundservices.com^
 ||aacgeuvaoqbw.com^
