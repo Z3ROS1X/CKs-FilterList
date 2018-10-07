@@ -1,12 +1,12 @@
 # Title: CHEF-KOCH's Game HOSTS Filter List
 # Description: Blocks Game Telemetry and other game specific 'unneeded' stuff.
-# Checksum (SHA3-256): E050B8F8ED1D02667B4BA6880436506D5B24187BA28141DB823793901E8CF313
+# Checksum (SHA3-256): B5A03C90595E526BC7D382633088E03C63291E3BB44E236F56B2AFE9AF392FCC
 # License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 14d
-# TimeUpdated: 2018-09-23 06:26.20+01:00
-# Version: 0.0.0.2
+# TimeUpdated: 2018-10-07 12:44.33+01:00
+# Version: 0.0.0.3
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
@@ -50,7 +50,15 @@
 0.0.0.0 ars.smartscreen.microsoft.com
 # GoG Galaxy Client itself
 #0.0.0.0 login.gog.com
+#0.0.0.0 galaxy-log.gog.com
 #0.0.0.0 static-login.gog.com
+#0.0.0.0 ns-1060.awsdns-04.org
+#0.0.0.0 ns-145.awsdns-18.com
+#0.0.0.0 ns-2023.awsdns-60.co.uk
+#0.0.0.0 gog.com.edgekey.net
+#0.0.0.0 e11072.g.akamaiedge.net
+#0.0.0.0 ns-895.awsdns-47.net
+#0.0.0.0 auth.gog.com
 #0.0.0.0 cfg.gog.com
 #0.0.0.0 users.gog.com
 #0.0.0.0 auth.gog.com
