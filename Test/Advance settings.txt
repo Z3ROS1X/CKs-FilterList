@@ -1,0 +1,15 @@
+            assetFetchTimeout 60
+   autoUpdateAssetFetchPeriod 300
+             autoUpdatePeriod 4
+cacheControlForFirefox1376932 no-cache, no-store, must-revalidate
+      cacheStorageCompression true
+              debugScriptlets false
+        ignoreRedirectFilters false
+    ignoreScriptInjectFilters false
+ manualUpdateAssetFetchPeriod 1
+nanoIgnoreThirdPartyWhitelist false
+nanoMakeUserFiltersPrivileged false
+                popupFontSize unset
+  requestJournalProcessPeriod 1000
+        suspendTabsUntilReady true
+        userResourcesLocation unset
