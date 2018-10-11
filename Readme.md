@@ -53,6 +53,7 @@ Make sure you have an ad-blocker installed in your desktop or mobile browsers th
 * ![AdGuard Browser Extension](https://i.imgur.com/zmMHq2j.png) [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html) - for **All Platforms** 
 * ![pfSense](https://i.imgur.com/ElyO5Ie.png) [pfSense](https://www.pfsense.org/) with [pfBlockerNG](https://www.tecmint.com/install-configure-pfblockerng-dns-black-listing-in-pfsense/)
 * ![Pi-hole](https://i.imgur.com/0mgKKma.png) [Pi-hole](https://pi-hole.net) - for **PI devices** 
+* ![Gasmask](https://i.imgur.com/vVumrpf.png) [Gasmask](https://github.com/2ndalpha/gasmask) - for **OS X**
 
 
 
