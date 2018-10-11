@@ -12,4 +12,4 @@ nanoMakeUserFiltersPrivileged false
                 popupFontSize unset
   requestJournalProcessPeriod 1000
         suspendTabsUntilReady true
-        userResourcesLocation unset
+        userResourcesLocation https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resources.txt
