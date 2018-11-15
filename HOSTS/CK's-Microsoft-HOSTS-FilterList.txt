@@ -1,13 +1,13 @@
 # Title: CHEF-KOCH's Microsoft HOSTS Filter List
 # Description: Block all Microsoft related connections, it also blocks Skype etc.
 # Keep in mind this will break the 'net'. The lists will contain redundant entries compared to the the extension based blocking lists because HOSTS work inefficient. There will be no 127.0.0.1 version because I also want to keep 'dead'' entries alive, which means we not need to check against 127 (slower due possible timeout).
-# Checksum (SHA3-256): 861AB06253B288ABDF6A4DAE5D115EAC795193343DC20E02630EA3D8D186AD7E
+# Checksum (SHA3-256): 9624225299FBAECB06D6F24599DE7643049539A21C6A6631E00EC984DC02A25F
 # License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 14d
-# TimeUpdated: 2018-07-08	14:07:58+01:00
-# Version: 0.0.0.5
+# TimeUpdated: 2018-11-16 14:07:58+01:00
+# Version: 0.0.0.6
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
@@ -303,13 +303,8 @@
 0.0.0.0 array803-prod.do.dsp.mp.microsoft.com
 0.0.0.0 array807-prod.do.dsp.mp.microsoft.com
 0.0.0.0 ars.smartscreen.microsoft.com
-0.0.0.0 activation.sls.microsoft.com
 0.0.0.0 activation-v2.sls.microsoft.com
-0.0.0.0 answers.microsoft.com
-0.0.0.0 api.bing.com
 0.0.0.0 appex-rf.msn.com
-0.0.0.0 apps.skype.com
-0.0.0.0 ars.smartscreen.microsoft.com
 0.0.0.0 az361816.vo.msecnd.net
 0.0.0.0 az512334.vo.msecnd.net
 0.0.0.0 blob.weather.microsoft.com
@@ -407,8 +402,6 @@
 0.0.0.0 aupl.v4.b1.dl.windowsupdate.com.nsatc.net
 0.0.0.0 aupl.v4.download.windowsupdate.com
 0.0.0.0 aupn.v4.download.windowsupdate.com
-0.0.0.0 az361816.vo.msecnd.net
-0.0.0.0 az512334.vo.msecnd.net
 0.0.0.0 azure-test.net
 0.0.0.0 azure.com
 0.0.0.0 azure.net
@@ -457,7 +450,6 @@
 0.0.0.0 bl3301-g.1drv.com
 0.0.0.0 bl3301.storage.skyprod.akadns.net
 0.0.0.0 bl3302.storage.skyprod.akadns.net
-0.0.0.0 blob.weather.microsoft.com
 0.0.0.0 blog.azure.com
 0.0.0.0 blu1.storage.live.com
 0.0.0.0 blufiles.storage.live.com
@@ -555,12 +547,9 @@
 0.0.0.0 ca.telemetry.microsoft.com
 0.0.0.0 cache.datamart.windows.com
 0.0.0.0 cagifq.blu.livefilestore.com
-0.0.0.0 candycrushsoda.king.com
 0.0.0.0 cbuhng.bay.livefilestore.com
 0.0.0.0 cddp0g.blu.livefilestore.com
 0.0.0.0 cdn.atdmt.com
-0.0.0.0 cdn.content.prod.cms.msn.com
-0.0.0.0 cdn.onenote.net
 0.0.0.0 cds1204.lon.llnw.net
 0.0.0.0 cds1289.lon.llnw.net
 0.0.0.0 cds1293.lon.llnw.net
@@ -572,8 +561,6 @@
 0.0.0.0 cds20475.lcy.llnw.net
 0.0.0.0 cds21244.lon.llnw.net
 0.0.0.0 cds26.ams9.msecn.net
-0.0.0.0 cds299.lcy.llnw.net
-0.0.0.0 cds405.lcy.llnw.net
 0.0.0.0 cds425.lcy.llnw.net
 0.0.0.0 cds459.lcy.llnw.net
 0.0.0.0 cds494.lcy.llnw.net
@@ -587,8 +574,6 @@
 0.0.0.0 ch3302-c.1drv.com
 0.0.0.0 ch3302-e.1drv.com
 0.0.0.0 changelog.microsoftedge.com
-0.0.0.0 choice.microsoft.com
-0.0.0.0 choice.microsoft.com.nsatc.net
 0.0.0.0 chplkg.bay.livefilestore.com
 0.0.0.0 cid-02ee77e8b83414a5.users.storage.live.com
 0.0.0.0 cid-03a9b0c002f60907.users.storage.live.com
@@ -706,9 +691,6 @@
 0.0.0.0 clearleadtest.com
 0.0.0.0 client-office365-tas-msedge-net.e-0009.e-msedge.net
 0.0.0.0 client-office365-tas.msedge.net
-0.0.0.0 client-s.gateway.messenger.live.com
-0.0.0.0 client.wns.windows.com
-0.0.0.0 clientconfig.passport.net
 0.0.0.0 cloudapp.net
 0.0.0.0 clownoutbreak.com
 0.0.0.0 codezonepremiere.com
@@ -1041,7 +1023,6 @@
 0.0.0.0 deploy.static.akamaitechnologies.com
 0.0.0.0 design-intelligence.com
 0.0.0.0 dev.virtualearth.net
-0.0.0.0 device.auth.xboxlive.com
 0.0.0.0 df.telemetry.microsoft.com
 0.0.0.0 diagnostics.support.microsoft.com
 0.0.0.0 digitalrivercontent.net
@@ -1054,9 +1035,7 @@
 0.0.0.0 djj.com
 0.0.0.0 dl.delivery.mp.microsoft.com
 0.0.0.0 dl.delivery.mp.microsoft.com.nsatc.net
-0.0.0.0 dmd.metaservices.microsoft.com
 0.0.0.0 dmd.metaservices.microsoft.com.akadns.net
-0.0.0.0 dns.msftncsi.com
 0.0.0.0 dnset.com
 0.0.0.0 dnste-net-2vnygc3u.c-0001.c-msedge.net
 0.0.0.0 dnste-net-mkoxwjhm.c-0001.c-msedge.net
@@ -1217,9 +1196,6 @@
 0.0.0.0 fe3.delivery.mp.microsoft.com
 0.0.0.0 fedtest-int.com
 0.0.0.0 fedtest.com
-0.0.0.0 feedback.microsoft-hohm.com
-0.0.0.0 feedback.search.microsoft.com
-0.0.0.0 feedback.windows.com
 0.0.0.0 fg.ds.b1.download.windowsupdate.com
 0.0.0.0 fg.ds.download.windowsupdate.com
 0.0.0.0 fg.v4.b1.dl.windowsupdate.com.nsatc.net
@@ -1233,10 +1209,8 @@
 0.0.0.0 fullaudio.com
 0.0.0.0 funapi.bing.com
 0.0.0.0 futurefed.com
-0.0.0.0 g.bing.com
 0.0.0.0 g.de.msn.com
 0.0.0.0 g.jp.msn.com
-0.0.0.0 g.live.com
 0.0.0.0 g.microsoft.com
 0.0.0.0 g.microsoftonline.com
 0.0.0.0 g.msn.ch
@@ -1293,78 +1267,6 @@
 0.0.0.0 hk2.settings.data.microsoft.com.akadns.net
 0.0.0.0 hk2.vortex.data.microsoft.com.akadns.net
 0.0.0.0 hk2.wns.windows.com
-0.0.0.0 hk2sch130020721.wns.windows.com
-0.0.0.0 hk2sch130020723.wns.windows.com
-0.0.0.0 hk2sch130020726.wns.windows.com
-0.0.0.0 hk2sch130020729.wns.windows.com
-0.0.0.0 hk2sch130020732.wns.windows.com
-0.0.0.0 hk2sch130020824.wns.windows.com
-0.0.0.0 hk2sch130020843.wns.windows.com
-0.0.0.0 hk2sch130020851.wns.windows.com
-0.0.0.0 hk2sch130020854.wns.windows.com
-0.0.0.0 hk2sch130020855.wns.windows.com
-0.0.0.0 hk2sch130020924.wns.windows.com
-0.0.0.0 hk2sch130020936.wns.windows.com
-0.0.0.0 hk2sch130020940.wns.windows.com
-0.0.0.0 hk2sch130020956.wns.windows.com
-0.0.0.0 hk2sch130020958.wns.windows.com
-0.0.0.0 hk2sch130020961.wns.windows.com
-0.0.0.0 hk2sch130021017.wns.windows.com
-0.0.0.0 hk2sch130021029.wns.windows.com
-0.0.0.0 hk2sch130021035.wns.windows.com
-0.0.0.0 hk2sch130021137.wns.windows.com
-0.0.0.0 hk2sch130021142.wns.windows.com
-0.0.0.0 hk2sch130021153.wns.windows.com
-0.0.0.0 hk2sch130021217.wns.windows.com
-0.0.0.0 hk2sch130021246.wns.windows.com
-0.0.0.0 hk2sch130021249.wns.windows.com
-0.0.0.0 hk2sch130021260.wns.windows.com
-0.0.0.0 hk2sch130021264.wns.windows.com
-0.0.0.0 hk2sch130021322.wns.windows.com
-0.0.0.0 hk2sch130021323.wns.windows.com
-0.0.0.0 hk2sch130021329.wns.windows.com
-0.0.0.0 hk2sch130021334.wns.windows.com
-0.0.0.0 hk2sch130021360.wns.windows.com
-0.0.0.0 hk2sch130021432.wns.windows.com
-0.0.0.0 hk2sch130021433.wns.windows.com
-0.0.0.0 hk2sch130021435.wns.windows.com
-0.0.0.0 hk2sch130021437.wns.windows.com
-0.0.0.0 hk2sch130021440.wns.windows.com
-0.0.0.0 hk2sch130021450.wns.windows.com
-0.0.0.0 hk2sch130021518.wns.windows.com
-0.0.0.0 hk2sch130021523.wns.windows.com
-0.0.0.0 hk2sch130021526.wns.windows.com
-0.0.0.0 hk2sch130021527.wns.windows.com
-0.0.0.0 hk2sch130021544.wns.windows.com
-0.0.0.0 hk2sch130021554.wns.windows.com
-0.0.0.0 hk2sch130021618.wns.windows.com
-0.0.0.0 hk2sch130021634.wns.windows.com
-0.0.0.0 hk2sch130021638.wns.windows.com
-0.0.0.0 hk2sch130021646.wns.windows.com
-0.0.0.0 hk2sch130021652.wns.windows.com
-0.0.0.0 hk2sch130021654.wns.windows.com
-0.0.0.0 hk2sch130021657.wns.windows.com
-0.0.0.0 hk2sch130021723.wns.windows.com
-0.0.0.0 hk2sch130021726.wns.windows.com
-0.0.0.0 hk2sch130021727.wns.windows.com
-0.0.0.0 hk2sch130021730.wns.windows.com
-0.0.0.0 hk2sch130021731.wns.windows.com
-0.0.0.0 hk2sch130021754.wns.windows.com
-0.0.0.0 hk2sch130021829.wns.windows.com
-0.0.0.0 hk2sch130021830.wns.windows.com
-0.0.0.0 hk2sch130021833.wns.windows.com
-0.0.0.0 hk2sch130021840.wns.windows.com
-0.0.0.0 hk2sch130021842.wns.windows.com
-0.0.0.0 hk2sch130021851.wns.windows.com
-0.0.0.0 hk2sch130021852.wns.windows.com
-0.0.0.0 hk2sch130021927.wns.windows.com
-0.0.0.0 hk2sch130021928.wns.windows.com
-0.0.0.0 hk2sch130021929.wns.windows.com
-0.0.0.0 hk2sch130021958.wns.windows.com
-0.0.0.0 hk2sch130022035.wns.windows.com
-0.0.0.0 hk2sch130022041.wns.windows.com
-0.0.0.0 hk2sch130022049.wns.windows.com
-0.0.0.0 hk2sch130022135.wns.windows.com
 0.0.0.0 hk2wns1.wns.windows.com
 0.0.0.0 hk2wns1b.wns.windows.com
 0.0.0.0 hmqcow.blu.livefilestore.com
@@ -1394,7 +1296,6 @@
 0.0.0.0 ieak.microsoft.com
 0.0.0.0 iechannelguide.com
 0.0.0.0 iechannels.com
-0.0.0.0 iecvlist.microsoft.com
 0.0.0.0 iegallery.com
 0.0.0.0 ilit.microsoft.com
 0.0.0.0 ilovemessenger.com
@@ -1402,7 +1303,6 @@
 0.0.0.0 imagine-windowslive.com.br
 0.0.0.0 imagine-wl.com.br
 0.0.0.0 imagine.microsoft.com
-0.0.0.0 img-s-msn-com.akamaized.net
 0.0.0.0 img.teams.skype.com
 0.0.0.0 inference.location.live.net
 0.0.0.0 innovateon-int.com
@@ -1412,7 +1312,6 @@
 0.0.0.0 innovateonwindowshpcserver2008.com
 0.0.0.0 insider.windows.com
 0.0.0.0 insiderppe.cloudapp.net
-0.0.0.0 insiderservice.microsoft.com
 0.0.0.0 installshield.com
 0.0.0.0 intellitxt.com
 0.0.0.0 issues.microsoftedge.com
@@ -1432,7 +1331,6 @@
 0.0.0.0 licensestore.jp
 0.0.0.0 licensing-europe.md.mp.microsoft.com.akadns.net
 0.0.0.0 licensing.md.mp.microsoft.com.akadns.net
-0.0.0.0 licensing.mp.microsoft.com
 0.0.0.0 listbot.com
 0.0.0.0 live-func.net
 0.0.0.0 live-int.com
@@ -1456,12 +1354,10 @@
 0.0.0.0 livestats.com
 0.0.0.0 livestats.net
 0.0.0.0 ljdkjw.blu.livefilestore.com
-0.0.0.0 login.live.com
 0.0.0.0 logmeininc.com
 0.0.0.0 ls2web.redmond.corp.microsoft.com
 0.0.0.0 lumiaconversationsuk.microsoft.com
 0.0.0.0 m.adnxs.com
-0.0.0.0 m.hotmail.com
 0.0.0.0 mac.microsoft.com
 0.0.0.0 macrosoft.com.br
 0.0.0.0 macrovision.com
@@ -1469,7 +1365,6 @@
 0.0.0.0 madingleymodel.com
 0.0.0.0 madingleymodel.org
 0.0.0.0 marineland.net
-0.0.0.0 mediaredirect.microsoft.com
 0.0.0.0 mesh-int.com
 0.0.0.0 mesh-ri.com
 0.0.0.0 mesh.com
@@ -1757,7 +1652,6 @@
 0.0.0.0 msfdc.com
 0.0.0.0 msft.com
 0.0.0.0 msft.net
-0.0.0.0 msftncsi.com
 0.0.0.0 msftoffers.com
 0.0.0.0 msgamebetas.com
 0.0.0.0 msgamedev.com
@@ -1865,7 +1759,6 @@
 0.0.0.0 office15client.microsoft.com
 0.0.0.0 office2010test.com
 0.0.0.0 office365.com
-0.0.0.0 officeclient.microsoft.com
 0.0.0.0 officeformac.com
 0.0.0.0 officelive.com
 0.0.0.0 officelive.com.tw
@@ -1874,7 +1767,6 @@
 0.0.0.0 officeonlineextension-office365.msedge.net
 0.0.0.0 omniroot.com
 0.0.0.0 omtrdc.net
-0.0.0.0 oneclient.sfx.ms
 0.0.0.0 onenote-office365-s2s-msedge-net.e-0009.e-msedge.net
 0.0.0.0 onenote-office365-s2s.msedge.net
 0.0.0.0 onesettings-bn2.metron.live.com.nsatc.net
@@ -1885,7 +1777,6 @@
 0.0.0.0 online.microsoft.com
 0.0.0.0 osdinfra.net
 0.0.0.0 osiprod-weu-snow-000.cloudapp.net
-0.0.0.0 otf.msn.com
 0.0.0.0 outlook.com
 0.0.0.0 outlookmobile-office365-tas-msedge-net.e-0009.e-msedge.net
 0.0.0.0 outlookmobile-office365-tas.msedge.net
@@ -1908,9 +1799,7 @@
 0.0.0.0 projectzerofriction.com
 0.0.0.0 projectzerofriction.net
 0.0.0.0 projectzerofriction.org
-0.0.0.0 pti.store.microsoft.com
 0.0.0.0 puretracks.com
-0.0.0.0 query.prod.cms.rt.microsoft.com
 0.0.0.0 rad.live.com
 0.0.0.0 rad.msn.com
 0.0.0.0 rapidssl-ocsp.geotrust.com
@@ -1919,7 +1808,6 @@
 0.0.0.0 rdst-internal.net
 0.0.0.0 realtydesktop.net
 0.0.0.0 redir.metaservices.microsoft.com
-0.0.0.0 register.cdpcs.microsoft.com
 0.0.0.0 register.microsoft.com
 0.0.0.0 renosoftcorp.com
 0.0.0.0 reports.wes.df.telemetry.microsoft.com
@@ -1930,10 +1818,8 @@
 0.0.0.0 s-microsoft.com
 0.0.0.0 s-msft.com
 0.0.0.0 s-msn.com
-0.0.0.0 s.gateway.messenger.live.com
 0.0.0.0 s.microsoft.com
 0.0.0.0 s.symcd.com
-0.0.0.0 s0.2mdn.net
 0.0.0.0 s2.symcb.com
 0.0.0.0 s2bprogram.com
 0.0.0.0 sO.2mdn.net
@@ -1944,7 +1830,6 @@
 0.0.0.0 sclive-ppe.net
 0.0.0.0 sd.symcd.com
 0.0.0.0 se.symcd.com
-0.0.0.0 search.msn.com
 0.0.0.0 searchalliance.com
 0.0.0.0 searchperks.com
 0.0.0.0 secure.adnxs.com
@@ -1955,7 +1840,6 @@
 0.0.0.0 serving-sys.com
 0.0.0.0 settings-ppe.data.glbdns2.microsoft.com
 0.0.0.0 settings-sandbox.data.microsoft.com
-0.0.0.0 settings-ssl.xboxlive.com
 0.0.0.0 settings-win-ppe.data.microsoft.com
 0.0.0.0 settings-win.data.microsoft.com
 0.0.0.0 settings.data.glbdns2.microsoft.com
@@ -2008,7 +1892,6 @@
 0.0.0.0 ssw.live.com
 0.0.0.0 start.com
 0.0.0.0 startwindowsmobile.com
-0.0.0.0 static.2mdn.net
 0.0.0.0 statics.teams.microsoft.com
 0.0.0.0 statics.teams.skype.com
 0.0.0.0 stationq.com
@@ -2016,13 +1899,9 @@
 0.0.0.0 statsfe2.update.microsoft.com.akadns.net
 0.0.0.0 statsfe2.ws.microsoft.com
 0.0.0.0 status.microsoftedge.com
-0.0.0.0 storage.live.com
-0.0.0.0 store-images.s-microsoft.com
 0.0.0.0 storecatalogrevocation.storequality.microsoft.com
-0.0.0.0 storeedgefd.dsx.mp.microsoft.com
 0.0.0.0 su.symcd.com
 0.0.0.0 subscribenet.com
-0.0.0.0 support.microsoft.com
 0.0.0.0 surface.com
 0.0.0.0 survey.watson.microsoft.com
 0.0.0.0 sv.symcd.com
@@ -2050,11 +1929,8 @@
 0.0.0.0 tg.symcd.com
 0.0.0.0 th.symcd.com
 0.0.0.0 ti.symcd.com
-0.0.0.0 tile-service.weather.microsoft.com
 0.0.0.0 time.microsoft.akadns.net
-0.0.0.0 time.windows.com
 0.0.0.0 tj.symcd.com
-0.0.0.0 tk2.plt.msn.com
 0.0.0.0 tl.symcd.com
 0.0.0.0 tlu.dl.delivery.mp.microsoft.com
 0.0.0.0 tlu.dl.delivery.mp.microsoft.com.nsatc.net
@@ -2065,14 +1941,11 @@
 0.0.0.0 ts-ocsp.ws.symantec.com
 0.0.0.0 tsfe.trafficshaping.dsp.mp.microsoft.com
 0.0.0.0 udns.lol
-0.0.0.0 ui.skype.com
 0.0.0.0 updat101up.ddns.net
 0.0.0.0 update.microsoft.com
 0.0.0.0 update.microsoft.com.nsatc.net
 0.0.0.0 urge.com
-0.0.0.0 urs.microsoft.com
 0.0.0.0 urs.microsoft.com.nsatc.net
-0.0.0.0 urs.smartscreen.microsoft.com
 0.0.0.0 us.vortex-win.data.microsoft.com
 0.0.0.0 usadns.info
 0.0.0.0 v0cdn.net
@@ -2112,8 +1985,6 @@
 0.0.0.0 watson.telemetry.microsoft.com
 0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
 0.0.0.0 wbaltv.com
-0.0.0.0 wdcp.microsoft.com
-0.0.0.0 wdcpalt.microsoft.com
 0.0.0.0 wdcpeurope.microsoft.akadns.net
 0.0.0.0 web.vortex.data.metron.live.com.nsatc.net
 0.0.0.0 web.vortex.data.microsoft.com
@@ -2125,7 +1996,6 @@
 0.0.0.0 weu-breeziest-in.cloudapp.net
 0.0.0.0 weu-config.officeapps.live.com
 0.0.0.0 whymicrosoft.com
-0.0.0.0 win10-trt.msedge.net
 0.0.0.0 win10.ipv6.microsoft.com
 0.0.0.0 win1710.ipv6.microsoft.com
 0.0.0.0 winaero.com
@@ -2225,7 +2095,6 @@
 0.0.0.0 wmplugins.com
 0.0.0.0 wns.notify.windows.com.akadns.net
 0.0.0.0 wns.windows.com
-0.0.0.0 wscont.apps.microsoft.com
 0.0.0.0 wsus.ds.b1.dl.windowsupdate.com.nsatc.net
 0.0.0.0 wsus.ds.download.windowsupdate.com
 0.0.0.0 wsus.ds.www.download.windowsupdate.com
@@ -2247,8 +2116,6 @@
 0.0.0.0 www.microsoft.pl
 0.0.0.0 www.microsoft.ru
 0.0.0.0 www.msedge.net
-0.0.0.0 www.msftconnecttest.com
-0.0.0.0 www.msftncsi.com
 0.0.0.0 www.travel.bing.com
 0.0.0.0 www.update.microsoft.com
 0.0.0.0 www.windowsmarketplace.com
