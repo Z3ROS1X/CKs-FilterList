@@ -1,4 +1,4 @@
-This list will not be avbl. via subscription. 
+This list will not be avbl. via subscription.
 !
 ! ---------- Windows ----------
 !
@@ -39,7 +39,6 @@ ui.skype.com
 pricelist.skype.com
 apps.skype.com
 m.hotmail.com
-s.gateway.messenger.live.com
 sa.symcb.com
 s{1..5}.symcb.com
 officeclient.microsoft.com
@@ -93,7 +92,6 @@ avanza.se#@#a[title="LeoVegas"]
 ||people-pa.googleapis.com^
 ||time.android.com^
 ||www.google.com^
-||android.clients.google.com^
 ||goo.gl^
 ||play-googleapis.com^
 ||playatoms-pa-googleapis.com^
@@ -140,7 +138,6 @@ avanza.se#@#a[title="LeoVegas"]
 ||gmodules.com^
 ||gogle.com^
 ||gogole.com^
-||goo.gl^
 ||googel.com^
 ||googil.com^
 ||googl.com^
@@ -234,7 +231,6 @@ avanza.se#@#a[title="LeoVegas"]
 ||google.co.za^
 ||google.co.zm^
 ||google.co.zw^
-||google.com^
 ||google.com.af^
 ||google.com.ag^
 ||google.com.ai^

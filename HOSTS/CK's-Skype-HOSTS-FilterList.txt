@@ -1,12 +1,12 @@
 ! Title: CHEF-KOCH's Skype HOSTS Ad-Filter List
 ! Description: Blocks all annoying Skype Ads.
-! Checksum (SHA 1): DD197C59EB4E3386A50D5BA8DAD24D512998350479853036BBB489DBA8A7C8F3
+! Checksum (SHA 1): 9B1B1A0C5F75BC2D8C41C11FCB9A2716E3DC23E820B261ACB10D1560B7BB7C35
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 14d
-! TimeUpdated: 2018-06-21	09:43:01+01:00
-! Version: 0.0.0.2
+! TimeUpdated: 2018-11-16 09:43:01+01:00
+! Version: 0.0.0.3
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -26,7 +26,6 @@
 0.0.0.0 134.170.30.202
 0.0.0.0 137.116.81.24
 0.0.0.0 204.79.197.200
-0.0.0.0 23.218.212.69
 0.0.0.0 23.218.212.69
 0.0.0.0 65.39.117.230
 0.0.0.0 65.55.108.23
@@ -105,11 +104,9 @@
 0.0.0.0 preg.bforex.com
 0.0.0.0 preview.msn.com
 0.0.0.0 pricelist.skype.com
-0.0.0.0 pricelist.skype.com
 0.0.0.0 qaapi.skype.net
 0.0.0.0 qawww.skypeassets.net
 0.0.0.0 rad.live.com
-0.0.0.0 rad.msn.com
 0.0.0.0 rad.msn.com
 0.0.0.0 rad.msn.com.nsatc.net
 0.0.0.0 redir.metaservices.microsoft.com
