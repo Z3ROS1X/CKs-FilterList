@@ -1,12 +1,12 @@
 ! Title: CHEF-KOCH's Adobe Filter List
 ! Description: Block all Adobe related connections, this also breaks activation etc.
-! Checksum (SHA3-256): B824236F5364A066C529D0C799C9BC17D1BB69006A27B9F106ED40B5EC5AC757
+! Checksum (SHA3-256): B0A02C896F5C21726053916C406E5AAD11CC3E0B98BB2D54B2F5AB6EDC22320B
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 14d
-! TimeUpdated: 2018-05-20	02:56:25+01:00
-! Version: 0.0.0.2
+! TimeUpdated: 2018-11-16 02:56:25+01:00
+! Version: 0.0.0.3
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -48,13 +48,6 @@
 ||3dns-4.adobe.com^
 ||3dns-5.adobe.com^
 ||3dns.adobe.com^
-||activate-sea.adobe.com^
-||activate-sea.adobe.de^
-||activate-sjc0.adobe.com^
-||activate-sjc0.adobe.de^
-||activate.adobe.com^
-||activate.adobe.de^
-||activate.wip3.adobe.de^
 ||adobe-dns-1.adobe.com^
 ||adobe-dns-2.adobe.com^
 ||adobe-dns-2.adobe.de^
@@ -70,19 +63,15 @@
 ||ereg.adobe.com^
 ||ereg.adobe.de^
 ||genuine.adobe.com^
-||hlrcv.stage.adobe.com^
 ||hl2rcv.adobe.com^
 ||hl2rcv.adobe.de^
 ||ims-na1-prprod.adobelogin.com^
-||lm.licenses.adobe.com^
-||na1r.services.adobe.com^
 ||na2m-pr.licenses.adobe.com^
 ||na2m-stg2.licenses.adobe.com^
 ||na4r.services.adobe.com^
 ||ocsp.spo1.verisign.com^
 ||ood.opsource.net^
 ||practivate.adobe^
-||practivate.adobe.com^
 ||practivate.adobe.de^
 ||practivate.adobe.ipp^
 ||practivate.adobe.newoa^
@@ -243,8 +232,6 @@
 ||data.typekit.net^
 ||muse.typekit.net^
 ||use.typekit.net^
-||macromedia.com^
-||fpdownload.macromedia.com^
 !
 ! ---------- Tracking ----------
 !
