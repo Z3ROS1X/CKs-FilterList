@@ -13,6 +13,10 @@
 !
 ! ---------- Microsoft ----------
 !
+||waws-prod-bay-049.vip.azurewebsites.windows.net^
+||waws-prod-bay-049.cloudapp.net^
+||vscode-update.azurewebsites.net^
+||marketplace.visualstudio.com^
 ||demo.wd.microsoft.com^
 ||a-msedge.net^
 ||accessvb.com^

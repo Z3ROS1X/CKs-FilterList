@@ -13,6 +13,10 @@
 !
 ! ---------- Google ----------
 !
+||8.client-channel.google.com^
+||r4---sn-1gi7znes.googlevideo.com^
+||gaming.youtube.com^
+||gstaticadssl.l.google.com^
 ||r12.sn-a5m7ln7s.googlevideo.com^
 ||r12.sn-vgqs7n7d.googlevideo.com^
 ||r9---sn-oguesn7z.googlevideo.com^
