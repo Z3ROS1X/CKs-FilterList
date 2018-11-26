@@ -1,8 +1,12 @@
 # CHEF-KOCH's Filter List [![Build Status](https://travis-ci.org/CHEF-KOCH/CKs-FilterList.svg?branch=master)](https://travis-ci.org/CHEF-KOCH/CKs-FilterList)
 
-I created this project 2018 because I don't like the current well-known filter lists and I think they're often outdated and _incomplete_ or simply inefficient. My list is not restricted by any region. However, my personal focus is english, russian and swiss and germany regions since I speak these languages. 
+I created this project 2018 because I don't like the current well-known filter lists and I think they're often outdated and _incomplete_ or simply too inefficient. My list is not restricted by any region. However, my personal focus is english, russian and swiss and germany regions since I speak these languages. 
 
 The overall project goal is to block ads and reduce the traffic coming from the domains/websites you visit. The term 'ads' is not defined in this project because I also block cosmetically banners and popup stuff which I think only causes useless traffic without any real benefit.
+
+## Links
+
+I'm not responsible for the provided links, or it's content behind it. I do not support any "explicit" content in any form. 
 
 <p align="center">
   <img width="480" height="430" src="https://i.imgur.com/rlEFwae.png">
