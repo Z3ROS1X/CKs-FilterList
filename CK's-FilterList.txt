@@ -5,8 +5,8 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 3d
-! TimeUpdated: 2018-11-26	04:25:57+01:00
-! Version: 0.0.3.33
+! TimeUpdated: 2018-11-26	05:05:21+01:00
+! Version: 0.0.3.34
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -1052,6 +1052,31 @@ vidzi.*##script:inject(window.open-defuser.js)
 ||zarpop.com^$third-party
 ||zeppin.com^$third-party
 ||рф/banner/
+! ---------- 2baksa ----------
+2baksa.net###g-recaptcha
+2baksa.net##.leftel > a:last-child
+2baksa.net##.pageswitch > b
+2baksa.net##.rightel
+2baksa.net##.td_blocks
+2baksa.net##body > br
+2baksa.net##body > div:nth-of-type(1)
+2baksa.net##body > div:nth-of-type(2)
+2baksa.net##body > div:nth-of-type(3)
+2baksa.net##body > div:nth-of-type(4)
+2baksa.net##div > .leftel > b
+2baksa.net##table:nth-of-type(2)
+2baksa.net##td:nth-of-type(2) > center
+2baksa.net##td:nth-of-type(2) > div:nth-of-type(2)
+2baksa.net##td:nth-of-type(2) > div:nth-of-type(3)
+2baksa.net##td:nth-of-type(2) > table
+@@||2baksa.net/download/images/~off/images*/*.*$image,domain=2baksa.net
+@@||2baksa.net/i/arrow_left.gif$image,domain=2baksa.net
+@@||2baksa.net/i/arrow_right.gif$image,domain=2baksa.net
+@@||2baksa.net/i/blockbg.jpg$image,domain=2baksa.net
+@@||2baksa.net/i/icon_news.gif$image,domain=2baksa.net
+@@||2baksa.net/i/menubg.gif$image,domain=2baksa.net
+@@||2baksa.net/i/menul.jpg$image,domain=2baksa.net
+@@||2baksa.net/i/menur.jpg$image,domain=2baksa.net
 ! ---------- 9 Anime ----------
 9anime.*##script:inject(abort-current-inline-script.js, parseInt, tabunder)
 9anime.*###sidebar > .text-center.crop.widget:style(height: 6px !important)
@@ -54240,6 +54265,37 @@ heise.de##A-PATERNOSTER
 ##iframe[src^="https://www.mxttrf.com/ads"]
 ##iframe[width="300"][height="250"]
 ##iframe[width="468"][height="60"]
+! ---------- Internet Download Manager ----------
+||205.199.44.156^
+||registeridm.com^
+||205.199.44.16^
+||mirror4.tonec.com^
+||tonec.com^
+||www.tonec.com^
+||mirror.internetdownloadmanager.com^
+||mirror4.internetdownloadmanager.com^
+||mirror2.internetdownloadmanager.com^
+||mirror1.internetdownloadmanager.com^
+||mirror3.internetdownloadmanager.com^
+||mirror5.internetdownloadmanager.com^
+||data.internetdownloadmanager.com^
+||star.tonec.com^
+||mirror.tonec.com^
+||mirror5.tonec.com^
+||mirror3.tonec.com^
+||mirror3.internetdownloadmanager.com^
+||internetdownloadmanager.com^
+||mirror6.internetdownloadmanager.com^
+||www.internetdownloadmanager.com^
+||www.mirror2.internetdownloadmanager.com^
+||www.mirror5.internetdownloadmanager.com^
+||www.mirror6.internetdownloadmanager.com^
+||secure.internetdownloadmanager.com^
+||registeridm.com^
+||secure.registeridm.com^
+||www.registeridm.com^
+||www.secure.registeridm.com^
+||rev.dyxnet.com^
 ! ---------- Lichess.org ----------
 lichess.org##.undertable.donation
 ! ---------- Yahoo ----------
@@ -55941,6 +55997,24 @@ reddit.com##.infobar-toaster-container
 ||redditstatic.com/moat/$important
 ||redditstatic.com/recommended-link.*$important
 ||tracker.redditmedia.com^
+! ---------- psarips.com ----------
+psarips.com###footer-bottom
+psarips.com###tag_cloud-2
+psarips.com##.group.sidebar-top
+psarips.com##div[id^="psari-"]
+spaste.com##.col-md-9 > .row > .col-md-12:nth-of-type(1)
+spaste.com##a[href="/site/rates"]
+spaste.com##div:nth-of-type(5) > center
+/pop.js|
+||adskeeper.co.uk^$third-party
+||dnxpseduuehm.com^
+||doubleclick.net^
+||facebook.com^$third-party
+||psarips.com/wp-content/plugins/hueman-addons/assets/front/js/sharrre.php
+||psarips.com/wp-content/themes/hueman-child/email-icon.png$image
+||psarips.com/wp-content/uploads/2016/04/PS-NG3.jpg$image
+||spaste.com/themes/site/img/spaste-logo.png$image
+||www.*.com/*.js|$script,domain=psarips.com
 ! ---------- sendspace.com ----------
 www.sendspace.com###nojs
 ! ---------- skidrowgamesreloaded ----------
@@ -56030,6 +56104,20 @@ thepiratebay.org##div#sky-banner
 thepiratebay.org##div#sky-center
 thepiratebay.org##div#sky-right
 thepiratebay.org##iframe[src^="//thepiratebay.org/static/ads/"]
+! ---------- Techsmith ----------
+||activation.cloud.techsmith.com^
+||analytics21.techsmith.com^
+||analytics29.techsmith.com^
+||assets.cloud.techsmith.com^
+||camtasiatudi.techsmith.com^
+||oscount.techsmith.com^
+||updater.techsmith.com^
+||www.techsmith.com^
+||66.225.197.197^
+||67.227.186.229^
+||69.167.144.30^
+||72.52.161.233^
+||117.18.237.29^
 ! ---------- Twitch.tv ----------
 www.twitch.tv##.tw-top-0.tw-right-0.tw-relative.tw-pd-y-1.tw-pd-x-2.tw-left-0.tw-justify-content-center.tw-flex-row.tw-flex.tw-c-text.tw-c-background-accent-alt-2.tw-border-b.tw-align-items-center.gdpr-consent-banner
 www.twitch.tv##._ig_twitch_buybutton
