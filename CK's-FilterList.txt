@@ -5,8 +5,8 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 3d
-! TimeUpdated: 2018-10-11	22:29:24+01:00
-! Version: 0.0.3.32
+! TimeUpdated: 2018-11-26	04:25:57+01:00
+! Version: 0.0.3.33
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -55951,6 +55951,42 @@ www.softwareok.com###MITE_217 > table > tbody > tr > td:nth-of-type(3)
 www.softwareok.com###XXXX > tbody > tr > td > table:nth-of-type(1) > tbody > tr > td > table > tbody > tr > td:nth-of-type(2)
 www.softwareok.com##td:nth-of-type(2) > center
 www.softwareok.com###MITE_217 > table > tbody > tr > td:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(3) > td!
+! ---------- softexia.com ----------
+softexia.com###foot
+softexia.com###head
+softexia.com###post > footer > div > ul
+softexia.com###posts > h4
+softexia.com###posts > ol
+softexia.com###side
+softexia.com###up
+softexia.com##.alignleft.image
+softexia.com##.hide-mobile
+softexia.com##.home-banners.content > .offer
+softexia.com##.menu
+softexia.com##.stick
+softexia.com##a[href^="https://www.softexia.com/buy-software/"]
+softexia.com##a[href^="https://www.softexia.com/discounts/"]
+softexia.com##a[href="https://www.softexia.com/buy-now"]
+softexia.com##a[href="https://www.softexia.com/discounts"]
+softexia.com##header > div > ul
+://$image,media,object,object-subrequest,other,script,stylesheet,websocket,xmlhttprequest,domain=softexia.com
+||softexia.com/wp-content/uploads/20*/*/mobile-logo.png$image,important
+@@||secure.gravatar.com/avatar^$image
+@@||secure.gravatar.com/avatar^$other
+@@||softexia.com/wp-content/plugins/td-api-plugin/css/style.css$stylesheet
+@@||softexia.com/wp-content/plugins/wp-postratings/images/stars/rating_*.gif$image
+@@||softexia.com/wp-content/themes/Newspaper/style.css$stylesheet
+@@||softexia.com/wp-content/themes/softexia/css/child-style.css$stylesheet
+@@||softexia.com/wp-content/themes/softexia/css/custom.css$stylesheet
+@@||softexia.com/wp-content/themes/softexia/style.css$stylesheet
+@@||softexia.com/wp-content/uploads/20*/*/*_365-64x64.png$image
+@@||softexia.com/wp-content/uploads/20*/*/*_logo.jpg$image
+@@||softexia.com/wp-content/uploads/20*/*/*_logo.png$image
+@@||softexia.com/wp-content/uploads/20*/*/*-64x60.jpg$image
+@@||softexia.com/wp-content/uploads/20*/*/*-64x64.jpg$image
+@@||softexia.com/wp-content/uploads/20*/*/*-64x64.png$image
+@@||softexia.com/wp-content/uploads/20*/*/*-logo.png$image
+@@||softexia.com/wp-content/uploads/20*/*/*logo-256x256.png$image
 ! ---------- Sourceforge.net ----------
 sourceforge.net###newsletter-floating-container
 ! ---------- Speedrun.com----------
