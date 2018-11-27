@@ -1,23 +1,41 @@
 ! Title: CHEF-KOCH's Filter List
 ! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
-! Checksum (SHA3-256): FB317634C45560B7322F2BC1F05301B4861504C9B9A81C302FEFD534C76179B9
+! Checksum (SHA3-256): 32380BA3465AA8124567DD08DF926B9EF4D29F73B6718F1135968D0861FA5A30
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 3d
-! TimeUpdated: 2018-11-26	05:05:21+01:00
-! Version: 0.0.3.34
+! TimeUpdated: 2018-11-27	05:56:07+01:00
+! Version: 0.0.3.35
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
 !
 ! uBlock bugs
 ! https://github.com/gorhill/uBlock/issues/1885
+! ---------- 4j ----------
+veedi.com##+js(set-constant.js, adBlocker, false)
+4j.com##+js(setTimeout-defuser.js, (), 2000)
+4j.com###bio_ep
+4j.com###bio_ep_bg
+4j.com##body:style(overflow: auto !important;)
+@@||imasdk.googleapis.com^$script,domain=veedi.com
+@@||imasdk.googleapis.com^$script,domain=4j.com
 ! ---------- Alibaba ----------
 @@||captcha.alibaba.com^
 ! ---------- 1st party blocking rules ----------
+makemehost.com##.adsbygoogle
+consoletarget.com,gamecopyworld.*##+js(abort-on-property-read.js, loadTool)
+phoneworld.com.pk##+js(set-constant.js, $tieE3, true)
+pss.pw##+js(abort-current-inline-script.js, decodeURI, decodeURIComponent)
+pss.pw##+js(abort-on-property-read.js, AaDetector)
+||onlinevideoconverter.com^$script,first-party
+onlinevideoconverter.com##[href="https://bit.ly/uconvert"]
+vodlocker.to##+js(nowebrtc.js)
+||vodlocker.to/sw-vodlocker.to.js$script,first-party
 upload4earn.org##center
 gls-group.eu###gls_app_witt002_pageControllerSearch_0 > .appHeadWrp
+anitube.*##+js(set-constant.js, adBlockDetected, noopFunc)
 @||ad.crwdcntrl.net^$script,domain=weather.com
 ||freecontent.*./$script
 @@||gelbooru.com/script/miscJs.js?$script,first-party
@@ -10072,6 +10090,10 @@ douploads.com##div.col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-of-type(1)
 douploads.com##div.col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-of-type(3)
 douploads.com##.content > center:nth-of-type(1)
 ! ---------- Domains (Android, etc) ----------
+||lzrikate.com^
+||trk.dsllgal.com^
+||gotrack.static500.com^
+||ade.googlesyndication.com^
 ||clmbtech.com^
 ||eboundservices.com^
 ||publisher.eboundservices.com^
@@ -28968,7 +28990,7 @@ douploads.com##.content > center:nth-of-type(1)
 ||leticia-kinley.us^
 ||letsgetrapidresults.com^
 ||letssearch.com^
-||letsstat.nl^$third-party
+||letsstat.nl^
 ||lettre.research-int.fr^
 ||levelrate.de^
 ||lever.co^
@@ -53919,6 +53941,7 @@ google.*##.widget-pane-section-result[data-result-ad-type]
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##div[class][zoompage-fontsize] > img[src]
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##script:inject(abort-on-property-read.js, canRunAds)
 apis.google.com/_/jserror$xmlhttprequest
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=dlnowsoft.com
 ||content.googleapis.com/drive/v2internal/viewerimpressions$xmlhttprequest,first-party
 ! -- Google Domains --
 ||adservice.google.ca^
@@ -54459,6 +54482,7 @@ forum.mobilism.org##.twitter-color.icon-stack-base.icon-circle
 newdaily.co.kr##div#ad1
 newdaily.co.kr##div#iw_ad4
 ! ---------- Network Element Filters (by generichide) ----------
+@@||makemehost.com^$generichide
 @@||opjav.com^$generichide
 @@||gameguardian.net^$generichide
 @@||dundi.it^$generichide
@@ -56226,6 +56250,18 @@ wish.com##.ui-popup-container
 wish.com##.ui-popup-screen
 wish.com##body:style(user-select: unset !important;)
 ! ---------- Whitelisting rules ----------
+@@||radioset.es/dist/assets/omniture/visitorapi.min.js$script,first-party
+@@||radioset.es/dist/assets/comscore/streamsense$script,first-party
+@@||energytv.es/dist/assets/comscore/streamsense$script,first-party
+@@||energytv.es/dist/assets/omniture/visitorapi.min.js$script,first-party
+@@||yasss.es/dist/assets/comscore/streamsense$script,first-party
+@@||yasss.es/dist/assets/omniture/visitorapi.min.js$script,first-party
+@@||factoriadeficcion.com/dist/assets/comscore/streamsense$script,first-party
+@@||factoriadeficcion.com/dist/assets/omniture/visitorapi.min.js$script,first-party
+@@||bemad.es/dist/assets/comscore/streamsense$script,first-party
+@@||bemad.es/dist/assets/omniture/visitorapi.min.js$script,first-party
+@@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$script,domain=anitube.info|anitube.pro
+@@||anitube.info^$generichide
 @@?&$image,domain=msn.com
 @@||bt.dk/build/advertisement.$script
 @@||programiz.com^$xmlhttprequest,first-party
