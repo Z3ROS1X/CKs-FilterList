@@ -13,6 +13,11 @@
 !
 ! ---------- Google ----------
 !
+||147.89.193.35.bc.googleusercontent.com^
+||ns-gce-public4.googledomains.com^
+||ns-gce-public1.googledomains.com^
+||ns-gce-public2.googledomains.com^
+||ns-gce-public3.googledomains.com^
 ||8.client-channel.google.com^
 ||r4---sn-1gi7znes.googlevideo.com^
 ||gaming.youtube.com^
