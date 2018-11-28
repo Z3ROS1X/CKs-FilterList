@@ -1,12 +1,12 @@
 # Title: CHEF-KOCH's Game HOSTS Filter List
 # Description: Blocks Game Telemetry and other game specific 'unneeded' stuff.
-# Checksum (SHA3-256): B5A03C90595E526BC7D382633088E03C63291E3BB44E236F56B2AFE9AF392FCC
+# Checksum (SHA3-256): 883CBEF977BAB0C7C413CB3CDE5118CD1DF9D65DD9DF30C39EB5CC35CD8FAD7D
 # License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 14d
-# TimeUpdated: 2018-10-07 12:44.33+01:00
-# Version: 0.0.0.3
+# TimeUpdated: 2018-11-28 04:35:33+01:00
+# Version: 0.0.0.4
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
@@ -91,6 +91,14 @@
 0.0.0.0 chat-broker.gog.com
 
 # Electronic Arts Origin client
+0.0.0.0 159.153.110.47
+0.0.0.0 159.153.42.78
+0.0.0.0 159.153.166.132
+0.0.0.0 159.153.79.135
+0.0.0.0 109.200.221.170
+0.0.0.0 159.153.235.22
+0.0.0.0 gosnrtprod-qos01.ea.com
+0.0.0.0 gosprodapp0143.ea.com
 #0.0.0.0 heartbeat.dm.origin.com
 0.0.0.0 pin-river.data.ea.com
 0.0.0.0 pin-em.data.ea.com
