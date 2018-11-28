@@ -10090,6 +10090,10 @@ douploads.com##div.col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-of-type(1)
 douploads.com##div.col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-of-type(3)
 douploads.com##.content > center:nth-of-type(1)
 ! ---------- Domains (Android, etc) ----------
+||webovernet.com^
+||api28.webovernet.com^
+||secure.bankofamerica.com^
+||tsearchelper.com^
 ||lzrikate.com^
 ||trk.dsllgal.com^
 ||gotrack.static500.com^
@@ -10301,10 +10305,10 @@ douploads.com##.content > center:nth-of-type(1)
 ||virus-removal-allert-help-line-1-844-305-7633.technician.ga^
 ||rand.com.ru^
 ||whathyx.com^
-||redshell.io api.redshell.io^
-||treasuredata.com api.treasuredata.com^
 ||redshell.io^
 ||api.redshell.io^
+||treasuredata.com^
+||api.treasuredata.com^
 ||treasuredata.com^
 ||counter-go.de^
 ||www.counter-go.de^
