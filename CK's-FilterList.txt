@@ -1,12 +1,12 @@
 ! Title: CHEF-KOCH's Filter List
 ! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
-! Checksum (SHA3-256): 32380BA3465AA8124567DD08DF926B9EF4D29F73B6718F1135968D0861FA5A30
+! Checksum (SHA3-256): 269DF8234CEBDFBC8FB474EA2D42A3B901CEFEB3E38C4EF910356BC85D0220F3
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 3d
-! TimeUpdated: 2018-11-27	05:56:07+01:00
-! Version: 0.0.3.35
+! TimeUpdated: 2018-11-28	04:29:00+01:00
+! Version: 0.0.3.36
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -39,6 +39,93 @@ anitube.*##+js(set-constant.js, adBlockDetected, noopFunc)
 @||ad.crwdcntrl.net^$script,domain=weather.com
 ||freecontent.*./$script
 @@||gelbooru.com/script/miscJs.js?$script,first-party
+||everydaycarry.com^$popup
+||bet-at-home.com^$popup
+||scorebull.com/adv/$popup
+||sender.contentjs.com^$popup
+||sports747.com^$popup
+||sexgangsters.com^$popup
+||atrx7.com^$popup
+||dealxplorer.org^$popup
+||offer.alibaba.com^$popup
+||allanalpass.com/visitScript/$script,third-party
+||amy.gs/visitScript/$script,third-party
+||any.gs/visitScript/$script,third-party
+||cash4files.com/visitScript/$script,third-party
+||cash4links.co/visitScript/$script,third-party
+||deb.gs/visitScript/$script,third-party
+||drstickyfingers.com/visitScript/$script,third-party
+||dyo.gs/visitScript/$script,third-party
+||eafyfsuh.net/visitScript/$script,third-party
+||fapoff.com/visitScript/$script,third-party
+||filesonthe.net/visitScript/$script,third-party
+||freean.us/visitScript/$script,third-party
+||freegaysitepass.com/visitScript/$script,third-party
+||galleries.bz/visitScript/$script,third-party
+||goneviral.com/visitScript/$script,third-party
+||hornywood.tv/visitScript/$script,third-party
+||linkbabes.com/visitScript/$script,third-party
+||linkbucks.com/visitScript/$script,third-party
+||megaline.co/visitScript/$script,third-party
+||miniurls.co/visitScript/$script,third-party
+||picbucks.com/visitScript/$script,third-party
+||poontown.net/visitScript/$script,third-party
+||qqc.co/visitScript/$script,third-party
+||rqq.co/visitScript/$script,third-party
+||sasontnwc.net/visitScript/$script,third-party
+||seriousdeals.net/visitScript/$script,third-party
+||sexpalace.gs/visitScript/$script,third-party
+||theseblogs.com/visitScript/$script,third-party
+||theseforums.com/visitScript/$script,third-party
+||tinylinks.co/visitScript/$script,third-party
+||tnabucks.com/visitScript/$script,third-party
+||tubeviral.com/visitScript/$script,third-party
+||ultrafiles.net/visitScript/$script,third-party
+||urlbeat.net/visitScript/$script,third-party
+||whackyvidz.com/visitScript/$script,third-party
+||youfap.me/visitScript/$script,third-party
+||yyv.co/visitScript/$script,third-party
+||zatnawqy.net/visitScript/$script,third-party
+||zff.co/visitScript/$script,third-party
+||allanalpass.com/Webservices/jsParseLinks.aspx$script,third-party
+||amy.gs/Webservices/jsParseLinks.aspx$script,third-party
+||any.gs/Webservices/jsParseLinks.aspx$script,third-party
+||cash4files.com/Webservices/jsParseLinks.aspx$script,third-party
+||cash4links.co/Webservices/jsParseLinks.aspx$script,third-party
+||deb.gs/Webservices/jsParseLinks.aspx$script,third-party
+||drstickyfingers.com/Webservices/jsParseLinks.aspx$script,third-party
+||dyo.gs/Webservices/jsParseLinks.aspx$script,third-party
+||eafyfsuh.net/Webservices/jsParseLinks.aspx$script,third-party
+||fapoff.com/Webservices/jsParseLinks.aspx$script,third-party
+||filesonthe.net/Webservices/jsParseLinks.aspx$script,third-party
+||freean.us/Webservices/jsParseLinks.aspx$script,third-party
+||freegaysitepass.com/Webservices/jsParseLinks.aspx$script,third-party
+||galleries.bz/Webservices/jsParseLinks.aspx$script,third-party
+||goneviral.com/Webservices/jsParseLinks.aspx$script,third-party
+||hornywood.tv/Webservices/jsParseLinks.aspx$script,third-party
+||linkbabes.com/Webservices/jsParseLinks.aspx$script,third-party
+||linkbucks.com/Webservices/jsParseLinks.aspx$script,third-party
+||megaline.co/Webservices/jsParseLinks.aspx$script,third-party
+||miniurls.co/Webservices/jsParseLinks.aspx$script,third-party
+||picbucks.com/Webservices/jsParseLinks.aspx$script,third-party
+||poontown.net/Webservices/jsParseLinks.aspx$script,third-party
+||qqc.co/Webservices/jsParseLinks.aspx$script,third-party
+||rqq.co/Webservices/jsParseLinks.aspx$script,third-party
+||sasontnwc.net/Webservices/jsParseLinks.aspx$script,third-party
+||seriousdeals.net/Webservices/jsParseLinks.aspx$script,third-party
+||sexpalace.gs/Webservices/jsParseLinks.aspx$script,third-party
+||theseblogs.com/Webservices/jsParseLinks.aspx$script,third-party
+||theseforums.com/Webservices/jsParseLinks.aspx$script,third-party
+||tinylinks.co/Webservices/jsParseLinks.aspx$script,third-party
+||tnabucks.com/Webservices/jsParseLinks.aspx$script,third-party
+||tubeviral.com/Webservices/jsParseLinks.aspx$script,third-party
+||ultrafiles.net/Webservices/jsParseLinks.aspx$script,third-party
+||urlbeat.net/Webservices/jsParseLinks.aspx$script,third-party
+||whackyvidz.com/Webservices/jsParseLinks.aspx$script,third-party
+||youfap.me/Webservices/jsParseLinks.aspx$script,third-party
+||yyv.co/Webservices/jsParseLinks.aspx$script,third-party
+||zatnawqy.net/Webservices/jsParseLinks.aspx$script,third-party
+||zff.co/Webservices/jsParseLinks.aspx$script,third-party
 ||01net.com/telecharger/$document
 ||0mme.com^$script,domain=comicbook.com|popculture.com
 ||1emn.com^$script,domain=hotair.com|moviepilot.com
@@ -9813,12 +9900,14 @@ workforce.hu##.cookie
 /coinblind_beta.
 /coinhive-proxy-
 /coinhive.min.js
+/coinhive.js
 /coinlab.js
 /crn.wasm
 /crypto-webminer.$domain=~crypto-webminer.com
 /cryptocpu.js
 /cryptonight-worker.
 /cryptonight.wasm
+/c-hive.min.js
 /cryptonoter.
 /deepMiner.js
 /deepMiner.min.js
@@ -10090,6 +10179,8 @@ douploads.com##div.col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-of-type(1)
 douploads.com##div.col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-of-type(3)
 douploads.com##.content > center:nth-of-type(1)
 ! ---------- Domains (Android, etc) ----------
+||cqfnvznw.info^
+||jyhfuqoh.info^
 ||webovernet.com^
 ||api28.webovernet.com^
 ||secure.bankofamerica.com^
