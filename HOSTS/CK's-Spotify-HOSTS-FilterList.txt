@@ -5,8 +5,8 @@
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 14d
-# TimeUpdated: 2018-11-16 21:02:22+01:00
-# Version: 0.0.2.2
+# TimeUpdated: 2018-11-29 11:40:50+01:00
+# Version: 0.0.2.3
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
@@ -20,6 +20,11 @@
 # !!!!!!!!!!!!!!!!! DO NOT FORGET TO BLOCK THE IP RANGES !!!!!!!!!!!!!!!!!
 # !!!!!!!!!!!!!!!!! Also clear Client cache & enable the cookie privacy option under advanced !!!!!!!!!!!!!!!!!
 #
+0.0.0.0 xe-3-3-1-0.core1.fra2.de.m247.com
+0.0.0.0 fra1.decixfra.fastly.net
+0.0.0.0 vlan106.as03.zur1.ch.m247.com
+0.0.0.0 xe-0-0-3-0.agg1.zur1.ch.m247.com
+0.0.0.0 eth-50-4-0.core-agg3.buc.ro.m247.com
 0.0.0.0 d3rt1990lpmkn.cloudfront.net
 0.0.0.0 adserver-as.adtech.advertising.com
 0.0.0.0 ads.bizhut.com
