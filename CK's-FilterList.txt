@@ -1,18 +1,33 @@
 ! Title: CHEF-KOCH's Filter List
 ! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
-! Checksum (SHA3-256): 73705DDA0429B1C86CCD27F163F9C7BCD970E22F29280DA80E4F0558E221C700
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
-! Expires: 3d
-! TimeUpdated: 2018-11-29	12:06:34+01:00
-! Version: 0.0.3.38
+! Expires: 8 days
+! TimeUpdated: 2018-11-30	14:51:49+01:00
+! Version: 0.0.3.39
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
 !
 ! uBlock bugs
 ! https://github.com/gorhill/uBlock/issues/1885
+! ---------- 1337x.to ----------
+1337x.*##+js(abort-on-property-write.js, Fingerprint2)
+1337x.*##.download-links-dontblock > LI:has-text(Anon)
+1337x.*##.download-links-dontblock > LI:has-text(Stream)
+1337x.*##a[href^="/redirectmusic.php"]
+1337x.*##a[href^="/spyoff"]
+1337x.*##a[href*="//steepto.com/"]
+1337x.*##.cbdebf
+1337x.*##.aedcfdae
+1337x.*##footer
+1337x.*##.logo > [href="/home/"]
+1337x.*,x1337x.*##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, popunder)
+1337x.*,x1337x.*##+js(setInterval-defuser.js, (), 500)
+1337x.*##+js(window.open-defuser.js)
+x1337x.eu##.mgbox
+||1337x.*/css/images/notfication-bg.png$image
 ! ---------- 4j ----------
 veedi.com##+js(set-constant.js, adBlocker, false)
 4j.com##+js(setTimeout-defuser.js, (), 2000)
@@ -25,13 +40,8 @@ veedi.com##+js(set-constant.js, adBlocker, false)
 @@||captcha.alibaba.com^
 ! ---------- AniTube ----------
 anitube.*##+js(abort-on-property-read.js, redirect1)
-! ---------- 1337x.to ----------
-1337x.to##.cbdebf
-1337x.to##.aedcfdae
-1337x.to##footer
-1337x.to##.logo > [href="/home/"]
-||1337x.to/css/images/notfication-bg.png$image
 ! ---------- 1st party blocking rules ----------
+feedly.com##div.bsa-native-ad
 ||freevaluator.com^*/js/check.js
 sync-video.com##.playlist-left.span4 > div:nth-of-type(4)
 cryptocare.tech##.css-qsqai01.css-1a5f3bo
@@ -177,9 +187,6 @@ anitube.*##+js(set-constant.js, adBlockDetected, noopFunc)
 ||download.cnet.com^$document
 ||download.mokeedev.com/js/jquery-common.js.*$first-party,script,redirect=fuckadblock.js-3.2.0
 ||dragonball-tube.com/templates/caprica/images/pw.jpg$image
-||dropapk.com/images/mngez-maxspeed.swf$object
-||dropapk.com/images/mngez-minspeed.swf$object
-||dropapk.com/download.gif$image,first-party
 ||dubshub.com^$script,redirect=noopjs,domain=fastserver.me
 ||e0mn.com^$script,domain=patheos.com
 ||edgeno.de^$script,third-party,domain=~edgemesh.com
@@ -1204,6 +1211,14 @@ vidzi.*##script:inject(window.open-defuser.js)
 @@||2baksa.net/i/menul.jpg$image,domain=2baksa.net
 @@||2baksa.net/i/menur.jpg$image,domain=2baksa.net
 ! ---------- 9 Anime ----------
+9anime.*#@#.rc-item-wrapper
+9anime.*##.rc-item-wrapper:style(visibility: collapse !important)
+9anime.*###sidebar > .text-center.crop.widget:style(height: 6px !important)
+9anime.*##a[href$=".png"]
+9anime.*##+js(abort-current-inline-script.js, atob, incrementClicks)
+9anime.*##+js(abort-current-inline-script.js, parseInt, tabunder)
+9anime.*##+js(setTimeout-defuser.js, return, 2000)
+9anime.*##+js(abort-on-property-read.js, zfgloadedpopup)
 9anime.*##script:inject(abort-current-inline-script.js, parseInt, tabunder)
 9anime.*###sidebar > .text-center.crop.widget:style(height: 6px !important)
 9anime.*##.rc-item-wrapper:style(visibility: collapse !important)
@@ -1212,6 +1227,7 @@ vidzi.*##script:inject(window.open-defuser.js)
 9anime.*##script:inject(setTimeout-defuser.js, return, 2000)
 9anime.*##script:inject(set-constant.js, Math.random, trueFunc)
 9anime.*##script:inject(set-constant.js, Object.defineProperty, noopFunc)
+||9anime.is/scripts/*$script,first-party
 @@||9anime.*^$generichide
 @@||9anime.is/assets/min/frontend/all.js$script
 @@||9anime.is/assets/player/jwplayer-7.12.3/jwplayer.js$script
@@ -10217,6 +10233,12 @@ discord.me##.master > .container > .row:nth-of-type(1) > .col-sm-12
 ||dreamsearch.or.kr/servlet/nateMobileServlet^
 ||dreamsearch.or.kr/servlet/sadbn^
 ||dreamsearch.or.kr/servlet/shortCut^
+! ---------- dropapk.com ----------
+||dropapk.com/images/mngez-maxspeed.swf$object
+||dropapk.com/images/mngez-minspeed.swf$object
+||dropapk.com/download.gif$image,first-party
+dropapk.com##+js(abort-on-property-write.js, Fingerprint2)
+dropapk.com##+js(nowebrtc.js)
 ! ---------- douploads.com ----------
 douploads.com##.downarea > center
 douploads.com##footer
@@ -10225,6 +10247,8 @@ douploads.com##div.col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-of-type(3)
 douploads.com##.content > center:nth-of-type(1)
 douploads.com##.mngez_lastnews > span
 ! ---------- Domains (Android, etc) ----------
+||soujoobafoo.com^
+||p.d.0emn.com^
 ||uoldid.ru^
 ||aseclmvbtech.com^
 ||ade.clmvbtech.com^
@@ -11825,6 +11849,7 @@ douploads.com##.mngez_lastnews > span
 ||foabezckdiv.bid^
 ||fobjoccwkrkv.com^
 ||foguumjql.com^
+||fotzenparty.eu^
 ||fpbmjwoebzby.com^
 ||fpguuwnpkvqsq.bid^
 ||fpnxicejwel.com^
@@ -53606,13 +53631,6 @@ douploads.com##.mngez_lastnews > span
 ||pslan.com^
 ||public2.zz.ha.cn^
 ||pubmine.com^
-||pussl10.com^
-||pussl2.com^
-||pussl4.com^
-||pussl5.com^
-||pussl7.com^
-||pussl8.com^
-||pussl9.com^
 ||pwk.delvu.com^
 ||r.logrocket.com^
 ||ratexchange.net^
@@ -53685,17 +53703,21 @@ douploads.com##.mngez_lastnews > span
 ||zemanta^
 ||zergnet.com^
 ! ---------- Facebook ----------
+##[title="Follow me on Facebook"]
+-ad.js$domain=~sh.st|~facebook.com
+/facebook-page-promoter-lightbox/*
+_facebookbadge.
+||facebook.com/ajax/photos/logging/session_logging.php$important
+||graph.facebook.com$xmlhttprequest
+||instagram.com/client_action
+||instagram.com/client_error
+||instagram.com/ajax/bz
 facebook.com,facebookcorewwwi.onion##div[id^="hyperfeed_story_id_"]:if(div[id*="subtitle"] > span:matches-css(display:none):has(abbr .timestampContent)) 
 facebook.com##div[id^="hyperfeed_story_id_"]:if(div > span:matches-css(display:none):has(abbr .timestampContent))
 facebook.com#@#.Ad
 facebook.com###contentArea div:if-not(.clearfix):has(a[href*="/login/?"])
 facebook.com##._5hn6:has(div a[role="button"][href^="/login/?"])
 facebook.com##._5hn6:has(div a[role="button"][href^="/r.php?"])
-||facebook.com/ajax/photos/logging/session_logging.php$important
-||graph.facebook.com$xmlhttprequest
-||instagram.com/client_action
-||instagram.com/client_error
-||instagram.com/ajax/bz
 instagram.com##._he402
 facebookcorewwwi.onion###u_0_6c
 facebookcorewwwi.onion###u_0_6d
@@ -53709,14 +53731,6 @@ m.facebook.com###mobile_login_bar
 m.facebook.com###u_0_12
 facebook.com##.ego_section
 www.facebook.com##div[data-xt]
-##[title="Follow me on Facebook"]
--ad.js$domain=~sh.st|~facebook.com
-/facebook-page-promoter-lightbox/*
-@@||connect.facebook.com^*/audiencenetworkprebid.js$script,domain=screenrant.com
-@@||connect.facebook.net^$script,domain=abc.go.com|adultswim.com|contv.com|damnyouautocorrect.com|embedly.com|fitbit.com|instagram.com|interviewmagazine.com|noovo.ca|pogo.com|reddit.com|salon.com|sci2.tv|southpark.cc.com|southpark.de|upi.com
-@@||graph.facebook.com^$xmlhttprequest,domain=theguardian.com
-@@||staticxx.facebook.com/connect/$domain=embedly.com
-_facebookbadge.
 facebook.com###mobile_mirror_banner
 facebook.com###u_0_m
 facebook.com##.pam._3-95.uiBoxRed
@@ -53725,6 +53739,25 @@ facebook.com#?#.fbUserStory:-abp-contains(People you)
 facebook.com#?#.mtm:-abp-contains(Products shown)
 facebook.com#?#.userContentWrapper:-abp-contains(People you)
 facebook.com#?#div[data-testid="fbfeed_story"]:-abp-has(a[href*="[is_sponsored]"])
+facebook.com,facebookcorewwwi.onion###stream_pagelet div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
+facebook.com,facebookcorewwwi.onion###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
+facebook.com,facebookcorewwwi.onion###stream_pagelet div[id^="hyperfeed_story_id_"]:if(h6:has-text(People You May Know))
+m.facebook.com##article:has(footer > div > div > a[href^="/friends/center/?fb_ref="])
+facebook.com,facebookcorewwwi.onion##.ego_section:has(a.adsCategoryTitleLink)
+facebook.com,facebookcorewwwi.onion###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
+facebook.com,facebookcorewwwi.onion##.ego_column:if(a[href^="/campaign/landing"])
+facebook.com,facebookcorewwwi.onion##[id^="hyperfeed_story_id_"]:if([id^="feed_subtitle_"] a[href]:matches-css-after(content:/Gesponsert|Sponsored|Sponsrad/))
+facebook.com,facebookcorewwwi.onion##div[data-testid="fbfeed_story"]:if(a[href*="[is_sponsored]"])
+facebook.com,facebookcorewwwi.onion##.ego_section:if(a[href^="/ad_campaign"])
+facebook.com,facebookcorewwwi.onion##.userContentWrapper:has(a[href*="/ads/"])
+facebook.com,facebookcorewwwi.onion##[id^="hyperfeed_story_id_"]:has(a[href*="client_token"])
+facebook.com#@#div[id^="hyperfeed_story_id_"]:has(a[href*="utm_campaign"])
+facebook.com,facebookcorewwwi.onion##.userContentWrapper>div div>span>span:has-text(^Suggested Post$)
+facebook.com,facebookcorewwwi.onion##div[id^="hyperfeed_story_id_"]:if(div > span:matches-css(display:none):has(abbr .timestampContent))
+@@||connect.facebook.com^*/audiencenetworkprebid.js$script,domain=screenrant.com
+@@||connect.facebook.net^$script,domain=abc.go.com|adultswim.com|contv.com|damnyouautocorrect.com|embedly.com|fitbit.com|instagram.com|interviewmagazine.com|noovo.ca|pogo.com|reddit.com|salon.com|sci2.tv|southpark.cc.com|southpark.de|upi.com
+@@||graph.facebook.com^$xmlhttprequest,domain=theguardian.com
+@@||staticxx.facebook.com/connect/$domain=embedly.com
 @@||facebook.com/ads/preferences/edit_sensitive_topics$xmlhttprequest
 @@||facebook.com/ads/preferences/ad_report/$xmlhttprequest
 ! ---------- Fake News ----------
@@ -53797,6 +53830,8 @@ facebook.com#?#div[data-testid="fbfeed_story"]:-abp-has(a[href*="[is_sponsored]"
 ||endingthefed.com ^
 ||duhprogressive.com^
 ! ---------- Fastly ----------
+||fastly.net^$image,important,redirect=2x2-transparent.png,domain=cbs.com
+||fastly.net^$script,important,redirect=noopjs,domain=cbs.com
 ||fastly.net/ads/$image,redirect=2x2-transparent.png
 ||fastly.net/ads/$script,redirect=noopjs
 ||fastly.net/ads/$xmlhttprequest,redirect=nooptext
@@ -54038,6 +54073,7 @@ www.google.ru###pushdown
 www.google.si###pushdown
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=skylinewebcams.com,important
 /(?=.+\/amp\/)www\.google\.[a-z]{2,3}(?:\.[a-z]{2})?\/amp\//$document
+google.*##.ads-ad
 google.*###main > div[data-hveid]
 google.*###sqh
 google.*###center_col > #\5f Emc
@@ -54163,6 +54199,7 @@ youtube.com##div#masthead-ad
 youtube.com##ytd-compact-promoted-video-renderer
 youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer
 youtube.com##ytd-search-pyv-renderer
+youtube.com##.ytp-ad-progress
 youtube.com/player_204?
 youtube.com^*/log_event?
 youtube.com^*/log_interaction?
@@ -54178,6 +54215,9 @@ youtube.com^*/log_interaction?
 ||youtube.com/ptracking$important
 ||youtube.com/set_awesome$important
 ||ytimg.com/yts/swfbin/player-*/endscreen.swf$object-subrequest,domain=youtube.com
+redtube.com###ab_banner
+redtube.com##.clearfix:has-text(Ads)
+redtube.com###browse_section > div:has(:scope > div > a.ad-link)
 ! -- Unbreak Google --
 /google-analytics.$badfilter
 -google-analytics.$badfilter
@@ -54187,6 +54227,7 @@ youtube.com^*/log_interaction?
 !||google-analytics.com^$important
 !||googleadservices.com^$important
 !||googlesyndication.com^$important
+||googlesyndication.com^$script,redirect=noopjs,important,domain=sc2casts.com
 @@||google-analytics.com^$domain=avianca.com|jackbox.tv|newegg.com|bikstok.sonymusicshop.dk
 @@||google-analytics.com/analytics.js$script,domain=burodecredito.com.mx|vd.nl
 @@||google-analytics.com/plugins/$script
@@ -54235,6 +54276,7 @@ heise.de##.hinweis_anzeige
 heise.de##A-PATERNOSTER
 @@||advertiser.wbtrk.net/js/advertiser.js$domain=heise.de
 ! ---------- iframe ----------
+##iframe[src^="//adapi.inlcorp.com/dfp/"]
 ##iframe[data-src^="http://nw.realssp.co.kr/"]
 ##iframe[data-src^="http://ssp.realclick.co.kr/"][data-src*="c=iframe"]
 ##iframe[name*="ads-center"]
@@ -54482,6 +54524,21 @@ heise.de##A-PATERNOSTER
 ||rev.dyxnet.com^
 ! ---------- Lichess.org ----------
 lichess.org##.undertable.donation
+! ---------- lifehacker.com ----------
+lifehacker.com##div.ad-top
+lifehacker.com##div.ad-wide
+lifehacker.com##div.ad-bottom
+lifehacker.com##div.ad-container
+lifehacker.com##div.ad-mobile-dynamic
+lifehacker.com##div.ad-non-sticky
+lifehacker.com##div.ad-promotions-container
+lifehacker.com##div.contained-ad-container
+lifehacker.com##div.js_ad-infinite-promotion
+lifehacker.com##div.js_ad-starter-pageview
+lifehacker.com##div.movable-ad
+lifehacker.com##section.contained-ad-container
+lifewire.com##div.mntl-flexible-ad
+lifewire.com##div.mntl-gpt-adunit
 ! ---------- Yahoo ----------
 /yahoo-ad-
 /yahoo-ads/*
@@ -56192,18 +56249,24 @@ pcgameshardware.de##.socialLinks
 ! ---------- PornHub.com ----------
 ||ht.pornhub.com^
 ||cdn1.static.pornhub.phncdn.com^
-www.pornhub.com##body > .lonesomemuch
-www.pornhub.com##.footer
-www.pornhub.com##.footer-title
-www.pornhub.com##.logoFooterWrapper
-www.pornhub.com##.psWrapper > .lonesomemuch
-www.pornhub.com##.pornstarVideosCounter.showingCounter
-www.pornhub.com###pornstarsFilterContainer > .lonesomemuch
-www.pornhub.com##ads > div:nth-of-type(1)
-www.pornhub.com##ads > div:nth-of-type(2)
-www.pornhub.com##body > .foragirllikeyou
-www.pornhub.com##body > undefined
-www.pornhub.com##.sectionWrapper > undefined
+pornhub.com##body > .lonesomemuch
+pornhub.com##.footer
+pornhub.com##.footer-title
+pornhub.com##sads
+pornhub.com##.logoFooterWrapper
+pornhub.com##.psWrapper > .lonesomemuch
+pornhub.com##.pornstarVideosCounter.showingCounter
+pornhub.com###pornstarsFilterContainer > .lonesomemuch
+pornhub.com##ads > div:nth-of-type(1)
+pornhub.com##ads > div:nth-of-type(2)
+pornhub.com##body > .foragirllikeyou
+pornhub.com##body > undefined
+pornhub.com##.sectionWrapper > undefined
+pornhub.com##.sectionWrapper > div[class]:has(:scope > div > .ad-link)
+pornhub.com##+js(addEventListener-defuser.js, DOMContentLoaded, [native code])
+pornhub.com##+js(abort-on-property-write.js, rAb)
+pornhub.com##+js(csp.js, img-src 'self' *; media-src 'self' *)
+@@||static.pornhub.phncdn.com^$script,domain=pornhub.com
 ! ---------- Reddit ----------
 reddit.com##body > div[data-overflow]:last-child
 reddit.com##div.promotedlink
@@ -56240,6 +56303,15 @@ reddit.com##.infobar-toaster-container
 ||redditstatic.com/moat/$important
 ||redditstatic.com/recommended-link.*$important
 ||tracker.redditmedia.com^
+! ---------- putlocker ----------
+putlocker.*##+js(abort-current-inline-script.js, parseInt, tabunder)
+putlocker.*##+js(abort-current-inline-script.js, MutationObserver, 676574456c656d656e747342795461674e616d65)
+putlocker.*##+js(abort-current-inline-script.js, atob, decodeURIComponent)
+putlocker.io##+js(nowebrtc.js)
+putlocker.*##[id*="ScriptRoot"]
+putlocker.*##.ep_buttons
+||putlocker.*^*banner
+||loadshare.org/custom/*$media,redirect=noopmp4-1s,domain=putlocker.digital
 ! ---------- Restream.io ----------
 ||restream.io/img/install_flash.png$image
 ||restream.io/img/promo/trash-meme/logo.gif$image
@@ -56269,6 +56341,9 @@ spaste.com##div:nth-of-type(5) > center
 ||www.*.com/*.js|$script,domain=psarips.com
 ! ---------- sendspace.com ----------
 www.sendspace.com###nojs
+! ---------- serverfault.com ----------
+serverfault.com,stackoverflow.com,superuser.com##div#dfp-mlb
+serverfault.com,stackoverflow.com,superuser.com##div#dfp-tlb
 ! ---------- skidrowgamesreloaded ----------
 skidrowgamesreloaded.com##.box-content
 skidrowgamesreloaded.com##.grid-box > .box-content
@@ -56334,7 +56409,6 @@ www.station-drivers.com##.uk-hidden-small.uk-clearfix.tm-headerbar
 www.station-drivers.com##.uk-grid.tm-top-a > .uk-width-1-1 > .uk-panel-box.uk-panel
 www.station-drivers.com##.uk-grid.tm-top-b > .uk-width-1-1
 www.station-drivers.com###tm-top-a
-
 ! ---------- Superuser.com ----------
 superuser.com##div#dfp-mlb
 superuser.com##div#dfp-tlb
@@ -56343,10 +56417,14 @@ theguardian.com##.contributions__epic
 theguardian.com##.selection-sharing
 theguardian.com##.submeta__share
 ! ---------- TheHackerNews.com ----------
+thehackernews.com##center.banners
+thehackernews.com##div.ad_one
 thehackernews.com##.right-box
 thehackernews.com##.cf.deals
 thehackernews.com##.cf.google
 thehackernews.com###email-outer
+thehackernews.com##div.banners
+thehackernews.com##ins.dcmads
 ! ---------- The Intercept.com ----------
 theintercept.com##.Post--current.Post--190502.Post--feature.Post > .Post-body > .Post-content-block-outer > .Post-scroll-container.GridContainer > .GridRow > .Post-content-block > .Post-content-block-inner > .InlineDonationPromo
 ! ---------- The PirateBay ----------
@@ -56456,6 +56534,12 @@ uploadocean.com##div.resp-container:nth-of-type(7)
 userscloud.com##.innerTB > center
 userscloud.com###dl_link
 userscloud.com###foxclocks-statusbar-spacer
+userscloud.com##+js(abort-on-property-write.js, Fingerprint2)
+userscloud.com##+js(abort-on-property-write.js, open)
+userscloud.com##+js(abort-current-inline-script.js, parseInt, tabunder)
+userscloud.com##+js(remove-attr.js, onclick)
+userscloud.com##+js(abort-current-inline-script.js, atob, decodeURIComponent)
+userscloud.com##A[href$=".html"][rel="nofollow norefferer noopener"]
 ! ---------- VM-Audio.com ----------
 www.vb-audio.com##center:nth-of-type(5) > table > tbody > tr > td:nth-of-type(3) > center
 www.vb-audio.com##center:nth-of-type(7) > table > tbody > tr > td > center:nth-of-type(1)
@@ -56671,6 +56755,12 @@ wetter.com##.rectangle-home img
 wetter.com##.desk-one-third a[id][href] > img[src]
 wetter.com##.media__body[style="position: relative;"] > a
 wetter.com##.middle > div[id][class]:first-child > a[href]:last-child > img[src]:first-child:last-child
+! ---------- wetteronline.de ----------
+wetteronline.de###woRect
+wetteronline.de###woCsiAdContent
+wetteronline.de##+js(abort-on-property-read.js, $getWin)
+wetteronline.de##+js(wetteronline.de.js)
+wetteronline.de##^script:has-text(iframeTestTimeMS)
 ! ---------- Wolfram Alpa ----------
 wolframalpha.com###codezone-footer
 wolframalpha.com###headerad-pro
@@ -56737,14 +56827,15 @@ zdnet.com##section.mpu
 ##.js-banner.border-gray-light.border.rounded-1.text-center.p-4.content
 ##.listingsignupbar.infobar
 ##.premium-promo.box
+zippyshare.com##+js(noeval.js)
+zippyshare.com##.blockUI
+zippyshare.com##.center_ad 
+zippyshare.com##.logo
+zippyshare.com##font[style="font-size: 10px; letter-spacing: 3px; word-spacing: 2px;"]
+zippyshare.com##script:inject(abort-current-inline-script.js, String.fromCharCode, decodeURIComponent)
 @@||clksite.com/static/advertisement.js$script,domain=zippyshare.com,third-part
 @@||zippyshare.com/ads.js$script,domain=zippyshare.com
 @@||zippyshare.com/images/browse.png$image,domain=zippyshare.com
 @@||zippyshare.com/images/upload_small.png$image,domain=zippyshare.com
 @@||zippyshare.com/upload$xmlhttprequest,domain=zippyshare.com
 @@||zippyshare.com/uploadify/cancel.png$image,domain=zippyshare.com
-zippyshare.com##.blockUI
-zippyshare.com##.center_ad 
-zippyshare.com##.logo
-zippyshare.com##font[style="font-size: 10px; letter-spacing: 3px; word-spacing: 2px;"]
-zippyshare.com##script:inject(abort-current-inline-script.js, String.fromCharCode, decodeURIComponent)
