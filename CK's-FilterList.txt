@@ -1,12 +1,12 @@
 ! Title: CHEF-KOCH's Filter List
 ! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
-! Checksum (SHA3-256): 8AB6132E3CD91B5DD63A700C924F84F8105ABE6DF133BB315AE7B0C0EF490C93
+! Checksum (SHA3-256): 73705DDA0429B1C86CCD27F163F9C7BCD970E22F29280DA80E4F0558E221C700
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 3d
-! TimeUpdated: 2018-11-28	20:37:20+01:00
-! Version: 0.0.3.37
+! TimeUpdated: 2018-11-29	12:06:34+01:00
+! Version: 0.0.3.38
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -25,7 +25,27 @@ veedi.com##+js(set-constant.js, adBlocker, false)
 @@||captcha.alibaba.com^
 ! ---------- AniTube ----------
 anitube.*##+js(abort-on-property-read.js, redirect1)
+! ---------- 1337x.to ----------
+1337x.to##.cbdebf
+1337x.to##.aedcfdae
+1337x.to##footer
+1337x.to##.logo > [href="/home/"]
+||1337x.to/css/images/notfication-bg.png$image
 ! ---------- 1st party blocking rules ----------
+||freevaluator.com^*/js/check.js
+sync-video.com##.playlist-left.span4 > div:nth-of-type(4)
+cryptocare.tech##.css-qsqai01.css-1a5f3bo
+www.worldsrc.org##.alert-dismissible.alert-success.alert
+www.manualslib.com###abp_adv_b
+bontersoft.blogspot.com###header-wrapper
+||free-proxy.cz/i/HMA/1.gif$image
+pixelpro.io###yui_3_17_2_1_1541859733132_2720
+nerdordie.com###tpbr_topbar
+tornado.org.ru##embed
+www.deepbrid.com##.png_bg.success.notification > div
+||www.deepbrid.com/backend-dl/app/views/site/default/notify/images/icons/tick_circle.png$image
+www.deepbrid.com##.png_bg.success.notification
+uploadev.com##center:nth-of-type(2)
 makemehost.com##.adsbygoogle
 consoletarget.com,gamecopyworld.*##+js(abort-on-property-read.js, loadTool)
 phoneworld.com.pk##+js(set-constant.js, $tieE3, true)
@@ -164,7 +184,6 @@ anitube.*##+js(set-constant.js, adBlockDetected, noopFunc)
 ||e0mn.com^$script,domain=patheos.com
 ||edgeno.de^$script,third-party,domain=~edgemesh.com
 ||em0n.com^$domain=businessinsider.com|grubstreet.com|nowloading.co|twitchy.com
-||eurotransport.de/*/antiAdBlock.js$script,first-party,redirect=antiAdBlock.js
 ||eventgateway.soundcloud.com/v1/event$xmlhttprequest
 ||exoclick.com/ad_track.js$important,script,domain=uploaded.net
 ||file-upload.net^$subdocument
@@ -226,9 +245,6 @@ anitube.*##+js(set-constant.js, adBlockDetected, noopFunc)
 ||pro.hit.gemius.pl^$script,redirect=noopjs,domain=nova.cz
 ||pubmatic.com^$script,redirect=noopjs,domain=hackintosh.computer|hackintosh.zone
 ||readcomiconline.to/*.png
-||restream.io/img/install_flash.png$image
-||restream.io/img/promo/trash-meme/logo.gif$image
-||rsload.net/images5/premssf.png$image
 ||rubiconproject.com^$script,important,domain=latimes.com
 ||rulu.co/cdn-cgi/apps/head/$script
 ||sandbox.katcr.co/static/uploads/340556.qsfd40frcilew28_n2houohdtxb.gif$image
@@ -1174,6 +1190,8 @@ vidzi.*##script:inject(window.open-defuser.js)
 2baksa.net##div > .leftel > b
 2baksa.net##table:nth-of-type(2)
 2baksa.net##td:nth-of-type(2) > center
+2baksa.net##div:nth-of-type(3) > center
+2baksa.net##td:nth-of-type(2) > table > tbody > tr > td
 2baksa.net##td:nth-of-type(2) > div:nth-of-type(2)
 2baksa.net##td:nth-of-type(2) > div:nth-of-type(3)
 2baksa.net##td:nth-of-type(2) > table
@@ -1287,6 +1305,7 @@ ams-ads-cornerstone-creatives.s3.amazonaws.com
 fls-na.amazon.com/*/amazon-clicks/
 m.media-amazon.com/images/*/AMSSponsoredSearch
 ssl-images-amazon.com/images/*/ClientSideMetricsAUIJavascript
+||amazonaws.com^$domain=dailymotion.com
 ||server1.affiz.net/tracking/ads_display.php^
 ||rcm-eu.amazon-adsystem.com/e/cm^
 ||10bet.s3.amazonaws.com^
@@ -1951,7 +1970,14 @@ cloud.mail.ru##.b-layer__wrapper_disko-popup.b-layer__wrapper_popup.b-layer__wra
 cloud.mail.ru##.b-layer__overlay
 cloud.mail.ru##.b-tooltip__content
 ! ---------- Cookie Warnings ----------
+##.popup-premium__apla
+##.o-AdhesionNotifier
+##.admania_adblock_detector
+###like-us-adblock-modal
+###adblockBanner
 ###AdBlockerInfo
+###adbuddy-no-adb-container
+###adbuddy-overlay
 ###COOKIE_BANNER
 ###CRTL_AlertCookie
 ###CookieAlert
@@ -9658,6 +9684,9 @@ cloud.mail.ru##.b-tooltip__content
 /jbcookies.
 /jjp_eucookie_
 /jquery.cookie.js$domain=password-decryptor.com
+/jquery.adblock-detector.js|$script
+/jquery.adblock.js|$script
+/jquery.antiadsblock.js|$script
 /jqueryCookieGuard
 /js-cookie-master/*$script
 /js/cookiePolicy?
@@ -9870,6 +9899,7 @@ workforce.hu##.cookie
 ||tmgonlinemedia.nl/consent/script/consent.js$script
 ||tweeboo.com/r/js/CookieDirective$script
 ||videoland.com/external/cookiewall$script
+||howtoremoveadblock.com/js/adblock-detector.js$script
 ! ---------- Coin Miner + Flash ----------
 /([0-9]{1,3}\.){3}[0-9]{1,3}.\/proxy$/$script,websocket,third-party
 -coin-hive.js
@@ -9896,7 +9926,7 @@ workforce.hu##.cookie
 /c.wasm
 /cloudcoins.js
 /cloudcoins.min.js
-/cn.wasm$third-party
+/cn.wasm
 /coin-hive-proxy-
 /coinGofile.
 /coinblind.js
@@ -9910,6 +9940,7 @@ workforce.hu##.cookie
 /cryptocpu.js
 /cryptonight-worker.
 /cryptonight.wasm
+/cryptonight.js
 /c-hive.min.js
 /cryptonoter.
 /deepMiner.js
@@ -9961,6 +9992,11 @@ workforce.hu##.cookie
 ?proxy=*?pools=
 ?proxy=ws://$script,websocket
 ?proxy=wss://$script,websocket
+||damoh.*$media
+||zergnet.com^$script,third-party
+||a.optnmnstr.com^$third-party
+||a.optnmstr.com^$third-party
+||b.optnmstr.com^$third-party
 ||1q2w3.fun^$third-party
 ||1q2w3.me^$third-party
 ||1q2w3.top^$third-party
@@ -9969,7 +10005,8 @@ workforce.hu##.cookie
 ||adplusplus.fr^$third-party
 ||adzjzewsma.cf^$third-party
 ||andlache.com^$third-party
-||authedmine.com^$third-party,domain=~coinhive.com
+||authedmine.com^$third-party
+@@||authedmine.com^$domain=coinhive.com|filecrypt.cc
 ||authedmine.eu^$third-party
 ||axoncoho.tk^$third-party
 ||bauersagtnein.myeffect.net^
@@ -10085,7 +10122,6 @@ workforce.hu##.cookie
 ||tidafors.xyz^$third-party
 ||tokyodrift.ga^$third-party
 ||traviilo.com^$third-party
-||uoldid.ru^
 ||verresof.com^$third-party
 ||wasm24.ru^$third-party
 ||webassembly.stream^$third-party
@@ -10099,6 +10135,8 @@ workforce.hu##.cookie
 ||xmr.cool^$third-party
 ||xvideosharing.site^$third-party
 ||zlx.com.br^$third-party
+! ---------- dailyuploads.net ----------
+dailyuploads.net###foxclocks-statusbar-spacer
 ! ---------- datafilehost.com ----------
 www.datafilehost.com##div.col-md-6:nth-of-type(2)
 www.datafilehost.com##[href="http://answersking.com"]
@@ -10109,6 +10147,10 @@ www.datafilehost.com##div.row:nth-of-type(4)
 @@||imagesrv.adition.com/js/srp.js$script,domain=derstandard.at
 @@||derstandard.at/MetaAdServer/MAS.aspx$xmlhttprequest,first-party
 @@||derstandard.at/s/*$image,first-party
+! ---------- Deskmodder.de ----------
+www.deskmodder.de###custom_html-5
+www.deskmodder.de##.dse_box
+
 ! ---------- Discord ----------
 discord.me##.master > .container > .row:nth-of-type(1) > .col-sm-12
 ! ---------- DIV & INS ----------
@@ -10181,7 +10223,9 @@ douploads.com##footer
 douploads.com##div.col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-of-type(1)
 douploads.com##div.col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-of-type(3)
 douploads.com##.content > center:nth-of-type(1)
+douploads.com##.mngez_lastnews > span
 ! ---------- Domains (Android, etc) ----------
+||uoldid.ru^
 ||aseclmvbtech.com^
 ||ade.clmvbtech.com^
 ||evt.mxplay.com^
@@ -53752,6 +53796,10 @@ facebook.com#?#div[data-testid="fbfeed_story"]:-abp-has(a[href*="[is_sponsored]"
 ||witscience.org^
 ||endingthefed.com ^
 ||duhprogressive.com^
+! ---------- Fastly ----------
+||fastly.net/ads/$image,redirect=2x2-transparent.png
+||fastly.net/ads/$script,redirect=noopjs
+||fastly.net/ads/$xmlhttprequest,redirect=nooptext
 ! ---------- Forbes ----------
 @@||forbes.com^$generichide
 @@||g.doubleclick.net/gampad/ads?gdfp_req=1&$script,domain=forbes.com
@@ -53780,6 +53828,13 @@ github.com##.unsupported-browser
 ||github.io^$third-party,xmlhttprequest,domain=~github.com|~tumblr.com
 github.com##.rounded-1.signup-prompt-bg
 ! ---------- Golem.de ----------
+www.golem.de##.ZnAUkpi
+www.golem.de###yNXbzEnk > div:nth-of-type(1)
+www.golem.de##[src="//www.golem.de/9519/sp_cxCK-984441-i_rc.jpg"]
+www.golem.de###oeFcYBOQk
+www.golem.de##.VBHTtRipl
+www.golem.de##div.g2.g:nth-of-type(3) > div:nth-of-type(1)
+www.golem.de###OnYvqK
 www.google.de##.vk_c.yAVMkd
 www.golem.de###gts-clip
 www.golem.de###gservabo
@@ -54391,6 +54446,9 @@ heise.de##A-PATERNOSTER
 ##iframe[src^="https://www.mxttrf.com/ads"]
 ##iframe[width="300"][height="250"]
 ##iframe[width="468"][height="60"]
+! ---------- Imgur.com ----------
+||i.imgur.com/dI3EzJL.png$image
+||i.imgur.com/3MAL2xq.png$image
 ! ---------- Internet Download Manager ----------
 ||205.199.44.156^
 ||registeridm.com^
@@ -54544,7 +54602,7 @@ yandex.com##div /deep/ div[style*="background-image: url"]
 ||medium.com/_/api/promo$xmlhttprequest
 ||medium.com/_/api/users/*/writing-velocity$xmlhttprequest
 ||medium.com/_/batch$xmlhttprequest
-! ---------- mediafire.com ----------
+! ---------- Mediafire.com ----------
 www.mediafire.com###adbMessage
 www.mediafire.com###DlPreCheck-invalid
 www.mediafire.com##figcaption > div
@@ -54581,10 +54639,58 @@ forum.mobilism.org##main > div.space10:nth-of-type(5)
 forum.mobilism.org##div.space10:nth-of-type(4)
 forum.mobilism.org##.icon-light.icon-twitter
 forum.mobilism.org##.twitter-color.icon-stack-base.icon-circle
+! ---------- Mydealz.de ----------
+www.mydealz.de##.nav-banner
+www.mydealz.de##.vAlign--all-b.tGrid-cell
+www.mydealz.de##.listLayout-mainItem.js-whatsapp-widget.card.cept-widget-list > .threadGrid
+www.mydealz.de##.listLayout-sideItem.card--type-vertical.card.cept-merchants-thumbnail
+www.securitylab.ru##.fancybox-overlay-fixed.fancybox-overlay
 ! ---------- Newdaily.co.kr ----------
 newdaily.co.kr##div#ad1
 newdaily.co.kr##div#iw_ad4
 ! ---------- Network Element Filters (by generichide) ----------
+@@||20min.ch^$generichide
+@@||24opole.pl^$generichide
+@@||7sim.net^$generichide
+@@||aftonbladet.se^$generichide
+@@||al.ly^$generichide
+@@||ally.sh^$generichide
+@@||atresplayer.com^$generichide
+@@||behindwoods.com^$generichide
+@@||cbs.com^$generichide
+@@||citytv.com^$generichide
+@@||clik.pw^$generichide
+@@||comicallyincorrect.com^$generichide
+@@||ff14angler.com^$generichide
+@@||flooxer.com^$generichide
+@@||freedomoutpost.com^$generichide
+@@||gala.de^$generichide
+@@||gamestar.de^$generichide
+@@||getrelax.club^$generichide
+@@||globalbesthosting.com^$generichide
+@@||greenocktelegraph.co.uk^$generichide
+@@||hells-hack.com^$generichide
+@@||imleagues.com^$generichide
+@@||leech.ae^$generichide
+@@||libertyunyielding.com^$generichide
+@@||linkneverdie.com^$generichide
+@@||linksh.top^$generichide
+@@||lolstat.gg^$generichide
+@@||main-echo.de^$generichide
+@@||mitele.es^$generichide
+@@||mycinema.pro^$generichide
+@@||playstation.com^$generichide
+@@||randaris-anime.net^$generichide
+@@||simply-debrid.com^$generichide
+@@||stream.nbcsports.com^$generichide
+@@||streamplay.gdn^$generichide
+@@||symbolab.com^$generichide
+@@||tv.yahoo.com^$generichide
+@@||tvsportslive.stream^$generichide
+@@||uol.com.br^$generichide
+@@||viz.com^$generichide
+@@||wp.pl^$generichide
+@@||yiv.com^$generichide
 @@||anitube.pro^$generichide
 @@||makemehost.com^$generichide
 @@||opjav.com^$generichide
@@ -54633,7 +54739,6 @@ newdaily.co.kr##div#iw_ad4
 @@||al.ly^$generichide
 @@||ally.sh^$generichide
 @@||indiatoday.intoday.in/video/$generichide
-@@||userscloud.com^$generichide
 @@||blog.nulledfun.com^$generichide
 @@||italiashare.*^$generichide
 @@||mitele.es^$generichide
@@ -55640,6 +55745,7 @@ www.overclock.net##section:nth-of-type(2)
 /__utm.gif
 /_werbung/*
 /aaa-werbung/*
+/aadb/script.js|$script
 /ad-audit.
 /ad-banner-
 /ad-blocking-advisor/*
@@ -55649,6 +55755,7 @@ www.overclock.net##section:nth-of-type(2)
 /adblock_detector.
 /adblock_detection/*
 /antipubblicita.js
+/anti-ad-buster.js$script
 /noadblock.jpg
 /adblock/adblockpopup.js$script
 /adblockbait.js$script
@@ -55710,6 +55817,7 @@ www.overclock.net##section:nth-of-type(2)
 /analyticReporting.
 /antiadblockmsg.
 /antiadblock.
+/antiAdBlock.js
 /api/ads/*
 /apnnz/tserver/*=PREROLL
 /banner125werbung.
@@ -55800,6 +55908,7 @@ www.overclock.net##section:nth-of-type(2)
 /javascript/ads.
 /js/ads/*
 /js/ads.
+/js/adbuddy.min.js$script
 /js/analytics/*
 /jserver/site
 /karuselli/js/AgAdCarousel
@@ -55980,6 +56089,11 @@ www.overclock.net##section:nth-of-type(2)
 ?go=_common&p=banner&bannerId=
 ?instream_ad=
 @@/fuckadblock.$script
+/fuckadblock.js$script
+fuckadblock.sitexw.fr#@#.pub_300x250
+/blockadblock.js$script
+/fuckadblock.min.js$script
+/blockadblock.min.js$script
 watchcartoononline|9anime).*\/[a-zA-Z0-9]{15,40}.*http/$image,script
 AQB=1&ndh=
 AdsClick.php?AdsID=
@@ -56089,6 +56203,7 @@ www.pornhub.com##ads > div:nth-of-type(1)
 www.pornhub.com##ads > div:nth-of-type(2)
 www.pornhub.com##body > .foragirllikeyou
 www.pornhub.com##body > undefined
+www.pornhub.com##.sectionWrapper > undefined
 ! ---------- Reddit ----------
 reddit.com##body > div[data-overflow]:last-child
 reddit.com##div.promotedlink
@@ -56125,6 +56240,15 @@ reddit.com##.infobar-toaster-container
 ||redditstatic.com/moat/$important
 ||redditstatic.com/recommended-link.*$important
 ||tracker.redditmedia.com^
+! ---------- Restream.io ----------
+||restream.io/img/install_flash.png$image
+||restream.io/img/promo/trash-meme/logo.gif$image
+restream.io##.cc-color-override--1120989970.cc-left.cc-bottom.cc-theme-classic.cc-type-opt-in.cc-floating.cc-window
+! ---------- Rsload.net ----------
+||rsload.net/images5/premssf.png$image
+rsload.net##p.cloie:nth-of-type(2)
+rsload.net##p.cloie:nth-of-type(1)
+
 ! ---------- psarips.com ----------
 psarips.com###footer-bottom
 psarips.com###tag_cloud-2
@@ -56208,7 +56332,9 @@ stackoverflow.com###noscript-warning
 ! ---------- Station-Drivers.com----------
 www.station-drivers.com##.uk-hidden-small.uk-clearfix.tm-headerbar
 www.station-drivers.com##.uk-grid.tm-top-a > .uk-width-1-1 > .uk-panel-box.uk-panel
+www.station-drivers.com##.uk-grid.tm-top-b > .uk-width-1-1
 www.station-drivers.com###tm-top-a
+
 ! ---------- Superuser.com ----------
 superuser.com##div#dfp-mlb
 superuser.com##div#dfp-tlb
@@ -56246,6 +56372,8 @@ thepiratebay.org##iframe[src^="//thepiratebay.org/static/ads/"]
 ||69.167.144.30^
 ||72.52.161.233^
 ||117.18.237.29^
+! ---------- TheVerge.com ----------
+www.theverge.com###privacy-consent
 ! ---------- Twitch.tv ----------
 www.twitch.tv##.tw-top-0.tw-right-0.tw-relative.tw-pd-y-1.tw-pd-x-2.tw-left-0.tw-justify-content-center.tw-flex-row.tw-flex.tw-c-text.tw-c-background-accent-alt-2.tw-border-b.tw-align-items-center.gdpr-consent-banner
 www.twitch.tv##._ig_twitch_buybutton
@@ -56311,11 +56439,23 @@ www.urbandictionary.com##.panel-margin.dfp-panel
 ||uplynk.com/api/v3/preplay/*
 /(uplynk.com\/ext\/.*\.m3u8)\?.*$/$rewrite=$1
 ! ---------- Uploadocean.com ----------
+uploadocean.com###footer2
+uploadocean.com##.premiumfeatures
+uploadocean.com##form > div:nth-of-type(4)
 uploadocean.com##[href="https://uploadocean.com/premium-features.html"] > h2
 uploadocean.com##.down1_holder > div:nth-of-type(2)
 uploadocean.com##div.strip_right:nth-of-type(3)
-||uploadocean.com/UploadOcean_images/ico-prem-black.png$image
 uploadocean.com##.make_money > [href="https://uploadocean.com/make_money.html"]
+uploadocean.com##div.resp-container:nth-of-type(3)
+uploadocean.com##div.resp-container:nth-of-type(5)
+uploadocean.com##div.resp-container:nth-of-type(7)
+
+||uploadocean.com/UploadOcean_images/ico-prem-black.png$image
+! ---------- userscloud.com ----------
+@@||userscloud.com^$generichide
+userscloud.com##.innerTB > center
+userscloud.com###dl_link
+userscloud.com###foxclocks-statusbar-spacer
 ! ---------- VM-Audio.com ----------
 www.vb-audio.com##center:nth-of-type(5) > table > tbody > tr > td:nth-of-type(3) > center
 www.vb-audio.com##center:nth-of-type(7) > table > tbody > tr > td > center:nth-of-type(1)
@@ -56399,6 +56539,7 @@ wish.com##body:style(user-select: unset !important;)
 @@/ad1.$image,domain=embed.universaluclick.com
 @@/adguard.
 @@/ads/*$image,domain=frys.com
+@@/AdDefender/adwordstracking.js$script
 @@/airbnb/*-tracking.
 @@/beacon.$domain=amazon.com|sciencechannel.com
 @@/beacon.min.js$domain=huffingtonpost.com
@@ -56556,6 +56697,7 @@ wolframalpha.com###sponsor-ad
 /wp-content/plugins/wp-bannerize/*
 /wp-content/plugins/wp-super-popup-pro/*
 /wp-content/plugins/wp-super-popup/*$~stylesheet
+/wp-content/plugins/sorry-adblocker/js/sab.js$script
 /wp-content/uploads/useful_banner_manager_banners/*
 /wp-popup-scheduler/*
 /wp-srv/ad/*
