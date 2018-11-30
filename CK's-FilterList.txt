@@ -10226,6 +10226,7 @@ discord.me##.master > .container > .row:nth-of-type(1) > .col-sm-12
 ##div[id^="google_ads_iframe_"]
 ##div[id^="sbaAbout"]
 ##ins.daum_ddn_area
+##ins.adsbyadop
 ##ins[class*="ads"]
 ! ---------- dreamsearch.or.kr ----------
 ||dreamsearch.or.kr/ad/
@@ -53896,6 +53897,8 @@ www.golem.de##.rmp-error-text
 ||www.golem.de/microsite/abo/trial-social-s7.html
 ||www.golem.de/microsite/abo/trial-social-s7.shtml$subdocument
 ! ---------- Google + Sub Services ----------
+##ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])
+##ins.adsbygoogle[data-anchor-status]:not([data-matched-content-ui-type])
 ##.google-ad-wrapper-ui
 ###publicGoogleAd
 ###photo_ad_google
@@ -56278,6 +56281,7 @@ pornhub.com##+js(abort-on-property-write.js, rAb)
 pornhub.com##+js(csp.js, img-src 'self' *; media-src 'self' *)
 @@||static.pornhub.phncdn.com^$script,domain=pornhub.com
 ! ---------- Reddit ----------
+reddit.com##div.dfp-ad-container
 reddit.com##body > div[data-overflow]:last-child
 reddit.com##div.promotedlink
 reddit.com##div.promotedvideolink
@@ -56313,6 +56317,7 @@ reddit.com##.infobar-toaster-container
 ||redditstatic.com/moat/$important
 ||redditstatic.com/recommended-link.*$important
 ||tracker.redditmedia.com^
+
 ! ---------- putlocker ----------
 putlocker.*##+js(abort-current-inline-script.js, parseInt, tabunder)
 putlocker.*##+js(abort-current-inline-script.js, MutationObserver, 676574456c656d656e747342795461674e616d65)
