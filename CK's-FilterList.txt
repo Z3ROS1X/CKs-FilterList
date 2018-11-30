@@ -4,8 +4,8 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! TimeUpdated: 2018-11-30	14:51:49+01:00
-! Version: 0.0.3.39
+! Version: 0.0.3.40
+! Last updated: 2018-11-30
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -54667,6 +54667,8 @@ www.mediafire.com###abnotify-close
 www.mediafire.com###abnotify
 www.mediafire.com##.DLExtraInfo-column.DLExtraInfo-upload
 www.mediafire.com##.DLExtraInfo-column.DLExtraInfo-accountStatus
+mediafire.com##+js(abort-current-inline-script.js, document.getElementById, adblocker)
+mediafire.com##+js(setTimeout-defuser.js, scan, 500)
 ! ---------- Misc (random pages, overlays & banners + cosmetical stuff) ----------
 cebit.de##.no-layout-background-image.midnight.layout.notification.o
 forum-en.msi.com###pm_popup
