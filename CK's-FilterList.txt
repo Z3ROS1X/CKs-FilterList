@@ -40,7 +40,9 @@ veedi.com##+js(set-constant.js, adBlocker, false)
 @@||captcha.alibaba.com^
 ! ---------- AniTube ----------
 anitube.*##+js(abort-on-property-read.js, redirect1)
+anitube.*##+js(set-constant.js, adBlockDetected, noopFunc)
 ! ---------- 1st party blocking rules ----------
+dailymail.co.uk##div.ad-wrapper
 feedly.com##div.bsa-native-ad
 ||freevaluator.com^*/js/check.js
 sync-video.com##.playlist-left.span4 > div:nth-of-type(4)
@@ -67,7 +69,6 @@ vodlocker.to##+js(nowebrtc.js)
 ||vodlocker.to/sw-vodlocker.to.js$script,first-party
 upload4earn.org##center
 gls-group.eu###gls_app_witt002_pageControllerSearch_0 > .appHeadWrp
-anitube.*##+js(set-constant.js, adBlockDetected, noopFunc)
 @||ad.crwdcntrl.net^$script,domain=weather.com
 ||freecontent.*./$script
 @@||gelbooru.com/script/miscJs.js?$script,first-party
@@ -444,6 +445,8 @@ _468x60_
 _728_90.
 _728x90.
 _728x90_
+_728x95.
+_728x95_
 luxor.co.at##.info
 or.ru^$third-party
 orvosilexikon.hu##.region-bottom
@@ -53713,13 +53716,14 @@ _facebookbadge.
 ||instagram.com/client_action
 ||instagram.com/client_error
 ||instagram.com/ajax/bz
-facebook.com,facebookcorewwwi.onion##div[id^="hyperfeed_story_id_"]:if(div[id*="subtitle"] > span:matches-css(display:none):has(abbr .timestampContent)) 
-facebook.com##div[id^="hyperfeed_story_id_"]:if(div > span:matches-css(display:none):has(abbr .timestampContent))
+instagram.com##._he402
+m.facebook.com###mobile_login_bar
+m.facebook.com###u_0_12
+m.facebook.com##article:has(footer > div > div > a[href^="/friends/center/?fb_ref="])
 facebook.com#@#.Ad
 facebook.com###contentArea div:if-not(.clearfix):has(a[href*="/login/?"])
 facebook.com##._5hn6:has(div a[role="button"][href^="/login/?"])
 facebook.com##._5hn6:has(div a[role="button"][href^="/r.php?"])
-instagram.com##._he402
 facebookcorewwwi.onion###u_0_6c
 facebookcorewwwi.onion###u_0_6d
 facebookcorewwwi.onion###u_0_6e
@@ -53728,10 +53732,8 @@ facebookcorewwwi.onion###u_0_12
 facebook.com###u_0_6c
 facebook.com###u_0_6d
 facebook.com###u_0_6e
-m.facebook.com###mobile_login_bar
-m.facebook.com###u_0_12
 facebook.com##.ego_section
-www.facebook.com##div[data-xt]
+facebook.com##div[data-xt]
 facebook.com###mobile_mirror_banner
 facebook.com###u_0_m
 facebook.com##.pam._3-95.uiBoxRed
@@ -53740,10 +53742,11 @@ facebook.com#?#.fbUserStory:-abp-contains(People you)
 facebook.com#?#.mtm:-abp-contains(Products shown)
 facebook.com#?#.userContentWrapper:-abp-contains(People you)
 facebook.com#?#div[data-testid="fbfeed_story"]:-abp-has(a[href*="[is_sponsored]"])
+facebook.com#@#div[id^="hyperfeed_story_id_"]:has(a[href*="utm_campaign"])
+facebook.com##div[id^="hyperfeed_story_id_"]:if(div > span:matches-css(display:none):has(abbr .timestampContent))
 facebook.com,facebookcorewwwi.onion###stream_pagelet div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 facebook.com,facebookcorewwwi.onion###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 facebook.com,facebookcorewwwi.onion###stream_pagelet div[id^="hyperfeed_story_id_"]:if(h6:has-text(People You May Know))
-m.facebook.com##article:has(footer > div > div > a[href^="/friends/center/?fb_ref="])
 facebook.com,facebookcorewwwi.onion##.ego_section:has(a.adsCategoryTitleLink)
 facebook.com,facebookcorewwwi.onion###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
 facebook.com,facebookcorewwwi.onion##.ego_column:if(a[href^="/campaign/landing"])
@@ -53752,7 +53755,9 @@ facebook.com,facebookcorewwwi.onion##div[data-testid="fbfeed_story"]:if(a[href*=
 facebook.com,facebookcorewwwi.onion##.ego_section:if(a[href^="/ad_campaign"])
 facebook.com,facebookcorewwwi.onion##.userContentWrapper:has(a[href*="/ads/"])
 facebook.com,facebookcorewwwi.onion##[id^="hyperfeed_story_id_"]:has(a[href*="client_token"])
-facebook.com#@#div[id^="hyperfeed_story_id_"]:has(a[href*="utm_campaign"])
+facebook.com,facebookcorewwwi.onion##.fbUserStory:has-text(Popular Across Facebook)
+facebook.com,facebookcorewwwi.onion##.userContentWrapper:has-text(Popular Across Facebook)
+facebook.com,facebookcorewwwi.onion##div[id^="hyperfeed_story_id_"]:if(div[id*="subtitle"] > span:matches-css(display:none):has(abbr .timestampContent)) 
 facebook.com,facebookcorewwwi.onion##.userContentWrapper>div div>span>span:has-text(^Suggested Post$)
 facebook.com,facebookcorewwwi.onion##div[id^="hyperfeed_story_id_"]:if(div > span:matches-css(display:none):has(abbr .timestampContent))
 @@||connect.facebook.com^*/audiencenetworkprebid.js$script,domain=screenrant.com
