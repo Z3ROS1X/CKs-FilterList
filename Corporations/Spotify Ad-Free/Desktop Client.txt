@@ -1,2 +1,0 @@
-||pclient.wg.spotify.com^
-||wg.spotify.com^
