@@ -974,3 +974,4 @@ vidzi.*##script:inject(window.open-defuser.js)
 ||yyv.co/Webservices/jsParseLinks.aspx$script,third-party
 ||zatnawqy.net/Webservices/jsParseLinks.aspx$script,third-party
 ||zff.co/Webservices/jsParseLinks.aspx$script,third-party
+||wetter.com/cooperation/$~third-party

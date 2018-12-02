@@ -255,10 +255,28 @@ google.*##.rhsvw[style="background-color:#fff;margin:0 0 14px;padding-bottom:1px
 google.*##.rscontainer > .ellip
 google.*##.section-result[data-result-ad-type]
 google.*##.widget-pane-section-result[data-result-ad-type]
-@@||google.com/js/plusone.js$domain=abcnews.go.com|watch.nba.com
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##div.post-body > [class][zoompage-fontsize]
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##div[class][zoompage-fontsize] > img[src]
 9to5google.com,9to5mac.com,9to5toys.com,electrek.co##script:inject(abort-on-property-read.js, canRunAds)
+9to5google.com##nav:style(background-color: #16341b !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co###js-site-header:style(position: relative !important; top: 0 !important; padding-bottom: 45px !important; box-shadow: none !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co###menu-guides:style(max-width: 960px !important; transform: none !important; height: 45px !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.has-next .js-mobile-menu-next, .has-prev .js-mobile-menu-prev
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.header-logo:style(flex: (1 0 250px) !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.header-right-area:style(flex: 1 0 calc(100% - 250px) !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.header-wrap:style(position: relative !important; top: 0 !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.js-button:style(display: inline-block !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.js-header-normal .primary-menu:after, .js-header-normal .primary-menu:before:style(content: "" !important; display: block !important; position: absolute !important; top: 0 !important; height: 45px !important; width: calc(50vw - 470px) !important; z-index: 3 !important; transition: none !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.js-header-normal .primary-menu:after:style(right: 100% !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.js-header-normal .primary-menu:before:style(left: 100% !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.js-mobile-menu-prev svg:style(fill: #fff !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.news-feed-header:style(position: relative !important; top: 0 !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.primary-menu-ul:style(width: 100% !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.primary-menu:style(padding 0 25px !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.site-header-placeholder
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.site-header.js-header-sticky .header-logo img:style(max-width: 190px !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.site-header.js-header-sticky .primary-menu
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.site-header.js-header-sticky .site-header-inner:style(height: 70px !important;)
 apis.google.com/_/jserror$xmlhttprequest
 ||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,domain=dlnowsoft.com
 ||content.googleapis.com/drive/v2internal/viewerimpressions$xmlhttprequest,first-party
@@ -369,3 +387,4 @@ redtube.com###browse_section > div:has(:scope > div > a.ad-link)
 @@||www.gstatic.com^$script
 @@||www.gvt1.com^$script
 @@||www.redirector.gvt1.com^$script
+@@||google.com/js/plusone.js$domain=abcnews.go.com|watch.nba.com

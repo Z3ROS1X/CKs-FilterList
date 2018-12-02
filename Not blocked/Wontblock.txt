@@ -544,3 +544,13 @@ avanza.se#@#a[title="LeoVegas"]
 @@||www.googleadservices.com^|
 @@||zencdn.net^$script,domain=kinokrad.co|kinokong.cc|skyback.ru|oload.info|oload.tv|openload.co|streamango.com|streamcherry.com|vidoza.net
 @@||captcha.alibaba.com^|
+@@||clksite.com/static/advertisement.js$script,domain=zippyshare.com,third-part
+@@||zippyshare.com/ads.js$script,domain=zippyshare.com
+@@||zippyshare.com/images/browse.png$image,domain=zippyshare.com
+@@||zippyshare.com/images/upload_small.png$image,domain=zippyshare.com
+@@||zippyshare.com/upload$xmlhttprequest,domain=zippyshare.com
+@@||zippyshare.com/uploadify/cancel.png$image,domain=zippyshare.com
+@@||wetter.com/layout/1/woys/300_250/300_250_$image
+@@||daswetter.com/img/publicidad/300x600_newsletter_fw.png
+@@||thepiratebay.org^*/prototype.js|
+@@||thepiratebay.org^*/scriptaculous.js|
