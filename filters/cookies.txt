@@ -1,10 +1,10 @@
 ! Title: CHEF-KOCH's Cookie Warning Filter List
-! Description: A comprehensive, all-in-one ad-block list for blocking Cookie, GDPR, etc warnings.
+! Description: A comprehensive, all-in-one ad-block list for blocking Cookie, GDPR etc warnings.
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.0.01
+! Version: 0.0.0.15
 ! Last updated: 2018-12-02
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
@@ -43,9 +43,11 @@
 ###PrivacyBanner
 ###Row1_Column1_Cell1_CookieSettings_CookieSettings
 ###SiteMasterPage_updCookieDisclaimer
+###size-window-cookie
 ###TNTpageContentPlaceHolder_pnlCookieMessage
 ###WP-cookie-info
 ###_iCD
+###_iph_cp_popup
 ###accept-cookies-div
 ###acceptCookie
 ###accept_cookie
@@ -128,6 +130,7 @@
 ###cookieAgree
 ###cookieAlert
 ###cookieBanner
+###cookieBannerP
 ###cookieBar
 ###cookieChoiceInfo
 ###cookieComplianceMessage
@@ -271,6 +274,7 @@
 ###cookiesWarningActive
 ###cookiesWarningBanner
 ###cookiesWrapper
+###cookies_LCEN_UE
 ###cookies_apla
 ###cookies_banner
 ###cookies_box
@@ -293,6 +297,8 @@
 ###cookieuseage
 ###cookiewarn
 ###cookiewarning
+###cookie_ww
+###ctl00_cookieAccept
 ###ctl00_CookieMessage1_divCookie
 ###ctl00_CookieMessage1_upCookie
 ###ctl00_cookieconsent_ajaxPanel
@@ -404,9 +410,11 @@
 ##.CookieNotificationTopBar
 ##.EUCookie
 ##.accept-cookies
+##.accept-cookies.alert.alert-info
 ##.acceptCookiesBox
 ##.agegate-cookie
 ##.alert-info.alert-dismissable.alert
+##.alert.alert-info.alert-wrap.jui.info-cookie
 ##.alertcookie
 ##.annoying.notice
 ##.bannerInformativaEU
@@ -417,6 +425,7 @@
 ##.butterBar-message
 ##.capaAvisoCookies
 ##.capa_cookies
+##.cc-grower
 ##.cc-cookies
 ##.cc-cookies-wrapper
 ##.cc_banner-wrapper
@@ -565,6 +574,7 @@
 ##.cookie-aggrement-block-container
 ###ctl00_Content_EmptyPage_CoockieInformation_CookieContainer
 ##div[data-nconvert-cookie]
+##div[aria-label=cookieconsent]
 ##._1ppLK
 ###bCookieMsg
 /remote-gdpr.
@@ -601,6 +611,7 @@
 ##.legal-acknowledgement:not(body):not(html)
 ##.js-cookie-policy-banner
 ##.j-cookieConsentPanel
+##.j-tos-update-banner.tos-update-banner
 ##.header-privacy-policy
 ##.gfl-widget-gdpr-wrap
 ##.gdpr-privacy-bar
@@ -626,15 +637,15 @@
 /gdpr.min.js
 /gdpr_footer.
 /gdpr_optout.
+/EUcookie/*
+/cookie_policy/*
+/avisopcgdpr.
 ##.appx-cookie-banner-eu
 ##.appx-cookie-banner-us
 ##.cccenter-show-banner
 ##.banner--gdpr
 ##.banner-inner
-/EUcookie/*
-/cookie_policy/*
 ##.ConsentCookie
-/avisopcgdpr.
 ##.cookie-disclaimer:not(body)
 ###sap-disclaimer
 ###privacy-consent
@@ -664,6 +675,7 @@
 ###BIPCookies
 ###BackToTop
 ###BandeauCNIL
+###bandeau-cnil
 ###BandeauCookie
 ###BandeauCookies
 ###BandeauInfoCookie
@@ -679,6 +691,7 @@
 ###CCompliance
 ###CCookie
 ###CNIL
+###cnil-sentence
 ###CNIL-cookie
 ###CNIL-notice
 ###CNILMessage
@@ -893,6 +906,7 @@
 ###LB_cookies
 ###LSCookiePolicyPopup
 ###LegalCookies
+###legalWarning
 ###LleiCookies
 ###MCcookieChoiceInfo
 ###MSoftCookieWarn
@@ -1425,6 +1439,7 @@
 ###ck-cookie-statement
 ###ck_dsclr
 ###ckch
+###CkC
 ###ckieacpt_container
 ###ckieprompt
 ###ckmcookiescont
@@ -3286,6 +3301,7 @@
 ###enablecookies
 ###enedue_cookieBox
 ###ensNotifyBanner
+###encart_cnil
 ###ep-cookiesPopup_wrapper
 ###epCookieConsent
 ###ep_cookies_overlay
@@ -3762,6 +3778,7 @@
 ###layer_cookie
 ###layer_cookies_publicitaires
 ###layout-cookiemsg
+###layout_advertising_bottom
 ###lc_webappCookieQuestion
 ###legal-cookie
 ###legal-notification
@@ -4258,6 +4275,7 @@
 ###rbiCookiePolicy_spacer
 ###rc-ley-cookies-dialogo
 ###rcCookies
+###reglementation-cookie
 ###react-cookie-warning
 ###redim-cookiehint
 ###regens-cookie-setting
@@ -4350,6 +4368,7 @@
 ###slcookieconsent
 ###slide_header_cookies
 ###slideit-cookie
+###sliding-popup.sliding-popup-bottom
 ###sliding-popup
 ###slidingCookieDiv
 ###smartcookies_frame
@@ -4443,6 +4462,7 @@
 ###tid_cookieWarning
 ###tify_cookie_policy
 ###tins_cookie_bar
+###ticker.yt-alert.yt-alert-actionable.yt-alert-info.cookie-alert
 ###tipCookies
 ###tiroir_cookie
 ###tlCookieComplienceInitialWrapper
@@ -4516,6 +4536,7 @@
 ###ukoo_cookielaw
 ###ukoocookielaw
 ###unCookieCnt
+###unblcn
 ###un_cookie_message
 ###uni_accept_cookie
 ###unitscookie-law
@@ -4560,6 +4581,7 @@
 ###vismo-cookie-wrapper
 ###vive-cookie-notice
 ###vml-cookie-notice
+###vmapi-infocookies-wrapper vmapi-infocookies-wrapper-fixed
 ###voiello-cookie-disclaimer
 ###vop-cookie-control
 ###vscookieAlertCont
@@ -4669,6 +4691,7 @@
 ##.AcceptCookies
 ##.BandeauCookieGlob
 ##.Banner_Top
+##.Banner.eu-cookie-notice
 ##.CCcookiewarning
 ##.CLawBanner
 ##.CNIL
@@ -4772,9 +4795,12 @@
 ##.ModThomasCookiesC
 ##.Modal--cookie-message
 ##.Navbar-cookieCompliance
+##.nag.cookie.ui
 ##.NotificationCookies
 ##.O-CookieLaw
 ##.ObsCnilWarning
+##.ObsCnil-inner
+##.pmd-alert.pmd-alert-dismissible.pmd-alert-fixed
 ##.Page-cookies
 ##.PartialCookieCompliance-hp
 ##.PortletGestionDesCookiesCNIL
@@ -4892,6 +4918,7 @@
 ##.alert[ng-if="cookieAlert"]
 ##.alert[ng-if="showCookieDisclaimer"]
 ##.alert[ng-show*="cookiePopup"]
+##.alert-msg-yellow.cookie-block
 ##.alert__cookie
 ##.alert_cookie
 ##.alert_cookies
@@ -5076,6 +5103,7 @@
 ##.c-consent
 ##.c-cookie
 ##.c-cookie-banner
+##.c-cookie-banner.is-visible
 ##.c-cookie-banner--default
 ##.c-cookie-bar
 ##.c-cookie-block
@@ -5114,13 +5142,16 @@
 ##.cbb-cookie-info
 ##.cc-CookieWarning
 ##.cc-banner
+##.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
 ##.cc-banner-wrapper
+##.cc-color-override--1676790063.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
 ##.cc-container
 ##.cc-cookiecontainer
 ##.cc-cookies-container
 ##.cc-cookies-page
 ##.cc-fixed-bottom
 ##.cc-floating
+##.cc_banner.cc_container.cc_container--open
 ##.cc_baner-wrapper
 ##.cc_banner
 ##.cc_banner-wrapper_FB
@@ -5993,6 +6024,7 @@
 ##.cookies-lightbox-accept
 ##.cookies-line
 ##.cookies-lista
+##.cookies-mod-bar.cookies-mod
 ##.cookies-management-bar
 ##.cookies-message
 ##.cookies-message-container
@@ -6240,6 +6272,7 @@
 ##.debilni-eu-susenky
 ##.defaultCookie
 ##.devsite-notification-eu-cookie
+##.devsite-notification-eu-cookie.devsite-dialog.devsite-notification-promo
 ##.dhl-cgk
 ##.dialog-cookie-settings
 ##.digimadi-cc-wrapper
@@ -6366,6 +6399,7 @@
 ##.eucookies-wrapper
 ##.eula-cookie-banner
 ##.eulawbox
+##.eupopup-color-default.eupopup-container-top.eupopup-container
 ##.eupopup-container
 ##.eupopup-container-bottomright
 ##.ev-cookie-banner
@@ -6523,6 +6557,7 @@
 ##.inscookies-banner-container
 ##.intercept-cookies
 ##.is-cookie
+##.is-show.jcc.df.cookie
 ##.it_privacy_notice
 ##.iubenda-ibadge
 ##.ixi_accept_cookies
@@ -6624,6 +6659,7 @@
 ##.jubCookWarn
 ##.jum-notification-cookie
 ##.jumbotron--cookielayer
+##.jumbtron-black.message-cookie
 ##.jw-widget-show-cookies-policy
 ##.k4-cookie
 ##.koekiemelding
@@ -6631,6 +6667,7 @@
 ##.komunikat-panel-cookies
 ##.koning-cookie-control
 ##.kontener_cookie
+##.l-disclaimer
 ##.l-cookie-law
 ##.l-cookie-notice-container
 ##.l-global-footer__cookie
@@ -6677,6 +6714,7 @@
 ##.m_cookie
 ##.m_cookies
 ##.ma_cookie_popover
+##.maia-notification.maia-stage.display
 ##.main-cookie-warning
 ##.main-cookies-warning
 ##.mainCookieAlerta
@@ -6789,6 +6827,7 @@
 ##.new-cookie-rules
 ##.new-eu-cookies
 ##.next-cookie-banner
+##.next-cookie-banner__wrapper
 ##.nf-cookies
 ##.ng-cookie-footer
 ##.ng-isolate-scope[data-cookie-message]
@@ -6839,6 +6878,7 @@
 ##.notification_cookie
 ##.notification_wrap[data-cookie-notification]
 ##.notificationpopup
+##.notification__message.cookies
 ##.notify--cookie
 ##.notify-cookie
 ##.notify-cookies
@@ -6866,6 +6906,7 @@
 ##.ob-cookies
 ##.ob-cookies-content
 ##.ob-public-widget-cookies
+##.ob-public-widget-cookies > .container-fluid
 ##.obs_cnil
 ##.oe-cookies-law
 ##.okCookiePanel
@@ -7036,6 +7077,7 @@
 ##.rn-global-header > .rn-top-banner
 ##.rn-global-wrapper > noindex > .au-top-ads-container
 ##.roh-cookies
+##.row-fluid.cookie-notification
 ##.row--cookie-compliance
 ##.row-cookies
 ##.row.user-notes-notification
@@ -7086,6 +7128,7 @@
 ##.site-cookies
 ##.site-header-cookies
 ##.site-message--cookies
+##.site-message--permanent.site-message--first-pv-consent.site-message--banner.js-site-message.site-message
 ##.site-module--site-cookie
 ##.site-msg-cookie
 ##.site-needs-cookies
@@ -7126,6 +7169,7 @@
 ##.storm-cookie
 ##.stripe_cookies
 ##.striscia-cookies
+##.strip.strip-black.cookie.no-expansion.cookie_banner-handled
 ##.stupidCookieConsent
 ##.styleCookies
 ##.sulco-cookies
@@ -7137,6 +7181,7 @@
 ##.tCook
 ##.tCookiesInfoblock
 ##.taxcodeandprivacy-cookienotice-bar
+##.tarteaucitronAlertBigTop
 ##.tbcookie
 ##.tc-cookies-alerta
 ##.tcCookiesDialogWrapper
@@ -7176,11 +7221,13 @@
 ##.topcookies
 ##.topmessage-cookie
 ##.touchdesign-cookie-privacy
+##.tos-banner
 ##.tp_cookie
 ##.tpl-cookies
 ##.tpl-g-cookies
 ##.tplis-cl-cookies
 ##.trackingCookiesDisclaimer
+##.trackingCookiesDisclaimer.panel-blue
 ##.tracking_cookie_header
 ##.tracking_cookie_hideable
 ##.tre-cookie-disclaimer
@@ -7351,6 +7398,7 @@
 ##cn-cookie-agreement
 ##consent
 ##cook-disclaimer
+##cookie-policy-note
 ##cookie-agreement-block
 ##cookie-bar
 ##cookie-consent
@@ -7785,7 +7833,6 @@
 /wp-content/plugins/wonderplugin-popup
 /wp-cookie-allow/*$script,stylesheet
 /wpmaster-cookie/*
-4d.rtvslo.si###size-window-cookie
 @@/cookie*/jquery.cookie.js$script,~third-party
 @@/cookie_law/plugin.js$script,~third-party
 @@||alicdn.com/js/*/ws-cookie.js$script
@@ -7833,10 +7880,6 @@ _eucookie_compliance_
 _europecookielaw.
 _js__cookie_functions.
 _site_cookie_
-allattartas.hu###suti_figyelmeztetes_ablak
-aptoide.com###news
-bestdoor.hu##.rstbox-content
-boraszportal.hu###layout_advertising_bottom
 cookie-use-policy.js
 cookieConsent.js
 cookieDisclaimer.js
@@ -7854,49 +7897,9 @@ cookiesamtykke.js
 cookiewarning.js
 cookiewarning2.js
 cookiewarning4.js
-devportal.hu###PCBContainer
-dictzone.com###ac
 disagreeCookie.
-divany.hu,index.hu###_iph_cp_popup
-drtihanyi.hu###cookies
-eeszt.gov.hu###cookies
-emasz.hu###id_666
 eurail_responsive_law_cookie_banner.js
-ezermester.hu##.alert-dismissible.alert-warning.alert
-falatozz.hu##.accept-cookie
-fastweb.it##div#modalFrame
-favorashop.hu###suti_figyelmeztetes_ablak
-freemeteo.hu###cookies
-gyakorikerdesek.hu##body > div:nth-of-type(1)
-hirek24.hu##.cookie
-hirmagazin.eu###hirma-1381602451
-hoxa.hu###container > div:nth-of-type(1)
-indavideo.hu###_iph_cp_popup
 jquery-easy-eu-cookie-law.js
-lexus.com.tr,lexus.is##.l-disclaimer
-logmein.hu##.cookie
-markapark.com##.htext
-monster.it##div#interMsgsW
-nytimes.com##.expanded
-origo.hu###ac
-oszkar.com###footerbar
-poloverzum.hu###bottom_dialog
-rbx.hu##.cookie
-smoon.hu###bottom_dialog
-sokkaljobb.hu###SPS_noaccept
-statusbrew.com##.nag.cookie.ui
-stream.cr###iFrameResizer0
-studis-online.de##div[aria-label=cookieconsent]
-tarifaexpert.hu##.lablec_suti_szabaly
-technet.microsoft.com##div#responsiveRating
-termalfurdo.hu###layout_advertising_bottom
-theweek.co.uk###__ic-notice-container
-tipparuhaz.hu###bottom_dialog
-topviccek.hu###ck
-unicheck.com##.is-show.jcc.df.cookie
-viamichelin.it###vmapi-infocookies-wrapper vmapi-infocookies-wrapper-fixed
-work-force.hu##.cookie
-workforce.hu##.cookie
 ||aegon.nl/data/cookiewall$script
 ||airnewzealand.co.nz/vbook/actions/cookieconsent$script
 ||angrybirdsmovie.net/site/scripts/nettracking4.js$script
