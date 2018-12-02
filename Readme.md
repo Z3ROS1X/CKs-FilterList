@@ -10,7 +10,7 @@ I created CK's Filter List 2018 because I don't like the current well-known filt
 
 The overall project goal is to block ads and reduce the traffic coming from the domains/websites you visit. The term 'ads' is not defined in this project because I also block cosmetically banners and popup stuff which I think only causes useless traffic without any real benefit.
 
-#### Short
+#### Short explanation
 * Reduce load traffic
 * Remove annoyance web elements like e.g. floating headers, banners or useless footers
 
@@ -57,7 +57,13 @@ It's cool that some people add my lists into _their own projects_ and I in gener
 
 #### Main Filter
 * The main list `/CK's-FilterList.txt` which will be loaded by your fav. Ad-Blocker extension. The filter gets updated at least every 8 days. The list contains all other lists!
-* `CK's-FilterList-slimm.txt` is only the normal filter lists without any additional sublists.
+* `CK's-FilterList-slimm.txt` is only the normal filter lists without any additional _sublists_.
+
+
+* [CHEF-KOCH's FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/CK's-FilterList.txt&title=CHEF-KOCH's-Filter-List) - Click-to-install in order to sub the filter list via your Browser.
+
+
+* [CHEF-KOCH's FilterList (slimm)](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/CK's-FilterList-slimm.txt&title=CHEF-KOCH's-Filter-List) - Click-to-install in order to sub the filter list via your Browser.
 
 
 ##### uBO, Adblock etc filters
@@ -110,13 +116,6 @@ The following blockers aren't fully supported, so they might work but they have 
 * ![Brave Browser](https://user-images.githubusercontent.com/831718/32730079-e80c013c-c853-11e7-83b4-7443bc489581.png) [Brave Browser](https://www.brave.com) - (partial supported, request to add the list send)
 * ![Opera Browser](https://i.imgur.com/bP0t9xc.png) [Opera Browser](https://www.opera.com) - (partial supported, request to add the list send)
 
-
-## CHEF-KOCH's FilterList
-
-[CHEF-KOCH's FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/CK's-FilterList.txt&title=CHEF-KOCH's-Filter-List) - Click on the link in order to sub the filter list via your Browser.
-
-
-[CHEF-KOCH's FilterList (slimm)](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/CK's-FilterList-slimm.txt&title=CHEF-KOCH's-Filter-List) 
 
 
 ## Documentation
