@@ -11,32 +11,56 @@
 ! Copyright (C) 2018 by CHEF-KOCH
 
 ! Load sublists
-!#include filters/
-!#include filters/
-!#include filters/
-!#include filters/
-!#include filters/
-!#include filters/
-!#include filters/
-!#include filters/
-!#include filters/
-!#include filters/
-!#include filters/
+#include filters/adobe.txt
+#include filters/ads-tracker.txt
+#include filters/android.txt
+#include filters/apple.txt
+#include filters/ccleaner.txt
+#include filters/cloudflare.txt
+#include filters/emoji.txt
+#include filters/eset.txt
+#include filters/facebook.txt
+#include filters/fonts.txt
+#include filters/generic.txt
+#include filters/google.txt
+#include filters/instagram.txt
+#include filters/malware.txt
+#include filters/microsoft.txt
+#include filters/modal.txt
+#include filters/mozilla.txt
+#include filters/news.txt
+#include filters/nsablocklist.txt
+#include filters/pinterest.txt
+#include filters/share-buttons.txt
+#include filters/skype.txt
+#include filters/social.txt
+#include filters/torrent-tracker.txt
 
 ! Load HOSTS sublists
-!#include hosts/
-!#include hosts/
-!#include hosts/
-!#include hosts/
-!#include hosts/
-!#include hosts/
-!#include hosts/
+#include hosts/AdGuard.txt
+#include hosts/Adobe.txt
+#include hosts/Ads-tracker.txt
+#include hosts/Apple.txt
+#include hosts/CCleaner.txt
+#include hosts/Cloudflare.txt
+#include hosts/Eset.txt
+#include hosts/Facebook.txt
+#include hosts/Game.txt
+#include hosts/Google.txt
+#include hosts/Instagram.txt
+#include hosts/Malware.txt
+#include hosts/Microsoft.txt
+#include hosts/Mozilla.txt
+#include hosts/NSABlocklist.txt
+#include hosts/Pinterest.txt
+#include hosts/Skype.txt
+#include hosts/Spotify.txt
 
 ! Load I2P & Onion
-!#include I2P & Onion/
+!#include I2P & Onion/Onion-FilterList.txt
 
 ! Spotify Ad-Free
-!#include Spotify Ad-Free/
+#include Spotify Ad-Free/Spotify-AdBlock.txt
 
 ! Test Filters
 !#include Test/
