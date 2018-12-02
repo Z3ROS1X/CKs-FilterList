@@ -35,26 +35,28 @@
 #include filters/skype.txt
 #include filters/social.txt
 #include filters/torrent-tracker.txt
+#include filters/coinminer.txt
 
 ! Load HOSTS sublists
-#include hosts/AdGuard.txt
-#include hosts/Adobe.txt
-#include hosts/Ads-tracker.txt
-#include hosts/Apple.txt
-#include hosts/CCleaner.txt
-#include hosts/Cloudflare.txt
-#include hosts/Eset.txt
-#include hosts/Facebook.txt
-#include hosts/Game.txt
-#include hosts/Google.txt
-#include hosts/Instagram.txt
-#include hosts/Malware.txt
-#include hosts/Microsoft.txt
-#include hosts/Mozilla.txt
-#include hosts/NSABlocklist.txt
-#include hosts/Pinterest.txt
-#include hosts/Skype.txt
-#include hosts/Spotify.txt
+!#include hosts/AdGuard.txt
+!#include hosts/Adobe.txt
+!#include hosts/Ads-tracker.txt
+!#include hosts/Apple.txt
+!#include hosts/CCleaner.txt
+!#include hosts/Cloudflare.txt
+!#include hosts/Eset.txt
+!#include hosts/Facebook.txt
+!#include hosts/Game.txt
+!#include hosts/Google.txt
+!#include hosts/Instagram.txt
+!#include hosts/Malware.txt
+!#include hosts/Microsoft.txt
+!#include hosts/Mozilla.txt
+!#include hosts/NSABlocklist.txt
+!#include hosts/Pinterest.txt
+!#include hosts/Skype.txt
+!#include hosts/Spotify.txt
+!#include filters/Coinminer.txt
 
 ! Load I2P & Onion
 !#include I2P & Onion/Onion-FilterList.txt
@@ -67,6 +69,20 @@
 
 
 01.org##.o-header:style(position: absolute !important;)
+1337x.*##+js(abort-on-property-write.js, Fingerprint2)
+1337x.*##.download-links-dontblock > LI:has-text(Anon)
+1337x.*##.download-links-dontblock > LI:has-text(Stream)
+1337x.*##a[href^="/redirectmusic.php"]
+1337x.*##a[href^="/spyoff"]
+1337x.*##a[href*="//steepto.com/"]
+1337x.*##.cbdebf
+1337x.*##.aedcfdae
+1337x.*##footer
+1337x.*##.logo > [href="/home/"]
+1337x.*,x1337x.*##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, popunder)
+1337x.*,x1337x.*##+js(setInterval-defuser.js, (), 500)
+1337x.*##+js(window.open-defuser.js)
+x1337x.eu##.mgbox
 1001tracklists.com###contentRoot:style(padding-top: 0 !important;)
 1001tracklists.com###fixTop:style(position: relative !important; top: 0 !important;)
 100percentfedup.com##.menu-header-menu-container-add:style(position: absolute !important;)

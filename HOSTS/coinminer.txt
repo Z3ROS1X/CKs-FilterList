@@ -1,14 +1,14 @@
-! Title: CHEF-KOCH's CoinMiner HOSTS Filter List
-! Description: A comprehensive, all-in-one ad-block list for blocking of crypto coin miners.
-! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
-! By downloading or viewing, or using this list, you are accepting these terms and the license.
-! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
-! Expires: 8 days
-! Version: 0.0.2.04
-! Last updated: 2018-12-02
-! Please report any unblocked content or problems by email or via GitHub issue ticket.
-! Email: CHEF-KOCH@protonmail.com
-! Copyright (C) 2018 by CHEF-KOCH
+# Title: CHEF-KOCH's CoinMiner HOSTS Filter List
+# Description: A comprehensive, all-in-one ad-block list for blocking of crypto coin miners.
+# License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+# By downloading or viewing, or using this list, you are accepting these terms and the license.
+# Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+# Expires: 8 days
+# Version: 0.0.2.04
+# Last updated: 2018-12-02
+# Please report any unblocked content or problems by email or via GitHub issue ticket.
+# Email: CHEF-KOCH@protonmail.com
+# Copyright (C) 2018 by CHEF-KOCH
 
 0.0.0.0 000.0x1f4b0.com
 0.0.0.0 001.0x1f4b0.com
