@@ -358,9 +358,6 @@ youtube.com^*/log_interaction?
 ||youtube.com/ptracking$important
 ||youtube.com/set_awesome$important
 ||ytimg.com/yts/swfbin/player-*/endscreen.swf$object-subrequest,domain=youtube.com
-redtube.com###ab_banner
-redtube.com##.clearfix:has-text(Ads)
-redtube.com###browse_section > div:has(:scope > div > a.ad-link)
 ! -- Unbreak Google --
 /google-analytics.$badfilter
 -google-analytics.$badfilter
@@ -388,3 +385,11 @@ redtube.com###browse_section > div:has(:scope > div > a.ad-link)
 @@||www.gvt1.com^$script
 @@||www.redirector.gvt1.com^$script
 @@||google.com/js/plusone.js$domain=abcnews.go.com|watch.nba.com
+
+cloud.google.com##.devsite-nav.devsite-page-nav:style(position: relative !important; top: 0 !important; left: auto !important;)
+cloud.google.com##.devsite-top-section-pinned.nocontent.devsite-top-section:style(position: absolute !important;)
+cloud.google.com##.h-c-header__bar:style(position: absolute !important;)
+cloud.google.com##.nocontent.devsite-nav.devsite-section-nav:style(position: relative !important; top: 0 !important;)
+
+
+google.de##.vk_c.yAVMkd

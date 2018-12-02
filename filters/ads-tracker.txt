@@ -10,6 +10,11 @@
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
 
+||cpx.golem.de^
+||cpxl.golem.de^
+||collector.githubapp.com^
+||collector-cdn.github.com^
+||pivotal.github.com^
 ||newsnow.co.ip^
 ||newsnow.co.za^
 ||www.kmspico.info^

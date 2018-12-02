@@ -3417,6 +3417,7 @@ ticketmaster.ca##.page__legal-link
 @@||20min.ch^$generichide
 @@||24opole.pl^$generichide
 @@||7sim.net^$generichide
+@@||9anime.*^$generichide
 @@||aftonbladet.se^$generichide
 @@||al.ly^$generichide
 @@||ally.sh^$generichide
