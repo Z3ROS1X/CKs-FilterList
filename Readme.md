@@ -152,6 +152,8 @@ I2P & Onion | Blocklist for bad I2P & Onion domains (not for ad-blockers!) | [CH
 Malware | Blocklist for Malware | [CHEF-KOCH's Malware FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/malware.txt&title=CHEF-KOCH's-I2P-&-Onion-Filter-List)
 Wontblock | Unblock the Internet and good pages | [CHEF-KOCH's Wontblock FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/Not%20blocked/CK's-Wontblock-FilterList.txt&title=CHEF-KOCH's-I2P-&-Onion-Filter-List)
 Torrent | Blocklist for bad Torrent Tracker | [CHEF-KOCH's Torrent FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/torrent-tracker.txt&title=CHEF-KOCH's-I2P-&-Onion-Filter-List)
+CoinMiners | Block all crypto coin miners | [CHEF-KOCH's CoinMiner FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/coinminer.txt&title=CHEF-KOCH's-Fonts-Filter-List)
+
 
 
 
@@ -180,6 +182,7 @@ App: Skype | Skype Ad-Free | [CHEF-KOCH's Skype Ad-Free FilterList](https://subs
 App: Spotify | Spotify Ad-Free | [CHEF-KOCH's Spotify Ad-Free FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/Spotify%20Ad-Free/Spotify-HOSTS.txt&title=CHEF-KOCH's-Spotify-Ad-Free-Filter-List)
 uMatrix | uMatrix / HOSTS based lists (only for uMatrix users!)| [CHEF-KOCH's uMatrix FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/uMatrix/CK's-uMatrix-FilterList.txt&title=CHEF-KOCH's-Spotify-Ad-Free-Filter-List)
 Game List | Blocks additional game tracking | [CHEF-KOCH's Game FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Game.txt&title=CHEF-KOCH's-Game-Filter-List)
+CoinMiners | Block all crypto coin miners | [CHEF-KOCH's CoinMiner FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Coinminer.txt&title=CHEF-KOCH's-Fonts-Filter-List)
 
 
 ## Report issues, unblocked ads or trackers

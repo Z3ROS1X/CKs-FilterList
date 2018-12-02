@@ -1,5 +1,5 @@
-! Title: CHEF-KOCH's CoinMiner Filter List
-! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
+! Title: CHEF-KOCH's CoinMiner HOSTS Filter List
+! Description: A comprehensive, all-in-one ad-block list for blocking of crypto coin miners.
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
