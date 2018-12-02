@@ -1,0 +1,64 @@
+! Title: CHEF-KOCH's DIV + Ins Filter List
+! Description: Procedural cosmetic filter list.
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 8 days
+! Version: 0.0.0.01
+! Last updated: 2018-12-02
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+
+##A[title="Advertising"]
+##A[href^="http://www.uniblue.com/"]
+##ASIDE[class*="_adrotate_"]
+##A[href^="http://ad.doubleclick.net/"]
+##A[href^="http://pubads.g.doubleclick.net/"]
+##DIV[class*="adv-box"]
+##DIV[class^="box-ad"]
+##DIV[class^="commercial-unit-"]
+##DIV[id$="Ad-Proxy"]
+##DIV[id*="AdWrapper"]
+##DIV[id*="FloatingBanner"]
+##DIV[id^="div-gpt-ad"]
+##div[class*="Ad"]
+##div[class*="DARTad"]
+##div[class*="OUTBRAIN"]
+##div[class*="_dart"]
+##div[class*="adbox"]
+##div[class*="adcontainer"]
+##div[class*="adunit"]
+##div[class*="advert"]
+##div[class*="dart-"]
+##div[class*="dart_"]
+##div[class*="dartad"]
+##div[class*="divad"]
+##div[class*="ezoic"]
+##div[class*="outbrain"]
+##div[class*="taboola"]
+##div[class*="trc_"]
+##div[class^="SocialIcons_"]
+##div[class^="article__shared_bar"]
+##div[class^="numberShares_"]
+##div[class^="shareBar_"]
+##div[class^="shareButton_"]
+##div[class^="style__social"]
+##div[data-outbrain-url]
+##div[id*="DARTad"]
+##div[id*="OUTBRAIN"]
+##div[id*="_dart"]
+##div[id*="dart-"]
+##div[id*="dart_"]
+##div[id*="dartad"]
+##div[id*="outbrain"]
+##div[id*="taboola"]
+##div[id*="trc_"]
+##div[id^="AD_LIVE_AREA_"]
+##div[id^="div-gpt-ad-"]
+##div[id^="f5acd0"]
+##div[id^="google_ads_iframe_"]
+##div[id^="sbaAbout"]
+##ins.daum_ddn_area
+##ins.adsbyadop
+##ins[class*="ads"]

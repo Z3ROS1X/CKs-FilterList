@@ -4,12 +4,92 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.0.56
+! Version: 0.0.0.59
 ! Last updated: 2018-12-02
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
 
+||immassets.s3.amazonaws.com^
+||inneractive-assets.s3.amazonaws.com^
+||inpref.s3-external-3.amazonaws.com^
+||inpref.s3.amazonaws.com^
+||interactive-assets.s3.amazonaws.com^
+||kkastatic.s3.amazonaws.com^
+||kraken-measurements.s3.amazonaws.com^
+||livechat.s3.amazonaws.com^
+||livefyre-avatar.s3.amazonaws.com^
+||load.s3.amazonaws.com^
+||s3-tracking.synthasite.net.s3.amazonaws.com^
+||s4-tracking.synthasite.net.s3.amazonaws.com^
+||loved-by.s3.amazonaws.com^
+||rcm-de.amazon.de^
+||rcm-images.amazon.com^
+||rich-agent.s3.amazonaws.com^
+||rcm.amazon.com^
+||a6522.s3-website-us-east-1.amazonaws.com^
+||ad-amazing.com^
+||admarvel.s3.amazonaws.com^
+||ads_ad_center.s3.amazonaws.com^
+||adstracking.s3-website-us-west-1.amazonaws.com^
+||adstracking.s3-website-us-west-2.amazonaws.com^
+||adtago.s3.amazonaws.com^
+||advice-ads.s3.amazonaws.com^
+||advrts.s3.amazonaws.com^
+||adzerk-www.s3.amazonaws.com^
+||adzerk.s3.amazonaws.com^
+||airpushmarketing.s3.amazonaws.com^
+||alexa-sitestats.s3.amazonaws.com^
+||applab-sdk.amazon.com^
+||arabmistress.s3.amazonaws.com^
+||assets-hellobar-com.s3.amazonaws.com^
+||assoc-amazon.co.uk^
+||assoc-amazon.com^
+||biowebb-data.s3.amazonaws.com^
+||blamads-assets.s3.amazonaws.com^
+||bo-videos.s3.amazonaws.com^
+||bro1.s3.amazonaws.com^
+||cadreon.s3.amazonaws.com^
+||campaign-tapad.s3.amazonaws.com^
+||cd-ladsp-com.s3.amazonaws.com^
+||cdn.installationsafe.net.s3.amazonaws.com^
+||cdnpuaf.s3.amazonaws.com^
+||ce2-dev-trk.s3.amazonaws.com^
+||ce2-dev.s3.amazonaws.com^
+||chartaca.com.s3.amazonaws.com^
+||click.s3.amazonaws.com^
+||cloudfront-labs.amazonaws.com^
+||clutchmag.s3.amazonaws.com^
+||com.djinnworks.sdm.s3.amazonaws.com^
+||convertglobal.s3.amazonaws.com^
+||d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com^
+||dban4-549565586.eu-west-1.elb.amazonaws.com^
+||demandmedia.s3.amazonaws.com^
+||deskwww.s3.amazonaws.com^
+||ec2-54-171-97-32.eu-west-1.compute.amazonaws.com^
+||ec2-54-225-149-4.compute-1.amazonaws.com^
+||ec2-54-235-183-132.compute-1.amazonaws.com^
+||ecommstats.s3.amazonaws.com^
+||entrecard.s3.amazonaws.com^
+||epowernetworktrackerimages.s3.amazonaws.com^
+||evs-hosted-14facd241e1c08.s3.amazonaws.com^
+||fls-eu.amazon.com^
+||fls-eu.amazon.de^
+||fls-eu.amazon.uk^
+||fls-fe.amazon.co.jp^
+||fls-na-amazon.com^
+||forumwarz.s3.amazonaws.com^
+||gateways.s3.amazonaws.com^
+||get-amazing-results.com^
+||getbarometer.s3.amazonaws.com^
+||getsidecar.s3.amazonaws.com^
+||gfaf-banners.s3.amazonaws.com^
+||hb-assets.s3.amazonaws.com^
+||homad-global-configs-eu-fra.schneevonmorgen.com.s3.amazonaws.com^
+||html5adkit.plusmo.s3.amazonaws.com^
+||html5ads.s3.amazonaws.com^
+||htmlads.s3.amazonaws.com^
+||iacpromotion.s3.amazonaws.com^
 ||cpx.golem.de^
 ||cpxl.golem.de^
 ||collector.githubapp.com^

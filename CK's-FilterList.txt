@@ -47,7 +47,7 @@
 #include filters/websocket.txt
 #include filters/yahoo.txt
 #include filters/yandex.txt
-#include filters/
+#include filters/div+ins.txt
 
 ! Load HOSTS sublists
 !#include hosts/AdGuard.txt
@@ -2409,6 +2409,7 @@ cryptocoincharts.info##.navbar:style(position: relative !important;)
 cryptocoinsnews.com##.headroom--pinned.headroom--not-top.headroom.mini-bar
 cryptocoinsnews.com##.widget_text.widget
 cryptocompare.com##.visible-sm-block.visible-lg-block.visible-md-block.navbar-fixed-top.navbar-main.navbar:style(position: absolute !important;)
+cryptocare.tech##.css-qsqai01.css-1a5f3bo
 cryptodisrupt.com##.td-affix.td-header-menu-no-search.td-header-gradient.td-header-menu-wrap:style(position: absolute !important;)
 cryptodisrupt.com##.td-main-menu-logo:style(display: none !important;)
 cryptomator.org##.d-header:style(position: absolute !important;)
@@ -2899,6 +2900,11 @@ dorkjournal.com##.header--slide.fixed.header
 dotandline.net##.js-metabar:style(position: absolute !important;)
 dotesports.com##.styles__fixedHeader--EXJKT:style(position: absolute !important; top: 0 !important;)
 dotesports.com##.styles__topAd--1aBvZ
+douploads.com##footer
+douploads.com##div.col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-of-type(1)
+douploads.com##div.col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-of-type(3)
+douploads.com##.content > center:nth-of-type(1)
+douploads.com##.mngez_lastnews > span
 doublepulsar.com##.js-metabar:style(position: absolute !important;)
 douyu.com###lifter
 dowjones.com##.dropdown-submenu-opened.page-header:style(position: relative !important; top: 0 !important;)
@@ -2928,6 +2934,8 @@ dropbox.com##.mast-head:style(position: absolute !important;)
 dropbox.com##.supernav__container--fixed:style(position: absolute !important;)
 dropbox.com##.visible.ha
 dropboxforum.com##header:style(position: absolute !important;)
+dropapk.com##+js(abort-on-property-write.js, Fingerprint2)
+dropapk.com##+js(nowebrtc.js)
 drweil.com###js-header-inner
 drweil.com###leaderboard_sticky
 dslrbodies.com###sitemenu:style(position: absolute !important; top: 0 !important;)
@@ -3458,6 +3466,7 @@ fee.org###articleRibbonRoot:style(position: relative !important; top: 0 !importa
 fee.org###chatra__iframe
 fee.org##.convertflow-cta
 fee.org##.nav-up.mobile-header:style(position: absolute !important; top: 0 !important;)
+feedly.com##div.bsa-native-ad
 feedly.com###searchBarFX:style(position: absolute !important;)
 feedly.com##.fixed-bar:style(position: absolute !important;)
 feinewerkzeuge.de##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
@@ -3987,6 +3996,7 @@ git.synz.io##.js-right-sidebar.js-wiki-sidebar.wiki-sidebar.right-sidebar-expand
 git.synz.io##.nav-sidebar:style(position: absolute !important;)
 git.synz.io##.navbar:style(position: absolute !important;)
 gitbook.com##.sticky:style(position: relative !important;)
+github.com##.rounded-1.signup-prompt-bg
 github.com##.rounded-1.mb-4.text-center.p-4.signup-prompt
 github.com##.text-small.jobs-logo
 github.com##.unsupported-browser
@@ -4395,6 +4405,26 @@ heidi.ie##.is-sticky.p-navSticky--primary.p-navSticky:style(position: relative !
 heidi.ie##.js-bottom-corner-btns.bottom-corner-btns
 heidi.ie##.mk-header-holder:style(position: relative !important; top: 0 !important;)
 heidi.ie##.mk-header-padding-wrapper
+heise.de###foxclocks-statusbar-spacer
+heise.de##.ama
+heise.de##.bcadv
+heise.de##.buytable
+heise.de##.gh_teaser
+heise.de##.jobtv24
+heise.de##.meldung_preisvergleich
+heise.de##.online-markt
+heise.de##.teaser_ebook
+heise.de##.teaser_geizhals
+heise.de##.teaser_preisvergleich
+heise.de##.themenseite_preisvergleich.meldung__box--right
+heise.de##.us_ad
+heise.de##a[href^="http://www.kqzyfj.com/click-"]
+heise.de##heisetext > .img[width="100%"]
+heise.de##td[align="left"][valign="top"][rowspan="5"]
+heise.de#@#.adbottom
+heise.de###mitte > .right[style="font-size: 0.7em; margin-right: 20px;"]
+heise.de##.hinweis_anzeige
+heise.de##A-PATERNOSTER
 helium.com##.js-metabar:style(position: absolute !important;)
 hellobestow.com##.sticky.js-site-header.site-header
 hellofresh.com##.fela-zlxyxl:style(position: absolute !important;)
@@ -5315,6 +5345,7 @@ lensrentals.com##.floatfeed_small.right
 lesswrong.com##.headroom--scrolled.headroom--pinned.headroom:style(position: absolute !important;)
 letsencrypt.org##.clearfix.d-header:style(position: absolute !important;)
 lever.co##.section-wrapper.page-full-width.main-header:style(position: absolute !important;)
+lichess.org##.undertable.donation
 libertyalliance.com##.gfiframe
 libertyballers.com##.m-ad
 libertylawsite.org##.no-break
@@ -5336,6 +5367,20 @@ lifehack.org###lifehack_d_BTF4_ap1
 lifehack.org##._3PTI5._2kD06
 lifehack.org##.conv_state_desktop.conv-container
 lifehack.org##.sticky:style(position: absolute !important; transform: none !important; padding-bottom: 50px !important;)
+lifehacker.com##div.ad-top
+lifehacker.com##div.ad-wide
+lifehacker.com##div.ad-bottom
+lifehacker.com##div.ad-container
+lifehacker.com##div.ad-mobile-dynamic
+lifehacker.com##div.ad-non-sticky
+lifehacker.com##div.ad-promotions-container
+lifehacker.com##div.contained-ad-container
+lifehacker.com##div.js_ad-infinite-promotion
+lifehacker.com##div.js_ad-starter-pageview
+lifehacker.com##div.movable-ad
+lifehacker.com##section.contained-ad-container
+lifewire.com##div.mntl-flexible-ad
+lifewire.com##div.mntl-gpt-adunit
 lifewire.com###header_1-0:style(position: relative !important; top: 0 !important;)
 lifewire.com###leaderboard_2-0
 lifezette.com##.ad-widget
@@ -5555,6 +5600,7 @@ mansionglobal.com##.js-main-header.mg__main-header:style(position: relative !imp
 mansionglobal.com##.newsletter-signup-container
 manualslib.com###caffix:style(position: relative !important; top: 0 !important;)
 manualslib.com##.policy
+manualslib.com###abp_adv_b
 manutd.com###bottompager
 manutd.com###toolbar:style(position: relative !important; top: 0 !important;)
 manutd.com##.banner-ad.desktop
@@ -5703,6 +5749,15 @@ me.me##.stick.sticky.connected:style(position: absolute !important;)
 meadowlakewindfarm.com###edprBackNew:style(position: absolute !important;)
 meadowlakewindfarm.com###top-bar-new:style(position: absolute !important;)
 meaww.com##.meaww-header__main:style(position: relative !important; top: 0 !important;)
+mediafire.com###adbMessage
+mediafire.com###DlPreCheck-invalid
+mediafire.com##figcaption > div
+mediafire.com###abnotify-close
+mediafire.com###abnotify
+mediafire.com##.DLExtraInfo-column.DLExtraInfo-upload
+mediafire.com##.DLExtraInfo-column.DLExtraInfo-accountStatus
+mediafire.com##+js(abort-current-inline-script.js, document.getElementById, adblocker)
+mediafire.com##+js(setTimeout-defuser.js, scan, 500)
 mediaite.com###Mediaite_Mobile_MedRec_1
 mediaite.com###featured-posts-wrap:style(position: relative !important; top: 0 !important;)
 mediaite.com###featured-posts:style(position: relative !important; top: 0 !important;)
@@ -5886,6 +5941,7 @@ mirror.co.uk##.mod-header:style(position: relative !important; top: 0 !important
 mirror.co.uk##.publication-theme-highlight.primary:style(position: relative !important; top: 0 !important;)
 mirror.co.uk##.secondary:style(position: relative !important; top: 0 !important;)
 mirror.co.uk##.side-sharebar:style(position: absolute !important;)
+mirrorace.com##.uk-grid > div.uk-text-center.uk-margin-bottom.uk-width-1-1:nth-of-type(1)
 mirrorace.com##.uk-sticky-placeholder
 mirrorace.com##.uk-sticky:style(position: relative !important; animation: none !important; animation-duration: 0ms !important;)
 mises.org###text-resizer
@@ -7053,6 +7109,7 @@ outline.com##outline-toolbar
 outlook.office.com##._ms_l.flex:style(position: absolute !important;)
 outlook.office.com##.ms-bgc-tp._ms_5:style(position: absolute !important;)
 outsideonline.com##.nudger__inner
+overclock.net##section:nth-of-type(2)
 overstock.com###newo-hd:style(position: relative !important; top: 0 !important;)
 overstock.com##.fixed-search-bar .grid-container-toplinks, .fixed-search-bar .grid-container-promo:style(display: block !important;)
 overstock.com##.fixed-search-bar:style(position: relative !important; top: 0 !important; padding-top: 0 !important;)
@@ -7086,6 +7143,8 @@ pagesix.com##.flag-region
 pagesix.com##.recirc--outbrain.recirc
 pagesuite.com###menubar:style(position: absolute !important;)
 pahomepage.com###mod-up-next
+palemoon.org##.sidebar > div
+palemoon.org##div[id][style="display: block;"]:first-child
 palmbeachpost.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
 palmbeachpost.com##.hidden-md-down.footer-wrapper
 palmbeachpost.com##.sub-header-nav:style(position: relative !important; top: 0 !important;)
@@ -7174,7 +7233,6 @@ patreon.com##.sticky:style(position: relative !important; top: 0 !important;)
 patreon.com##.w14-modules-Navigation-components-Navbar--navbarContainer:style(position: relative !important; top: 0 !important;)
 patreon.com##div:nth-of-type(2) > .cBOHNJ.s1rwkr9f-0
 patreon.com##div:nth-of-type(2) > .iGzevj.sc-gqjmRU
-
 paxful.com###header-wrap:style(position: absolute !important;)
 paychex.com###block-worxfilter:style(position: relative !important;)
 paychex.com##.pos-f.mq-sub-header:style(position: relative !important;)
@@ -10006,6 +10064,7 @@ upi.com###nl_su_st
 upi.com###p_header:style(position: relative !important; top: 0 !important;)
 upi.com###tc_nav:style(position: relative !important; top: 0 !important;)
 upi.com##header:style(position: relative !important; top: 0 !important;)
+upload4earn.org##center
 uploaded.net##.hg_container-area
 uploadit.us###top-bar:style(position: relative !important; top: 0 !important;)
 uploadvr.com###sticky-bar:style(position: relative !important; top: 0 !important;)
@@ -10904,6 +10963,7 @@ wordpress.com##.is-invisible.is-fixed.masterbar:style(position: absolute !import
 wordpress.com##.sticking.stick:style(position: relative !important;)
 wordpress.org###wpadminbar:style(position: absolute !important;)
 wordstream.com##.ws-header:style(position: relative !important;)
+worldsrc.org##.alert-dismissible.alert-success.alert
 worldatlas.com##.w-headerMain:style(position: absolute !important; top: 0 !important;)
 worldcoinindex.com##.fixed.navbar-default.navbar:style(position: absolute !important;)
 worldfreeware.com###nav-topbar:style(position: absolute !important;)
