@@ -1,20 +1,14 @@
 ! Title: CHEF-KOCH's Fonts Filter List
-! Description: Block all external Fonts.
-! Checksum (SHA3-256): A12222FC166D9FCB5E350A751B6AE6B8B3820DEFBBAA34B79F02CB352FA965FB
+! Description: A filter list to block third-party fonts to reduce the Browser fingerprint.
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
-! Expires: 14d
-! TimeUpdated: 2018-06-07	20:25:08+01:00
-! Version: 0.0.0.6
+! Expires: 8 days
+! Version: 0.0.0.08
+! Last updated: 2018-12-02
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
-! OS level font blocking: 
-! https://docs.microsoft.com/en-us/windows/security/threat-protection/block-untrusted-fonts-in-enterprise
-! https://blogs.technet.microsoft.com/secguide/2017/06/15/dropping-the-untrusted-font-blocking-setting/
-! https://miranj.in/blog/2015/collateral-damage
-! https://news.ycombinator.com/item?id=10326450
 
 ||fonts.twitter.com^$font,third-party
 ||adobe.com^$font,third-party
@@ -70,6 +64,9 @@
 @@octicons-regular-webfont-*.woff$font,domain=fontello.com
 @@octicons-regular-webfont-*.woff$font,domain=github.com
 @@pictos-web.woff$font,domain=sourceforge.net
+@@||use.typekit.net^$domain=carbonads.net|celyad.com|egotastic.com|egotasticallstars.com|mpora.com|readwrite.com|recite.com|wellandgood.com
+@@||fonts.googleapis.com/css?$domain=dadaviz.com|elitedaily.com|google.com|observer.com|rawstory.com|sourceforge.net|thechive.com|wired.com
+@@||fonts.gstatic.com^$domain=elitedaily.com|esportsheaven.com|google.com|mokeedev.com|phandroid.com|thechive.com|youtube.com
 !
 ! ---------- Test ----------
 !
