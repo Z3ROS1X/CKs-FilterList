@@ -54,7 +54,8 @@ It's cool that some people add my lists into _their own projects_ and I in gener
 * `ToDo.md` is like the name already suggest the current todo list - same as the CONTRIBUTING.md it [needs to be read](https://github.com/CHEF-KOCH/CKs-FilterList/wiki/Filter-Policy-&-Issue-Tickets) before you submit something. 
 
 #### Main Filter
-* The main list `/CK's-FilterList.txt` which will be loaded by your fav. Ad-Blocker extension. The filter gets updated at least every 8 days.
+* The main list `/CK's-FilterList.txt` which will be loaded by your fav. Ad-Blocker extension. The filter gets updated at least every 8 days. The list contains all other lists!
+* `CK's-FilterList-slimm`.txt` is only the normal filter lists without any additional sublists.
 
 
 ##### uBO, Adblock etc filters
@@ -67,12 +68,12 @@ It's cool that some people add my lists into _their own projects_ and I in gener
 
 
 ##### Spotify
-* `/Spotify Ad-Free` includes Spotify ad-bnlocking filters resources.
+* `/Spotify Ad-Free` includes Spotify ad-blocking filters resources.
 
 
 ##### HOSTS
 
-* `/HOSTS` includes all lists as HOSTS compatible format.
+* `/HOSTS` includes all (optional) lists as HOSTS compatible format.
 
 
 ##### Test
@@ -113,6 +114,8 @@ The following blockers aren't fully supported, so they might work but they have 
 [CHEF-KOCH's FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/CK's-FilterList.txt&title=CHEF-KOCH's-Filter-List) - Click on the link in order to sub the filter list via your Browser.
 
 
+[CHEF-KOCH's FilterList (slimm)](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/CK's-FilterList-slimm.txt&title=CHEF-KOCH's-Filter-List) 
+
 
 ## Documentation
 
@@ -132,16 +135,16 @@ Filter Name | Description | Sub link
 --- | --- | ---
 Ad & Tracker Filter List | Blocks known Ads & Trackers | [CHEF-KOCH's Ad & Tracker Filter List](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/ads-tracker.txt&title=CHEF-KOCH's-Ad-&-Trackers-Filter-List)
 Android | Blocks ads & trackers and other unneeded Android traffic | [CHEF-KOCH's Android FilterList](https://subscribe.adblockplus.org/?location=https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/filters/android.txt&title=CHEF-KOCH's-Android-Filter-List)
-Cooperation: Adobe | Blocks all Adobe traffic | [CHEF-KOCH's Adobe FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/adobe.txt&title=CHEF-KOCH's-Adobe-Filter-List)
-Cooperation: Apple | Blocks all Apple traffic | [CHEF-KOCH's Apple FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/apple.txt&title=CHEF-KOCH's-Apple-Filter-List)
-Cooperation: Avast/CCleaner | Blocks all Avast/CCleaner traffic | [CHEF-KOCH's Avast/CCleaner FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/ccleaner.txt&title=CHEF-KOCH's-CCleaner-Filter-List)
-Cooperation: Cloudflare | Blocks all Cloudflare traffic | [CHEF-KOCH's Cloudflare FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/cloudflare.txt&title=CHEF-KOCH's-Cloudflare-Filter-List)
-Cooperation: Facebook | Blocks all Facebook & services traffic | [CHEF-KOCH's Facebook FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/facebook.txt&title=CHEF-KOCH's-Facebook-Filter-List)
-Cooperation: Google | Blocks all Google & services traffic | [CHEF-KOCH's Google FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/google.txt&title=CHEF-KOCH's-Google-Filter-List)
-Cooperation: Instagram | Blocks all Instagram & services traffic | [CHEF-KOCH's Instagram FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/instagram.txt&title=CHEF-KOCH's-Instagram-Filter-List)
-Cooperation: Microsoft | Blocks all Microsoft & services traffic | [CHEF-KOCH's Microsoft FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/microsoft.txt&title=CHEF-KOCH's-Microsoft-Filter-List)
-Cooperation: Mozilla | Blocks all Mozilla & services traffic | [CHEF-KOCH's Mozilla FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/mozilla.txt&title=CHEF-KOCH's-Mozilla-Filter-List)
-Cooperation: Pinterest | Blocks all Pinterest & services traffic | [CHEF-KOCH's Pinterest FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/pinterest.txt&title=CHEF-KOCH's-Pinterest-Filter-List)
+Adobe | Blocks all Adobe traffic | [CHEF-KOCH's Adobe FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/adobe.txt&title=CHEF-KOCH's-Adobe-Filter-List)
+Apple | Blocks all Apple traffic | [CHEF-KOCH's Apple FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/apple.txt&title=CHEF-KOCH's-Apple-Filter-List)
+Avast/CCleaner | Blocks all Avast/CCleaner traffic | [CHEF-KOCH's Avast/CCleaner FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/ccleaner.txt&title=CHEF-KOCH's-CCleaner-Filter-List)
+Cloudflare | Blocks all Cloudflare traffic | [CHEF-KOCH's Cloudflare FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/cloudflare.txt&title=CHEF-KOCH's-Cloudflare-Filter-List)
+Facebook | Blocks all Facebook & services traffic | [CHEF-KOCH's Facebook FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/facebook.txt&title=CHEF-KOCH's-Facebook-Filter-List)
+Google | Blocks all Google & services traffic | [CHEF-KOCH's Google FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/google.txt&title=CHEF-KOCH's-Google-Filter-List)
+Instagram | Blocks all Instagram & services traffic | [CHEF-KOCH's Instagram FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/instagram.txt&title=CHEF-KOCH's-Instagram-Filter-List)
+Microsoft | Blocks all Microsoft & services traffic | [CHEF-KOCH's Microsoft FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/microsoft.txt&title=CHEF-KOCH's-Microsoft-Filter-List)
+Mozilla | Blocks all Mozilla & services traffic | [CHEF-KOCH's Mozilla FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/mozilla.txt&title=CHEF-KOCH's-Mozilla-Filter-List)
+Pinterest | Blocks all Pinterest & services traffic | [CHEF-KOCH's Pinterest FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/pinterest.txt&title=CHEF-KOCH's-Pinterest-Filter-List)
 App: Skype | Skype Ad-Free | [CHEF-KOCH's Skype Ad-Free FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/skype.txt&title=CHEF-KOCH's-Skype-Ad-Free-Filter-List)
 App: Spotify | Spotify Ad-Free | [CHEF-KOCH's Spotify Ad-Free FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/Spotify%20Ad-Free/CK's-Spotify-FilterList.txt&title=CHEF-KOCH's-Spotify-Ad-Free-Filter-List)
 Fonts | Block all web fonts | [CHEF-KOCH's Fonts FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/fonts.txt&title=CHEF-KOCH's-Fonts-Filter-List)
@@ -162,20 +165,20 @@ Filter Name | Description | Sub link
 --- | --- | ---
 Ad & Tracker Filter List | Blocks additional Ads & Trackers | [CHEF-KOCH's Ad & Tracker FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Ads-tracker.txt&title=CHEF-KOCH's-Ad-&-Trackers-Filter-List)
 Adguard | Blocks AdGuard related traffic | [CHEF-KOCH's Adguard FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/AdGuard.txt&title=CHEF-KOCH's-Adguard-Filter-List)
-Cooperation: Adobe | Blocks all Adobe traffic | [CHEF-KOCH's Adobe FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Adobe.txt&title=CHEF-KOCH's-Adobe-Filter-List)
-Cooperation: Apple | Blocks all Apple traffic | [CHEF-KOCH's Apple FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Apple.txt&title=CHEF-KOCH's-Apple-Filter-List)
-Cooperation: Avast/CCleaner | Blocks all Avast/CCleaner traffic | [CHEF-KOCH's Avast/CCleaner FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/CCleaner.txt&title=CHEF-KOCH's-CCleaner-Filter-List)
-Cooperation: Cloudflare | Blocks all Cloudflare traffic | [CHEF-KOCH's Cloudflare FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Cloudflare.txt&title=CHEF-KOCH's-Cloudflare-Filter-List)
-Cooperation: Facebook | Blocks all Facebook traffic | [CHEF-KOCH's Facebook FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Facebook.txt&title=CHEF-KOCH's-Facebook-Filter-List)
-Cooperation: Google | Blocks all Google & services traffic | [CHEF-KOCH's Google FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Google.txt&title=CHEF-KOCH's-Google-Filter-List)
-Cooperation: Instagram | Blocks all Instagram & services traffic | [CHEF-KOCH's Instagram FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Instagram.txt&title=CHEF-KOCH's-Instagram-Filter-List)
-Cooperation: Microsoft | Blocks all Microsoft & services traffic | [CHEF-KOCH's Microsoft FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Microsoft.txt&title=CHEF-KOCH's-Microsoft-Filter-List)
-Cooperation: Mozilla | Blocks all Mozilla & services traffic | [CHEF-KOCH's Mozilla FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Mozilla.txt&title=CHEF-KOCH's-Mozilla-Filter-List)
-Cooperation: NSA,FBI,CIA | Blocks all NSA, CIA, FBI etc 'spying' server connections | [CHEF-KOCH's NSA FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/NSABlocklist.txt&title=CHEF-KOCH's-Mozilla-Filter-List)
-Cooperation: Pinterest | Blocks all Pinterest & services traffic | [CHEF-KOCH's Pinterest FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Pinterest.txt&title=CHEF-KOCH's-Pinterest-Filter-List)
+Adobe | Blocks all Adobe traffic | [CHEF-KOCH's Adobe FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Adobe.txt&title=CHEF-KOCH's-Adobe-Filter-List)
+Apple | Blocks all Apple traffic | [CHEF-KOCH's Apple FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Apple.txt&title=CHEF-KOCH's-Apple-Filter-List)
+Avast/CCleaner | Blocks all Avast/CCleaner traffic | [CHEF-KOCH's Avast/CCleaner FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/CCleaner.txt&title=CHEF-KOCH's-CCleaner-Filter-List)
+Cloudflare | Blocks all Cloudflare traffic | [CHEF-KOCH's Cloudflare FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Cloudflare.txt&title=CHEF-KOCH's-Cloudflare-Filter-List)
+Facebook | Blocks all Facebook traffic | [CHEF-KOCH's Facebook FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Facebook.txt&title=CHEF-KOCH's-Facebook-Filter-List)
+Google | Blocks all Google & services traffic | [CHEF-KOCH's Google FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Google.txt&title=CHEF-KOCH's-Google-Filter-List)
+Instagram | Blocks all Instagram & services traffic | [CHEF-KOCH's Instagram FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Instagram.txt&title=CHEF-KOCH's-Instagram-Filter-List)
+Microsoft | Blocks all Microsoft & services traffic | [CHEF-KOCH's Microsoft FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Microsoft.txt&title=CHEF-KOCH's-Microsoft-Filter-List)
+Mozilla | Blocks all Mozilla & services traffic | [CHEF-KOCH's Mozilla FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Mozilla.txt&title=CHEF-KOCH's-Mozilla-Filter-List)
+NSA,FBI,CIA | Blocks all NSA, CIA, FBI etc 'spying' server connections | [CHEF-KOCH's NSA FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/NSABlocklist.txt&title=CHEF-KOCH's-Mozilla-Filter-List)
+Pinterest | Blocks all Pinterest & services traffic | [CHEF-KOCH's Pinterest FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Pinterest.txt&title=CHEF-KOCH's-Pinterest-Filter-List)
 App: Skype | Skype Ad-Free | [CHEF-KOCH's Skype Ad-Free FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Skype.txt&title=CHEF-KOCH's-Skype-Ad-Free-Filter-List)
 App: Spotify | Spotify Ad-Free | [CHEF-KOCH's Spotify Ad-Free FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Spotify.txt&title=CHEF-KOCH's-Spotify-Ad-Free-Filter-List)
-uMatrix | uMatrix / HOSTS based lists (domains only from CK's-FilterList) | [CHEF-KOCH's uMatrix FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/uMatrix/CK's-uMatrix-FilterList.txt&title=CHEF-KOCH's-Spotify-Ad-Free-Filter-List)
+uMatrix | uMatrix / HOSTS based lists (only for uMatrix users!)| [CHEF-KOCH's uMatrix FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/uMatrix/CK's-uMatrix-FilterList.txt&title=CHEF-KOCH's-Spotify-Ad-Free-Filter-List)
 Game List | Blocks additional game tracking | [CHEF-KOCH's Game FilterList](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/Game.txt&title=CHEF-KOCH's-Game-Filter-List)
 
 
