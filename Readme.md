@@ -1,8 +1,6 @@
 # CHEF-KOCH's Filter List [![Build Status](https://travis-ci.org/CHEF-KOCH/CKs-FilterList.svg?branch=master)](https://travis-ci.org/CHEF-KOCH/CKs-FilterList)
 
-I created this project 2018 because I don't like the current well-known filter lists and I think they're often outdated and _incomplete_ or simply too inefficient. My list is not restricted by any region. However, my personal focus is english, russian and swiss and germany regions since I speak these languages. 
-
-The overall project goal is to block ads and reduce the traffic coming from the domains/websites you visit. The term 'ads' is not defined in this project because I also block cosmetically banners and popup stuff which I think only causes useless traffic without any real benefit.
+I created CK's Filter List 2018 because I don't like the current well-known filter lists and I think they're often outdated and _incomplete_ or simply too inefficient. My list is not restricted by any region. However, my personal focus is english, russian and swiss and germany regions since I speak these languages. 
 
 ## Links
 
@@ -32,18 +30,49 @@ It's cool that some people add my lists into _their own projects_ and I in gener
 
 
 
-## Project Structure
+## Project Goal(s)
 
-* `/CK's-FilterList.txt` the main filter lists for your Ad-Blocker. The filter gets updated at least every 3 days.
-* `/Android` includes the Android related filter list.
-* `/HOSTS` contains HOSTS files for the project. The lists aren't updated frequently. 
-* `/I2P & Onion` includes the I2P and .Onion related filter list `CK's-Onion-FilterList`.
-* `/Malware` includes the anti-Malware related filter list `CK's-Malware-FilterList`.
-* `/Not blocked` includes the excluded filter list `CK's-Wontblock-FilterList`.
-* `/Test` includes multiple test filters for IP/ASN and uBlock + uMatrix rulesets.
+#### Intro 
+
+The overall project goal is to block ads and reduce the traffic coming from the domains/websites you visit. The term 'ads' is not defined in this project because I also block cosmetically banners and popup stuff which I think only causes useless traffic without any real benefit.
+
+#### Short
+* Reduce load traffic
+* Remove annoyance web elements like e.g. floating headers, banners or useless footers
+
+
+
+## General Project Structure
+
 * `CONTRIBUTING.md` is the file which shows you how to contribute to the project. It's essentially that you read the guidelines before you submit something.
 * `Readme.md` is this file and is the general project overview file.
 * `ToDo.md` is like the name already suggest the current todo list - same as the CONTRIBUTING.md it [needs to be read](https://github.com/CHEF-KOCH/CKs-FilterList/wiki/Filter-Policy-&-Issue-Tickets) before you submit something. 
+
+#### Main Filter
+* The main list `/CK's-FilterList.txt` which will be loaded by your fav. Ad-Blocker extension. The filter gets updated at least every 8 days.
+
+
+##### uBO, Adblock etc filters
+
+* `/filters` Other sub-filters belong into this folder.
+
+
+##### I2P & Onion
+* `/I2P & Onion` includes the I2P and .Onion related filter list `CK's-Onion-FilterList`.
+
+
+##### Spotify
+* `/Spotify Ad-Free` includes Spotify ad-bnlocking filters resources.
+
+
+##### HOSTS
+
+* `/HOSTS` includes all lists as HOSTS compatible format.
+
+
+##### Test
+
+* `/Test` includes multiple test filters for IP/ASN and uBlock + uMatrix rulesets.
 
 
 
@@ -92,7 +121,7 @@ The following filters might not getting into the main filter list (_CK's-FilterL
 
 
 
-### uBlock, 1Block, etc optional filter lists.
+### Filter Lists (click to install)
 
 Filter Name | Description | Sub link
 --- | --- | ---
