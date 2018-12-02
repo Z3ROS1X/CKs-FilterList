@@ -55,7 +55,7 @@ It's cool that some people add my lists into _their own projects_ and I in gener
 
 #### Main Filter
 * The main list `/CK's-FilterList.txt` which will be loaded by your fav. Ad-Blocker extension. The filter gets updated at least every 8 days. The list contains all other lists!
-* `CK's-FilterList-slimm`.txt` is only the normal filter lists without any additional sublists.
+* `CK's-FilterList-slimm.txt` is only the normal filter lists without any additional sublists.
 
 
 ##### uBO, Adblock etc filters
