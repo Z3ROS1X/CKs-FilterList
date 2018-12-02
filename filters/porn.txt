@@ -1,0 +1,33 @@
+! Title: CHEF-KOCH's Porn Filter List
+! Description: Make Porno websites great again. Nope, no one watches 'em!
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 8 days
+! Version: 0.0.0.10
+! Last updated: 2018-12-02
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+
+! -- PornHub --
+||ht.pornhub.com^
+||cdn1.static.pornhub.phncdn.com^
+pornhub.com##body > .lonesomemuch
+pornhub.com##.footer
+pornhub.com##.footer-title
+pornhub.com##sads
+pornhub.com##.logoFooterWrapper
+pornhub.com##.psWrapper > .lonesomemuch
+pornhub.com##.pornstarVideosCounter.showingCounter
+pornhub.com###pornstarsFilterContainer > .lonesomemuch
+pornhub.com##ads > div:nth-of-type(1)
+pornhub.com##ads > div:nth-of-type(2)
+pornhub.com##body > .foragirllikeyou
+pornhub.com##body > undefined
+pornhub.com##.sectionWrapper > undefined
+pornhub.com##.sectionWrapper > div[class]:has(:scope > div > .ad-link)
+pornhub.com##+js(addEventListener-defuser.js, DOMContentLoaded, [native code])
+pornhub.com##+js(abort-on-property-write.js, rAb)
+pornhub.com##+js(csp.js, img-src 'self' *; media-src 'self' *)
+@@||static.pornhub.phncdn.com^$script,domain=pornhub.com

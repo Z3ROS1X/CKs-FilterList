@@ -10,9 +10,7 @@
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
-#
-# ---------- Skype ----------
-#
+
 #0.0.0.0 104.146.0.0-104.146.0.19
 #0.0.0.0 104.146.128.0-104.146.128.17
 #0.0.0.0 104.208.0.0-104.208.0.13

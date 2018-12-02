@@ -11,9 +11,7 @@
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
-#
-# ---------- Pinterest ----------
-#
+
 0.0.0.0 about.pinterest.com
 0.0.0.0 accounts-oauth.pinterest.com
 0.0.0.0 accounts.pinterest.com

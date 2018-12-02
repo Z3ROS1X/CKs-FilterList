@@ -778,6 +778,9 @@ architectural-review.com###mobileSections:style(position: absolute !important;)
 architecturaldigest.com##.component-site-header--sticky.component-site-header:style(position: relative !important; top: 0 !important;)
 architectureartdesigns.com###ubermenu-main-2-primary:style(position: absolute !important;)
 architectureartdesigns.com##.vertical.inset-counter.floated.flat.no-print
+archive.org###wm-ipp > div:style(position: relative !important; top: 0 !important; padding-bottom: 10px !important;)
+archive.org##.iconochive-facebook
+archive.org##.iconochive-twitter
 archive.org###ToS:style(position: relative !important;)
 archive.org###wm-ipp > div:style(position: relative !important; top: 0 !important; padding-bottom: 10px !important;)
 archpaper.com##.article-sidebar-wrap:style(position: relative !important;)

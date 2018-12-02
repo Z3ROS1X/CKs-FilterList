@@ -11,9 +11,7 @@
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
-#
-# ---------- Mozilla ----------
-#
+
 0.0.0.0 d2o47bxgqzkcc3.cloudfront.net
 0.0.0.0 bouncer-bouncer-elb.prod.mozaws.net
 #0.0.0.0 download.mozilla.org
