@@ -101,6 +101,7 @@
 ##.fbbutton
 ##.fblike
 ##.fbshare_gm_p
+##[title="Follow me on Facebook"]
 !
 ! ---------- Facebook Domains (AS32934) ----------
 !
@@ -578,6 +579,17 @@
 ||thefacebook.com^
 ||whatsapp.com^
 !
+! ---------- Instagram ----------
+!
+-ad.js$domain=~sh.st|~facebook.com
+/facebook-page-promoter-lightbox/*
+_facebookbadge.
+||facebook.com/ajax/photos/logging/session_logging.php$important
+||graph.facebook.com$xmlhttprequest
+||instagram.com/client_action
+||instagram.com/client_error
+||instagram.com/ajax/bz
+instagram.com##._he402!
 ! ---------- Thirdparty Filters ----------
 !
 ||facebook.com/dialog/oauth?display=popup$popup,domain=humorhub.org
@@ -619,3 +631,9 @@
 @@||fbcdn-sphotos-*.akamaihd.net^$domain=facebook.com
 @@||fbexternal-*.akamaihd.net^$domain=facebook.com
 @@||scontent-*.fbcdn.net^$domain=facebook.com
+@@||connect.facebook.com^*/audiencenetworkprebid.js$script,domain=screenrant.com
+@@||connect.facebook.net^$script,domain=abc.go.com|adultswim.com|contv.com
+@@||graph.facebook.com^$xmlhttprequest,domain=theguardian.com
+@@||staticxx.facebook.com/connect/$domain=embedly.com
+@@||facebook.com/ads/preferences/edit_sensitive_topics$xmlhttprequest
+@@||facebook.com/ads/preferences/ad_report/$xmlhttprequest

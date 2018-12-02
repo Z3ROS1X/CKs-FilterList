@@ -1,0 +1,77 @@
+! Title: CHEF-KOCH's Yahoo Filter List
+! Description: A comprehensive, all-in-one ad-block list for filtering of Yahoo (flickr.com etc).
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 8 days
+! Version: 0.0.0.01
+! Last updated: 2018-12-02
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+
+/yahoo-ad-
+/yahoo-ads/*
+/yahoo/ads.
+/yahoo_overture.
+/YahooAd_
+/yahooads.
+/yahooads/*
+/yahooadsapi.
+/yahooadsobject.
+mail.yahoo.com###theAd
+yahoo.com###community-bar
+yahoo.com###danafarberpromo
+yahoo.com###fantasyshoppromo
+yahoo.com###get-the-app
+yahoo.com###lb-share-btns
+yahoo.com###mediacontentfollowproperty_wrapper
+yahoo.com###mediacontentsharebuttons
+yahoo.com###mediasocialbuttonseasy
+yahoo.com###mrt-node-Lead-2-AbPromo
+yahoo.com###mrt-node-UH-1-NavLite
+yahoo.com###so-share
+yahoo.com###sportsshop-promo
+yahoo.com###uh-scroll-promo
+yahoo.com###unblock-instructions
+yahoo.com###unblock-intstructions
+yahoo.com###yog-hd
+yahoo.com###yset-search-upsell-container
+yahoo.com###yucs-top-bar
+yahoo.com##.Bxsh\(iframeBoxShadow\)
+yahoo.com##.H-fixed.Ad
+yahoo.com##.Mb-0.Zoom-1.header.js-applet.M-0:style(position: relative !important;)
+yahoo.com##.P-lg.No-bdr.Fz-sm.F-icon.F-shade3.small.yfa-rapid-module-medal-
+yahoo.com##.T\(-20px\).End\(20px\).Pos\(a\)
+yahoo.com##.Trs\(subnavTransition\).T\(0\).UhHideSubnav_Mt\(-50px\):style(transition: none !important; margin-top: 0px 
+yahoo.com##.W\(100\%\).T\(0\).Z\(10\).Pos\(f\).Header:style(position: absolute !important;)
+yahoo.com##.action-bar:style(position: relative !important; top: 0 !important;)
+yahoo.com##.canvas-community-bar
+yahoo.com##.canvass-fullscreen.smartphone.td-applet-canvass
+yahoo.com##.cover-community-bar
+yahoo.com##.cta-overlay
+yahoo.com##.follow-us-list
+yahoo.com##.ginsuAd
+yahoo.com##.lazyload-loaded.kampyle-button
+yahoo.com##.nr-applet-main-nav-right
+yahoo.com##.side-buttons
+yahoo.com##.sponsored
+yahoo.com##.tdv2-applet-navrail:style(position: absolute !important; width: 100% !important;)
+yahoo.com##.y-header:style(position: relative !important; top: 0 !important;)
+yahoo.com##.yui-sv-hd.ct-box-hd:style(position: relative !important; top: 0 !important;)
+yahoo.com##.yui3-overlay-focused.yui3-overlay-modal.yui3-widget-stacked.yui3-widget-positioned.yui3-overlay.yui3-widget
+yahoo.com##.yui3-overlay-mask
+yahoo.com##body:style(padding-top: 0px !important;)
+||answers.yahoo.com/ros
+||assets.tumblr.com/images/transparent-pixel.png$image
+||assets.tumblr.com/images/x.gif$image
+||geo.query.yahoo.com
+||mail.yahoo.com/stats
+||tag.researchnow.com
+||tumblr.com/services/cslog$beacon
+||tumblr.com/services/cslog$xmlhttprequest
+||tumblr.com/svc/log$xmlhttprequest
+||txmblr.com/research
+||txmblr.com/svc/embed/iframe/slurppi$inline-script
+||www.flickr.com/beacon_client_api_timings.gne$xmlhttprequest,domain=www.flickr.com
+||www.flickr.com/beacon_rb_jserror.gne$image,domain=www.flickr.com

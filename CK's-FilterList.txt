@@ -67,7 +67,10 @@
 ! Test Filters
 !#include Test/
 
-
+4j.com##+js(setTimeout-defuser.js, (), 2000)
+4j.com###bio_ep
+4j.com###bio_ep_bg
+4j.com##body:style(overflow: auto !important;)
 01.org##.o-header:style(position: absolute !important;)
 1337x.*##+js(abort-on-property-write.js, Fingerprint2)
 1337x.*##.download-links-dontblock > LI:has-text(Anon)
@@ -324,6 +327,8 @@ additudemag.com##.header-primary:style(position: absolute !important;)
 adguard.com###floatingNavigation
 adguard.com##.static.staticPageWidth.withSearch:style(position: relative !important; top: 0 !important;)
 adguard.com##.sticky-bar:style(position: absolute !important;)
+adguard.com###floatingNavigation
+adguard.com##.static.staticPageWidth.withSearch:style(position: relative !important; top: 0 !important;)
 adhdnews.com##.navbar:style(position: absolute !important;)
 adjust.com###drift-widget-container
 adjust.com###primary-header:style(position: absolute !important;)
@@ -651,6 +656,8 @@ androidrepublic.org##.p-staffBar
 androidrepublic.org##.uix_headerContainer .p-navSticky.is-sticky > *:style(position: relative !important; top: 0 !important; box-shadow: none !important;)
 angular.io##.mat-primary.mat-toolbar.app-toolbar:style(position: relative !important; top: 0 !important;)
 anime-planet.com###siteHeader:style(position: absolute !important;)
+anitube.*##+js(abort-on-property-read.js, redirect1)
+anitube.*##+js(set-constant.js, adBlockDetected, noopFunc)
 annapurnalabs.com##.navbar:style(position: absolute !important;)
 anothermanmag.com##.sticky-main-navigation-container
 anovaculinary.com###content-subnav:style(position: relative !important;)
@@ -9911,6 +9918,7 @@ variety.com##.l-header__leaderboard
 variety.com##.l-list--row-wrap.l-list
 variety.com##.module-share-tools:style(position: relative !important; top: 0 !important;)
 variety.com##.player-position:style(position: static !important;)
+veedi.com##+js(set-constant.js, adBlocker, false)
 vectrus.com###header-wrapper:style(position: relative !important; top: 0 !important;)
 vegetariantimes.com##.is-visible.l-sticky-navbar:style(position: relative !important; top: 0 !important;)
 vegetariantimes.com##.m-detail--footer

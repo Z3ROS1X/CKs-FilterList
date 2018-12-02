@@ -39,6 +39,8 @@ I'm not responsible for the provided links, or it's content behind it. I do not 
 
 [I do not recommend using any filter lists](https://github.com/CHEF-KOCH/CKs-FilterList/wiki/Information-about-filter-usage), instead I highly recommend to work with whitelist only which are based on your own needs. However, a filter lists can help to reduce a possible attack surface based on the daily browsing habits.
 
+:arrow_right: Please use the HOSTS filters for domain/dns based blocking and the filter lists for cosmetical blocking. AdGuard, uBO & Co. can also block entire domains but I like to separate the list to avoid redundancies. 
+
 
 
 # Integration into other filter lists

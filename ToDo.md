@@ -8,3 +8,4 @@
 - [ ] Consider removing duplicates in the Game filter list (not sure if needed) but separate certificates out of it. (mid-prio)
 - [ ] Split Spotify in three lists: Chromecast, Desktop Client and Web (mid-prio)
 - [ ] Change project structure to a better navigation, see [#47](https://github.com/CHEF-KOCH/CKs-FilterList/issues/47)
+- [ ] Create another (better) social list and split it from generic
