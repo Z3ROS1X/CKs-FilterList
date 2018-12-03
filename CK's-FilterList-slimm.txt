@@ -62,6 +62,8 @@
 1337x.*,x1337x.*##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, popunder)
 1337x.*,x1337x.*##+js(setInterval-defuser.js, (), 500)
 1337x.*##+js(window.open-defuser.js)
+1337x.*##.ccadeffc
+1337x.*##.fceeaaca
 x1337x.eu##.mgbox
 1001tracklists.com###contentRoot:style(padding-top: 0 !important;)
 1001tracklists.com###fixTop:style(position: relative !important; top: 0 !important;)
@@ -782,6 +784,7 @@ asiaone.com##.sticky:style(position: relative !important; top: 0 !important;)
 askdrsears.com###access:style(position: relative !important;)
 askubuntu.com##.js-sticky-leftnav.left-sidebar--sticky-container:style(position: absolute !important;)
 askubuntu.com##.top-bar:style(position: absolute !important;)
+askvg.com##p:nth-of-type(17)
 asp-usa.com###shopify-section-header:style(position: absolute !important;)
 assemblymag.com##.main-header:style(position: relative !important;)
 assetbuilder.com###navigationContainer:style(position: relative !important;)
@@ -5716,6 +5719,7 @@ medium.com##.js-metabar:style(position: absolute !important;)
 meduza.io##.Material-materialTopBar
 meetup.com##.sticky--top.border--none.stripe:style(position: relative !important;)
 megabots.com##.navbar:style(position: absolute !important;)
+mega.nz##.public-service-anouncement.body.bottom-info
 meh.com###advertisement
 meh.com###advertisements
 meh.com##.adsbygoogle
@@ -5863,6 +5867,7 @@ mirror.co.uk##.publication-theme-highlight.primary:style(position: relative !imp
 mirror.co.uk##.secondary:style(position: relative !important; top: 0 !important;)
 mirror.co.uk##.side-sharebar:style(position: absolute !important;)
 mirrorace.com##.uk-grid > div.uk-text-center.uk-margin-bottom.uk-width-1-1:nth-of-type(1)
+mirrorace.com##div.uk-text-center.uk-alert.uk-alert-secondary:nth-of-type(2)
 mirrorace.com##.uk-sticky-placeholder
 mirrorace.com##.uk-sticky:style(position: relative !important; animation: none !important; animation-duration: 0ms !important;)
 mises.org###text-resizer
@@ -8105,6 +8110,7 @@ sciencenews.org##.block-sn-ad-blog-wrapper
 sciencenews.org##.leaderboard
 sciencenews.org##body.responsive-layout-mobile:style(padding-top: 0 !important;)
 sciencing.com##.header-container:style(position: absolute !important; transition: none !important;)
+scifi.stackexchange.com###noscript-warning
 scientificamerican.com###footer > p
 scientificamerican.com###site-header:style(position: relative !important; top: 0 !important;)
 scientificamerican.com##.aside-banner
@@ -10020,6 +10026,7 @@ uploadocean.com##.make_money > [href="https://uploadocean.com/make_money.html"]
 uploadocean.com##div.resp-container:nth-of-type(3)
 uploadocean.com##div.resp-container:nth-of-type(5)
 uploadocean.com##div.resp-container:nth-of-type(7)
+uploadev.com##.linkblank
 uponit.com###header_main:style(position: relative !important; top: 0 !important;)
 uppermichiganssource.com###nav:style(position: relative !important; top: 0 !important;)
 uproxx.com###uproxx-fixed-header-placeholder
@@ -10713,6 +10720,9 @@ wikileaks.org##.top-navigation:style(position: absolute !important;)
 wikimonks.com###sticky:style(position: relative !important;)
 wikipedia.org##.cn-fundraising
 wikipedia.org##.frb
+wikipedia.org###frb-inline
+wikipedia.org###frb-nag
+wikipedia.org###siteNotice
 wikitribune.com###talk-stream:style(position: absolute !important;)
 wikitribune.com###wt-tabs:style(position: relative !important;)
 wikitribune.com##.fixed.w-nav-cont:style(position: relative !important; top: 0 !important;)

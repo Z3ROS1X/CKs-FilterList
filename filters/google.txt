@@ -284,6 +284,7 @@ apis.google.com/_/jserror$xmlhttprequest
 ||adservice.google.ca^
 ||adservice.google.com^
 ||adservices.google.com^
+||mobilecrashreporting.googleapis.com^
 ||adwords.google.lloymlincs.com^
 ||affiliate.googleusercontent.com^
 ||googleplaygiftcardcodegenerator.com^

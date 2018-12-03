@@ -697,6 +697,7 @@
 ##.news-item-werbung
 ##.newswerbung
 ##.noadblock
+###noscript-warning
 ##.overlay-box
 ##.overlay-content
 ##.piano-subscribe
