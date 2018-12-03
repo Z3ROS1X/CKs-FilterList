@@ -4,8 +4,8 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.3.56
-! Last updated: 2018-12-02
+! Version: 0.0.3.57
+! Last updated: 2018-12-03
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -1194,6 +1194,9 @@ blog.google##.uni-initialized.uni-header-content:style(position: relative !impor
 blog.google##body > main:style(margin-top: 0 !important; transition: none !important;)
 blog.intercom.com##.run-less__nav:style(position: absolute !important;)
 blog.malwarebytes.com###fixed-left-nav:style(position: absolute !important;)
+blog.renren.com###blogTwoAD05
+blog.renren.com###blogTwoAD01
+blog.renren.com##.float-left.clearfix.link_name
 blog.twitch.tv##.js-metabar:style(position: absolute !important;)
 blog.twitter.com##.nav:style(background-color: transparent !important;)
 blog.twitter.com##.theme-bg-color--dark.sticky.nav:style(position: absolute !important;)
@@ -2637,6 +2640,9 @@ developers.google.com##.nocontent.devsite-top-section:style(position: relative !
 deviantart.com##div.mc-ad-chrome
 devuan.org###sticky-bar:style(position: relative !important; top: 0 !important;)
 dezeen.com##.header-inner-wrap:style(position: relative !important; top: 0 !important;)
+deezer.com##.modal-wrapper
+deezer.com##.modal-backdrop
+deezer.com##.opened.modal
 dhakatribune.com###mobile-header:style(position: absolute !important; top: 0 !important;)
 dhakatribune.com##.move.sticky.style_5.menu_container:style(position: absolute !important; top: 0 !important;)
 di.fm###main-header:style(position: relative !important; top: 0 !important;)
@@ -2706,6 +2712,7 @@ disabilitysecrets.com##.liveChatFloatingButton
 disabilitysecrets.com##.ngageMobileFloat:style(position: absolute !important;)
 discord.me##header:style(position: absolute !important;)
 discord.me##.master > .container > .row:nth-of-type(1) > .col-sm-12
+discord.me##.dashboard-display-box
 discordapp.com##.js-metabar:style(position: absolute !important;)
 discordservers.com##._620d-_has-shadow.F8RQC_is-fixed-top._1gaW0_navbar._3AxUE_header:style(position: absolute !important;)
 discounttire.com##header:style(position: relative !important;)
@@ -6895,6 +6902,8 @@ nytimes.com##li.css-12rw69b
 nytimes.com##li.css-1gs0avv
 nytimes.com##li.css-1tqhzzc
 nytimes.com##li.css-ohqqbz
+nytimes.com##[id^="medium-rectangle-ad-"]
+nytimes.com##[id^="story-ad-"]
 nyulocal.com##.js-metabar:style(position: absolute !important;)
 nzherald.co.nz##.floatingNav:style(position: relative !important; top: 0 !important;)
 nzherald.co.nz##.mobile-only.pb-ad-curated.min-height-405.max-width-1130
@@ -7071,6 +7080,14 @@ pandora.com##.SearchModal--navStyle.SearchModal.region-searchModal:style(positio
 pandora.com##.SearchSticky:style(position: absolute !important; top: 0 !important;)
 pandora.com##.region-topBar:style(position: absolute !important; top: 0 !important;)
 pandora.com##.sticky.AuthHeader--sticky.AuthHeader:style(position: absolute !important; top: 0 !important;)
+pandora.tv##.section_adarea
+pandora.tv###pantv_down_div
+pandora.tv##[id^="sAdSmall_"]
+pandora.tv##[id^="sAdBig_"]
+pandora.tv##[id^="left_ad_"]
+pandora.tv###ad_toast_area
+pandora.tv###prism_paing_ad
+pandora.tv##.new_adsambox03
 paper.li##.controls-left:style(position: absolute !important;)
 paper.li##.controls-right:style(position: absolute !important;)
 paper.li##.paper-navigation:style(position: absolute !important;)
@@ -8242,6 +8259,8 @@ shapescale.com##.optimonk-iframe-container
 shareblue.com##.header_style_wrapper:style(position: relative !important; top: 0 !important;)
 sharktankblog.com###ezmob_footer
 shimano.com###anchorlinks:style(position: absolute !important;)
+shellshock.io###bigAd
+shellshock.io###aipGameContainer
 shoes.com##.floating.sticky-add:style(position: relative !important;)
 shoes.com##.sb-header--mini
 shondaland.com##.nav-placeholder
@@ -9006,6 +9025,10 @@ texastribune.org##.nav_menu--container:style(position: relative !important; top:
 texastribune.org##.site_ad--gray
 texastribune.org##.site_ad--wrapper
 textexpander.com##.x-navbar-fixed-top.x-navbar:style(position: relative !important; top: 0 !important;)
+textnow.com##.flex-fill.flex-row > .rotation-manager-slot
+textnow.com###banner
+textnow.com###rectSlotAd
+textnow.com##.interstitial-banner
 the-american-interest.com###article-counter
 the-daily-llama.com##.adsbygoogle
 the-daily.buzz##.header-primary:style(position: relative !important; top: 0 !important;)
@@ -10028,6 +10051,10 @@ urbandictionary.com##.da-panel:nth-of-type(4)
 urbandictionary.com###google_ads_iframe_\/1031683\/UD_ROS_728x90_ATF_Flex_0__container__
 urbandictionary.com###dark_top
 urbandictionary.com##.panel-margin.dfp-panel
+urbandictionary.com##.da-panel:nth-of-type(4)
+urbandictionary.com###google_ads_iframe_\/1031683\/UD_ROS_728x90_ATF_Flex_0__container__
+urbandictionary.com###dark_top
+urbandictionary.com##.panel-margin.dfp-panel
 urbanstems.com##.sticky.row.product-address-bar:style(position: relative !important; top: 0 !important;)
 urbo.com##.urbo_header.module:style(position: absolute !important;)
 urbo.com##.urbo_menu.module:style(position: absolute !important;)
@@ -10665,6 +10692,7 @@ wikia.com##.site-head-fandom-bar:style(position: relative !important; top: 0 !im
 wikia.com##.site-head-wrapper:style(position: relative !important; top: 0 !important;)
 wikia.com##.site-head:style(position: relative !important; top: 0 !important;)
 wikia.com##.wds-global-navigation:style(position: absolute !important;)
+wikia.com###OriginPlatformAdUnit-3969-overthepage
 wikidot.com###navi-bar:style(position: absolute !important;)
 wikihow.com###header.shrunk #actions li .nav:style(padding-top: 47px !important; line-height: 12px !important;)
 wikihow.com###header.shrunk #actions li:style(height: 72px !important;)
@@ -11232,6 +11260,7 @@ youtube.com###masthead-positioner:style(position: relative !important; top: 0 !i
 youtube.com###yt-masthead-container:style(position: relative !important; top: 0 !important;)
 youtube.com##.appbar-guide-menu-layout:style(position: relative !important; left: -230px !important; top: -90px !important;)
 youtube.com##.js-yt-header.yt-header:style(position: absolute !important;)
+youtube.com###masthead-ad
 yp.sg##.navbar-visible.navbar-stuck.social-disabled.navbar-center.navbar-primary:style(position: absolute !important;)
 yp.sg##.post-sidebar
 yp.sg##.posts-pagination

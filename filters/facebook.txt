@@ -10,16 +10,43 @@
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
-!
+
 ! ---------- Cloudflare CDN ----------
-!
 /cdn-cgi/pe/bag2?*connect.facebook.com
 /cdn-cgi/pe/bag2?*connect.facebook.net
 /cdn-cgi/pe/bag2?*connect.facebook.nl
 /cdn-cgi/pe/bag2?*connect.facebook.co
-!
 ! ---------- Cosmetic ----------
-!
+/easy-facebook-likebox
+/facebook-fanbox*
+/facebook-page-promoter-lightbox*
+/facebook_popup*
+/fb-traffic-pop
+/floating-social-bar
+/like-fb
+/like_box*
+/new-facebook-popup-likebox-responsive
+/ud-social
+##.facebook-like-box-pop-up-overlay
+##.fblike
+##.fb_overlay
+##.fb-popup
+##.popup-like
+##.popup-like-box
+##.popup-like-box-backdrop
+###check-also-box
+###facebookpopup-fanback
+###facebook-like-box-pop-up
+###fanback
+###fblikebg
+###fblikepop
+###fbox-background
+###fbpop
+###fbpop_box
+###fbpop_box2
+###fb_box
+###loginModal
+###makingdifferentpopup
 ##.fa-envelope
 ##.fa-facebook
 ##.fa-facebook-official

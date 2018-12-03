@@ -62,3 +62,7 @@
 ##ins.daum_ddn_area
 ##ins.adsbyadop
 ##ins[class*="ads"]
+##div[data-box-name="MobileAppBanner - RWD"]
+##div[data-box-name="Mobile app banner for Android"]
+##div[data-box-name="Mobile app banner for iOS"]
+##div[data-box-name="showcase mobile container"]

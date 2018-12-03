@@ -24,6 +24,11 @@ twitter.com##.promoted-tweet-heading
 twitter.com##.roaming-module.module.Footer > .flex-module
 twitter.com#@#div[class*="-ad"]
 twitter.com#@#div[class*="Ad"]
+twitter.com##.js-signup-call-out
+twitter.com##.rn-1lgpqti.rn-13qz1uu.rn-bnwqim.rn-1gmp1p.rn-1tkzxud
+twitter.com##.rn-1lgpqti.rn-ipm5af.rn-zchlnj.rn-1xcajam
+mobile.twitter.com##.rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61.LqlkGmch > .rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61._3wLZCidQ > .rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61:nth-of-type(2)
+mobile.twitter.com##.toast
 @@.com/ad_img/$domain=twitter.com
 @@||analytics.twitter.com/user/
 @@||twitter.com/*/profiles/show/*$xmlhttprequest,first-party
