@@ -2,14 +2,13 @@
 ! Title: CK's Rulesets for uMatrix
 ! Maintainer: CHEF-KOCH
 ! Description: uMatrix rulesets for international websites, this is in order to deal with the 'broken' filter issue.
-! Checksum (SHA3-256): 6BE6CA74C3CCBA979DB56211E3C803A9E0ABB7EB2BBD3EFB8EE8B2F7546C2E15
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 !
 ! Expires: 14d
-! TimeUpdated: 2018-05-23	19:47:48+01:00
-! Version: 0.0.0.1
+! Version: 0.0.0.8
+! Last updated: 2018-12-03
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -28,6 +27,17 @@
 	4chan.org *
 		_ a.4cdn.org xhr
 		_ s.4cdn.org script
+
+Algolia as 3rd-party
+	* algolia.net
+		_ algolia.net *
+		_ algolianet.com *
+
+Azure Maps as 3rd-party
+	* atlas.microsoft.com
+		_ atlas.microsoft.com *
+		_ atlas.microsoft.com script
+		no-workers: _ false
 
 Ars Technica
 	arstechnica.com *
@@ -51,14 +61,36 @@ Dailymotion
 
 Discord
 	discordapp.com *
+		_ 1st-party *
+		_ 1st-party cookie
 		_ 1st-party script
 		_ discord.gg *
 		_ discord.gg xhr
 		_ discordapp.net *
 
+Embedly as 3rd-party
+	* embedly.com
+		_ api-cdn.embed.ly xhr
+		_ i-cdn.embed.ly image
+		_ cdn.embedly.com *
+		_ cdn.embedly.com frame
+		_ cdn.embedly.com script
+
 Facebook without Account
 	facebook.com *
 		_ fbcdn.net *
+
+Firebase Auth as 3rd-party
+	* firebase.com
+		! Might also need other triggers...
+		_ cdn.firebase.com *
+		_ cdn.firebase.com script
+		_ gstatic.com *
+		_ gstatic.com script
+		_ accountchooser.com *
+		_ accountchooser.com frame
+		_ accountchooser.com script
+		_ googleapis.com xhr
 
 Github
 	github.com *
@@ -72,6 +104,18 @@ Github
 		_ github-production-user-asset-6210df.s3.amazonaws.com xhr
 		_ github-production-repository-file-5c1aeb.s3.amazonaws.com xhr
 		_ github-production-release-asset-2e65be.s3.amazonaws.com xhr
+
+Github Gist as 3rd-party
+	* gist.github.com
+		_ assets-cdn.github.com css
+		_ camo.githubusercontent.com image
+		_ gist.github.com script
+		! pdf,geojson etc. renders
+		_ assets-cdn.github.com image
+		_ raw.githubusercontent.com xhr
+		_ render.githubusercontent.com *
+		_ render.githubusercontent.com frame
+		_ render.githubusercontent.com script
 
 Gitlab
 	gitlab.com *
@@ -120,6 +164,15 @@ JSFiddle
 		_ jshell.net script
 		_ jshell.net frame
 
+JSFiddle as 3rd-party
+	* jsfiddle.net
+		_ jsfiddle.net *
+		_ jsfiddle.net frame
+		_ jsfiddle.net script
+		_ fiddle.jshell.net *
+		_ fiddle.jshell.net frame
+		_ fiddle.jshell.net script
+
 Netflix
 	netflix.com *
 		_ 1st-party script
@@ -136,8 +189,16 @@ OpenStreetMap
 		_ 1st-party script
 		_ graphhopper.com script
 		_ overpass-api.de xhr
+		_ graphhopper.com xhr
 		_ router.project-osrm.org xhr
 		_ valhalla.mapzen.com xhr
+
+OpenStreetMap embed as 3rd-party
+	* www.openstreetmap.org
+		_ www.openstreetmap.org *
+		_ www.openstreetmap.org script
+		_ www.openstreetmap.org frame
+		_ tile.openstreetmap.org image
 
 Outlook (Formerly Hotmail)
 	live.com *
@@ -147,6 +208,15 @@ Outlook (Formerly Hotmail)
 		_ office.com xhr
 		_ office365.com script
 		_ office365.com xhr
+
+Paddle as 3rd-party
+	* paddle.com
+		_ paddle.com *
+		_ paddle.com frame allow
+		_ paddle.s3.amazonaws.com *
+		_ localizecdn.com *
+		_ ravenjs.com *
+		_ spreedly.com *
 
 Protonmail
 	protonmail.com *
@@ -189,6 +259,15 @@ Soundcloud
 		_ sndcdn.com *
 		_ sndcdn.com script
 		_ sndcdn.com xhr
+
+Stack Exchange
+	* cdn.sstatic.net
+		_ 1st-party script
+		_ cdn.sstatic.net *
+		_ cdn.sstatic.net script
+		_ cdn.sstatic.net frame
+		_ ajax.googleapis.com script
+		_ i.stack.imgur.com image
 
 Steam
 	steampowered.com *
@@ -283,6 +362,16 @@ Youtube as 3rd-party
 		_ youtube.com *
 		_ youtube.com script
 		_ youtube.com frame
+		_ googlevideo.com *
+		_ googlevideo.com xhr
+		_ ytimg.com *
+		_ ytimg.com script
+
+Youtube (nocookie) as 3rd-party
+	* youtube-nocookie.com
+		_ youtube-nocookie.com *
+		_ youtube-nocookie.com script
+		_ youtube-nocookie.com frame
 		_ googlevideo.com *
 		_ googlevideo.com xhr
 		_ ytimg.com *

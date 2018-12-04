@@ -822,6 +822,7 @@ vidzi.*##script:inject(window.open-defuser.js)
 ||skypecracker.xyz^$important
 ||skypegrab.net^$important
 ||soccer.ru/sites/all/modules/baner/baner.js
+||socket.streamable.com^$websocket,first-party
 ||sontere.com/
 ||sorcerers.net/includes/butler/butler.php?
 ||sorotore.com^$third-party
