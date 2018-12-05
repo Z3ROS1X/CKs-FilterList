@@ -49,6 +49,7 @@
 #include filters/yandex.txt
 #include filters/div+ins.txt
 #include filters/popads.txt
+!#include filters/luckypatcher.txt
 
 ! Load HOSTS sublists
 !#include hosts/AdGuard.txt
@@ -71,7 +72,7 @@
 !#include hosts/Spotify.txt
 !#include filters/Coinminer.txt
 !#include filters/Popads.txt
-!#include filters/
+!#include filters/LuckyPatcher.txt
 !#include filters/
 !#include filters/
 !#include filters/

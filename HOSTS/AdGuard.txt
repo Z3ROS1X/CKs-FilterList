@@ -13,20 +13,20 @@
 #
 # ---------- AdGuard License Check, ensure AdguardSvc.exe is blocked via Firewall ----------
 #
-0.0.0.0 api.adguard.com
-0.0.0.0 api-b.adguard.com
-0.0.0.0 194.177.22.245
-0.0.0.0 176.103.133.92
 0.0.0.0 104.20.30.130
+0.0.0.0 176.103.133.92
+0.0.0.0 194.177.22.245
+0.0.0.0 api-b.adguard.com
+0.0.0.0 api.adguard.com
 #
 # ---------- AdGuard ----------
 #
-0.0.0.0 2606:4700:10::6814:1e82
-0.0.0.0 2606:4700:10::6814:1f82
+#0.0.0.0 cdn.adguard.com
+#0.0.0.0 injections.adguard.com
+#0.0.0.0 ip.api.rec.adguard.com
+#0.0.0.0 local.adguard.com
+#0.0.0.0 sb.adtidy.org
 0.0.0.0 104.20.30.130
 0.0.0.0 104.20.31.130
-#0.0.0.0 injections.adguard.com
-#0.0.0.0 local.adguard.com
-#0.0.0.0 ip.api.rec.adguard.com
-#0.0.0.0 cdn.adguard.com
-#0.0.0.0 sb.adtidy.org
+0.0.0.0 2606:4700:10::6814:1e82
+0.0.0.0 2606:4700:10::6814:1f82
