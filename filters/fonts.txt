@@ -4,7 +4,7 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.0.08
+! Version: 0.0.0.10
 ! Last updated: 2018-12-02
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
@@ -52,6 +52,7 @@
 ||webfonts.creativecloud.com^$third-party
 ||wp.com^*/fonts/$third-party
 ||fonts.nymag.com^$third-party
+||fonts.shameskate.xyz^$third-party
 !
 ! ---------- Block all downloadable fonts ----------
 !
