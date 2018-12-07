@@ -50,6 +50,7 @@
 #include filters/div+ins.txt
 #include filters/popads.txt
 !#include filters/luckypatcher.txt
+!#include SpotifySpotify-AdBlock.txt
 
 ! Load HOSTS sublists
 !#include hosts/AdGuard.txt
@@ -69,10 +70,11 @@
 !#include hosts/NSABlocklist.txt
 !#include hosts/Pinterest.txt
 !#include hosts/Skype.txt
-!#include hosts/Spotify.txt
 !#include filters/Coinminer.txt
 !#include filters/Popads.txt
 !#include filters/LuckyPatcher.txt
+
+!WIP
 !#include filters/
 !#include filters/
 !#include filters/
@@ -87,6 +89,7 @@
 !#include filters/
 !#include filters/
 !#include filters/
+!#include Spotify/Spotify-HOSTS.txt
 
 ! Load I2P & Onion
 !#include I2P & Onion/Onion-FilterList.txt
