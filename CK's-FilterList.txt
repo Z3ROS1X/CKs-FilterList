@@ -4,7 +4,7 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.3.57
+! Version: 0.0.3.58
 ! Last updated: 2018-12-03
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
@@ -8088,6 +8088,18 @@ rotoworld.com##.RW_ad300
 rottentomatoes.com###movies_sidebar:style(position: absolute !important;)
 rottentomatoes.com##.clearfix.mob-nav-bottom
 royalcaribbean.com##.sticky.rccl-nav-main:style(position: absolute !important;)
+router.asus.com##.NM_table:style(width:1100px !important)
+router.asus.com###_NM_table:style(width:570px)
+router.asus.com###wl_ssid.input_25_table:style(width:350px !important)
+router.asus.com##.NM_radius_bottom:style(width:440px !important)
+router.asus.com##.NM_radius_bottom_container:style(width:440px !important)
+router.asus.com###rt_table:style(width:400px !important)
+router.asus.com###wl_wpa_psk:style(width:400px !important)
+router.asus.com##.loading_bar:style(width:230px !important)
+router.asus.com###deviceOption_1.input_option:style(width:180px !important)
+router.asus.com##.clientlist_viewlist:style(width:1120px !important)
+router.asus.com##.input_32_table:style(width:410px !important)
+router.asus.com##.input_18_table:style(width:168px !important)
 rp-online.de###topcontainer
 rp-online.de##.sticky.waypoint-check-top:style(position: absolute !important;)
 rpcs3.net##.menu-con-bar:style(position: absolute !important;)
