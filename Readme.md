@@ -18,7 +18,8 @@ The overall project goal is to block ads and reduce the traffic coming from the 
 
 ## Legalities of Linking
 
-I'm not responsible for the provided links, or it's content behind it. I do not support any "explicit" content in any form. 
+I'm not responsible for the provided links, or it's content behind it. I do not support any [explicit](https://www.imusiciandigital.com/en/faq/what-is-considered-as-explicit-content/) content in any form. 
+
 
 
 
@@ -44,7 +45,7 @@ I'm not responsible for the provided links, or it's content behind it. I do not 
 
 # Integration into other filter lists
 
-It's cool that some people add my lists into _their own projects_ and I in general allow it but it's not cool that several people now make money via donations with my and other peoples lists. **I DO NOT ALLOW** any commercial usage and everyone which doesn't respect this will get a DMCA takedown request and a paper from my lawyer.
+It's cool that some people add my lists into _their own projects_ and I in general allow it but it's not cool that several people make some money via donations with my and other peoples lists. **I DO NOT ALLOW** any commercial usage - this also includes donations! Everyone which doesn't respect this will get a DMCA takedown request and a paper from my lawyer.
 
 
 
