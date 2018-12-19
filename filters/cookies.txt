@@ -1,4 +1,4 @@
-! Title: CHEF-KOCH's Cookie Warning Filter List
+! Title: CHEF-KOCH's Cookie & GDPR Warning Removal Filter List
 ! Description: A comprehensive, all-in-one ad-block list for blocking Cookie, GDPR etc warnings.
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
@@ -10,6 +10,7 @@
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
 
+##.e1pwbg3p0.css-1su742f.expanded-dock.gdpr.expanded
 ##.popup-premium__apla
 ##.o-AdhesionNotifier
 ##.admania_adblock_detector

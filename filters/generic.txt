@@ -10,6 +10,7 @@
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
 
+##.æds
 ##.afs_ads
 ###the_champ_sharing_more_providers
 ###cubeAd

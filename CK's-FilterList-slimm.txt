@@ -1,4 +1,4 @@
-! Title: CHEF-KOCH's Filter List
+! Title: CHEF-KOCH's Filter List (slimmed)
 ! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
@@ -64,6 +64,10 @@
 1337x.*##+js(window.open-defuser.js)
 1337x.*##.ccadeffc
 1337x.*##.fceeaaca
+1337x.to##.ddfbacee
+1337x.to##.adfaabab
+1337x.to##.bcdbccaa
+1337x.to##.dfbbdbe
 x1337x.eu##.mgbox
 1001tracklists.com###contentRoot:style(padding-top: 0 !important;)
 1001tracklists.com###fixTop:style(position: relative !important; top: 0 !important;)
@@ -1263,6 +1267,7 @@ bnonews.com##.pull-left.navbar-header:style(position: relative !important; top: 
 bnqt.com###nav-branding:style(position: absolute !important; top: 0 !important;)
 bnqt.com###video-container:style(position: static !important;)
 bnqt.com##.meta
+board4all.biz##+js(setTimeout-defuser.js, start, 20)
 boardingarea.com###boardingarea-tab
 boardingarea.com###masthead:style(position: relative !important;)
 boardingarea.com###navigation-toggle:style(position: relative !important;)
@@ -2153,6 +2158,8 @@ commondreams.org###header-container:style(position: absolute !important;)
 commondreams.org##body.header-container-slim #header-container #header-top .l-header .header-middle .site-logo img:style(max-width: 300px !important;)
 commonsenseevaluation.com##.no-break
 community.spotify.com##.stuck.navbar-bottom:style(position: absolute !important;)
+community.spotify.com##.lia-in.lia-dialog-titleless.lia-panel-dialog-modal-valuesurvey.lia-panel-dialog-modal-simple.lia-panel-dialog.lia-content.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
+community.spotify.com##.ui-widget-overlay
 compact-dynamics.de###kopf:style(position: absolute !important;)
 complex.com###cmplx-navigation:style(position: absolute !important;)
 complex.com###ctoolbar
@@ -2467,6 +2474,7 @@ dailytelegraph.com.au##.tgc-headerv2_header:style(position: relative !important;
 dailytelegraph.com.au##.tgc-headerv2_header_nav-wrapper:style(position: relative !important; top: 0 !important;)
 dailytelegraph.com.au##.widget_newscorpau_ads.widget
 dailyuploads.net###foxclocks-statusbar-spacer
+dailyuploads.net##div:nth-of-type(2) > center
 dailywire.com##.ad-toggle
 dailywire.com##.article-actions
 dailywire.com##.field-addthis-compact
@@ -2829,6 +2837,8 @@ douploads.com##div.col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-of-type(1)
 douploads.com##div.col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-of-type(3)
 douploads.com##.content > center:nth-of-type(1)
 douploads.com##.mngez_lastnews > span
+douploads.com##body > div.container:nth-of-type(1)
+douploads.com##.py-3.col-md-12
 doublepulsar.com##.js-metabar:style(position: absolute !important;)
 douyu.com###lifter
 dowjones.com##.dropdown-submenu-opened.page-header:style(position: relative !important; top: 0 !important;)
@@ -2860,6 +2870,7 @@ dropbox.com##.visible.ha
 dropboxforum.com##header:style(position: absolute !important;)
 dropapk.com##+js(abort-on-property-write.js, Fingerprint2)
 dropapk.com##+js(nowebrtc.js)
+dropapk.com##.mngezpremum2
 drweil.com###js-header-inner
 drweil.com###leaderboard_sticky
 dslrbodies.com###sitemenu:style(position: absolute !important; top: 0 !important;)
@@ -4100,6 +4111,7 @@ googleblog.com##.adb-header:style(position: relative !important; top: 0 !importa
 googleblog.com##.adb-hero:style(margin-top: 0 !important;)
 googleblog.com##.col-right:style(position: relative !important;)
 googleblog.com##.header-main:style(position: absolute !important;)
+google.de##.gb_g.gb_ed.gb_cd.gb_dd
 gop.com###hd:style(position: relative !important; top: 0 !important;)
 gop.com###social-hd:style(position: relative !important; height: 0 !important; top: 20px !important; z-index: -1 !important;)
 gopusa.com##.adsbygoogle
@@ -4329,26 +4341,7 @@ heidi.ie##.is-sticky.p-navSticky--primary.p-navSticky:style(position: relative !
 heidi.ie##.js-bottom-corner-btns.bottom-corner-btns
 heidi.ie##.mk-header-holder:style(position: relative !important; top: 0 !important;)
 heidi.ie##.mk-header-padding-wrapper
-heise.de###foxclocks-statusbar-spacer
-heise.de##.ama
-heise.de##.bcadv
-heise.de##.buytable
-heise.de##.gh_teaser
-heise.de##.jobtv24
-heise.de##.meldung_preisvergleich
-heise.de##.online-markt
-heise.de##.teaser_ebook
-heise.de##.teaser_geizhals
-heise.de##.teaser_preisvergleich
-heise.de##.themenseite_preisvergleich.meldung__box--right
-heise.de##.us_ad
-heise.de##a[href^="http://www.kqzyfj.com/click-"]
-heise.de##heisetext > .img[width="100%"]
-heise.de##td[align="left"][valign="top"][rowspan="5"]
 heise.de#@#.adbottom
-heise.de###mitte > .right[style="font-size: 0.7em; margin-right: 20px;"]
-heise.de##.hinweis_anzeige
-heise.de##A-PATERNOSTER
 helium.com##.js-metabar:style(position: absolute !important;)
 hellobestow.com##.sticky.js-site-header.site-header
 hellofresh.com##.fela-zlxyxl:style(position: absolute !important;)
@@ -6913,6 +6906,8 @@ nyulocal.com##.js-metabar:style(position: absolute !important;)
 nzherald.co.nz##.floatingNav:style(position: relative !important; top: 0 !important;)
 nzherald.co.nz##.mobile-only.pb-ad-curated.min-height-405.max-width-1130
 nzherald.co.nz##.nz-herald.onscreen.site-logo-wrapper:style(position: relative !important; top: 0 !important;)
+ntlite.com##div.row.element-row.vc_row:nth-of-type(5) > .vc_col-sm-12.vc_column_container.wpb_column
+ntlite.com##div.row.element-row.vc_row:nth-of-type(4) > .vc_col-sm-12.vc_column_container.wpb_column
 oag.com###hubspot-messages-iframe-container
 oakpark.com##.ui-panel-content-fixed-toolbar-closed.ui-panel-animate.ui-panel-content-fixed-toolbar.slidedown.ui-header-fixed.ui-bar-c.ui-header.np:style(position: relative !important; top: 0 !important;)
 oakparkalliance.com##.topbar:style(position: relative !important; top: 0 !important;)
@@ -7115,6 +7110,9 @@ pastebin.com###notice
 pastebin.com###float-box-3
 pastebin.com###mid_footer
 pastebin.com###paypal-overlay
+pastebin.com###blackfridaynotice
+pastebin.com###steadfast
+pastebin.com###content_right > div:nth-of-type(2)
 pastemagazine.com###bottom-leaderboard-rectangle-container
 pastemagazine.com##.detail.master-header.center:style(position: relative !important; top: 0 !important;)
 pastemagazine.com##.landing.master-header.center:style(position: relative !important; top: 0 !important;)
@@ -7865,6 +7863,9 @@ resource-recycling.com###rwh_menu:style(position: relative !important;)
 restonnow.com###search-navigation
 restonnow.com###top-bar:style(position: relative !important; top: 0 !important;)
 restoreprivacy.com##.site-header:style(position: absolute !important;)
+restream.io##.cc-color-override--1120989970.cc-left.cc-bottom.cc-theme-classic.cc-type-opt-in.cc-floating.cc-window
+
+
 resurrectionremix.com##.navbar:style(position: absolute !important;)
 retailmenot.com###quick-feedback
 retailmenot.com##.code-cover
@@ -8185,6 +8186,7 @@ seattletimes.com##.global-search-button.header-search-icon
 seattletimes.com##.main-nav > .main-nav-header:style(position: relative !important; top: 0 !important;)
 seattletimes.com##.top-ad-fixed
 seattletimes.com##body.fixed:style(position: relative !important;)
+segmentnext.com##.expanded.related-posts-content
 sec-consult.com##.nav-growpop
 secapps.com##.nav.header:style(position: absolute !important;)
 seccountry.com##.cm-ad-block
@@ -8461,6 +8463,7 @@ softpedia.com##.posrel.statusbar:style(position: absolute !important;)
 softwareok.com###MITE_217 > table > tbody > tr > td:nth-of-type(3)
 softwareok.com###XXXX > tbody > tr > td > table:nth-of-type(1) > tbody > tr > td > table > tbody > tr > td:nth-of-type(2)
 softwareok.com##td:nth-of-type(2) > center
+softwareok.com##h4
 softwareok.com###MITE_217 > table > tbody > tr > td:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(3) > td!
 sohu.com##.questionnaire
 solarmoviez.ru##header:style(position: absolute !important;)
@@ -8701,6 +8704,8 @@ station-drivers.com##.uk-hidden-small.uk-clearfix.tm-headerbar
 station-drivers.com##.uk-grid.tm-top-a > .uk-width-1-1 > .uk-panel-box.uk-panel
 station-drivers.com##.uk-grid.tm-top-b > .uk-width-1-1
 station-drivers.com###tm-top-a
+station-drivers.com##.uk-width-medium-1-5.tm-sidebar-b > div.uk-panel-box.uk-panel:nth-of-type(3)
+station-drivers.com##.uk-grid.tm-top-b > .uk-width-1-1 > .uk-panel-box.uk-panel
 statefarm.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 statepress.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 statesman.com##.header-wrapper:style(position: relative !important;)
@@ -8929,6 +8934,7 @@ teamviewer.com###navbar:style(position: absolute !important;)
 teamviewer.us###Action_bar:style(position: absolute !important;)
 teamviewer.us###Top_bar:style(position: absolute !important;)
 teamviewer.us###userlike-tab:style(position: absolute !important;)
+teamos-hkrg.com##.dark.floatingItem
 techbargains.com###tb-slide-nav:style(position: relative !important; top: 0 !important;)
 techcommunity.microsoft.com##.community-header-blank
 techcommunity.microsoft.com##.is-fixed:style(position: relative !important;)
@@ -9561,6 +9567,7 @@ theverge.com##.m-nav:style(position: relative !important; top: 0 !important;)
 theverge.com##.m-nav__container
 theverge.com##.m-nav__tabs
 theverge.com###privacy-consent
+theverge.com##.c-related-list__video
 thevintagenews.com###fader
 thewalrus.ca##.do_fade_in_2.navHeader.container
 thewalrus.ca##.masthead:style(position: absolute !important;)
@@ -10019,6 +10026,11 @@ upi.com###nl_su_st
 upi.com###p_header:style(position: relative !important; top: 0 !important;)
 upi.com###tc_nav:style(position: relative !important; top: 0 !important;)
 upi.com##header:style(position: relative !important; top: 0 !important;)
+uploadproper.com##center
+uploadproper.com##div.ads_small:nth-of-type(4)
+uploadproper.com##form > div.ads_small:nth-of-type(5)
+uploadproper.com###container > p
+uploadproper.com##div.ads_small:nth-of-type(3)
 upload4earn.org##center
 uploaded.net##.hg_container-area
 uploadit.us###top-bar:style(position: relative !important; top: 0 !important;)
@@ -10037,7 +10049,10 @@ uploadocean.com##div.strip_right:nth-of-type(3)
 uploadocean.com##.make_money > [href="https://uploadocean.com/make_money.html"]
 uploadocean.com##div.resp-container:nth-of-type(3)
 uploadocean.com##div.resp-container:nth-of-type(5)
+uploadocean.com##form > div:nth-of-type(5)
 uploadocean.com##div.resp-container:nth-of-type(7)
+uploadocean.com##[src="https://i.imgur.com/dI3EzJL.png"]
+uploadocean.com##[src="https://i.imgur.com/3MAL2xq.png"]
 uploadev.com##.linkblank
 uponit.com###header_main:style(position: relative !important; top: 0 !important;)
 uppermichiganssource.com###nav:style(position: relative !important; top: 0 !important;)
@@ -10373,6 +10388,7 @@ w3schools.com###skyscraper
 w3schools.com###topnav:style(position: relative !important; top: 0 !important;)
 w3schools.com##.sidesection:nth-of-type(4)
 w3schools.com##.w3-sidebar:style(overflow-y: unset !important;)
+wagnardsoft.com##div.bg2.post:nth-of-type(3)
 waaytv.com##tqwidget
 wafb.com###toolbar:style(position: relative !important; top: 0 !important;)
 wafb.com##.sticky.cdev-menu-nav:style(position: relative !important; top: 0 !important;)
@@ -11283,6 +11299,7 @@ youtube.com###yt-masthead-container:style(position: relative !important; top: 0 
 youtube.com##.appbar-guide-menu-layout:style(position: relative !important; left: -230px !important; top: -90px !important;)
 youtube.com##.js-yt-header.yt-header:style(position: absolute !important;)
 youtube.com###masthead-ad
+youtube.com##ytd-popup-container.ytd-app.style-scope
 yp.sg##.navbar-visible.navbar-stuck.social-disabled.navbar-center.navbar-primary:style(position: absolute !important;)
 yp.sg##.post-sidebar
 yp.sg##.posts-pagination
@@ -11439,3 +11456,4 @@ zyngaplayerforums.com###footer:style(position: relative !important; top: 0 !impo
 ||wsjstream.wsj.net$websocket,domain=wsj.com
 ||wsjstream.wsj.net^$xmlhttprequest,domain=wsj.com
 ||wthr.com/article/*$xmlhttprequest,first-party
+||community.spotify.com/t5/Accounts/Username-or-Password-incorrect-Error-code-3/td-p/images/ui-bg_flat_*_*_40x100.png$image

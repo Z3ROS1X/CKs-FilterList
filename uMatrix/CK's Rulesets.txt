@@ -12,9 +12,8 @@
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
-!
-! ---------- Rules ----------
-!
+
+
 4Chan with reCaptcha
 	4chan.org *
 		_ a.4cdn.org xhr
@@ -68,6 +67,16 @@ Discord
 		_ discord.gg xhr
 		_ discordapp.net *
 
+Disqus as 3rd-party 
+	* disqus.com
+		_ disqus.com *
+		_ disqus.com frame
+		_ disqus.com script
+		_ disquscdn.com *
+		_ disquscdn.com script
+    	_ disquscdn.com css
+   		_ disquscdn.com image
+
 Embedly as 3rd-party
 	* embedly.com
 		_ api-cdn.embed.ly xhr
@@ -76,7 +85,7 @@ Embedly as 3rd-party
 		_ cdn.embedly.com frame
 		_ cdn.embedly.com script
 
-Facebook without Account
+Facebook accountless
 	facebook.com *
 		_ fbcdn.net *
 
@@ -97,13 +106,14 @@ Github
 		_ 1st-party script
 		_ githubapp.com *
 		_ githubusercontent.com *
+		_ githubassets.com *
+		_ githubassets.com script
 		_ render.githubusercontent.com script
 		_ render.githubusercontent.com frame
 		_ raw.githubusercontent.com *
 		_ raw.githubusercontent.com xhr
+		_ github-render.s3.amazonaws.com xhr
 		_ github-production-user-asset-6210df.s3.amazonaws.com xhr
-		_ github-production-repository-file-5c1aeb.s3.amazonaws.com xhr
-		_ github-production-release-asset-2e65be.s3.amazonaws.com xhr
 
 Github Gist as 3rd-party
 	* gist.github.com
@@ -122,6 +132,7 @@ Gitlab
 		_ 1st-party script
 		_ gitlab-static.net *
 		_ gitlab-static.net script
+		no-workers: _ false
 
 Google Account sign-in
 	accounts.google.com *
@@ -141,10 +152,9 @@ Google Maps
 
 Google reCaptcha
 	* www.google.com
-		_ www.google.com *
-		_ www.google.com script
 		_ www.google.com frame
-		_ www.gstatic.com *
+		_ www.google.com script
+		_ www.google.com xhr
 		_ www.gstatic.com script
 
 IMDb
@@ -172,6 +182,15 @@ JSFiddle as 3rd-party
 		_ fiddle.jshell.net *
 		_ fiddle.jshell.net frame
 		_ fiddle.jshell.net script
+
+Mapbox as 3rd-party
+	* mapbox.com
+		_ api.mapbox.com *
+		_ api.mapbox.com script
+		_ tiles.mapbox.com *
+		_ tiles.mapbox.com script
+		! mapbox gl needs workers
+		no-workers: _ false
 
 Netflix
 	netflix.com *
@@ -251,6 +270,7 @@ Slack
 		_ 1st-party script
 		_ slack-edge.com *
 		_ slack-edge.com script
+		_ slack-edge.com frame
 		_ slack-msgs.com *
 
 Soundcloud
@@ -376,3 +396,10 @@ Youtube (nocookie) as 3rd-party
 		_ googlevideo.com xhr
 		_ ytimg.com *
 		_ ytimg.com script
+
+Xfce-Look
+	xfce-look.org *
+	  	_ 1st-party script
+		_ 1st-party frame
+		_ opendesktop.org script
+		_ opendesktop.org xhr

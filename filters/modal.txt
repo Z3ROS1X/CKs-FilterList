@@ -454,6 +454,25 @@ hackernoon.com##html.u-overflowHidden:style(overflow-x: hidden !important; overf
 halfwheel.com##.austin-background
 hcn.org###exposeMask
 hcn.org###overlay-newsletter001
+heise.de##.ama
+heise.de###mitte > .right[style="font-size: 0.7em; margin-right: 20px;"]
+heise.de##.akwa-ad-container
+heise.de##.bcadv
+heise.de##.buytable
+heise.de##.gh_teaser
+heise.de##.hinweis_anzeige
+heise.de##.jobtv24
+heise.de##.meldung_preisvergleich
+heise.de##.online-markt
+heise.de##.teaser_ebook
+heise.de##.teaser_geizhals
+heise.de##.teaser_preisvergleich
+heise.de##.themenseite_preisvergleich.meldung__box--right
+heise.de##.us_ad
+heise.de##A-PATERNOSTER
+heise.de##a[href^="http://www.kqzyfj.com/click-"]
+heise.de##heisetext > .img[width="100%"]
+heise.de##td[align="left"][valign="top"][rowspan="5"]
 healthtap.com###policyBannerModal
 hearst.com###promo-video
 hearst.com###promo-video-overlay
@@ -781,6 +800,7 @@ professor-excel.com##.pum-container
 projectcensored.org###lpl
 projectcensored.org###lpl-overlay
 psychiatrictimes.com##.flyin
+putlocker9.*##+js(abort-on-property-write.js, Fingerprint2)
 pubexec.com##.wp_popup_overlay
 qsrmagazine.com###terms-change
 quora.com##.growl_overlay
@@ -1104,6 +1124,7 @@ wsbeacon.com##.customPopUp
 wsj.com###cx-candybarhp
 wvnews.com###blox-message-incompatible
 wvva.com###pojo-a11y-toolbar
+yadi.sk##.mobile-badges
 yahoo.com##.cta-overlay
 yahoo.com##.yui3-overlay-mask
 yelp.com###fullscreen-pitch
@@ -1118,3 +1139,6 @@ zenmate.com##.zm-crm-overlay
 zutano.com###privy-container
 ||izooto.com^$script,domain=bloombergquint.com|dnaindia.com
 ||stacklist.com/*/subscribe-modal
+||heise.de/icons/ho/seen_by_banner.gif
+||heisebanner.geizhals.at^
+@@||advertiser.wbtrk.net/js/advertiser.js$domain=heise.de

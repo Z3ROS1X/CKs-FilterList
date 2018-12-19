@@ -11,27 +11,31 @@
 ! Copyright (C) 2018 by CHEF-KOCH
 
 ! -- PornHub --
-||ht.pornhub.com^
-||cdn1.static.pornhub.phncdn.com^
-pornhub.com##body > .lonesomemuch
+@@||static.pornhub.phncdn.com^$script,domain=pornhub.com
+pornhub.com###pornstarsFilterContainer > .lonesomemuch
+pornhub.com##+js(abort-on-property-write.js, rAb)
+pornhub.com##+js(addEventListener-defuser.js, DOMContentLoaded, [native code])
+pornhub.com##+js(csp.js, img-src 'self' *; media-src 'self' *)
 pornhub.com##.footer
 pornhub.com##.footer-title
-pornhub.com##sads
 pornhub.com##.logoFooterWrapper
-pornhub.com##.psWrapper > .lonesomemuch
 pornhub.com##.pornstarVideosCounter.showingCounter
-pornhub.com###pornstarsFilterContainer > .lonesomemuch
+pornhub.com##.psWrapper > .lonesomemuch
+pornhub.com##.sectionWrapper > div[class]:has(:scope > div > .ad-link)
+pornhub.com##.sectionWrapper > undefined
 pornhub.com##ads > div:nth-of-type(1)
 pornhub.com##ads > div:nth-of-type(2)
 pornhub.com##body > .foragirllikeyou
+pornhub.com##body > .lonesomemuch
 pornhub.com##body > undefined
-pornhub.com##.sectionWrapper > undefined
-pornhub.com##.sectionWrapper > div[class]:has(:scope > div > .ad-link)
-pornhub.com##+js(addEventListener-defuser.js, DOMContentLoaded, [native code])
-pornhub.com##+js(abort-on-property-write.js, rAb)
-pornhub.com##+js(csp.js, img-src 'self' *; media-src 'self' *)
-@@||static.pornhub.phncdn.com^$script,domain=pornhub.com
+pornhub.com##milktruck > div
+pornhub.com##sads
+pornhub.com##undefined
+||cdn1.static.pornhub.phncdn.com^
+||ht.pornhub.com^
 ! -- RedTube --
 redtube.com###ab_banner
 redtube.com##.clearfix:has-text(Ads)
 redtube.com###browse_section > div:has(:scope > div > a.ad-link)
+! -- YouPorn --
+youporn.com##.clearfix.watchTextBox.legacy.mvRlHaoOzNLX
