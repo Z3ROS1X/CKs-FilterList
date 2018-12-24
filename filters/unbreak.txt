@@ -1,3 +1,5 @@
+Work in progress 
+
 
 ##body:not(#jira) #share_div,fake
 #@##share_div
@@ -71,13 +73,16 @@
 @@/wp-content/plugins/popup-builder-$image,stylesheet,script,first-party
 @@://adv.gg^$popup
 @@about:blank$popup,domain=onlinevideoconverter.com
+@@dnsotls-ds.metric.gstatic.com^
 @@|blob:$domain=britannica.com
 @@|blob:$domain=dailycaller.com
 @@|blob:$domain=hdfilme.tv
 @@|blob:$domain=watchvideo.us
 @@|https://api-secure.solvemedia.com^$script
+@@||5471782.fls.doubleclick.net^|
 @@||a.4cdn.org/*.json$xmlhttprequest,domain=4chan.org
 @@||academia.edu/*/users/*/stats/*$xmlhttprequest,first-party
+@@||acdn.adnxs.com^|
 @@||ad.crwdcntrl.net/*/callback=jsonp_callback$script,domain=weather.com
 @@||ad.watchfree.at/adx/watchfree/*$subdocument,first-party
 @@||addthis.com/js/*/addthis_widget.js$script,domain=sainsburys.jobs
@@ -94,6 +99,7 @@
 @@||adobedtm.com^*/satellitelib-$script,domain=mathworks.com
 @@||ads.adaptv.advertising.com/*einthusan.tv*$xmlhttprequest,domain=imasdk.googleapis.com
 @@||ads.rogersmedia.com/cbc$subdocument,domain=cbc.ca
+@@||ads.tdbank.com^
 @@||adverts.ie/css/$stylesheet,first-party
 @@||affyun.com^$generichide
 @@||ahcdn.com/key=$xmlhttprequest,domain=hdzog.com
@@ -178,6 +184,7 @@
 @@||cdn.vuplay.co.uk/stats/*/AppMeasurement.js$script,domain=vrt.be
 @@||cdn.vuplay.co.uk/stats/*/VisitorAPI.js$script,domain=vrt.be
 @@||cdn.vurb.com/*/mixpanel.
+@@||cdn1.smartadserver.com^|
 @@||cdnjs.cloudflare.com/$stylesheet,domain=fmovies.is|fmovies.se|fmovies.to
 @@||chaturbate.com/affiliates/promotools/popup/l6gje/popchaturbaterevshare.js$script,domain=sexanalporn.com
 @@||chaturbate.com^$subdocument,domain=blacksbigwomensexy.com|fastfuckmilf.com|pornoxxxporn.com|sexanalporn.com|xxxuno.com
@@ -187,8 +194,11 @@
 @@||cityam.com/assets/js/dfp/dfp.js$script,first-party
 @@||cj.com^$first-party
 @@||click.uol.com.br^$first-party
+@@||clkuk.tradedoubler.com^|
 @@||cloudflare.com/*/jquery/$script,domain=fmovies.is|fmovies.se|fmovies.to
 @@||cloudflare.com/ajax/libs/*$script,domain=androidcentral.com
+@@||cm-beacon.nakanohito.jp^|
+@@||cm-widget.nakanohito.jp^|
 @@||cmcm.com/news-republic/js/googleanalytics.js$script
 @@||cnn.com/.element/apps/cvp/3.0/cfg/spider/cnn/expansion/ad_policy.xml$xmlhttprequest,domain=cnn.com
 @@||code.adsales.snidigital.com/conf/ads-config.js$script,domain=foodnetwork.com
@@ -286,6 +296,7 @@
 @@||google-analytics.com/urchin.js$script,domain=live.euroleague.net
 @@||google-analytics.com^$domain=avianca.com|jackbox.tv|newegg.com|bikstok.sonymusicshop.dk
 @@||google.com/ads/js/peitho2/peitho2.min.js$script,domain=testmysite.withgoogle.com
+@@||googleadapis.l.google.com^|
 @@||googleads.g.doubleclick.net/ads/preferences/getcookie$popup,domain=myaccount.google.com
 @@||googleapis.com/js/sdkloader/ima3.js$script,domain=seattlepi.com|sfgate.com
 @@||googletagmanager.com/gtm.js$script,domain=bethesda.net
@@ -302,11 +313,13 @@
 @@||googletagservices.com/tag/js/gpt.js$script,domain=pitchfork.com
 @@||googleusercontent.com^$image,domain=kissmanga.com
 @@||gstatic.com^*/recaptcha/$script
+@@||h-sdk.online-metrix.net^|
 @@||hardware.support.eu.playstation.com/assets/js/tracking.js$script,first-party
 @@||hdliveextra-a.akamaihd.net^$domain=nbcsports.com
 @@||healthline.com/resources/base/js/util/ga-custom-vars.js$script,domain=healthline.com
 @@||hiphoplately.com^$csp=script-src 'self' * blob: data:
 @@||honeybadger.io/*/honeybadger.min.js$script,domain=clark.de
+@@||href.li^|
 @@||i.cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/*$domain=cnn.com
 @@||ign.com/newsfeed-block$xmlhttprequest,first-party
 @@||iheartradio.ca^$generichide
@@ -326,6 +339,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=wwm.rtl.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js?$script,domain=dugout.com
 @@||imasdk.googleapis.com^$domain=twitch.tv
+@@||imasdk.googleapis.com^|
 @@||img.bbystatic.com/BestBuy_US/js/tracking/*$script,domain=bestbuy.com
 @@||img.echosting.cafe24.com/design$image,domain=jolse.com
 @@||img.webmd.com/*/video-ad.js$script,first-party
@@ -374,16 +388,19 @@
 @@||nav.files.bbci.co.uk/nav-analytics/*$script,domain=bbc.com|bbc.co.uk
 @@||ncjrs.gov/fsrscripts/*$first-party
 @@||nexus.ensighten.com/*/Bootstrap.js$script,domain=bestbuy.com
+@@||nineto5mac-d.openx.net^|
 @@||nintendo.com/*/analytics.min.js$script,first-party
 @@||ntn24america.com/*ads$script,first-party
 @@||nxp.com/*/resources/scripts/analytics/webanalytics.js$script,first-party
 @@||ocsigen.org^$generichide
 @@||odb.outbrain.com/crossdomain.xml$object-subrequest
+@@||omniture.walmart.com^|
 @@||onlinevideoconverter.com/upload$xmlhttprequest,first-party
 @@||onlinevideoconverter.com/webservice$xmlhttprequest,domain=onlinevideoconverter.com
 @@||onlinevideoconverter.com^$popup,domain=onlinevideoconverter.com
 @@||onphpid.com^$stylesheet,first-party
 @@||openx.tv/embed/$domain=m4ufree.com
+@@||pagead.l.doubleclick.net^|
 @@||pandora.com/web-version/*_comscore.$script,first-party
 @@||pandora.com/web-version/*_googleAnalytics.$script,first-party
 @@||partner.googleadservices.com/gpt/$script,domain=www.merriam-webster.com
@@ -413,6 +430,7 @@
 @@||s0.2mdn.net/instream/flash/v3/adsapi_3.swf$object
 @@||s3.animeflv.com/efire.php$popup,domain=animeflv.net
 @@||safelinking.net^$~third-party
+@@||sas.com^|
 @@||sat.sanoma.fi^$script,domain=xxl.fi
 @@||savings.bizx.info^$domain=sourceforge.net
 @@||scdn.cxense.com/cx.$script,domain=wsj.com
@@ -460,6 +478,7 @@
 @@||statics.estadao.com.br/*/portal/js/comscore/$script,domain=estadao.com.br
 @@||statics.estadao.com.br/*/utils/publicidade/dfp.min.js$script,domain=estadao.com.br
 @@||stats.g.doubleclick.net/dc.js$script,domain=ticketfly.com
+@@||str.hit.gemius.pl^|
 @@||streamplay.to^*.m4s$xmlhttprequest
 @@||streamplay.to^*.mp4$xmlhttprequest
 @@||streamplay.to^*/manifest.mpd$xmlhttprequest
@@ -478,6 +497,7 @@
 @@||thermofisher.com/*/analytics.sitecatalyst.js$script,first-party
 @@||thewalrus.ca^*/dfpload.js$script,first-party
 @@||ticketmaster.122.2o7.net^$image,domain=ticketweb.co.uk
+@@||track.rutarget.ru^|
 @@||tracker.btorrent.xyz^$websocket
 @@||travel-assets.com/datacapture/*$script,domain=expedia.co.uk
 @@||tredir.go.com/capmon/$script,domain=disney.com
@@ -510,6 +530,7 @@
 @@||wsj.net/*/cxense-candy.js$script,domain=wsj.com
 @@||www.atpworldtour.com/assets/js/util/googleAnalytics.js$script,first-party
 @@||www.google-analytics.com/ga.js$script,domain=santander.com.mx|tv2.no
+@@||www.googleadservices.com^|
 @@||www.southwest.com/*/mbox.js$script,first-party
 @@||xlovecam.com/promo/livechat/$subdocument,domain=pornoxxxporn.com|sexanalporn.com
 @@||yasss.es/dist/assets/comscore/streamsense$script,first-party
