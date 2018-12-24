@@ -860,6 +860,7 @@
 #@#.textAd
 #@#.text_ad
 #@#.text_ads
+=Ad_ZPlusGoods&
 &ad_size=
 &adformat=
 &adunit=
@@ -876,6 +877,7 @@
 &refererPageDetail=
 &trackingserver=
 -1x1.gif?
+-bobo_recommend_
 -468x60.
 -adsystem.
 -amazon.com/*/shazam/$image
@@ -891,6 +893,9 @@
 /adblock-detector/*
 /adblock-popup.
 /detectadblock.
+/dongaogg/*
+/live800.
+/loooyu.js
 /ram/ads/*
 /randomad.
 /randomad120x600nsfw.
@@ -912,6 +917,7 @@
 /realmedia_mjx_
 /reclama/*
 /reclame/*
+/z.zolapp.
 .1d/Ads/
 .adbutler-
 .adrotate.
@@ -1386,6 +1392,7 @@ ticketmaster.ca##.page__legal-link
 ||d37gvrvc0wt4s1.cloudfront.net^
 ||service.giosg.com/api/*/public/track/
 ||themidweeksun.co.bw/images/majoka01.gif
+###appBottomIn
 ###BackToTop
 ###Banner_cookie_1
 ###CookieNotification
@@ -1394,6 +1401,7 @@ ticketmaster.ca##.page__legal-link
 ###PopupSignupForm_0
 ###ShareToolsMobile
 ###SocialMediaIconsID
+###SOHU_MAIN > .module-cmt-float-bar
 ###___ratingbadge_0
 ###adhesionUnit
 ###adv_mobi_edition
@@ -1401,7 +1409,9 @@ ticketmaster.ca##.page__legal-link
 ###adviceCookies
 ###alert_cookies
 ###amp-cookie-notice
+###appIn
 ###appIntercept
+###appqrcode
 ###apply-privacy-policy
 ###article-share
 ###article-share-container
@@ -1875,6 +1885,7 @@ ticketmaster.ca##.page__legal-link
 ###uiTopButton
 ###vf-share-bar
 ###warning_empty_div
+###windlocation
 ###wpfront-scroll-top-container
 ###zenbox_tab
 ##.APGWBackToTop
@@ -1911,6 +1922,7 @@ ticketmaster.ca##.page__legal-link
 ##.SocialMediaShareButton
 ##.SocialShare
 ##.SocialSharing
+##.s.u.m.o.me.scrollbox-popup
 ##.__pw-counter-horizontal
 ##._rmSocial
 ##.a-Pinit
