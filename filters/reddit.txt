@@ -31,8 +31,6 @@ reddit.com##.dgKnDF.s1gybndk-4.fWdlEy.ft1r9n-4:style(position: relative !importa
 reddit.com##.ejLXgY.s1rdnkxq-4:style(margin-top: 20px !important;)
 reddit.com##.fWdlEy:style(position: relative !important;)
 reddit.com##.fixed.active.read-next
-reddit.com##.gFtNkX.s1x9jy1z-0
-reddit.com##.gVpNUy.s9xltci-0
 reddit.com##.gVypys:style(position: relative !important;)
 reddit.com##.infobar-toaster-container
 reddit.com##.isJDXQ:style(position: absolute !important;)
@@ -75,7 +73,6 @@ reddit.com##header:style(position: relative !important;)
 ||reddit.com/api/request_recommended_link$xmlhttprequest
 ||reddit.com/api/share
 ||reddit.com/errors
-||reddit.com/timings
 ||reddit.com^$csp=script-src 'self' *.redditstatic.com 'unsafe-inline' 'unsafe-eval'
 ||reddit.com^*.gif?$third-party
 ||reddit.com^*_sponsor.png?

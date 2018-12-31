@@ -24033,7 +24033,7 @@ _mongo_stats/
 ||esxemulator.com^
 ||esznfpbro.com^
 ||et-cod.com^
-||et-code.ru
+||et-code.ru^
 ||et.grabnetworks.com^
 ||et.nytimes.com^
 ||et.twyn-group.com^

@@ -4,8 +4,8 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.0.01
-! Last updated: 2018-12-02
+! Version: 0.0.0.02
+! Last updated: 2018-12-31
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -2052,6 +2052,7 @@
 @@||loxodo-analytics.ext.nile.works/api/save$xmlhttprequest,domain=washingtonpost.com
 @@||mbank.pl^$generichide
 @@||ozy.com^$generichide
+@@||reshet.tv^$generichide
 @@||s1.wp.com/*/vip-analytics.js^$script,domain=rare.us
 @@||twitch.tv^$generichide
 @@||vidcloud.co^$generichide

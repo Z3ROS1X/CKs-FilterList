@@ -4,7 +4,7 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 14 days
-! Version: 0.0.0.01
+! Version: 0.0.0.03
 ! Last updated: 2018-12-31
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
@@ -105,6 +105,14 @@ facebook.com##:xpath(.//*[@data-games-xout-query-type="gyml-recommended"])
 facebook.com##:xpath(//*/a[@class='uiStreamSponsoredLink']/ancestor::div[contains(concat(' ',normalize-space(@id),' '),'hyperfeed_story_id_')])
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//h6//span/text()="Sponsored"])
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//text()="Suggested Post"])
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(S):has-text(on):has-text(S):has-text(so):has-text(S):has-text(red):has-text(S)):matches-css(display: inline))
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(S):has-text(on):has-text(S):has-text(so):has-text(S):has-text(red):has-text(S)):matches-css(display: inline))
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(S):has-text(on):has-text(S):has-text(so):has-text(S):has-text(red):has-text(S)):matches-css(display: inline-block)
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(S):has-text(on):has-text(S):has-text(so):has-text(S):has-text(red):has-text(S)):matches-css(display: inline-block)
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(on):has-text(so):has-text(red)):matches-css(display: inline))
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(on):has-text(so):has-text(red)):matches-css(display: inline))
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(on):has-text(so):has-text(red)):matches-css(display: inline-block))
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(on):has-text(so):has-text(red)):matches-css(display: inline-block))
 facebook.com##a[ajaxify*="&eid="]
 facebook.com##a[href^="/ajax/emu/end.php?"]
 facebook.com##a[href^="https://l.facebook.com/"][href*="%2526ad_id%"]

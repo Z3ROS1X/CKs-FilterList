@@ -664,6 +664,7 @@ answers.com##.sticky_banner.ads_dfpslot.module
 ant-techs.is##.fxd-header
 antergos.com###header-menu:style(position: absolute !important; top: 10 !important;)
 antergos.com###top-header:style(position: absolute !important; top: 0 !important;)
+aniwatcher.com##+js(set-constant.js, daganKwarta, true)
 antimalwareserviceexecutable.org##.site-header:style(position: absolute !important;)
 aol.com##.aol-app-deeplink
 aol.com##.has-banner-ad.does-stick.l-rightrail
@@ -7469,6 +7470,7 @@ prosperousamerica.org##.header-container:style(position: absolute !important;)
 protonmail.com###header-spacer
 protonmail.com##.csbtns
 protonmail.com##.text-right.col-sm-4
+protonmail.com#@#.top
 prototypr.io##.js-metabar:style(position: absolute !important;)
 protribune.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important;)
 protribune.com##.td-front-end-display-block.td-more-articles-box
@@ -10628,6 +10630,7 @@ wikihow.com##.sticking > .altblock:style(position: relative !important; width: 6
 wikihow.com##.sticking:style(top: 0 !important;)
 wikileaks.org##.top-navigation:style(position: absolute !important;)
 wikimonks.com###sticky:style(position: relative !important;)
+wikipedia.org##[id*=portalBanner]
 wikipedia.org##.cn-fundraising
 wikipedia.org##.frb
 wikipedia.org###frb-inline
