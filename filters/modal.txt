@@ -4,8 +4,8 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.0.01
-! Last updated: 2018-12-02
+! Version: 0.0.0.10
+! Last updated: 2018-12-31
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -228,6 +228,8 @@ counsyl.com###sg-popup
 couponcabin.com###couponcabin-slider
 couponcabin.com##.fancybox-overlay
 couponcabin.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+cp.sync.com##.bgwhite.panel-body
+cp.sync.com##.text-right.col-xs-12
 cpbj.com##.flyout-ad.flyout
 crackwatch.com##.Overlay
 craftsy.com##.fancybox-skin
@@ -243,6 +245,7 @@ cryptodisrupt.com##body:style(overflow-x: hidden !important; overflow-y: scroll 
 cultofmac.com##.active.visible.transition.page.modals.dimmer.ui
 cyberciti.biz##cf-dialog
 cyberscoop.com###welcomeadMask
+www.computerbase.de##.download-notify-box.box--sidebar.box
 d7xtech.com##.hb-single-next-prev
 dailydot.com###dd-main:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-top: 0 !important;)
 dailydot.com###modal-page
@@ -251,6 +254,8 @@ dailymail.co.uk###next-story
 dailymotion.com##.CookiePopup__popup____KSqw
 dailywire.com##.remodal-is-opened
 dailywire.com##.remodal-overlay
+dailyuploads.net##div:nth-of-type(2) > center
+dailyuploads.net##[src="https://dailyuploads.net/images/gbw.jpg"]
 dallasnews.com###courier-body-wrapper:style(position: relative !important;)
 dariusforoux.com###ck_overlay
 dariusforoux.com##.ck_modal
@@ -268,6 +273,10 @@ democracynow.org###campaign_modal
 democracynow.org###overlay
 democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 developers.google.com##.devsite-notification-eu-cookie
+deskmodder.de###custom_html-3
+deskmodder.de###custom_html-2
+deskmodder.de###text-36
+deskmodder.de##.site-branding
 dfiles.eu##.cookie_popup
 dictionary.com###fly-out
 digg.com###email-capture-modal
@@ -413,6 +422,7 @@ getweeklyupdate.com##.modal-backdrop
 getweeklyupdate.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 giphy.com##.gkGvKV.flash-message__MessageWrapper-hMFkob
 gitlab.com###CybotCookiebotDialog
+gitlab.com##.prepend-top-10.append-bottom-20.banner-non-empty-state.banner-callout.js-autodevops-banner
 glassdoor.co.uk###GiveToGetInstallAppModal
 glassdoor.com##.mfp-bg
 glassdoor.com##.mfp-content
@@ -542,6 +552,12 @@ justanswer.com##.background
 justanswer.com##.modal
 justanswer.com##.th-va-mobile-teaser
 justworks.com###hbl-live-chat-wrapper
+kcsoftwares.com###cse-search-box
+kcsoftwares.com##footer
+kcsoftwares.com###foxclocks-statusbar-spacer
+kcsoftwares.com##.alert-info.alert
+kcsoftwares.com##div.row:nth-of-type(3)
+kcsoftwares.com##.container > hr
 kerbalspaceprogram.com###wmpci-popup-wrp
 kerbalspaceprogram.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 kommersant.ru##.push_notification
@@ -645,6 +661,10 @@ myajc.com##.modal-backdrop
 myajc.com##.modal-open:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 myajc.com##.modal-scrollable
 myanimelist.net##.modal-content
+mydealz.de##.hide--toW3.space--v-3.width--fromW3-auto.width--all-12.iGrid-item
+mydealz.de##li.space--v-3.width--fromW3-auto.width--all-12.iGrid-item:nth-of-type(6) > .space--t-2
+mydealz.de##li.space--v-3.width--fromW3-auto.width--all-12.iGrid-item:nth-of-type(6)
+mydealz.de###footer-apps
 narrative.ly##.modal-content
 narrative.ly##.modal-overlay
 natashaskitchen.com###cboxOverlay
@@ -691,6 +711,8 @@ nextgov.com##.gemg-interstitial
 nextgov.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 nhl.com##.btm-nhl-announcement-modal
 nightwatch.io##.mcwidget-overlay
+nitroflare.com###footer
+nitroflare.com###footerCredits
 nikkei.com###modal_gd04_01
 nikkei.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 njbiz.com##.flyout-ad.flyout
@@ -720,6 +742,7 @@ nzherald.co.nz###wpnPop
 objective-see.com##.mc-modal-bg
 offers.com###modal-overlay
 offers.com###takeover
+office-4-sale.de###gaOptout
 omaha.com##.wcpopupmodal-overlay
 omaha.com##.wcpopupmodal-wrapper
 omeleto.com###myModal
@@ -749,7 +772,10 @@ papersource.com###cboxWrapper
 papersource.com###colorbox
 pass.us##.flyout
 pastebin.com###float-box-frame
+pastebin.com###steadfast
 pastebin.com###paypal-overlay
+pastebin.com###blackfridaynotice
+pastebin.com###content_right > div:nth-of-type(2)
 pasted.co###captcha_box
 pasted.co###captcha_overlay
 pastemagazine.com###newsletter-signup-overlay
@@ -838,13 +864,14 @@ reddit.com##.seo-comments
 reddit.com##.seo-comments-recommendations
 reddit.com##.splash-design.splash_wrapper
 reddit.com##.welcome
-reddit.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 redfin.com###RegistrationLightbox
 redfin.com###RegistrationLightbox_underlay
 redstate.com##.preloaded_lightbox
 renttherunway.com##.mfp-bg
 renttherunway.com##.mfp-wrap
 researchgate.net##.lite-page-modal
+restream.io##.cc-color-override--1120989970.cc-left.cc-bottom.cc-theme-classic.cc-type-opt-in.cc-floating.cc-window
+restream.io##.cc-color-override-2098566342.cc-left.cc-bottom.cc-theme-classic.cc-type-opt-in.cc-floating.cc-window
 revealnews.org##.pum-active
 reviewjournal.com##.connext-modal-backdrop
 reviewjournal.com##.modal-open:style(overflow-x: hidden !important; overflow-y: scroll !important;)
@@ -859,6 +886,7 @@ ripple.com##.modal-backdrop
 risk.net###rdm-cookie-consent
 rnsdaily.com##.td-more-articles-box
 rsf.org###overlays
+rsload.net##.logotype
 sabonnyc.com##.dynotifyjs-corner
 sandiegoreader.com###newsletter-modal
 sandiegoreader.com##.reveal-modal-bg
@@ -899,6 +927,11 @@ smallnetbuilder.com###cadre_alert_cookies
 smallnetbuilder.com###relatedarticleflyoutbx
 smithsonianstore.com###fancybox-overlay
 smithsonianstore.com###fancybox-wrap
+solidfiles.com##article.box:nth-of-type(2)
+solidfiles.com##.left
+solidfiles.com##.top-section
+solidfiles.com##.premium-promo.box
+solidfiles.com###foxclocks-statusbar-spacer
 softpedia.com###bottombubble
 softpedia.com###spsbtns
 sophos.com##.newsletter-panel
@@ -921,6 +954,7 @@ sputniknews.com##.global-fade
 sputniknews.com##.modal-window
 stackexchange.com###js-gdpr-consent-banner
 staples.com###popupwin
+startpage.com##span > .text-block__image
 statnews.com###stat-modal-base
 statnews.com###uglipop_content_fixed
 statnews.com###uglipop_overlay
@@ -1049,6 +1083,13 @@ upenn.edu##.spu-bg
 upenn.edu##.spu-box
 upi.com##.back-to-top
 uploaded.net##.pico-overlay
+upload.ee###foxclocks-statusbar-spacer
+upload.ee##tr:nth-of-type(5) > td > div
+uploadocean.com##[src="https://i.imgur.com/3MAL2xq.png"]
+uploadocean.com##[src="https://i.imgur.com/dI3EzJL.png"]
+urbandictionary.com##.show-for-large-up.columns.large-4 > div
+urbandictionary.com##.show-for-large-up.columns.large-4
+urbandictionary.com###foxclocks-statusbar-spacer
 usatoday.com###TB_overlay
 usatoday.com###usat-newsletter-modal
 usatoday.com##.bx-wrap
