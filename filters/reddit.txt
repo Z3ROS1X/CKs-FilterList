@@ -4,7 +4,7 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.1.00
+! Version: 0.0.1.01
 ! Last updated: 2018-12-31
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
@@ -17,17 +17,11 @@
 m.reddit.com##.TopNav
 old.reddit.com##.tabmenu
 old.reddit.com##ol:style(position: static !important;)
-reddit.com###hamburgers:style(position: absolute !important; border-bottom-color: rgba(55,60,63,.2) !important; border-bottom-style: solid !important; border-bottom-width: 1px !important;)
-reddit.com###header-bottom-right:style(position: absolute !important;)
-reddit.com###jumpToContent
-reddit.com###siteTable_organic
 reddit.com###sr-header-area:style(position: relative !important; width: 100% !important;)
 reddit.com###uapp-banner
 reddit.com##+js(set-constant.js,isPinned,true)
 reddit.com##.EsNOq.s18iqatn-2:style(margin-top: 0 !important;)
 reddit.com##.KglWz:style(position: relative !important;)
-reddit.com##.NavFrame > div:nth-of-type(2) > .TopNav > .TopButton
-reddit.com##.NavFrame__below-top-nav:style(padding-top: 0 !important;)
 reddit.com##.SmartBanner
 reddit.com##.TopNav:style(position: relative !important;)
 reddit.com##.bNRQFw:style(margin-top: 0 !important;)
@@ -40,9 +34,6 @@ reddit.com##.fixed.active.read-next
 reddit.com##.gFtNkX.s1x9jy1z-0
 reddit.com##.gVpNUy.s9xltci-0
 reddit.com##.gVypys:style(position: relative !important;)
-reddit.com##.gZyFXj:style(margin-top: 0 !important;)
-reddit.com##.ihPwni.l831nu-1:style(position: relative !important;)
-reddit.com##.inaQGx.ft1r9n-2:style(position: relative !important;)
 reddit.com##.infobar-toaster-container
 reddit.com##.isJDXQ:style(position: absolute !important;)
 reddit.com##.listingsignupbar.infobar
@@ -67,11 +58,12 @@ reddit.com##header:style(position: relative !important;)
 ||alb.reddit.com^
 ||d.reddit.com^
 ||e.reddit.com$xmlhttprequest
-||e.reddit.com^
 ||e.reddit.com^$important
 ||engine.a.redditmedia.com^
 ||events.reddit.com^
 ||events.redditmedia.com^
+||gateway.reddit.com|
+||pixel.reddit.com^
 ||pixel.redditmedia.com^
 ||reddit.com/*/log/*
 ||reddit.com/api/login.json
@@ -85,8 +77,9 @@ reddit.com##header:style(position: relative !important;)
 ||reddit.com/errors
 ||reddit.com/timings
 ||reddit.com^$csp=script-src 'self' *.redditstatic.com 'unsafe-inline' 'unsafe-eval'
+||reddit.com^*.gif?$third-party
 ||reddit.com^*_sponsor.png?
 ||redditmedia.com/gtm/$important
-||redditstatic.com/moat/
-||redditstatic.com/recommended-link.*$important
+||redditmedia.com/gtm/jail?
+||stats.redditmedia.com^
 ||tracker.redditmedia.com^
