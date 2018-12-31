@@ -1,19 +1,26 @@
 ! Title: CHEF-KOCH's Reddit Filter List
-! Description: A comprehensive, all-in-one ad-block list for Reddit.
+! Description: A comprehensive, all-in-one Reddit list to remove tracking and cosmetical annoyance which is Reddit exclusive.
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.0.76
-! Last updated: 2018-12-02
+! Version: 0.0.1.00
+! Last updated: 2018-12-31
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
 
-
+@@||redditmedia.com^$stylesheet,domain=www.reddit.com
+@@||redditstatic.com^$image,domain=www.reddit.com
+@@||redditstatic.com^$script,domain=www.reddit.com
+@@||redditstatic.com^$stylesheet,domain=www.reddit.com
+m.reddit.com##.TopNav
+old.reddit.com##.tabmenu
+old.reddit.com##ol:style(position: static !important;)
 reddit.com###hamburgers:style(position: absolute !important; border-bottom-color: rgba(55,60,63,.2) !important; border-bottom-style: solid !important; border-bottom-width: 1px !important;)
 reddit.com###header-bottom-right:style(position: absolute !important;)
 reddit.com###jumpToContent
+reddit.com###siteTable_organic
 reddit.com###sr-header-area:style(position: relative !important; width: 100% !important;)
 reddit.com###uapp-banner
 reddit.com##+js(set-constant.js,isPinned,true)
@@ -36,28 +43,27 @@ reddit.com##.gVypys:style(position: relative !important;)
 reddit.com##.gZyFXj:style(margin-top: 0 !important;)
 reddit.com##.ihPwni.l831nu-1:style(position: relative !important;)
 reddit.com##.inaQGx.ft1r9n-2:style(position: relative !important;)
+reddit.com##.infobar-toaster-container
 reddit.com##.isJDXQ:style(position: absolute !important;)
 reddit.com##.listingsignupbar.infobar
 reddit.com##.mpkDK:style(margin-top: 0 !important;)
+reddit.com##.promotedlink
+reddit.com##.recommended-link
 reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
 reddit.com##.res-floater-belowNavbar:style(position: absolute !important;)
 reddit.com##.res-show-link
 reddit.com##.s1h3x34a-1
 reddit.com##.zh2mq5-2
-reddit.com##body:before:style(position: relative !important; height: 0 !important;)
-reddit.com##header:style(position: relative !important;)
-reddit.com##div.dfp-ad-container
 reddit.com##body > div[data-overflow]:last-child
+reddit.com##body:before:style(position: relative !important; height: 0 !important;)
+reddit.com##div.dfp-ad-container
 reddit.com##div.promotedlink
 reddit.com##div.promotedvideolink
-reddit.com##div[id^="sidebar-btf-"]
+reddit.com##div[id^="overlay-sidebar-atf-"]
+reddit.com##div[id^="overlay-sidebar-btf-"]
 reddit.com##div[id^="sidebar-atf-"]
-reddit.com##.recommended-link
-reddit.com##.infobar-toaster-container
-@@||redditmedia.com^$stylesheet,domain=www.reddit.com
-@@||redditstatic.com^$image,domain=www.reddit.com
-@@||redditstatic.com^$script,domain=www.reddit.com
-@@||redditstatic.com^$stylesheet,domain=www.reddit.com
+reddit.com##div[id^="sidebar-btf-"]
+reddit.com##header:style(position: relative !important;)
 ||alb.reddit.com^
 ||d.reddit.com^
 ||e.reddit.com$xmlhttprequest
@@ -72,13 +78,15 @@ reddit.com##.infobar-toaster-container
 ||reddit.com/api/register.json
 ||reddit.com/api/request_promo$important
 ||reddit.com/api/request_promo$xmlhttprequest
+||reddit.com/api/request_promo.json
 ||reddit.com/api/request_recommended_link$important
 ||reddit.com/api/request_recommended_link$xmlhttprequest
 ||reddit.com/api/share
 ||reddit.com/errors
 ||reddit.com/timings
 ||reddit.com^$csp=script-src 'self' *.redditstatic.com 'unsafe-inline' 'unsafe-eval'
+||reddit.com^*_sponsor.png?
 ||redditmedia.com/gtm/$important
-||redditstatic.com/moat/$important
+||redditstatic.com/moat/
 ||redditstatic.com/recommended-link.*$important
 ||tracker.redditmedia.com^

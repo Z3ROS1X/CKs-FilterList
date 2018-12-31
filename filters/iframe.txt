@@ -1,32 +1,32 @@
-! Title: CHEF-KOCH's iFrame Filter List
+! Title: CHEF-KOCH's iframe Filter List
 ! Description: Block iframe elements.
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
 ! Version: 0.0.0.01
-! Last updated: 2018-12-02
+! Last updated: 2018-12-31
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
 
-##iframe[src^="//adapi.inlcorp.com/dfp/"]
 ##iframe[data-src^="http://nw.realssp.co.kr/"]
 ##iframe[data-src^="http://ssp.realclick.co.kr/"][data-src*="c=iframe"]
-##iframe[name*="ads-center"]
 ##iframe[id*="adsIfrme"
 ##iframe[id*="google_ad"]
+##iframe[id^="google_ads_frame"]
+##iframe[id^="google_ads_iframe"]
 ##iframe[id^="nad_"]
+##iframe[name*="ads-center"]
 ##iframe[name="ifrad"]
 ##iframe[src*="-d.openx.net/w/1.0/afr"]
 ##iframe[src*="/NetInsight/"]
 ##iframe[src*="/RealMedia/ads/"]
-##iframe[src^="//findad.o00.kr/"]
-##iframe[src^="//tsyndicate.com/iframes2/"][src*=".html"]
 ##iframe[src^="//101.livere.co.kr/coinone-ad/coinone-ad-widget.html"]
 ##iframe[src^="//acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html"]
 ##iframe[src^="//acdn.adnxs.com/ib/static/usersync/v4/async_usersync.html"]
 ##iframe[src^="//ad.vkoad.com/showads.php"]
+##iframe[src^="//adapi.inlcorp.com/dfp/"]
 ##iframe[src^="//adclickservice.com"]
 ##iframe[src^="//ads.acrosspf.com/adinfo.ad"]
 ##iframe[src^="//ads.acrosspf.com/opf/"]
@@ -37,12 +37,14 @@
 ##iframe[src^="//am15.net/ssp/banner"]
 ##iframe[src^="//ax-d.pixfuture.net/w/1.0/afr"]
 ##iframe[src^="//disqusads.com/ads-iframe/prebid/"]
+##iframe[src^="//findad.o00.kr/"]
 ##iframe[src^="//mrelko.com/bnrs/"]
 ##iframe[src^="//onedrive.su/code/swf_banner.php"]
 ##iframe[src^="//plugin.adplex.co.kr/iframe/"][src*=".html"]
 ##iframe[src^="//searchmaster.pro/b.php"]
 ##iframe[src^="//ssp.adpies.com/ssp/request"]
 ##iframe[src^="//ssp.advg.jp/ssp/p/iframe"]
+##iframe[src^="//tsyndicate.com/iframes2/"][src*=".html"]
 ##iframe[src^="//urldelivery.com/watch."]
 ##iframe[src^="//x.jd.com/exsites"]
 ##iframe[src^="//y.one.impact-ad.jp/imp"]
@@ -66,6 +68,7 @@
 ##iframe[src^="http://ad.priel.co.kr/"]
 ##iframe[src^="http://ad.tpmn.co.kr/adReqSb.tpmn"]
 ##iframe[src^="http://ad.xc.nis.nitmus.com/"]
+##iframe[src^="http://ad.yieldmanager.com/"]
 ##iframe[src^="http://ad1.adenc.co.kr/media/"]
 ##iframe[src^="http://ad1.eventmanager.co.kr/"]
 ##iframe[src^="http://ad2.thisisgame.com/ad"]
@@ -116,6 +119,8 @@
 ##iframe[src^="http://cdn.interworksmedia.co.kr/google/"]
 ##iframe[src^="http://cdn.optmd.com/V2/PSA/"]
 ##iframe[src^="http://cdn04.sndkorea.co.kr/"]
+##iframe[src^="http://cdn1.adexprt.com/"]
+##iframe[src^="http://cdn2.adexprt.com/"]
 ##iframe[src^="http://chie8oo.com/afr.php"]
 ##iframe[src^="http://cm.interworksmedia.co.kr/adTagRequest.htm"]
 ##iframe[src^="http://compass.adop.cc/RD/"]
@@ -217,8 +222,8 @@
 ##iframe[src^="https://s.yimg.jp/images/listing/tool/yads/yads-iframe.html"]
 ##iframe[src^="https://search2.nuriclick.co.kr/banner.php"]
 ##iframe[src^="https://syndication.exdynsrv.com/ads-iframe-display.php"]
-##iframe[src^="https://syndication.exosrv.com/ads-iframe-display.php"]
 ##iframe[src^="https://syndication.exoclick.com/ads-iframe-display.php"]
+##iframe[src^="https://syndication.exosrv.com/ads-iframe-display.php"]
 ##iframe[src^="https://www.mxttrf.com/ads"]
 ##iframe[width="300"][height="250"]
 ##iframe[width="468"][height="60"]

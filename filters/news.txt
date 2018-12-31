@@ -1,10 +1,10 @@
 ! Title: CHEF-KOCH's News Filter List
-! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
+! Description: Block News-Pages Ads.
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.0.01
+! Version: 0.0.0.27
 ! Last updated: 2018-12-02
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
@@ -13,11 +13,13 @@
 10best.com###newsletter_widget-2
 10tv.com##.uawn-opt-in-prompt
 99percentinvisible.org###engagement-newsletter
-abc.net.au##.card.newsmail-signup
+abc.net.au##.newsmail-signup
 abcactionnews.com##.module--email-widget
 abcbirds.org##.newslatter-foot
 abcnews.go.com###widget-subscribe-3
 abcstores.com###newsletterpopup
+accringtonobserver.co.uk,birminghammail.co.uk,birminghampost.co.uk,bristolpost.co.uk,chroniclelive.co.uk,coventrytelegraph.net,dailypost.co.uk,dailyrecord.co.uk,derbytelegraph.co.uk,devonlive.com,examinerlive.co.uk,gazettelive.co.uk,hulldailymail.co.uk,leicestermercury.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,mylondon.news,nottinghampost.com,plymouthherald.co.uk,walesonline.co.uk##.skinny-signup
+aclu.org##.pane-aclu-blog-news-signup.panel-pane
 adlice.com##.wp_subscribe.widget
 adweek.com##.container-subscribe
 adweek.com##.subscribewidget
@@ -48,10 +50,12 @@ atlasobscura.com##.item-newsletter-form
 atlasobscura.com##.item-social-row
 atlasobscura.com##.newsletter-signup-container
 atlassian.com##.newsletter
-avclub.com, causeandeffect.fm, clickhole.com, deadspin.com, earther.com, gizmodo.com, jalopnik.com, kinja.com, kotaku.com, lifehacker.com, splinternews.com, theinventory.com, theonion.com, theroot.com, thetakeout.com##.js_newsletter-btn--subscribe
+avclub.com,causeandeffect.fm,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_newsletter-btn--subscribe
 axios.com##.sidebar__newsletter
 axios.com##.topic-newsletter
+axios.com##[class^="StreamCap__promoContainer"]
 azcentral.com##.site-masthead-subscribe-link
+babycenter.com##.familyNavAndAdContainer
 ballotpedia.org###email-signup-bar
 barstoolsports.com##.newsletterSignup
 bbc.com##.news-app-promo
@@ -61,7 +65,6 @@ bellingcat.com##.mailingList
 benzinga.com###benzinga-newsletter-signup
 bgr.in###izooto-subscription-prompt
 bigthink.com##.nl_container
-birminghammail.co.uk##.skinny-signup
 bizjournals.com##.email__module
 bleepingcomputer.com##.bc_news_letter_sidebar
 blogs.discovermagazine.com##body > div:nth-of-type(3)
@@ -92,10 +95,11 @@ breitbart.com###EmailOptinM
 breitbart.com###content_0_rightrail_0_ctl12_sectionSubscribe
 brighthubeducation.com###subscribe2
 brookings.edu##.newsletter
-browardpalmbeach.com, dallasobserver.com, houstonpress.com, miaminewtimes.com, phoenixnewtimes.com, westword.com##.subscribe.widget.vmgs
+browardpalmbeach.com,dallasobserver.com,houstonpress.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.subscribe.widget.vmgs
 businessinsider.com##.right-subscribe
 businessinsider.com.au###mc-signup-in-post
 businessinsider.com.au###mc_signup
+businessinsider.in###nlFormSlide
 buzzfeed.com###mod-newsletter-signup-1
 buzzfeed.com###mod-newsletter-signup-2
 buzzfeednews.com##.newsblock-newsletter-signup
@@ -106,7 +110,6 @@ cbssports.com##.Newsletter-container
 ceramicgrillstore.com##.newsletterwrapper
 channelnewsasia.com##.newsletter-cta
 chicagomag.com###footer-newsletter-subscribe
-chroniclelive.co.uk##.skinny-signup
 cityam.com###footer-newsletter
 cityam.com###footer-newsletter-mobile
 citylab.com##.c-newsletter
@@ -119,8 +122,11 @@ cnn.com##.cd--tool__mailchimp-subscribe
 cnn.com##.cnn-politics-app-promo-card
 cnn.com##.rs-newsletter-body
 cntraveler.com##.global-subscription-footer
+cntraveller.com##.js-c-infobar-lazy-load
 cockroachlabs.com##.subscribe
 cointelegraph.com##.b-post-subscription
+coloradosun.com##.newsletter-the-sunriser
+consumerreports.org##.newsletter-sign-up
 cookinglight.com##.newsletter-callout.component
 cosmosmagazine.com###daily-newsletter-signup
 craft.co##.sign-up-footer
@@ -140,6 +146,8 @@ databreachtoday.com###section-newsletter-blk
 daveramsey.com##.AsideContent-item--newsletter
 defenseindustrydaily.com###nwslttrEntrySubForm
 defensenews.com##.newsletter
+deseretnews.com###react_wrapper_edition_newsletter_signup
+deseretnews.com###react_wrapper_home_newsletter_large
 designboom.com###NewsletterBox_dynamic
 designboom.com###NewsletterBox_dynamic_0
 digitalocean.com###newsletter-signup-dialog
@@ -175,7 +183,10 @@ fastcompany.com##.newsletter-signup
 fatherly.com##.inline-newsletter
 fauquier.com##.mailinglist-container
 fcw.com##.subscribetextlink
+federalnewsradio.com##.promo-inline
 fiercetelecom.com###block-tektitegenericnewsletterblock
+financialsamurai.com###enews-ext-2
+finehomebuilding.com##.inline-email-form
 fivebooks.com##.inline-el.-newsletter.inline-box
 fivethirtyeight.com##.newsletter
 fivethirtyeight.com##.newsletter-modal
@@ -185,6 +196,7 @@ foodbabe.com###join-newsletter
 foodnetwork.com##.newsletter
 foragerfunds.com###subscribe-report-block
 foragerfunds.com##.subscribe-wrap
+foreignaffairs.com##.article-newsletter-signup--container
 foreignpolicy.com##.subscribe--long
 formlabs.com###newsletter-signup
 fortune.com##.newsletter-callout
@@ -197,6 +209,7 @@ futurism.com##.subscribe-form.center
 gadgetsnow.com##.nl_popup.notify_alert
 gamespot.com##.newsletter-subscribe-box
 gardenweb.com##.signupCtaNew
+geek.com###newsletter-widget
 geekwire.com###newsletter-subscribe-sidebar
 ggwash.org##.signup
 glamour.com##.g-mobile.component-newsletters
@@ -217,12 +230,12 @@ grammy.com##.injected-newsletter-ad-wrapper
 granta.com##.desktop-nav__subscribe-container
 greensboro.com###newsletter_morning
 grist.org##.email-signup-form
-grubstreet.com, nymag.com, thecut.com, vulture.com###magpromo
-grubstreet.com, nymag.com, thecut.com, vulture.com##.column-subscribe
-grubstreet.com, nymag.com, thecut.com, vulture.com##.newsletter-flex-text
-grubstreet.com, nymag.com, thecut.com, vulture.com##.newsletter-slideout
-grubstreet.com, nymag.com, thecut.com, vulture.com##.subscribe
-grubstreet.com, nymag.com, thecut.com, vulture.com##.subscription
+grubstreet.com,nymag.com,thecut.com,vulture.com###magpromo
+grubstreet.com,nymag.com,thecut.com,vulture.com##.column-subscribe
+grubstreet.com,nymag.com,thecut.com,vulture.com##.newsletter-flex-text
+grubstreet.com,nymag.com,thecut.com,vulture.com##.newsletter-slideout
+grubstreet.com,nymag.com,thecut.com,vulture.com##.subscribe
+grubstreet.com,nymag.com,thecut.com,vulture.com##.subscription
 gun.deals###subscribe-newsletter-popup
 haaretz.com##.newsletter
 haaretz.com##.newsletter--ruler
@@ -248,25 +261,32 @@ huffingtonpost.com##.inline-newsletter__inner
 hunker.com##.email-capture-popup-wrapper
 ibtimes.com###block-ibtimes-newsletters-morning-insights
 ibtimes.com###block-ibtimes-social-social-buttons
+icv2.com##.sub-c
 iflscience.com##.newsletter-widget.widget
 independent.co.uk##.email-signpost
 indiegogo.com##.ng-scope.emailCapture
 indiehackers.com##.article-subscribe
+inews.co.uk##.widget-cta--newspaper
+inews.co.uk##.widget_jpsp_widget.widget
 infowars.com###inline-connect
 infowars.com###newsletter-side-widget
 inhabitat.com##.ibnewsletter-wrapper
 intersectionproject.eu###subscription-form
+intouchweekly.com##.newsletter-signup
 inverse.com##.article-slidein-newsletter
 inverse.com##.newsletter-accordion
 inverse.com##.newsletter-inline
 inverse.com##.promos-newsletter
 inverse.com##.promos-newsletter-page
+investmentnews.com###subscribePopup
 investopedia.com##.newsletter
 irishtimes.com###newsdigest-widget
 israel21c.org##.nlpromo
+jamesbeard.org###newsletter-signup
 jpost.com##.newsletter-signup-wrap
 jpost.com##.sign-up-wrap
 judicialwatch.org###newsletter_signup_fullwidth
+kansascity.com###newsletter-signUpWidget
 kentucky.com###newsletter-signUpWidget
 kentucky.com###story-cta-widget
 khaleejtimes.com###foxpush_subscribe
@@ -276,29 +296,22 @@ l2inc.com###daily-newsletter-signup
 laptopmag.com###newsletter-subscribe-banner
 lawandcrime.com###newsletter
 lawnewz.com###newsletter
-leicestermercury.co.uk##.skinny-signup
 lennyletter.com##.hdr-subscribe-link
 lithub.com##.widget_mc4wp_form_widget.widget
 livemint.com##.subscribe-box
-liverpoolecho.co.uk##.skinny-signup
 livescience.com##.subscribe
 loadoutroom.com##.join-gear-club
 longreads.com##.entry-email-signup
-lrb.co.uk###OA_a4154141
-lrb.co.uk###OA_a4d6a88b
-lrb.co.uk###OA_a5328254
-lrb.co.uk###OA_a70f9c75
-lrb.co.uk###OA_a882147c
-lrb.co.uk###OA_a88d2acd_23
-lrb.co.uk###OA_a88d2acd_50
 lrb.co.uk###tp-article-footer
 lrb.co.uk###tp-article-header
 macworld.com###footer-subscribe
 maketecheasier.com##.sidebar-subscribe-box
 makeuseof.com##.single-post-newsletter
+makezine.com##.newsletter-footer
 makezine.com##.subscribe-red-btn
-manchestereveningnews.co.uk##.skinny-signup
 manicoti.com###emailbanner
+mansionglobal.com##.article-subscribe-container
+mansionglobal.com##.newsletter-signup-container
 mariettatimes.com###newsletter
 marinecorpstimes.com##.newsletter.signup.container
 marketwatch.com###signUpForm
@@ -320,7 +333,6 @@ mic.com##.newsletter-signup
 mic.com##.newsletter-signup-mobile
 microsoft.com###email-newsletter-dialog
 militarytimes.com##.newsletter.signup
-mirror.co.uk##.skinny-signup
 mmajunkie.com###newsletter_widget-2
 mnn.com##.right_rail_email_signup
 mondotees.com##.ftr-newsletter
@@ -343,6 +355,7 @@ nationalgeographiclodges.com##.ignUpNewsletter
 nationalreview.com###newsmax-signup-block
 nationalreview.com##.aside-newsletter
 nationalreview.com##.inline-newsletter-subscribe
+nature.com##.nature-briefing
 navytimes.com##.js-pubsub-module
 navytimes.com##.newsletter
 nbcwashington.com##.newsletter-signup-module
@@ -365,7 +378,9 @@ newsobserver.com###newsletter-signUpWidget
 newstatesman.com###subscribeForm
 newsweek.com###header_subscribe
 newsweek.com##.article--newsletter--wrapper
+newsweek.com##.newsletter-signup
 newsweek.com##.subscription
+newsy.com###memphis-optin
 newyorker.com##.ArticlePageSidebar__railItem___1K-hs
 newyorker.com##.Failsafe__header___21L-f
 newyorker.com##.MainHeader__fullSubscribe___dolgp
@@ -425,12 +440,12 @@ philly.com##.pb-f-global-newsletter-sign-up
 philly.com##.pb-f-global-subscribe-call-to-action
 philly.com##.subscribenow
 philly.com##.subscribetoday__inner
+phys.org##.nwletter-box
 piriform.com##.band--newsletter
 piriform.com##.newsletter-signup
 pitchfork.com##.newsletter
 pjmedia.com###email-signup-sidebar
 plagiarismtoday.com##.widget_newsletterwidgetminimal
-plymouthherald.co.uk##.skinny-signup
 politico.com###widgetAlertMagazine
 politico.com###widgetNewsletter
 politico.com###widgetPoliticoInPrint
@@ -461,6 +476,7 @@ rasmussenreports.com##.join-us.module-c
 rasmussenreports.com##.newsletter-form
 rawstory.com##.footer-email
 rawstory.com##.sidebar-email-signup-container
+rd.com###subscribe-to-magazine-sticky, .newsletter-signup-content-widget
 realsimple.com##.newsletter-callout
 realsimple.com##.subscribe-callout
 redbubble.com###email-slide-up
@@ -471,6 +487,7 @@ revealnews.org##.newsletter
 revelist.com##.news-subscription
 roanoke.com##.email-signup
 roanoke.com##.emailoptin
+roanoke.com##.inlineSignup
 rollcall.com##.mainbody-subscribe
 rollingstone.com##.l-blog__item:nth-of-type(5)
 rollingstone.com##.module-newsletter
@@ -502,6 +519,7 @@ shareblue.com###subscription
 si.com##.newsletter-callout
 si.com##.nl-container
 si.com##.subscribe-callout
+simplemost.com###alo_easymail_widget_form
 slate.com##.newsletter-signup-component
 slickdeals.net##.newsletter
 smashingmagazine.com##.c-promo-box--newsletter
@@ -511,14 +529,16 @@ snopes.com##.email-signup-box
 softonic.com##.popup-newsletter
 sourceforge.net###newsletter-floating
 space.com##.subscribe
-spectator.co.uk##.email-newsletter
-spectator.co.uk, spectator.us##.spev-show-not-active-subscriber
-spectator.co.uk, spectator.us##.subscribe-ribbon__wrapper
+spectator.co.uk,spectator.us##.email-newsletter
+spectator.co.uk,spectator.us##.spev-show-not-active-subscriber
+spectator.co.uk,spectator.us##.subscribe-ribbon__wrapper
+spiceworks.com##.join-footer.sui-opt-in
 spin.com##.text-center.sm-widget-campaign-monitor.sm-widget.sidebar-module
 splitsider.com##.newsletter__wrapper
 spoonuniversity.com##.subscribe
 sportscastles.com##.g1-newsletter
 star-telegram.com###newsletter-signUpWidget
+starterstory.com##.subscribe-bottom
 statesman.com##.newsletter-tease
 stgeorgeutah.com###email_popup
 stockfreeimages.com###backgroundPopup2
@@ -561,8 +581,10 @@ theconversation.com##.topbar-mobile-newsletter-signup
 theconversation.com##.topbar-stay-informed
 thedailybeast.com##.CheatNewsletter
 thedailybeast.com##.InlineNewsletter
+thedrive.com##.newsletter-signup
 thefader.com##.mobile_newsletter
 thefix.com###header-subscribe
+theglobeandmail.com###c-site-header-newsletters-button
 theglobeandmail.com###subscription-pencil-area
 theguardian.com##.email-subscription-promo4
 thehill.com###block-thehill-blocks-footer-signup
@@ -577,15 +599,19 @@ themarshallproject.org##.email-onboard
 themarshallproject.org##.email-onboard-container-wrapper
 themarysue.com###newsletter-promo
 thenation.com##.email-signup-module
+thenewsrep.com###newsrep-header-sub-cta-1
 thenextweb.com##.newsletter
 theonion.com##.newsletter-signup
 thequint.com##.subscription-container
 theregister.co.uk###article_newsletter_signup
+thescore.com##.ArticleLeagueRiver__displayDesktop--DCrix
 thescore.com##.newsletter
+thescottishsun.co.uk,thesun.co.uk,thesun.ie###newsletter_holder
+thescottishsun.co.uk,thesun.co.uk,thesun.ie##.newsletter_holder
 thesleuthjournal.com##.widget_wysija.widget
+thespruce.com###subscription-island--one-tap-multiple-border_1-0
 thestate.com###newsletter-signUpWidget
 thestreet.com###subscribe_premium
-thesun.co.uk###newsletter_holder
 thetrace.org###newsletter-signup
 theundefeated.com##.newsletter-article-signup
 theverge.com###subForm
@@ -623,12 +649,14 @@ troyhunt.com###floating_subscribe
 trust.org##.subscribe
 truthdig.com##.header__newsletter
 tucson.com##.tucson-inline-subscribe_button
+tuftsyourdog.com###ofie
 twitchy.com##.newsletter-sign-up
 unionmarketdc.com###subscribe
 universetoday.com###blog_subscription-2
 urbandaddy.com##.email-signup
 usatoday.com##.newsletter-embed
 usatoday.com##.widget--newsletter
+uscreen.tv##.pum
 usmagazine.com##.header-subscribe
 utilitydive.com##.signup
 vagabomb.com##.subscribe
@@ -671,7 +699,6 @@ westworldwatchers.com###blog_subscription-2
 wired.com##.cm-subscribe-link-wrapper
 wired.com##.subscribe
 wired.com##.subscribe-panel-component
-wish.com##.mobile-signup-dialog
 wkyc.com##.newsletter-signup
 wmagazine.com##.component-newsletter-subscribe-wrapper
 wptv.com##.module--email-widget

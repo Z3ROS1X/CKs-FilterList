@@ -4,8 +4,8 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.3.58
-! Last updated: 2018-12-03
+! Version: 0.0.3.60
+! Last updated: 2018-12-31
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -5433,7 +5433,6 @@ m.imgur.com##.headroom--scrolled.headroom--pinned.headroom:style(position: relat
 m.independent.ie##.root-a > header:style(position: relative !important; top: 0 !important;)
 m.medicalxpress.com##.slideup.ui-footer-fixed.ui-bar-c.ui-footer
 m.phys.org##.slideup.ui-footer-fixed.ui-bar-c.ui-footer.visibilityNone
-m.reddit.com##.TopNav
 m.shop.nordstrom.com##.android-app-banner
 m.soundcloud.com###content:style(padding-top: 0 !important;)
 m.tmz.com##.ui-bar-inherit.ui-header.header-mini
@@ -6963,8 +6962,6 @@ okayplayer.com##.affix.site-header:style(position: relative !important; top: 0 !
 okayplayer.com##.page-meta-links-container
 okmeter.io##.js-metabar:style(position: absolute !important;)
 okta.com##.is-fixed.Header:style(position: absolute !important;)
-old.reddit.com##.tabmenu
-old.reddit.com##ol:style(position: static !important;)
 olympic.org###nav:style(position: absolute !important;)
 omaha.com###main-body-container:style(margin-top: 0 !important;)
 omaha.com###site-navbar-container:style(position: relative !important; top: 0 !important;)

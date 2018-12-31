@@ -45,3 +45,6 @@ redtube.com##.clearfix:has-text(Ads)
 redtube.com###browse_section > div:has(:scope > div > a.ad-link)
 ! -- YouPorn --
 youporn.com##.clearfix.watchTextBox.legacy.mvRlHaoOzNLX
+! -- RedTube --
+@@||redtubeplatinum.com/signup/signup.php$popup,domain=redtube.com
+@@||redtubeplatinum.com/track/*/join?$popup,domain=redtube.com
