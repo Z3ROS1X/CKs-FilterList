@@ -1,6 +1,6 @@
 # CHEF-KOCH's Filter List [![Build Status](https://travis-ci.org/CHEF-KOCH/CKs-FilterList.svg?branch=master)](https://travis-ci.org/CHEF-KOCH/CKs-FilterList)
 
-I created CK's Filter List 2018 because I don't like the current well-known filter lists and I think they're often outdated and _incomplete_ or simply too inefficient. My list is not restricted by any region. However, my personal focus is english, russian and swiss and germany regions since I speak these languages. 
+CK's Filter List was created 2018 because I didn't liked the well-known filter lists and I think they're often outdated or _incomplete_ and simply too inefficient. My list is not restricted by any region and the main-focus is english, russian, swiss and germany regions since I speak these languages.
 
 
 
@@ -13,6 +13,7 @@ The overall project goal is to block ads and reduce the traffic coming from the 
 #### Short explanation
 * Reduce load traffic
 * Remove annoyance web elements like e.g. floating headers, banners or useless footers
+* Provide list in order to block connections to bigger corps. e.g. Apple.
 
 
 
@@ -38,6 +39,8 @@ I'm not responsible for the provided links, or it's content behind it. I do not 
 **Site-specific or filter-based extensions such as AdBlock Plus, Request Policy, Ghostery, Priv3 and Sharemenot are in general to be avoided**. According to my own security expertise and [history](https://www.menlosecurity.com/blog/a-jar-full-of-problems-for-financial-services-companies-1?hs_preview=fnfbcEyu-6824107036) I can guarantee that these extensions do not add any real privacy layer to the Browser by itself - a proper implementation of the privacy requirements and development efforts on the Browser directly should be preferred on general solutions that prevent tracking by all third parties, rather than a list of specific URLs or hosts.
 
 [I do not recommend using any filter lists](https://github.com/CHEF-KOCH/CKs-FilterList/wiki/Information-about-filter-usage), instead I highly recommend to work with whitelist only which are based on your own needs. However, a filter lists can help to reduce a possible attack surface based on the daily browsing habits.
+
+**DO NOT** combine Anti-Corp list with the normal filters and **DO NOT** use anti-corp HOSTS lists together with anti-corp filters in both uBO and uM - that only takes more memory and results in higher loading times with no benefit. Use the anti-corp list in either uBO or uM. 
 
 :arrow_right: Please use the HOSTS filters for domain/dns based blocking and the filter lists for cosmetical blocking. AdGuard, uBO & Co. can also block entire domains but I like to separate the list to avoid redundancies. 
 
