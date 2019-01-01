@@ -4,13 +4,22 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.0.01
+! Version: 0.0.0.06
 ! Last updated: 2019-01-01
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
-
-
+!
+! -- IP-range
+!
+!93.158.134.0/24
+!93.158.134.0 - 93.158.134.255
+!
+! -- ASN 13238 -- 
+!
+||ns4.yandex.ru^
+||ns3.yandex.ru^
+||dns2.yandex.net^
 ||advertising.yandex.ru^
 ||an.yandex.org
 ||analytics.mobile.yandex.net^
@@ -50,5 +59,40 @@
 ||metrika.yandex.kz^
 ||metrika.yandex.ru^
 ||metrika.yandex.ua^
-||mx.yandex.ru^
 ||yandexadexchange.net^
+!
+! -- Mail servers --
+!
+||dc10017802f3a44d0mx2.elite7hackers.net^
+||domain.mail.yandex.net^
+||emx.yandex.ru^
+||mail.555hf.tv^
+||mail.antaryon.com^
+||mail.badgood.info^
+||mail.cdmy.com.tr^
+||mail.csmplanet.ru^
+||mail.eds-pro.com^
+||mail.energosbit.ru^
+||mail.gepon.net^
+||mail.ice.ru^
+||mail.itdep.ru^
+||mail.loj.me^
+||mail.mezon.ru^
+||mail.qth.sqb.ru^
+||mail.slider.ru^
+||mail.vseved.ru^
+||mail.webbnc.vn^
+||mail.yandex.com.tr^
+||mail.yandex.com^
+||mail.yandex.ru^
+||mail.yandex.ua^
+||mx-corp.yandex.ru^
+||mx.tinomail.com^
+||mx.yandex-team.ru^
+||mx.yandex.com.tr^
+||mx.yandex.net^
+||mx.yandex.ru^
+||mx1.yandex.ru^
+||mx2.yandex.ru^
+||smtp.x-tend.kiev.ua^
+||smtp.yandex.ru^
