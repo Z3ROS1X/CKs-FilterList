@@ -1,37 +1,38 @@
 ! Title: CHEF-KOCH's Twitter Filter List
-! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
+! Description: Blocks Twitter retweets, ads & promo tweets and other useless Twitter annoyances. 
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.0.01
-! Last updated: 2018-12-02
+! Version: 0.0.0.02
+! Last updated: 2019-01-01
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
 
-share-twitter.yfa-rapid-beacon.Bg-twitter.Btn
-/twitter_cookies.
-ads.twitter.com$important
-||twitter.com/i/cards/*?advertiser_name$important
-twitter.com##.js-signup-call-out
-twitter.com##.Footer-adsModule.flex-module
-twitter.com##.dashboard-right.dashboard
-twitter.com##.has-content.roaming-module.js-wtf-module.wtf-module.module > .flex-module
-twitter.com##.modal-overlay
-twitter.com##.promoted-tweet
-twitter.com##.promoted-tweet-heading
-twitter.com##.roaming-module.module.Footer > .flex-module
-twitter.com#@#div[class*="-ad"]
-twitter.com#@#div[class*="Ad"]
-twitter.com##.js-signup-call-out
-twitter.com##.rn-1lgpqti.rn-13qz1uu.rn-bnwqim.rn-1gmp1p.rn-1tkzxud
-twitter.com##.rn-1lgpqti.rn-ipm5af.rn-zchlnj.rn-1xcajam
-mobile.twitter.com##.rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61.LqlkGmch > .rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61._3wLZCidQ > .rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61:nth-of-type(2)
-mobile.twitter.com##.toast
+!/twitter_cookies.
 @@.com/ad_img/$domain=twitter.com
 @@||analytics.twitter.com/user/
 @@||twitter.com/*/profiles/show/*$xmlhttprequest,first-party
 @@||twitter.com/*/status/*conversation_id$xmlhttprequest,first-party
-||analytics.twitter.com^
+ads.twitter.com$important
+mobile.twitter.com##.rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61.LqlkGmch > .rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61._3wLZCidQ > .rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61:nth-of-type(2)
+mobile.twitter.com##.toast
+share-twitter.yfa-rapid-beacon.Bg-twitter.Btn
+twitter.com##.Footer-adsModule.flex-module
+twitter.com##.dashboard-right.dashboard
+twitter.com##.has-content.roaming-module.js-wtf-module.wtf-module.module > .flex-module
+twitter.com##.js-signup-call-out
+twitter.com##.js-signup-call-out
+twitter.com##.js-stream-tweet.tweet:has(.Icon--retweeted.Icon--small.Icon)
+twitter.com##.modal-overlay
+twitter.com##.promoted-tweet
+twitter.com##.promoted-tweet-heading
+twitter.com##.rn-1lgpqti.rn-13qz1uu.rn-bnwqim.rn-1gmp1p.rn-1tkzxud
+twitter.com##.rn-1lgpqti.rn-ipm5af.rn-zchlnj.rn-1xcajam
+twitter.com##.roaming-module.module.Footer > .flex-module
+twitter.com#@#div[class*="-ad"]
+twitter.com#@#div[class*="Ad"]
 ||ads-twitter.com^
+||analytics.twitter.com^
+||twitter.com/i/cards/*?advertiser_name$important
