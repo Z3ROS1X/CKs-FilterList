@@ -1,0 +1,82 @@
+! Title: CHEF-KOCH's Twitter Filter List
+! Description: Filters all Twitter related connections.
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 8 days
+! Version: 0.0.0.01
+! Last updated: 2019-01-01
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+!
+! -- IP-range -- 
+!
+!2606:1f80::
+!2a04:9d40::
+!2400:6680::
+!185.45.4.0
+!185.45.5.0
+!2400:6680::/32
+!2606:1f80::/32
+!2a04:9d40::/29
+!
+! -- ASN 13414 + 35995 -- 
+!
+||336xj.com^
+||365betvip.com^
+||4165v.com^
+||4825a.com^
+||52088.cc^
+||77365dh.com^
+||888098a.com^
+||891234a.com^
+||99a11.com^
+||bagualaile.com^
+||bwin338.com^
+||dasient.com^
+||deck.ly^
+||feifeiwg.com^
+||first-tweets.com^
+||forextime.com.cn^
+||heji05.com^
+||hope140.org^
+||ju11.net^
+||lehu9788.com^
+||letou100.com^
+||noneborder.com^
+||qy37.vip^
+||secondsync.com^
+||spws168.com^
+||t.co^
+||taohuacili.com^
+||tweetdeck.com^
+||twiter.com^
+||twitpic.com^
+||twitter.com.br^
+||twitter.com.tr^
+||twitter.com^
+||twitter.fr^
+||twitter.ie^
+||twitter.jp^
+||twitter.org^
+||twitter.pt^
+||twitter.rs^
+||twitter.uz^
+||twittter.com^
+||twt.tl^
+||twtt.com^
+||vbc03.com^
+||www-mtc.com^
+||y68ss.com^
+||yh53317.com^
+||yisihang.com^
+||zdr18.com^
+||zunbao90.com^
+!
+! -- Mail Server -- 
+!
+||hiddendesigns.trade^
+||mail.gundersonstrucks.com^
+||mail.teamchevyolds.com^
+||mail2.cordelltransportation.com^
