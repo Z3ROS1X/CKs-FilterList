@@ -31,6 +31,7 @@ I'm not responsible for the provided links, or it's content behind it. I do not 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/CKsTechNews)
 [![Discord](https://img.shields.io/discord/418256415874875402.svg?colorA=7289da&colorB=99aab5&label=Discord&logo=discord&maxAge=60)](https://discord.me/CHEF-KOCH)
 <img src="http://img.shields.io/liberapay/receives/CHEF-KOCH.svg?logo=liberapay">
+<noscript><a href="https://liberapay.com/CHEF-KOCH/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
 
 
 
