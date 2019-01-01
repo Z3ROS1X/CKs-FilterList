@@ -5,19 +5,12 @@
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
 ! Version: 0.0.0.08
-! Last updated: 2018-12-31
+! Last updated: 2019-01-01
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
 
-/\.cloudfront\.net/\?.*[a-zA-Z0-9]{5,16}/$subdocument,script,third-party,domain=~amazon.com|~lemediatv.fr
-@@||cloudfront.net/assets/$script,third-party
-@@||cloudfront.net/gp/$script,third-party
-||cloudfront.net/*&referrer=
-||cloudfront.net/*&res=
-||cloudfront.net/*/sp.js
-||cloudfront.net/?a=
-||cloudfront.net/esf.js
+
 ||d10lpsik1i8c69.cloudfront.net^
 ||d10lumateci472.cloudfront.net^
 ||d11eq81k50lwgi.cloudfront.net^
@@ -144,7 +137,7 @@
 ||d1xfq2052q7thw.cloudfront.net^
 ||d1yu5hbtu8mng9.cloudfront.net^
 ||d1z2jf7jlzjs58.cloudfront.net^
-||d1z2jf7jlzjs58.cloudfront.net^$important
+||d1z2jf7jlzjs58.cloudfront.net^
 ||d1zatounuylvwg.cloudfront.net^
 ||d1zfhhmz4n1jvq.cloudfront.net^
 ||d1zgderxoe1a.cloudfront.net^
@@ -310,7 +303,7 @@
 ||d31bfnnwekbny6.cloudfront.net^
 ||d31j93rd8oukbv.cloudfront.net^
 ||d31qbv1cthcecs.cloudfront.net^
-||d31qbv1cthcecs.cloudfront.net^$important
+||d31qbv1cthcecs.cloudfront.net^
 ||d32ffatx74qnju.cloudfront.net^
 ||d32pxqbknuxsuy.cloudfront.net^
 ||d32pxqbknuxsuy.cloudfront.net^
@@ -337,7 +330,7 @@
 ||d37kzqe5knnh6t.cloudfront.net^
 ||d37kzqe5knnh6t.cloudfront.net^
 ||d37s9vd5t6mov7.cloudfront.net^
-||d37sfqor0g25ph.cloudfront.net^$important
+||d37sfqor0g25ph.cloudfront.net^
 ||d38cp5x90nxyo0.cloudfront.net^
 ||d38pxm3dmrdu6d.cloudfront.net^
 ||d38pxm3dmrdu6d.cloudfront.net^
@@ -454,7 +447,7 @@
 ||d4ngwggzm3w7j.cloudfront.net^
 ||d5i9o0tpq9sa1.cloudfront.net^
 ||d5nxst8fruw4z.cloudfront.net^
-||d5nxst8fruw4z.cloudfront.net^$important
+||d5nxst8fruw4z.cloudfront.net^
 ||d5ou3dytze6uf.cloudfront.net^
 ||d5pb47xzjz3fc.cloudfront.net^
 ||d5pvnbpawsaav.cloudfront.net^
@@ -499,7 +492,7 @@
 ||df0pmigc8xs70.cloudfront.net^
 ||dfdbz2tdq3k01.cloudfront.net^
 ||dff7tx5c2qbxc.cloudfront.net^
-||dff7tx5c2qbxc.cloudfront.net^$important
+||dff7tx5c2qbxc.cloudfront.net^
 ||dfrs12kz9qye2.cloudfront.net^
 ||dgkytklfjrqkb.cloudfront.net^
 ||dgqxhburlt16t.cloudfront.net^
@@ -556,10 +549,10 @@
 ||dxq6c0tx3v6mm.cloudfront.net^
 ||dxqd86uz345mg.cloudfront.net^
 ||dy48bnzanqw0v.cloudfront.net^
-||dy48bnzanqw0v.cloudfront.net^$important
+||dy48bnzanqw0v.cloudfront.net^
 ||dycpc40hvg4ki.cloudfront.net^
 ||dyl3p6so5yozo.cloudfront.net^
-||dz2fz0bgyq9tn.cloudfront.net^$important
+||dz2fz0bgyq9tn.cloudfront.net^
 ||dzbx8qv1at614.cloudfront.net^
 ||dzpu6za66svjl.cloudfront.net^
 ||dzs55b7slwyx.cloudfront.net^

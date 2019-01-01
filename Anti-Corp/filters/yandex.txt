@@ -1,20 +1,16 @@
 ! Title: CHEF-KOCH's Yandex Filter List
-! Description: A comprehensive, all-in-one ad-block list for blocking of Yandex ads.
+! Description: Filters all Yandex related connections.
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
 ! Version: 0.0.0.01
-! Last updated: 2018-12-02
+! Last updated: 2019-01-01
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
 
-/yandex-metrica-watch/*
-/yandex-metrika.js
-@@||api-maps.yandex.ru^
-@@||img-fotki.yandex.ru^
-@@||yandex.ru^$xmlhttprequest,domain=yastatic.net
+
 ||advertising.yandex.ru^
 ||an.yandex.org
 ||analytics.mobile.yandex.net^
@@ -56,5 +52,3 @@
 ||metrika.yandex.ua^
 ||mx.yandex.ru^
 ||yandexadexchange.net^
-yandex.com##div[style*="background-image: url"]
-yandex.com##div /deep/ div[style*="background-image: url"]

@@ -1,18 +1,17 @@
 ! Title: CHEF-KOCH's Pinterest Filter List
 ! Description: Block all Pinterest related connections, it also blocks sync and other apps and services.
-! Checksum (SHA3-256): 16606B12ED8E9DF707984810CEBB5276BC0FF7A19C1B513242B0EB18B2F8702D
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 14d
 ! TimeUpdated: 2018-07-06	14:26:30+01:00
 ! Version: 0.0.0.2
+! Last updated: 2019-01-01
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
-!
-! ---------- Pinterest ----------
-!
+
+
 ||about.pinterest.com^
 ||accounts-oauth.pinterest.com^
 ||accounts.pinterest.com^
