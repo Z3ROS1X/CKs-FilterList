@@ -1,29 +1,16 @@
-Work in progress 
+! Title: CHEF-KOCH's Unbreak Filter List
+! Description: The unbreak filter list provides whitelist rules and exceptions in order to not break several websites.
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 8 days
+! Version: 0.0.0.05
+! Last updated: 2019-01-01
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
 
 
-##body:not(#jira) #share_div,fake
-#@##share_div
-*/b/ss/*&aqe=$image,redirect=1x1-transparent.gif
-*/content/libs/comscore/comscore.min.js$script,~third-party,redirect=noopjs
--google-analytics.$badfilter
--google-analytics.$third-party
--google-analytics/$badfilter
--google-analytics/$third-party
-.com/ad/$first-party,domain=~blogs.technet.microsoft.com|~channel4.com|~cspace.com|~imagebam.com|~japan-guide.com|~linkedin.com|~mediaplex.com|~sitioswebmexi.com|~online.wsj.com
-.com/ad/$first-party,domain=~blogs.technet.microsoft.com|~channel4.com|~cspace.com|~linkedin.com|~mediaplex.com|~online.wsj.com,badfilter
-.wasm|$third-party,websocket,xmlhttprequest,domain=github.io|rawgit.com|streamplay.to|tubetitties.com|vidfile.net
-.wa|$third-party,websocket,xmlhttprequest,domain=github.io|rawgit.com|streamplay.to|tubetitties.com|vidfile.net
-.wsm|$third-party,websocket,xmlhttprequest,domain=github.io|rawgit.com|streamplay.to|tubetitties.com|vidfile.net
-/.*(\/proxy|\.wasm|\.wsm|\.wa)$/$websocket,xmlhttprequest,domain=~aochagavia.github.io|~edwin0cheng.github.io|github.io|rawgit.com|reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to|tubetitties.com|vidfile.net,badfilter
-/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ee]xternal|[Ii]mages|[Ss]cripts|[Uu]ploads|ac|ajax|assets|combined|content|cov|cover|(img\/bg)|(img\/icon)|inc|jwplayer|player|playlist-cat-rss|static|thumbs|wp-content|wp-includes)\/)(.*)/$first-party,image,badfilter
-/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ee]xternal|[Ii]mages|[Ss]cripts|[Uu]ploads|ac|ajax|assets|combined|content|cov|cover|(img\/bg)|(img\/icon)|inc|jwplayer|player|playlist-cat-rss|static|thumbs|wp-content|wp-includes)\/)(.*)/$first-party,script,badfilter
-/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ee]xternal|[Ii]mages|[Ss]cripts|[Uu]ploads|ac|ajax|assets|combined|content|cov|cover|(img\/bg)|(img\/icon)|inc|jwplayer|player|playlist-cat-rss|static|thumbs|wp-content|wp-includes)\/)(.*)/$first-party,xmlhttprequest,badfilter
-/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ee]xternal|[Ii]mages|[Ss]cripts|[Uu]ploads|ac|assets|combined|content|cov|cover|img|inc|jwplayer|player|playlist-cat-rss|static|thumbs|wp-content|wp-includes)\/)(.*)/$first-party,image,badfilter
-/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ee]xternal|[Ii]mages|[Ss]cripts|[Uu]ploads|ac|assets|combined|content|cov|cover|img|inc|jwplayer|player|playlist-cat-rss|static|thumbs|wp-content|wp-includes)\/)(.*)/$first-party,script,badfilter
-/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ee]xternal|[Ii]mages|[Ss]cripts|[Uu]ploads|ac|assets|combined|content|cov|cover|img|inc|jwplayer|player|playlist-cat-rss|static|thumbs|wp-content|wp-includes)\/)(.*)/$first-party,xmlhttprequest,badfilter
-/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|combined|content|cover|img|static|wp-content|wp-includes))(.*)/$first-party,image,badfilter
-/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|combined|content|cover|img|static|wp-content|wp-includes))(.*)/$first-party,script,badfilter
-/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|combined|content|cover|img|static|wp-content|wp-includes))(.*)/$first-party,xmlhttprequest,badfilter
 /adboost.$domain=~adboost.io,badfilter
 /adboost.$domain=~adboost.io|~adboost.sellerboost.de
 /ads6.$badfilter
@@ -92,7 +79,6 @@ Work in progress
 @@||adnews.com.br^$first-party
 @@||adobedtm.com/*/satelliteLib-$script,domain=kia.ca
 @@||adobedtm.com^*/satellitelib-$script,domain=ally.com
-@@||adobedtm.com^*/satellitelib-$script,domain=australia.com
 @@||adobedtm.com^*/satellitelib-$script,domain=comenity.net
 @@||adobedtm.com^*/satellitelib-$script,domain=costco.com
 @@||adobedtm.com^*/satellitelib-$script,domain=fantasy.nfl.com
@@ -239,6 +225,8 @@ Work in progress
 @@||dugout.com/boxsets/js/videojs.ads.js?$script,first-party
 @@||dw.cbsi.com/anonc.js$script,domain=giantbomb.com
 @@||dwatchseries.to/$xmlhttprequest,first-party
+@@||easyweb.td.com/*/loggingService.js$script,1p
+@@||easyweb.td.com/*/loggingService.js$script,1p
 @@||edgedatg.com/aws/assets/cp/web/assets/js/*/AppMeasurement.js$script,domain=disneynow.go.com
 @@||einthusan.tv/prebid.js$script,first-party
 @@||energy.de/*/ivw.js$script,first-party
@@ -261,6 +249,7 @@ Work in progress
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
 @@||fmovies.is/user/*$xmlhttprequest,first-party
 @@||freegeoip.net/json/*$xmlhttprequest,domain=ntn24america.com|familyallergy.com
+@@||freemcserver.net/js/*$script,1p
 @@||ftse.com/Products/*/scripts/analytics_$script,first-party
 @@||fusion.ddmcdn.com/app/*/comscore.streaming.$script,domain=destinationamerica.com
 @@||fusion.ddmcdn.com/app/*/comscore.streaming.$script,domain=velocity.com|motortrend.com
@@ -408,6 +397,8 @@ Work in progress
 @@||phonograph2.voxmedia.com/needle$image,domain=theverge.com
 @@||players.brightcove.net^$subdocument,domain=usatoday.com
 @@||playstationlifestyle.net/wp-content/plugins/pb-bwp-minify/*chartbeat$script,first-party
+@@||plugin.intuitcdn.net/ua-parser-js/*/ua-parser.min.js$script,domain=qbo.intuit.com
+@@||plugin.intuitcdn.net/ua-parser-js/*/ua-parser.min.js$script,domain=qbo.intuit.com
 @@||pluto.tv/*/js/analytics/core.js$script,first-party
 @@||pnas.org^*/fingerprint.js$script,first-party
 @@||premium.soundcloud.com/*/js/tracking.js$script,first-party
@@ -445,6 +436,7 @@ Work in progress
 @@||sephora.com/js/ufe/isomorphic/thirdparty/VisitorAPI.js$script,first-party
 @@||shop.pcmag.com^$csp
 @@||shop.puppetlabs.com/store/js/services/googleAnalytics.js$script,first-party
+@@||sledujfilmy.to/assets_new/js/showads.js$script,1p
 @@||smartclip.net^$script,domain=energy.de
 @@||smartpixel.tv^$first-party
 @@||smartplugin.youbora.com/*/js/adapters/jwplayer$script,domain=ondemandkorea.com
@@ -521,11 +513,11 @@ Work in progress
 @@||vox-static.liverail.com/swf/$object-subrequest,domain=cdnapi.kaltura.com
 @@||voxmedia.com/pickup.js$script,domain=theverge.com
 @@||w88.espn.com/id$script,first-party
+@@||wakanim.tv/scripts/*/ads.js$script,xhr,1p
 @@||washingtonpost.com/wp-stat/analytics/*.js$script,domain=subscribe.washingtonpost.com
 @@||web-scripts.vice.com/*/AdobeAnalyticsSDK.min.js$script,domain=viceland.com
 @@||widget-cdn.rpxnow.com^$domain=foxnews.com,script
 @@||wpgdadago.com/AD/$image,first-party
-@@||wpgdadatong.com/AD/*/image/$image,first-party
 @@||ws-na.assoc-amazon.com^$image,domain=4tests.com
 @@||wsj.net/*/cxense-candy.js$script,domain=wsj.com
 @@||www.atpworldtour.com/assets/js/util/googleAnalytics.js$script,first-party
@@ -756,3 +748,4 @@ xda-developers.com#@#[style*="data:"]
 ||x.kinja-static.com/assets/packaged-js/OnionAM.$script,domain=avclub.com|deadspin.com|earther.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theroot.com|thetakeout.com
 ||youbora.com^$third-party,badfilter
 ||youboranqs01.com^$third-party,badfilter
+@||playhard2017.*^$generichide

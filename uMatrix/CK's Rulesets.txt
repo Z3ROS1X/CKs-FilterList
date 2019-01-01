@@ -126,6 +126,8 @@ Github Gist as 3rd-party
 		_ render.githubusercontent.com *
 		_ render.githubusercontent.com frame
 		_ render.githubusercontent.com script
+		octocaptcha.com *
+		octocaptcha.com frame
 
 Gitlab
 	gitlab.com *

@@ -2056,6 +2056,5 @@
 @@||s1.wp.com/*/vip-analytics.js^$script,domain=rare.us
 @@||twitch.tv^$generichide
 @@||vidcloud.co^$generichide
-itorrents.org#@#.leaderboard
-postimg.cc#@##share
-postimg.cc#@#.share
+@@||soft98.ir^$generichide
+@@||modernjs.com^$generichide

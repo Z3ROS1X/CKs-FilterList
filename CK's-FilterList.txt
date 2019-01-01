@@ -587,6 +587,7 @@ ally.com##.placeholder
 ally.com##.site-header:style(position: relative !important; top: 0 !important;)
 ally.com##.sticky-nav:style(position: relative !important; top: 0 !important;)
 almasdarnews.com##.rocketchat-widget
+alis.io##+js(set-constant.js, adblock, false)
 alphr.com###__ic-notice
 alphr.com###feedbackify
 alphr.com###header-group-inner:style(position: relative !important; top: 0 !important;)
@@ -4883,7 +4884,7 @@ isara.com##.navbar.after-scroll-wrap .nav-fix:style(height: 92px !important;)
 ishares.com###rightSidebar:style(position: absolute !important;)
 ishares.com##.rsb-desc:style(width: 268px !important; transition: none !important;)
 israelnationalnews.com###LayoutTop:style(position: absolute !important;)
-ition: absolute !important;)
+itorrents.org#@#.leaderboard
 itnews.com.au###article-scroll:style(position: absolute !important;)
 itnews.com.au##.fixed.show-for-large-up.collapse.full-width.row:style(position: absolute !important;)
 itnews.com.au##.fixed.sticky:style(position: absolute !important;)
@@ -7354,6 +7355,7 @@ plasticsnews.com, plasticsnewseurope.com, rubbernews.com, tirebusiness.com###cle
 plasticsnews.com, plasticsnewseurope.com, rubbernews.com, tirebusiness.com###live:style(position: absolute !important;)
 plasticsnews.com, plasticsnewseurope.com, rubbernews.com, tirebusiness.com###main-header:style(position: absolute !important; top: 0 !important; transition: none !important;)
 plasticsnews.com, plasticsnewseurope.com, rubbernews.com, tirebusiness.com###main-nav:style(position: absolute !important;)
+playno1.club##+js(abort-current-inline-script.js, $, ad_test)
 play.google.com##.HJP88:style(position: absolute !important;)
 play.google.com##.action-bar-inner.id-action-bar-inner:style(position: absolute !important; top: 0 !important;)
 play.google.com##.is--fixed.js-tab-sticky.mdl-tabs__tab-bar:style(position: relative !important;)
@@ -7477,6 +7479,8 @@ posteo.de##.p_header:style(position: relative !important; top: 0 !important;)
 posteo.de##.p_mainnav:style(position: relative !important;)
 postgresql.org##.navbar:style(position: absolute !important;)
 postingsplus.com###menu1:style(position: relative !important;)
+postimg.cc#@##share
+postimg.cc#@#.share
 postlight.com##.js-metabar:style(position: absolute !important;)
 postmates.com###merchant-fixed-element-id:style(position: absolute !important;)
 potatopro.com###nav:style(position: relative !important;)
@@ -7606,6 +7610,7 @@ puff.com###header:style(position: relative !important; overflow-x: hidden !impor
 punchdrink.com##.nav-main__container:style(position: relative !important;)
 puretalkusa.com##.pt-nh-header:style(position: absolute !important; top: 0 !important; transform: none !important;)
 putlocker.rs###header:style(position: absolute !important; top: 0 !important;)
+putlockerhd9.com##+js(abort-current-inline-script.js, atob, decodeURIComponent)
 pvplive.net##.nav-stuck:style(position: relative !important; top: 0 !important;)
 pwc.com###menuBarWrapper:style(position: absolute !important; top: 0 !important;)
 pymnts.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
@@ -11222,6 +11227,7 @@ yahoo.com##.yvp-stream:style(position: static !important;)
 yammer.com###O365_NavHeader:style(position: relative !important; top: 0 !important;)
 yammer.com##.topnav-fixed.zindex-t3:style(position: relative !important; top: 0 !important;)
 yammer.com##.yj-group-header-patterned-scrolling:style(position: relative !important; top: 0 !important;)
+yappybots.tk##footer
 yardbarker.com###footer_ad_outer
 yardbarker.com##.slidedown.ui-header-fixed.ui-panel-content-fixed-toolbar-closed.ui-panel-animate.ui-panel-content-fixed-toolbar.ui-bar-a.ui-header:style(position: absolute !important;)
 ycombinator.com##.nav-wp:style(position: relative !important;)
@@ -11389,6 +11395,7 @@ zyngaplayerforums.com###footer:style(position: relative !important; top: 0 !impo
 ||cloudfront.net/*/js/bundle.js$script,domain=fastcodesign.com
 ||cnbc.com/*/TN-CS-Tile-03a.png$image
 ||cnn.com/*/js/cnn-analytics.min.js$script,domain=cnn.com
+||community.spotify.com/t5/Accounts/Username-or-Password-incorrect-Error-code-3/td-p/images/ui-bg_flat_*_*_40x100.png$image
 ||computerworld.com/*/insider_reg_api.js$script,domain=computerworld.com
 ||deep.bi^$xmlhttprequest,domain=hrw.org
 ||defenseone.com/*/adframe.js$script,domain=defenseone.com
@@ -11418,6 +11425,7 @@ zyngaplayerforums.com###footer:style(position: relative !important; top: 0 !impo
 ||realclearpolitics.com/*/ad_slots.jsonp$script,first-party
 ||realclearpolitics.com/*/instart.js$script,first-party
 ||sitelabweb.com$domain=nasdaq.com,important
+||speedrun.com/images/*/*$document
 ||sumome.com
 ||trellian.com
 ||turner.com/*/AdManager.js$script,domain=cnn.com
@@ -11432,4 +11440,3 @@ zyngaplayerforums.com###footer:style(position: relative !important; top: 0 !impo
 ||wsjstream.wsj.net$websocket,domain=wsj.com
 ||wsjstream.wsj.net^$xmlhttprequest,domain=wsj.com
 ||wthr.com/article/*$xmlhttprequest,first-party
-||community.spotify.com/t5/Accounts/Username-or-Password-incorrect-Error-code-3/td-p/images/ui-bg_flat_*_*_40x100.png$image
