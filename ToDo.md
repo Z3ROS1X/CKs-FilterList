@@ -7,3 +7,4 @@
 - [ ] Split Spotify in three lists: Chromecast, Desktop Client and Web (mid-prio)
 - [ ] Create another (better) social list and split it from generic
 - [ ] Add 1,4 billion missing Google domains/url's (2018) - If someone want to volunteer to manually edit 800MB file, feel free to contact me!
+- [ ] Provide a better table for the filter/hosts lists. - Way too clusterfuck atm. :worried:
