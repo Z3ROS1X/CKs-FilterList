@@ -6,13 +6,13 @@ You need to read and accept the following guidelines in order to report somethin
 
 :white_check_mark: The list is **not limited** by English websites only.
 
-:x: Porn websites. Maybe in the near future in an separate list.
+:white_check_mark: Porn websites e.g. PornHub is also supported. I don't see any problem in doing this. 
 
 :x: P2P (BitTorrent, etc.) and other copyright infringing, media sharing/streaming websites.
 
 :white_check_mark: Anti-censorship pages.
  
-:white_check_mark: Websites containing or related to illegal activity/content.
+:white_check_mark: Websites containing or related to illegal activity/content. It's up to everyone to use it or not.
 
 :arrow_right: Ensure you checked the [ToDo.md](https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/ToDo.md) before you submit something.
 
@@ -20,13 +20,15 @@ You need to read and accept the following guidelines in order to report somethin
 
 ###### Tips
 
-:bulb: Before reporting any problem, make sure that it is in fact [CHEF-KOCH's FilterList](https://github.com/CHEF-KOCH/CKs-FilterList) that is causing the issue. Confirm this by temporarily disabling all other installed lists that you may have subscribed. Including the built in "Tracking Protection" - [or Ads](https://www.ctrl.blog/entry/chrome-adblocker) blocking mechanism.
+:bulb: Before you report any problem, make sure that it is in fact [CHEF-KOCH's FilterList](https://github.com/CHEF-KOCH/CKs-FilterList) that is causing your issue. Confirm this by temporarily disabling all other installed lists that you may have subscribed including the built in "Tracking Protection" - [or Ads](https://www.ctrl.blog/entry/chrome-adblocker) blocking mechanism.
 
-:bulb: Remedy any issues yourself instantly by simply disabling your ad blocker for the affected website.
+:bulb: Remedy any issues yourself instantly by simply disabling your ad-blocker for the affected website.
 
 :bulb: Rules like `website.com##script:inject(abort-on-property-write.js, uabInject)` are invalid and the Pull Request gets rejected.
 
 :bulb: Check yourself for redundant filter rules, read [here](https://github.com/CHEF-KOCH/CKs-FilterList/wiki/%5BHow-To%5D-Check-for-redundancies).
+
+:bulb: Every issue ticket which are not giving any specific reproducable steps are getting closed because it's waste of time to talk about certain things over and over again. Make sure you provide so many information that _a three years old child can understand it_. 
 
 
 ## Notes
