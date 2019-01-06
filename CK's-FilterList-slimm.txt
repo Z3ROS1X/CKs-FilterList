@@ -11175,16 +11175,6 @@ yourkidstable.com##.divibars
 yourmechanic.com##.main-header--anchored.main-header:style(position: absolute !important;)
 yourmechanic.com##.nav-bar__body
 yourmechanic.com##.nav-container:style(position: absolute !important;)
-youtube.com###guide:style(position: absolute !important;)
-youtube.com###header.ytd-c4-tabbed-header-renderer:style(position: absolute !important; left: 0 !important;)
-youtube.com###header:style(transform: none !important; transition: none !important; margin-top: 0 !important;)
-youtube.com###masthead-container:style(position: absolute !important;)
-youtube.com###masthead-positioner:style(position: relative !important; top: 0 !important;)
-youtube.com###yt-masthead-container:style(position: relative !important; top: 0 !important;)
-youtube.com##.appbar-guide-menu-layout:style(position: relative !important; left: -230px !important; top: -90px !important;)
-youtube.com##.js-yt-header.yt-header:style(position: absolute !important;)
-youtube.com###masthead-ad
-youtube.com##ytd-popup-container.ytd-app.style-scope
 yp.sg##.navbar-visible.navbar-stuck.social-disabled.navbar-center.navbar-primary:style(position: absolute !important;)
 yp.sg##.post-sidebar
 yp.sg##.posts-pagination

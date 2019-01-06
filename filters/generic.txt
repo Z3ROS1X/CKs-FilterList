@@ -2024,6 +2024,9 @@
 ##.x-globalfooter__share-twitter
 ##.youtube-button
 ##.youtube-icon
+##.youtubeSuperLeaderBoardAdHolder
+##.youtubeSuperLeaderOverallAdArea
+##.yrail_ad_wrap
 ##.yt.btn-link.btn-md.btn
 ##.zergnet-container
 ##.zergnet-holder
