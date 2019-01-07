@@ -1,29 +1,29 @@
 ! Title: CHEF-KOCH's PopAds Filter List
-! Description: A comprehensive, all-in-one ad-block list for blocking Popads.
+! Description: A comprehensive, all-in-one ad-block list for blocking Popads. Please do not use the list together with EasyList!
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.1.02
-! Last updated: 2018-12-03
+! Version: 0.0.1.03
+! Last updated: 2019-01-07
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
 
+##a[href^="https://www.popads.net/users/"]
 .bid^$script,third-party
-popads.net.js
+/cdn-cgi/pe/bag2?r*popads.net
 /popad-
 /popad.
 /popads.
 /popads/*
 /popads_
 /popadscpm.
-/cdn-cgi/pe/bag2?r*popads.net
-?PopAd=
 /popad|$popup
+?PopAd=
+popads.net.js
 ||popads.net^$third-party
 ||redirectpopads.com^$third-party
-##a[href^="https://www.popads.net/users/"]
 ||aayaknbn.com^
 ||abbahoxgss.com^
 ||abfcfxfkzmiqht.com^
@@ -9052,7 +9052,6 @@ popads.net.js
 ||vmdwmcsxhcwm^
 ||vqbnoehdcfkym^
 ||wwveanhopobh^
-||www.gstatic.com^
 ||yntxnzwqqijhel^
 ||yxpehmiitjfpo^
 ||zlwdfydcjzdc^
