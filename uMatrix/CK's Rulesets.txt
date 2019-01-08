@@ -336,6 +336,19 @@ Twitter with account
 		_ twimg.com *
 		_ twimg.com script
 
+Twitter as 3rd-party
+	* platform.twitter.com
+		_ platform.twitter.com *
+		_ platform.twitter.com script
+		_ platform.twitter.com frame
+		_ cdn.syndication.twimg.com script
+		_ twimg.com image
+		_ twitter.com css
+		_ twitter.com frame
+		_ twitter.com xhr
+		_ video.twimg.com *
+		_ abs.twimg.com scripts
+
 Wikia
 	wikia.com *
 		_ nocookie.net *
