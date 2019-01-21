@@ -4,7 +4,7 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.0.10
+! Version: 0.0.0.11
 ! Last updated: 2018-12-31
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
@@ -293,7 +293,6 @@ discordbots.org##.app_gdpr--2k2uB
 discordbots.org##.modal
 discovermagazine.com###wp-popup-2289690
 discovermagazine.com###wp-popup-2350412
-discovermagazine.com###wp-popup-2354829
 discovermagazine.com##.wp_popup_overlay
 discovermagazine.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important; margin-top: 0 !important;)
 dispatch.com##.tp-backdrop
@@ -1085,8 +1084,6 @@ upi.com##.back-to-top
 uploaded.net##.pico-overlay
 upload.ee###foxclocks-statusbar-spacer
 upload.ee##tr:nth-of-type(5) > td > div
-uploadocean.com##[src="https://i.imgur.com/3MAL2xq.png"]
-uploadocean.com##[src="https://i.imgur.com/dI3EzJL.png"]
 urbandictionary.com##.show-for-large-up.columns.large-4 > div
 urbandictionary.com##.show-for-large-up.columns.large-4
 urbandictionary.com###foxclocks-statusbar-spacer
@@ -1111,7 +1108,6 @@ uxplanet.org##.popover
 valuewalk.com###om-k4aqrfjozo-lightbox
 vanityfair.com##.component-modal
 vanityfair.com##.modal-content
-vanityfair.com##.paywall-container
 venturebeat.com##.medrec-wrapper
 venturebeat.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 version2.dk##.adblock-message-container
@@ -1143,7 +1139,6 @@ webmd.com###webmdHoverOverlay
 weeklystandard.com###myModal
 weeklystandard.com##.dy-act-overlay
 weeklystandard.com##.dy-modal-container
-weeklystandard.com##.dy-modal-wrapper
 weeklystandard.com##.modal
 weeklystandard.com##.modal-backdrop
 wegmans.com###webuiPopover2
