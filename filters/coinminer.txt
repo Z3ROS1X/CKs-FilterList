@@ -4,7 +4,7 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.2.06
+! Version: 0.0.2.07
 ! Last updated: 2019-21-01
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
@@ -20,8 +20,6 @@
 .4.n.2.2.l30.js
 .aspx?poolid=
 .cfm?poolid=
-.info^$domain=hdyayinmac1.com|sleeptimer.org
-.spacepools.*:
 .website/lib/*.wasm$xmlhttprequest,third-party
 /([0-9]{1,3}\.){3}[0-9]{1,3}.\/proxy$/$script,websocket,third-party
 /^((?!(^https?):\/\/(ajax\.googleapis\.com|cdn\.jsdelivr\.net|cdnjs\.cloudflare\.com|code\.jquery\.com|codeorigin\.jquery\.com|content\.jwplatform\.com|maxcdn\.bootstrapcdn\.com|p\.jwpcdn\.com|player\.twitch\.tv|player\.vimeo\.com|releases\.flowplayer\.org|s\.ytimg\.com|static\.escdn\.co|vjs\.zencdn\.net|vk\.com|www\.gstatic\.com)\/).)*$/$script,third-party,domain=2giga.link|alltube.tv|alltube.tv|deltabit.co|estream.to|ifrp.xyz|kinokrad.co|mp3free.pw|protect-iframe.com|povwideo.net|powvideo.net|sleeptimer.org|ya3ale.com
@@ -313,6 +311,7 @@ vkcdnservice.appspot.com^
 ||ads.cryptobrowser.site^
 ||ads.locationforexpert.com^
 ||adsearch.wp.pl^
+||adtrack1.pl^
 ||adt.cryptominer.net^
 ||adv.cryptopay.me^
 ||adv.dot.wp.pl^
@@ -5839,6 +5838,7 @@ vkcdnservice.appspot.com^
 ||mixpools.org^
 ||mj.pool.mn^
 ||mkgc.coinmine.pl^
+||mklik.gazeta.pl^
 ||mlcr0soft.gq^
 ||mlcr0soft.ml^
 ||mlcr0soft.tk^
