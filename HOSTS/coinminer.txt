@@ -4,7 +4,7 @@
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 8 days
-# Version: 0.0.2.04
+# Version: 0.0.2.05
 # Last updated: 2018-12-02
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
@@ -18741,3 +18741,11 @@
 0.0.0.0 www1.a-ads.com
 0.0.0.0 www3.a-ads.com
 0.0.0.0 zec-bitcore1.trezor.io
+0.0.0.0 zerocash.msk.ru
+0.0.0.0 zhorapankratov7.blogspot.com
+0.0.0.0 zigarettenonl.canalblog.com
+0.0.0.0 zigarettenonlinekaufen.tumblr.com
+0.0.0.0 zigarettenonlinekaufen1.bloog.pl
+0.0.0.0 zigarettenonlinekaufen1.blox.pl
+0.0.0.0 zigarettenonlinekaufen2.bloog.pl
+0.0.0.0 zigarettenonlinekaufen2.drupalgardens.com
