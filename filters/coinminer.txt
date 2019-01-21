@@ -4,8 +4,8 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.2.05
-! Last updated: 2018-12-02
+! Version: 0.0.2.06
+! Last updated: 2019-21-01
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
 ! Copyright (C) 2018 by CHEF-KOCH
@@ -17,6 +17,7 @@
 -monero-miner/*
 .3.n.2.1.l50.js
 .3.n.2.2.l30.js
+.4.n.2.2.l30.js
 .aspx?poolid=
 .cfm?poolid=
 .info^$domain=hdyayinmac1.com|sleeptimer.org
@@ -280,6 +281,7 @@ vkcdnservice.appspot.com^
 ||adc.suprnova.cc^
 ||adconity.com^
 ||add.pool.mn^
+||adfiles.o2.pl.sds.o2.pl^
 ||adfreetv.ch^
 ||adless.io^
 ||admin.adconity.com^
@@ -310,8 +312,11 @@ vkcdnservice.appspot.com^
 ||ads.bitcoin.com^
 ||ads.cryptobrowser.site^
 ||ads.locationforexpert.com^
+||adsearch.wp.pl^
 ||adt.cryptominer.net^
 ||adv.cryptopay.me^
+||adv.dot.wp.pl^
+||adv.wp.pl^
 ||adz.pool.mn^
 ||adzcoin.miningpoolhub.com^
 ||adzjzewsma.cf^
@@ -979,6 +984,7 @@ vkcdnservice.appspot.com^
 ||bacm.ro^
 ||bad.suprnova.cc^
 ||badger.suprnova.cc^
+||badv.wp.pl^
 ||baiduccdn1.com^
 ||bajarlo.net^
 ||balance.einfach-iota.de^
@@ -1632,11 +1638,17 @@ vkcdnservice.appspot.com^
 ||c007.nanopool.org^
 ||c0i8h8ac7e.bid^
 ||c1.clona.ru^
+||c1.gostats.pl^
 ||c11.eu.mine.zpool.ca^
 ||c11.mine.zpool.ca^
 ||c11.na.mine.zpool.ca^
 ||c1d2.com^
+||c2.gostats.pl^
 ||c243.nanopool.org^
+||c3.gostats.pl^
+||c4.gostats.pl^
+||c5.gostats.pl^
+||c6.gostats.pl^
 ||c7e935.netlify.com^
 ||ca.cryptity.com^
 ||ca.litecoinpool.org^
@@ -2773,6 +2785,7 @@ vkcdnservice.appspot.com^
 ||dos.suprnova.cc^
 ||dosh.extremepool.org^
 ||dosh.shscrypto.net^
+||dot.wp.pl^
 ||doubleclick1.xyz^
 ||doubleclick2.xyz^
 ||doubleclick3.xyz^
@@ -7785,6 +7798,7 @@ vkcdnservice.appspot.com^
 ||refunevent.com^
 ||registry.service.hashfor.cash^
 ||registry.staging-eu-west.cryptopay.me^
+||rek.www.wp.pl^
 ||reklama.webchain.network^
 ||rekt.suprnova.cc^
 ||relay.nanopool.org^
@@ -9390,7 +9404,6 @@ vkcdnservice.appspot.com^
 ||traumasister.tk^
 ||travel-offers.review^
 ||traviilo.com^
-||traviilo.com^$third-party
 ||trc.suprnova.cc^
 ||trezor.bitcoin.cz^
 ||trezor.io^
