@@ -5,8 +5,8 @@
 # By downloading or viewing, or using this list, you are accepting these terms and the license.
 # Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 # Expires: 14d
-# TimeUpdated: 2018-11-28 04:35:33+01:00
-# Version: 0.0.0.4
+# TimeUpdated: 2018-01-25 04:35:33+01:00
+# Version: 0.0.0.10
 # Please report any unblocked content or problems by email or via GitHub issue ticket.
 # Email: CHEF-KOCH@protonmail.com
 # Copyright (C) 2018 by CHEF-KOCH
@@ -72,8 +72,7 @@
 0.0.0.0 fonts.googleapis.com
 #0.0.0.0 fonts.gstatic.com
 #0.0.0.0 www4-static2.gog.com
-0.0.0.0 connect.facebook.net
-0.0.0.0 www.facebook.com
+
 # API + Images + Notifications + Chat
 #0.0.0.0 api.gog.com
 #0.0.0.0 www.google.com
@@ -1005,8 +1004,6 @@
 0.0.0.0 wftogame.com
 0.0.0.0 stats.unity3d.com
 0.0.0.0 stats.static.unity3d.com
-#0.0.0.0 users.gog.com
-#0.0.0.0 auth.gog.com
 
 # BTNcafe
 # Mold on Pizza
@@ -1050,9 +1047,6 @@
 # Carlos Coronado
 # Infernium
 0.0.0.0 datarouter.ol.epicgames.com
-# Optional mit Twitchanbindung
-0.0.0.0 irc.chat.twitch.tv
-0.0.0.0 twitchapps.com
 #0.0.0.0 infernium.wikia.com
 
 # CD PROJEKT RED
@@ -1080,7 +1074,6 @@
 0.0.0.0 widgets.gamejolt.com
 0.0.0.0 indiegamestand.com
 0.0.0.0 www.charyb.com
-#0.0.0.0 www.youtube.com
 
 # Chasing Carrots
 # Pressure Overdrive
@@ -1091,7 +1084,6 @@
 # Stardew Valley
 0.0.0.0 blog.chucklefish.org
 0.0.0.0 www.stardewvalley.net
-#0.0.0.0 www.humblebundle.com
 #0.0.0.0 humblebundle-a.akamaihd.net
 0.0.0.0 www.playstarbound.com
 0.0.0.0 starbound.disqus.com
@@ -1223,7 +1215,6 @@
 # hunt.exe
 # Easy Anti-Cheat
 # GameLauncher.exe
-0.0.0.0 ocsp.godaddy.com
 #0.0.0.0 hup.www.vivox.com
 #0.0.0.0 capi1-lv-lw-wc.huntshowdown.com
 #0.0.0.0 proxy.hup.vivox.com
@@ -1311,7 +1302,6 @@
 
 # Deep Silver
 # Agents of Mayhem
-#0.0.0.0 ocsp.comodoca.com
 0.0.0.0 production.connected.dsvolition.com
 0.0.0.0 172.28.195.1
 
@@ -1419,10 +1409,9 @@
 0.0.0.0 gds4.steampowered.com
 
 # Tron: Evolution
-0.0.0.0 go.microsoft.com
+#0.0.0.0 go.microsoft.com
 0.0.0.0 download.gfwl.xboxlive.com
-0.0.0.0 download.microsoft.com
-0.0.0.0 ocsp.verisign.com
+
 
 # DNZY Games
 # Zombie Wars: Invasion
@@ -2296,9 +2285,8 @@ Cossacks III + Config
 
 # Keen Software House
 # Medieval Engineers
-0.0.0.0 api.gameanalytics.com 1
-#0.0.0.0 ocsp.comodoca.come
-0.0.0.0 buffpanel.com 2
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 buffpanel.com
 #0.0.0.0 mirror.keenswh.com
 
 # Space Engineers
@@ -3574,9 +3562,6 @@ Cossacks III + Config
 #0.0.0.0 swupdate.stardock.com
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 certificates.godaddy.com
-0.0.0.0 crl.godaddy.com
-0.0.0.0 ocsp.godaddy.com
 #0.0.0.0 tachyon-alert.stardock.net
 #0.0.0.0 ashesescalation-api-tachyon.stardock.net
 #0.0.0.0 tachyon-alertservice.herokuapp.com
@@ -3593,8 +3578,6 @@ Cossacks III + Config
 #0.0.0.0 swupdate.stardock.com
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 ocsp.godaddy.com
-0.0.0.0 crl.godaddy.com
 #0.0.0.0 www.offworldgame.com
 #0.0.0.0 www.stardockgames.com
 #0.0.0.0 stardock.cachefly.net
@@ -3639,7 +3622,6 @@ Cossacks III + Config
 # Heavy Gear Assault
 #0.0.0.0 d1c35vk9nap180.cloudfront.net
 #0.0.0.0 proxy.heavygear.com
-0.0.0.0 ocsp.int-x3.letsencrypt.org
 
 # Strange Loop Games
 # Eco
@@ -3736,7 +3718,6 @@ Cossacks III + Config
 0.0.0.0 game.wormsclanwars.com
 0.0.0.0 www.wormsclanwars.com
 0.0.0.0 crl.godaddy.com
-0.0.0.0 ocsp.godaddy.com
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds4.steampowered.com
 
@@ -3883,7 +3864,6 @@ Cossacks III + Config
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds4.steampowered.com
 #0.0.0.0 secure.zuxxez.com
-#0.0.0.0 ocsp.comodoca.com
 #0.0.0.0 crl.comodoca.com
 #0.0.0.0 steamapi.topware.com
 # bei Aufruf des Banners im Hauptmenü
@@ -3894,7 +3874,6 @@ Cossacks III + Config
 # TopWare Interactive & ACE
 # Vendetta - Curse of Raven's Cry
 0.0.0.0 secure.zuxxez.com
-0.0.0.0 ocsp.comodoca.com
 
 # Torn Banner Studios
 # Mirage: Arcane Warfare
