@@ -15,7 +15,7 @@ The overall project goal is to block ads and reduce the traffic coming from the 
 * Reduce page loading times
 * Remove annoyance web elements like e.g. floating headers, banners or useless footers
 * Provide list in order to block connections to bigger corps. e.g. Apple.
-* [Get rid of malware](https://threatpost.com/malvertising-ransomware-vidar/140641/).
+* [Get rid of malware](https://threatpost.com/malvertising-ransomware-vidar/140641/) & [Ads](https://blog.confiant.com/confiant-malwarebytes-uncover-steganography-based-ad-payload-that-drops-shlayer-trojan-on-mac-cd31e885c202?gi=731ba7386076)
 
 
 ## Meme
