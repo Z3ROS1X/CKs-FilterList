@@ -1,14 +1,14 @@
 ! Title: CHEF-KOCH's DIV + Ins Filter List
-! Description: Procedural cosmetic filter list.
+! Description: Procedural cosmetic filter list. See here for more info: https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
 ! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
 ! Expires: 8 days
-! Version: 0.0.0.10
-! Last updated: 2018-12-02
+! Version: 0.0.0.11
+! Last updated: 2019-25-01
 ! Please report any unblocked content or problems by email or via GitHub issue ticket.
 ! Email: CHEF-KOCH@protonmail.com
-! Copyright (C) 2018 by CHEF-KOCH
+! Copyright (C) 2018 - 2019 by CHEF-KOCH
 
 ##ASIDE[class*="_adrotate_"]
 ##A[href^="http://ad.doubleclick.net/"]
@@ -22,6 +22,7 @@
 ##DIV[id*="AdWrapper"]
 ##DIV[id*="FloatingBanner"]
 ##DIV[id^="div-gpt-ad"]
+##div[id$="_modal_signup_wrapper"]
 ##div[class*="-storyBodyAd-"]
 ##div[class*="Ad"]
 ##div[class*="DARTad"]
