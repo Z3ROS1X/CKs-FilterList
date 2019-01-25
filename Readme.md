@@ -10,7 +10,8 @@ CK's Filter List was created 2018 because I didn't liked the well-known filter l
 
 The overall project goal is to block ads and reduce the traffic coming from the domains/websites you visit. The term 'ads' is not defined in this project because I also block cosmetically banners and popup stuff which I think only causes useless traffic without any real benefit.
 
-#### Short explanation
+#### Short explanation in what it does
+* Prevent [malvertising](https://en.wikipedia.org/wiki/Malvertising)
 * Reduce traffic
 * Reduce page loading times
 * Remove annoyance web elements like e.g. floating headers, banners or useless footers
